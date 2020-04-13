@@ -1,8 +1,65 @@
 {
 	"raceFluff": [
 		{
-			"name": "Aarakocra",
-			"source": "EEPC",
+			"name": "Flameveil",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Sequestered in the shadows of humanity, blending into the city landscape like a flickering candlelight. Many Flameveil aren't even native to the Material Plane. They hail from a world beyond-from the boundless vistas of the Elemental Plane of Fire. They are warriors, vanguards, footholds and soldiers. In exclusivity, they bring the word of their deity to lands unknown.",
+								{
+									"type": "entries",
+									"name": "Just Like Humans",
+									"entries": [
+                                        "Just as humans once claimed to be diverse and atypical, the common Flameveil follows much of the same path. While Flameveil biology tends to aspire to shades of yellow and red (in regards to physical appearance such as hair color), the notes are so obscure that they blend into human populations effortlessly. Only when a Flameveil shows of their incredible control of flames is their cover blown."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "A World Existing Solely of Flame",
+									"entries": [
+										"Most Flameveil live on the Elemental Plane of Fire. Flameveil can be drawn into the Material Plane, sometimes to pursue enemies or thwart their foes' designs there. Accident might also send a troop of Flameveil tumbling into a world on that plane, generally during an expedition or venture out to explore their ravaged homeworld. A few find their way to such a world through portals on their own plane and inseminate themsevles into human population, dilluting the strength of their flame magic over the course of several generations.",
+										"Beyond that, Flameveil have little to no instinctual differences from that of humans (besides their inclination towards the lawful side of the world). Because of this, its easy to point toward the history of humanity and draw a direct line to the arrival of Flameveil in the Material Plane."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Helknight, the Greater Deity of Fire",
+									"entries": [
+                                        "Helknight is symbolized by the holy symbol of a twining red flame and his portfolio covered elemental fire and purification through fire. Originally, the existence of Helknight was propeteered by the elves (knowledgable masters of the unseen worlds) as an elemental primordial whose power rivaled that of a True Deity. Over time, though, the appearance of the Flameveil in the Material Plane cemented him as a Greater Deity through Belief to Law.",
+                                        "Although Flameveil revere Helknight, they do not exclusively worship him (or parade religion as most humans tend to do). Instead, worshippers of Helknight tend to be exclusively found in the Church of Empirical Flame. The church itself is rather hierarchical and mostly impersonal, with their beliefs revolving around the acquisition of land, power and wealth."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Flameveil Names",
+									"entries": [
+										"Flameveil tend to renounce the names given to them in the Elemental Plane of Fire after arriving in the Material Plane, adopting a more humanity-friendly equivalent. In the rare cases a Flameveil chooses to keep their true name, however, their names tend to have a flickering intonation. Like the sound of a candlelight.",
+                                        "A Flameveil of either gender may have one of these short names: Aroshe, Sarsa, Erosh, Vestet, Monak, Clique."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/SRP/Flameveil.png"
+					}
+				}
+			]
+		},
+		{
+			"name": "Aarakocra (Revised)",
+			"source": "OSoW",
 			"entries": [
 				{
 					"type": "entries",
