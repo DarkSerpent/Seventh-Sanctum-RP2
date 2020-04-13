@@ -2253,6 +2253,8 @@ Parser.CONDITION_TO_COLOR = {
 	"Unconscious": "#1c2383"
 };
 
+SRC_SRP = "SRP";
+SRC_OSoW = "OSoW";
 SRC_CoS = "CoS";
 SRC_DMG = "DMG";
 SRC_EEPC = "EEPC";
@@ -2401,6 +2403,8 @@ UA_PREFIX_SHORT = "UA: ";
 TftYP_NAME = "Tales from the Yawning Portal";
 
 Parser.SOURCE_JSON_TO_FULL = {};
+Parser.SOURCE_JSON_TO_FULL[SRC_SRP] = "Seventh Sanctum RP";
+Parser.SOURCE_JSON_TO_FULL[SRC_OSoW] = "Orion: Stars of Waterdeep";
 Parser.SOURCE_JSON_TO_FULL[SRC_CoS] = "Curse of Strahd";
 Parser.SOURCE_JSON_TO_FULL[SRC_DMG] = "Dungeon Master's Guide";
 Parser.SOURCE_JSON_TO_FULL[SRC_EEPC] = "Elemental Evil Player's Companion";
@@ -8159,7 +8163,7 @@ function BookModeView (opts) {
 	this.pOpen = async () => {
 		if (this.active) return;
 		this.active = true;
-		document.title = `${pageTitle} - 5etools`;
+		document.title = `${pageTitle} - SRP`;
 
 		this._$body = $(`body`);
 		this._$wrpBook = $(`<div class="bkmv"/>`);
