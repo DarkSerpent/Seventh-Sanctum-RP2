@@ -59,7 +59,7 @@
 				{
 					"name": "Flame Body",
 					"entries": [
-                        "When you would take a non-magic weapon attack, as a reaction you can roll a Dexterity saving throw with a DC of 8 + the enemy's hit modifier. If you succeed, you take no damage from that attack. You can use this trait twice, and afterwords, you can't use it again until you finish a short or long rest."
+                        "When you would take a non-magic weapon attack, as a reaction you can roll a Dexterity saving throw with a DC of 8 + the enemy's hit modifier. If you succeed, you take no damage from that attack. You can use this trait twice, and afterwards, you can't use it again until you finish a short or long rest."
 					],
 					"type": "entries"
 				},
