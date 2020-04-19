@@ -2560,6 +2560,234 @@
 			]
 		},
 		{
+			"name": "Ghost",
+			"source": "SRP",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+                  "wis": 1
+				}
+			],
+			"traitTags": [
+ 				"Improved Resting",
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"choose": true
+				}
+			],			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+                     "Ghosts do not age. Given time, the necromantic energies that sustain you will heal most wounds you take at approximately the same rate as a mortal, and your hit die function as normal."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+                     "Many Ghosts cling to the alignment they held in their life, even if that life is but a distant memory in their minds. For others, the act of being reborn as a ghastly entity on the mortal coil changes them significantly, and they adopt a new worldview in light of what their transformation has taught them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Past Life",
+					"entries": [
+                     "Choose another race besides this one; the race you select must be humanoid and lack the Living Construct trait (or similar). Even after being transformed in the Ethereal Plane, you maintain vague memories of this past life as this race. Your size, height, and movement speed are the same as this race. You do not retain special movement speeds from this race (such as flying, climbing, or swimming), and you do not carry over any racial features. If your past race had subraces, select one, but you do not carry over any racial features from that either."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Living Dead",
+					"entries": [
+                     "You have been brought back to the mortal coil, but your form has changed drastically. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish. Additionally, you have two creature types: humanoid and undead. You can be affected by a spell or ability that works on either of your creature types."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Holy Gospel",
+					"entries": [
+                     "After reviving in the Material Plane, you received a blessing through a deitic force. This force is not any specific deity or person, but rather a force of nature similar to a tornado or hurricane. Unlike other undead, you can be restored through healing magic, but it has a significantly dampened effect on you. When you regain hit points from a source that specifies it does not function on undead, you instead receive half as many hit points as the source would provide, rounded down, instead of none."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+                     "You can speak, read, and write Common and two other languages of your choice."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Spirit",
+					"speed": {
+						"walk": 30,
+						"fly": 20
+					},
+                    "traitTags": [
+					],
+					"languageProficiencies": [
+					],	
+					"ability": [
+						{
+							"choose": {
+								"from": [
+										"wis",
+										"cha"
+								],
+								"count": 2
+							}
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Flight",
+							"entries": [
+								"You gain a flying speed of 20 feet. When using your flying speed, you cannot end your turn more than 5 feet above a solid surface, and gently descend down to this distance at a speed of 60 feet per round if you are any higher."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Deitic Force",
+							"entries": [
+								"Your unarmed strikes deal radiant or necrotic damage (your choice) instead of bludgeoning damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Incorporeal Stride",
+							"entries": [
+								"You can move through other creatures and objects other than physical barriers (such as walls, floors, or ceilings) as if they were difficult terrain. On your turn, you can pass through up to 10 feet of physical barriers (treating them as difficult terrain) as a part of your movement. If you end your turn inside an object or barrier, you take 1d10 force damage and are immediately ejected to the closest available space. After passing through a physical barrier, you must complete a short or long rest before you are able to do so again."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Intangible",
+							"entries": [
+								"You have advantage on all checks to resist or escape a grapple."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Invoke Smite",
+							"entries": [
+								"You can instill power into the weapon of a nearby creature to strike with divine energy. As an action, target a weapon or object within 30 feet of you.",
+                                "Until the end of your next turn, the next time that weapon or object hits a creature, it deals your Wisdom plus an additional 1d8 radiant damage (if you are good or neutral), or 1d8 necrotic damage (if you are evil). Once you use this trait, you can't use it again until you finish a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mortal Bond",
+							"entries": [
+								"If you choose to have one, you can select one of the following individuals to have as your personal retainer: a miko/kannushi, personal servant, religious official (such as a priest), cultist, or ordinary commoner. This retainer has developed a bond with you, and you them, through a series of events that mark a time before you became an Adventurer.",
+                                "Your retainer can perform mundane tasks for you, but they will not fight for you and will leave if they are frequently endangered or abused. So long as they are not expected to perform any tasks an Adventurer would be required to do,they can enter obviously dangerous areas (such as dungeons)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spirit Binding",
+							"entries": [
+								"As a Spirit, your ghastly form is not completely realized, and require an anchor to maintain your existence in the Material Plane. You must select an object or creature of your choice (it could be a heirloom, weapon, or ally) to bind to indefinitely."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Spirit Binding Rules",
+							"entries": [
+								{
+									"entries": [
+                                       "• You must remain within 150 feet of your bound target at all times, and if the object leaves your 150 foot radius, you are dragged along with it."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• You are always aware of where your bound target is in relation to you."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• Should the object be destroyed or the creature slain, you immediately drop to 0 hit points."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• If you regain consciousness without a spirit bond, you must immediately select a new object or creature within 150 feet to bind to. If no items or creatures are present within 150 feet, you are paralyzed until one comes within 150 feet of you."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Spirit Binding Rules"
+							}
+						}
+					]
+				},
+				{
+					"name": "Soulkin",
+                    "traitTags": [
+						"Spellcasting",
+						"Damage Resistance"
+					],
+					"ability": [
+						{
+							"wis": null,
+							"dex": 2,
+							"cha": 1
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Incorporeal Stride",
+							"entries": [
+								"You can move through other creatures and objects other than physical barriers (such as walls, floors, or ceilings) as if they were difficult terrain. On your turn, you can pass through up to 10 feet of physical barriers (treating them as difficult terrain) as a part of your movement. If you end your turn inside an object or barrier, you take 1d10 force damage and are immediately ejected to the closest available space. After passing through a physical barrier, you must complete a short or long rest before you are able to do so again."
+							]
+						},
+						{
+							"name": "Ethereal Glare",
+							"entries": [
+                                "As a bonus action, choose a creature you can see within 60 feet of you. This creature must make a Wisdom saving throw against a DC of 8 + your Charisma modifier + your proficiency bonus. If it fails, this creature becomes frightened of you until the end of your next turn. Once you use this ability successfully, you cannot use it again until you complete a short or long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Canopic Chamber",
+							"entries": [
+                                "Chained to your soul is your physical body, which lies dormant in a sacrophagus until the time of your True Resurrection. This sacrophagus is located on the Ethereal Plane, and follows you within a 50 foot radius as you move along the Material Plane. Your body remaining alive is what allows your soul to reflect against the Material Plane as a humanoid shell for your actions.",
+                                "If at any point your real body is destroyed, with the result making it so you are unable to sustain your continued existence, you soul immediately vanishes from the Material Plane. Following that, you immediately take Aeon damage equal to your maximum health (including temporary hit points), and your cease to remain within the collective conscious of humanity.",
+                                "During a period of one hundred years after this event, memories of your existence will slowly begin to disappear from the minds of even your closest comrades, until eventually your life is completely wiped from annals of all non-magical storage."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Canopic Resurrection",
+							"entries": [
+                                "While your soul is reflected against the Material Plane, your actual body resides on the Ethereal Plane. While your body remains safe and within its sarcophagus, you can reroll one death saving throw you have made. If you roll a 17 or higher on this rerolled saving throw, treat the result as if it was a natural 20. Once you reroll this saving throw, you must finish a short or long rest before you can do so again."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Grasp from Beyond",
+							"entries": [
+                                "You can choose to make your unarmed strike deal psychic damage instead of bludgeoning damage, and any creature hit by your unarmed strike is unable to regain hit points until the end of your next turn. If a creature is reduced to 0 hit points by your unarmed strike, it instantly disintegrates into soul fumes, leaving behind any objects, clothing, or items on its person."
+							],
+							"type": "entries"
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Aarakocra (Revised)",
 			"source": "OSoW",
 			"size": "M",
