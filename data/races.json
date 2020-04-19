@@ -454,7 +454,7 @@
 		{
 			"name": "Skeleton",
 			"source": "SRP",
-			"size": "M",
+			"size": "V",
 			"speed": {
 				"walk": 30
 			},
