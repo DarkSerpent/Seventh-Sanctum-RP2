@@ -1695,13 +1695,6 @@
                      "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
 							],
 							"type": "entries"
-						},
-						{
-							"name": "Shield Armament",
-							"entries": [
-                     "As a reaction, you can add 2 AC against one melee attack that would hit you. To do so, you must be able to see your attacker and have at least one free hand. Once you use this trait, you can't use it again until you finish a short or long rest"
-							],
-							"type": "entries"
 						}
 					]
 				},
@@ -1730,13 +1723,6 @@
 							"name": "Light Step",
 							"entries": [
                      "When you are traveling alone for an extended period of time (one hour or more), you can move stealthily at a normal pace. (See chapter 8 of the Player's Handbook for information about travel pace.)"
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Steady Eyes",
-							"entries": [
-                     "You gain proficiency in the {@skill Perception} skill."
 							],
 							"type": "entries"
 						}
@@ -2680,8 +2666,8 @@
 							"type": "entries",
 							"name": "Invoke Smite",
 							"entries": [
-								"You can instill power into the weapon of a nearby creature to strike with divine energy. As an action, target a weapon or object within 30 feet of you.",
-                                "Until the end of your next turn, the next time that weapon or object hits a creature, it deals your Wisdom plus an additional 1d8 radiant damage (if you are good or neutral), or 1d8 necrotic damage (if you are evil). Once you use this trait, you can't use it again until you finish a long rest."
+								"You can instill power into the weapon of a nearby creature to strike with divine energy. As an action, a creature within 30 feet of you.",
+                                "Until the end of your next turn, the next time that creature succeeds on a melee weapon attack, it deals an additional 1d8 radiant damage (if you are good or neutral) or 1d8 necrotic damage (if you are evil). Once you use this trait, you can't use it again until you finish a long rest."
 							]
 						},
 						{
@@ -2807,7 +2793,7 @@
 								},
 								{
 									"entries": [
-                                       "• Your body has an AC equal to 10 and hit points equal to your current maximum."
+                                       "• Your true body has an AC equal to 10 and hit points equal to your current maximum."
 									],
 									"type": "entries"
 								},
