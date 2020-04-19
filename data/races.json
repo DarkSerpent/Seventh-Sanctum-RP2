@@ -2801,6 +2801,12 @@
 								},
 								{
 									"entries": [
+                                       "• Any saving throws your true body or your sacrophagus makes are flat 1d20s."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
                                        "• Your body has an AC equal to 10 and hit points equal to your current maximum."
 									],
 									"type": "entries"
