@@ -2562,13 +2562,13 @@
 		{
 			"name": "Ghost",
 			"source": "SRP",
-			"size": "M",
+			"size": "V",
 			"speed": {
 				"walk": 30
 			},
 			"ability": [
 				{
-                  "wis": 1
+                  "null": null
 				}
 			],
 			"traitTags": [
@@ -2636,12 +2636,14 @@
 					],	
 					"ability": [
 						{
+							"wis": 1,
+							"cha": 1,
 							"choose": {
 								"from": [
 										"wis",
 										"cha"
 								],
-								"count": 2
+								"count": 1
 							}
 						}
 					],
@@ -2764,10 +2766,55 @@
 							"name": "Canopic Chamber",
 							"entries": [
                                 "Chained to your soul is your physical body, which lies dormant in a sacrophagus until the time of your True Resurrection. This sacrophagus is located on the Ethereal Plane, and follows you within a 50 foot radius as you move along the Material Plane. Your body remaining alive is what allows your soul to reflect against the Material Plane as a humanoid shell for your actions.",
-                                "If at any point your real body is destroyed, with the result making it so you are unable to sustain your continued existence, you soul immediately vanishes from the Material Plane. Following that, you immediately take Aeon damage equal to your maximum health (including temporary hit points), and your cease to remain within the collective conscious of humanity.",
+                                "If at any point your real body is destroyed, with the result making it so you are unable to sustain your continued existence, you soul immediately vanishes from the Material Plane. Following that, you immediately take Aeon damage equal to your maximum hit points (including temporary hit points), and your cease to remain within the collective conscious of humanity.",
                                 "During a period of one hundred years after this event, memories of your existence will slowly begin to disappear from the minds of even your closest comrades, until eventually your life is completely wiped from annals of all non-magical storage."
 							],
 							"type": "entries"
+						},
+						{
+							"type": "inset",
+							"name": "Sacrophagus Rules",
+							"entries": [
+								{
+									"entries": [
+                                       "• Your sacrophagus is bound to the Ethereal Plane by a deitic force and cannot be moved to a separate plane by any means."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• Your sacrophagus is locked shut by ethereal chains, although they can be opened with a DC 25 thieves' tools check."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• Your sacrophagus has an AC of 18 and hit points equal to a quarter of your maximum hit points."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• Your body has an AC equal to 10 and hit points equal to your current maximum."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• Spells such as True Resurrection and Clone can only be cast on the body within your sacrophagus, and not your soul on the Material Plane."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• Your body within the sacrophagus is immune to the following conditions: charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Sacrophagus Rules"
+							}
 						},
 						{
 							"name": "Canopic Resurrection",
