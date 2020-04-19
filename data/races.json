@@ -2810,6 +2810,12 @@
                                        "• Your body within the sacrophagus is unconscious, but it is also immune to the following conditions: charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained."
 									],
 									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• No matter what plane you are on, you are aware if your true body is being attacked (but not if your sacrophagus is)."
+									],
+									"type": "entries"
 								}
 							],
 							"data": {
