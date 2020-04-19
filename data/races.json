@@ -2807,7 +2807,7 @@
 								},
 								{
 									"entries": [
-                                       "• Your body within the sacrophagus is immune to the following conditions: charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained."
+                                       "• Your body within the sacrophagus is unconscious, but it is also immune to the following conditions: charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained."
 									],
 									"type": "entries"
 								}
