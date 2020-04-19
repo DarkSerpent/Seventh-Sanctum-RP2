@@ -2789,6 +2789,12 @@
 								},
 								{
 									"entries": [
+                                       "• If your sacrophagus is unlocked, taking a short rest will relock it. This is represented by the ethereal chains needing time to reform."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
                                        "• Your sacrophagus has an AC of 18 and hit points equal to a quarter of your maximum hit points."
 									],
 									"type": "entries"
@@ -2814,6 +2820,12 @@
 								{
 									"entries": [
                                        "• No matter what plane you are on, you are aware if your true body is being attacked (but not if your sacrophagus is)."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• Your true body cannot be separated from your sarcophagus."
 									],
 									"type": "entries"
 								}
