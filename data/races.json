@@ -2672,14 +2672,6 @@
 						},
 						{
 							"type": "entries",
-							"name": "Mortal Bond",
-							"entries": [
-								"If you choose to have one, you can select one of the following individuals to have as your personal retainer: a miko/kannushi, personal servant, religious official (such as a priest), cultist, or ordinary commoner. This retainer has developed a bond with you, and you them, through a series of events that mark a time before you became an Adventurer.",
-                                "Your retainer can perform mundane tasks for you, but they will not fight for you and will leave if they are frequently endangered or abused. So long as they are not expected to perform any tasks an Adventurer would be required to do, they can enter obviously dangerous areas (such as dungeons)."
-							]
-						},
-						{
-							"type": "entries",
 							"name": "Spirit Binding",
 							"entries": [
 								"As a Spirit, your ghastly form is not completely realized, and require an anchor to maintain your existence in the Material Plane. You must select an object or creature of your choice (it could be a heirloom, weapon, or ally) to bind to indefinitely."
