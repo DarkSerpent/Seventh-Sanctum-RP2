@@ -2865,13 +2865,6 @@
 					"type": "entries"
 				},
 				{
-					"name": "Umbral Visage",
-					"entries": [
-                     "If you are holding an umbrella, you can choose to instead don it like armor. While wearing an umbrella this way, you are no longer considered to be under the effects of direct sunlight if  you otherwise would be. In addition, both of your hands are free for the purpose of wielding weapons and items. Donning and doffing the umbrella is a bonus action."
-					],
-					"type": "entries"
-				},
-				{
 					"name": "Without a Voice",
 					"entries": [
                      "Myconids lack proper biological constructs that can convey sound, and as such, they cannot speak language or interact verbally with other creatures. Though you have no conventional way to verbalize your thoughts, you may still cast spells that require verbal components."
