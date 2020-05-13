@@ -2823,8 +2823,7 @@
 			"ability": [
 				{
 					"con": 2,
-					"wis": 1,
-					"cha": -2
+					"wis": 1
 				}
 			],
 			"traitTags": [
@@ -2847,7 +2846,7 @@
 				{
 					"name": "Alignment",
 					"entries": [
-                     "Most often, myconids believe strongly in society and law. It is extremely uncommon for a myconid to directly harm any creature that does not mean it, or its circle, harm."
+                     "Most often, myconids believe strongly in society and law. It is extremely uncommon for a myconid to directly harm any creature that does not mean it, or its circle, harm. They are an incredibly passive and peaceful species."
 					],
 					"type": "entries"
 				},
@@ -2898,7 +2897,7 @@
 					"name": "Rejuvenating Spores",
 					"entries": [
                      "As an action, you can disect the body of a deceased individual who died within the last hour in front of you taking that is not an undead, construct, or elemental. This process takes one minute and requires serene concentration, the completion of which produces a spore which you can give to yourself or an ally within 5 feet of you.",
-                     "Upon receiving a spore, the creature receives {@dice 1d10} temporary hit points, and the body you were disecting decays into a fine yellow powder."
+                     "Upon receiving a spore, the creature receives {@dice 1d10} temporary hit points, and the body you were disecting decays into a fine yellow powder. Once you use this feature, you cannot use it again until you take a long rest."
 					],
 					"type": "entries"
 				},
