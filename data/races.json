@@ -2858,9 +2858,9 @@
 					"type": "entries"
 				},
 				{
-					"name": "Sun Sickness",
+					"name": "Sunlight Sensitivity",
 					"entries": [
-                     "If you fail to immerse yourself in darkness for at least 1 hour during a day, you suffer one level of exhaustion at the end of that day. You can only recover from this exhaustion through magic or by immersing yourself in darkness for at least 1 hour."
+                     "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
 					],
 					"type": "entries"
 				},
