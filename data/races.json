@@ -2860,14 +2860,14 @@
 				{
 					"name": "Sun Sickness",
 					"entries": [
-                     "You become poisoned if you spend more than 1 minute in direct sunlight. This condition ends when you spend at least 1 minute in dim or dark conditions."
+                     "You become {@condition Poisoned} if you spend more than 1 minute in direct sunlight. This condition ends when you spend at least 1 minute in dim or dark conditions."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Umbral Visage",
 					"entries": [
-                     "While holding an umbrella, you can instead choose to don it like armor. When an umbrella is worn this way, you are no longer considered to be under the effects of direct sunlight if  you otherwise would be. In addition, both of your hands are free for the purpose of wielding weapons and items. Donning and doffing the umbrella is a bonus action."
+                     "If you are holding an umbrella, you can choose to instead don it like armor. While wearing an umbrella this way, you are no longer considered to be under the effects of direct sunlight if  you otherwise would be. In addition, both of your hands are free for the purpose of wielding weapons and items. Donning and doffing the umbrella is a bonus action."
 					],
 					"type": "entries"
 				},
