@@ -2858,9 +2858,16 @@
 					"type": "entries"
 				},
 				{
-					"name": "Sunlight Sensitivity",
+					"name": "Sun Sickness",
 					"entries": [
-                     "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+                     "You become poisoned if you spend more than 1 minute in direct sunlight. This condition ends when you spend at least 1 minute in dim or dark conditions."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Umbral Visage",
+					"entries": [
+                     "While holding an umbrella, you can instead decide to don it like armor. When an umbrella is worn this way, you are no longer considered to be under the effects of direct sunlight if  you otherwise would be. In addition, both of your hands are free for the purpose of wielding weapons and items. Donning and doffing the umbrella is a bonus action."
 					],
 					"type": "entries"
 				},
