@@ -2860,7 +2860,7 @@
 				{
 					"name": "Sun Sickness",
 					"entries": [
-                     "You become {@condition Poisoned} if you spend more than 1 minute in direct sunlight. This condition ends when you spend more than 1 minute in dim or dark conditions."
+                     "If you fail to immerse yourself in darkness for at least 1 hour during a day, you suffer one level of exhaustion at the end of that day. You can only recover from this exhaustion through magic or by immersing yourself in darkness for at least 1 hour."
 					],
 					"type": "entries"
 				},
