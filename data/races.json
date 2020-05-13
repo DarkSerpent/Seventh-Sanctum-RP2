@@ -2889,7 +2889,7 @@
 				{
 					"name": "Hallucination Spores",
 					"entries": [
-                     "As an action, you can produce spores that effect all creatures within 30 feet of you that aren't undead, constructs, or elementals. These creatures are all affected as per the cantrip {@spell minor illusion} while you concentrate on the effect. If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence saving throw equal to 8 + your Intelligence modifier + your proficiency bonus."
+                     "As an action, you can produce spores that effect all creatures within 30 feet of you that aren't undead, constructs, or elementals. You manifest the effects of the {@spell minor illusion} spell on the targeted creatures while you concentrate on this ability. Intelligence is your spellcasting ability for this spell."
 					],
 					"type": "entries"
 				},
