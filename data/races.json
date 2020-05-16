@@ -3092,10 +3092,32 @@
 								},
 								{
 									"entries": [
-                                       "{@b Abyss.} As an action, you leap inside a creature's soul, disappearing from the Material Plane and manifesting yourself into an invulnerable form.",
+                                       "{@b Abyss.} As an action, target a creature within 10 feet of you. You leap inside their soul, disappearing from the Material Plane and manifesting yourself into an invulnerable form.",
 									   "While in this state, you occupy that creature's space and move with them, and are {@condition Blinded} and {@condition Incapacitated} until the start of your next turn. While tucked away inside their soul, you gain immunity to all damage types and effects, also becoming untargetable for the purposes of attacks, spells, and features.",
 									   "At the start of your next turn, you leap from their body, emerging on a space within 5 feet of them and dealing {@dice 2d6} force damage. If no such space is available, you instead emerge on the nearest possible space. If that creature dies before the start of your next turn, the effect ends early, and you emerge on their space.",
 									   "Once you use this trait, you can't use it again until you finish a short rest."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Abyssian Speed"
+							}
+						},
+				{
+					"name": "Whispers of Madness",
+					"entries": [
+                     ""
+					],
+					"type": "entries"
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Abyss.} You suffer from a reduced cognitive state wrought from the temptations offered by your Abyssian heritage and the whispers you hear around every corner. These whispers will, over time, draw you into abject insanity. You gain a -2 penalty to your Wisdom score."
 									],
 									"type": "entries"
 								}
