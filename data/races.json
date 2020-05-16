@@ -2297,7 +2297,7 @@
 					"type": "entries",
 					"name": "Rock Hurler",
 					"entries": [
-                     "You are considered proficient in the use of appropriately-sized rocks and boulders as ranged weapons. Such boulders typically weigh fifty pounds, and deal bludgeoning damage equal to {@dice 1d10} + your Strength modifier, and have the thrown (30/150) and heavy qualities."
+                     "You are considered proficient in the use of appropriately-sized rocks and boulders as ranged weapons. Such boulders typically weigh fifty pounds, and deal bludgeoning damage equal to {@dice 1d10} + your Strength modifier, and have the thrown (30/150) and heavy qualities. These boulders are also considered simple ranged weapons."
 					]
 				},
 				{
@@ -2942,6 +2942,205 @@
 					],
 					"type": "entries"
 				}
+			]
+		},
+		{
+			"name": "Abyssborn",
+			"source": "SRP",
+			"size": "M",
+			"speed": {
+				"walk": 35
+			},
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Damage Immunity"
+			],
+			"languageProficiencies": [
+				{
+					"abyssal": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+                     "Abyssborn reach adulthood in their late teens and live less than a century. Despite this, most Abyssborn die young, consumed by their Abyssian heritage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+                     "Abyssborn inherit a tendency toward chaos from their mark given to them by the Abyss, are not strongly inclined toward good. However, they aren't exlusively evil, and it's not uncommon for an Abyssborn to walk the path of good, discarding both their Abyssian heritage and their transformative powers."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+                     ""
+					],
+					"type": "entries"
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Humane.} Accustomed to the dark, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Abyss.} Accustomed to the Abyss, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+									   "You have disadvantage on attack rolls and on {@skill Perception} checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Darkvision"
+							}
+						},
+				{
+					"name": "Abyssian Speed",
+					"entries": [
+                     ""
+					],
+					"type": "entries"
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Humane.} Your base walking speed increases to 35 feet."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Abyss.} Your base walking speed increases to 35 feet. As a bonus action, you can increase this walking speed to 40 feet."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Abyssian Speed"
+							}
+						},
+				{
+					"name": "Born to Rule",
+					"entries": [
+                     ""
+					],
+					"type": "entries"
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Humane.} You gain proficiency in {@skill Deception}."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Abyss.} You gain proficiency in {@skill Intimidation}."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Abyssian Speed"
+							}
+						},
+				{
+					"name": "Bellow the Abyss",
+					"entries": [
+                     ""
+					],
+					"type": "entries"
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Humane.} As a bonus action, you amplify your striking power with a shout bellowed using your Abyssborn physiology. On your next successful melee weapon attack, all creatures within 15 feet must make a Wisdom saving throw (DC: 10 + your proficiency bonus + your Charisma modifier). On a failed save, that creature becomes {@condition Deafened} until the end of their next turn."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Abyss.} As an action, you leap inside a creature's soul, disappearing from the Material Plane and manifesting yourself into an invulnerable form.",
+									   "While in this state, you occupy that creature's space and move with them, and are {@condition Blinded} and {@condition Incapacitated} until the start of your next turn. While tucked away inside their soul, you gain immunity to all damage types and effects, also becoming untargetable for the purposes of attacks, spells, and features.",
+									   "At the start of your next turn, you leap from their body, emerging on a space within 5 feet of them and dealing {@dice 2d6} force damage. If no such space is available, you instead emerge on the nearest possible space. If that creature dies before the start of your next turn, the effect ends early, and you emerge on their space.",
+									   "Once you use this trait, you can't use it again until you finish a short rest."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Abyssian Speed"
+							}
+						},
+				{
+					"name": "Shard of Almorphius",
+					"entries": [
+                     "Starting at 3rd level, you can use your action to unleash the Abyssian energy stored within your subconscious, rotting your body and wreathing it in shadows until your human visage is no more. After this transformation completes, you appear to be a demon wrought in darkness, rather than indistinguishable from a human.",
+					 "Your transformation lasts for 1 hour, or until you use an action to dismiss it. The instant you transform, your racial abilities change to take on your new identity (as shown by the Humane and Abyss modifiers under each effect). If you die while in your transformative state, you body reverts to being that of a human.",
+                     "You can only use your transformation twice per long rest (using an action to dismiss your transformation does not count toward this number). If the DM allows you, you can transform past this limit, receiving debuffs and losing your sanity over the course of your extended transformation. Eventually, you'll fully give in to your demonic desire, becoming consumed by the Abyss and losing all ability to reason."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+                     ""
+					],
+					"type": "entries"
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Humane.} You can speak, read, and write Common and Abyssal."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Abyss.} You can speak Abyssal and no other languages, regardless of what languages you know."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Abyssian Speed"
+							}
+						}
 			]
 		},
 		{
