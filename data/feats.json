@@ -447,6 +447,35 @@
 			]
 		},
 		{
+			"name": "Great Weapon Master",
+			"source": "SRP",
+			"entries": [
+				"You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.",
+						"Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a penalty equal to your proficiency to the attack roll. If the attack hits, add double your proficiency to the damage roll."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sharpshooter",
+			"source": "SRP",
+			"entries": [
+				"You have mastered ranged weapons and can make shots that others find impossible. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.",
+						"Your ranged weapon attacks ignore half cover and three-quarters cover.",
+						"Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a penalty equal to your proficiency to the attack roll. If the attack hits, add double your proficiency to the damage roll."
+					]
+				}
+			]
+		},
+		{
 			"name": "Divebomber",
 			"source": "SRP",
 			"prerequisite": [
