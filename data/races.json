@@ -3183,8 +3183,7 @@
 		},
 		{
 			"name": "Kobold",
-			"source": "VGM",
-			"page": 119,
+			"source": "SRP",
 			"size": "S",
 			"speed": 30,
 			"ability": [
