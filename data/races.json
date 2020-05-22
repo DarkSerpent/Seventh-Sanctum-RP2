@@ -1315,9 +1315,32 @@
 						{
 							"name": "Shapechanger",
 							"entries": [
-                     "If you aren't in sunlight, you can use your action to cast polymorph on yourself to transform into a bat, rat, or wolf. When cast in this way, polymorph requires no components and cannot be dispelled. It has the following changes:",
-                     "• Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature’s bonus instead of yours.",
-                     "• You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can’t use any of your special senses, such as darkvision, unless your new form also has that sense.",
+                     "If you aren't in sunlight, you can use your action to cast polymorph on yourself to transform into a bat, rat, or wolf. When cast in this way, polymorph requires no components and cannot be dispelled. It has the following changes:"
+							],
+							"type": "entries"
+						},
+						{
+							"type": "inset",
+							"entries": [
+								{
+									"entries": [
+                     "• Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature’s bonus instead of yours."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                     "• You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can’t use any of your special senses, such as darkvision, unless your new form also has that sense."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Shape"
+							}
+						},
+						{
+							"entries": [
                      "Once you use this ability, you can't do so again until you finish a short or long rest."
 							],
 							"type": "entries"
@@ -1563,7 +1586,7 @@
 						{
 							"type": "list",
 							"items": [
-								"You have advantage on saving throws against being @condition Poisoned}, and you have resistance to poison damage.",
+								"You have advantage on saving throws against being {@condition Poisoned}, and you have resistance to poison damage.",
 								"You are immune to disease.",
 								"You don't need to eat, drink, or breathe.",
 								"You don't need to sleep and don't suffer the effects of {@condition Exhaustion} due to lack of rest, and magic can't put you to sleep."
@@ -1738,13 +1761,6 @@
 					"type": "entries"
 				},
 				{
-					"name": "Alignment",
-					"entries": [
-                     "As part of a move action, a Toran can instead fly 40 feet, but must end their movement on the ground or a solid surface. A Toran who ends its turn in the air immediately plummets to the ground. To use this speed you can't be wearing medium or heavy armor."
-					],
-					"type": "entries"
-				},
-				{
 					"name": "Size",
 					"entries": [
                      "Toran are between 2 to 3 feet tall and average about 30 pounds. Your size is Small."
@@ -1761,7 +1777,7 @@
 				{
 					"name": "Flight",
 					"entries": [
-                         "You gain a flying speed of 40 feet while you aren't wearing medium or heavy armor. You fall if you end your turn in the air."
+                     "As part of a move action, a Toran can instead fly 40 feet, but must end their movement on the ground or a solid surface. A Toran who ends its turn in the air immediately plummets to the ground. To use this speed you can't be wearing medium or heavy armor."
 					],
 					"type": "entries"
 				},
@@ -3163,6 +3179,92 @@
 								"overwrite": "Abyssian Speed"
 							}
 						}
+			]
+		},
+		{
+			"name": "Kobold",
+			"source": "VGM",
+			"page": 119,
+			"size": "S",
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 2,
+					"int": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 25,
+				"heightMod": "2d4",
+				"baseWeight": 25
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Monstrous Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"draconic": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Kobolds reach adulthood at age 6 and can live up to 120 years but rarely do so."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Kobolds are fundamentally selfish, making them evil, but their reliance on the strength of their group makes them trend toward law."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Kobolds are between 2 and 3 feet tall and weigh between 25 and 35 pounds. Your size is Small."
+					]
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Grovel, Cower, and Beg",
+					"entries": [
+						"As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that you can see. Once you use this trait, you can't use it again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Draconic."
+					],
+					"type": "entries"
+				}
 			]
 		},
 		{
