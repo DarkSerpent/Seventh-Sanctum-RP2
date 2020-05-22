@@ -3006,14 +3006,6 @@
 					"type": "entries"
 				},
 				{
-					"name": "The Amazoness and the Sculpter",
-					"entries": [
-                     "Female Sacara's base walking speed increases to 35. Male Sacara have an inherent climb speed of 20.",
-                     "In addition, Female Sacara increase their Strength or Dexterity score by 2 (to a maximum of 20), while Male Sacara increase their Wisdom or Charisma score by 2 (to a maximum of 20)."
-					],
-					"type": "entries"
-				},
-				{
 					"name": "Viper's Resilience",
 					"entries": [
                      "You have resistance to poison damage."
@@ -3087,6 +3079,63 @@
                      "You can speak, read, and write Common, Abyssal, and Draconic."
 					],
 					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Amazon",
+					"ability": [
+						{
+							"int": 1,
+							"choose": {
+								"from": [
+									"str",
+									"dex"
+								],
+								"count": 2
+							}
+						}
+					],
+					"speed": {
+						"walk": 35
+					},
+					"entries": [
+						{
+							"name": "Warriors",
+							"entries": [
+                                "You gain proficiency in the {@skill Athletics} skill."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Sculptor",
+					"ability": [
+						{
+							"int": 1,
+							"choose": {
+								"from": [
+									"wis",
+									"cha"
+								],
+								"count": 2
+							}
+						}
+					],
+					"speed": {
+						"walk": 30,
+						"climb": 20
+					},
+					"entries": [
+						{
+							"name": "Builders",
+							"entries": [
+                                "You gain proficiency with one artisan tool of your choice: {@item Carpenter's tools|phb} or {@item Mason's tools|phb}."
+							],
+							"type": "entries"
+						}
+					]
 				}
 			]
 		},
