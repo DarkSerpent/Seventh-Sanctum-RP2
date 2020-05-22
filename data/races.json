@@ -66,7 +66,7 @@
 				{
 					"name": "Candle in the Dark",
 					"entries": [
-                        "You appear to be surrounded by a soft flickering candlelight that extends outwards 30 feet in all directions. As a bonus action, you can smother your flames and allow them to dim."
+                        "You appear to be surrounded by a soft flickering candlelight that extends outwards 30 feet in all directions. As a bonus action, you can smother your flames and cause them to dim. Dimming your flames this way causes no visible light emit from your body, although up-close inspection will still reveal a faint flickering light."
 					],
 					"type": "entries"
 				},
