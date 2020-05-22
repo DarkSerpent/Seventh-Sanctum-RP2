@@ -476,6 +476,31 @@
 			]
 		},
 		{
+			"name": "Aposematism",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Grung"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You are a particularly dangerous Grung who has mastered the inherent properties of their body. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your poison DC for your Poisonous Skin improves to 8 + your Constitution modifier + your proficiency bonus.",
+						"As an action, you may cause the spots on your body to change color to a bright warning of danger. Creatures of your choosing within 10 feet must make a Wisdom saving through against your poison DC or become {@condition Frightened} for one minute. A creatures may repeat this saving throw at the end of each of their turn, ending the effect on a success. Creatures are no longer frightened once you leave their line of sight.",
+						"Your walking and climbing speed increase by 5 feet.",
+						"Your Standing Leap improves, increasing your long jump up to 30 feet and your high jump up to 20 feet."
+					]
+				}
+			]
+		},
+		{
 			"name": "Divebomber",
 			"source": "SRP",
 			"prerequisite": [
