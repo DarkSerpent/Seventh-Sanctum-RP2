@@ -2160,7 +2160,7 @@
 					"name": "Sagely Knowledge",
 					"entries": [
                      "You can cast {@spell comprehend languages} as a ritual. This is not represented as innate spellcasting, but rather as a Panda's incredible knowledge that spans all languages. However, due to this vast amount of knowledge, it is difficult for them to remember all the languages kept in their mind's archive, leading to forgetfulness.",
-                     "In addition, when casting Comprehend Languages this way, you also learn to speak those languages for the duration of the spell."
+                     "In addition, when casting {@spell comprehend languages} this way, you also learn to speak those languages for the duration of the spell."
 					],
 					"type": "entries"
 				},
