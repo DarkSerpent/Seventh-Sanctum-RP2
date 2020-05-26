@@ -9,9 +9,9 @@
 			"value": 2500,
 			"weaponCategory": "exotic",
 			"property": [
-				"S",
 				"F",
-				"V"
+				"V",
+				"S"
 			],
 			"dmg1": "1d8",
 			"dmg2": "1d10",
@@ -43,6 +43,658 @@
 			],
 			"dmg1": "1d6",
 			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Chain, spiked",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 3000,
+			"weaponCategory": "exotic",
+			"property": [
+				"DW",
+				"GR",
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "2d4",
+			"dmg2": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Chakram",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L",
+				"RET",
+				"T"
+			],
+			"dmg1": "1d6",
+			"range": "15/30",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Claw",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "exotic",
+			"property": [
+				"DI",
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Dagger, boot-toe",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1500,
+			"weaponCategory": "exotic",
+			"property": [
+				"CON",
+				"F",
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You wield this weapon without the use of a hand, instead using the foot the dagger is affixed to. You may only make one attack on your turn when attacking with this weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dagger, wrist",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1500,
+			"weaponCategory": "exotic",
+			"property": [
+				"CON",
+				"F",
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Gauntlet",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 600,
+			"weaponCategory": "martial",
+			"property": [
+				"DI",
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Brass Knuckles",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"DI",
+				"UN"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Jian",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1500,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L",
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Khopesh",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "exotic",
+			"property": [
+				"L"
+			],
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Two-Handed Khopesh",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 7,
+			"value": 5000,
+			"weaponCategory": "exotic",
+			"property": [
+				"2H",
+				"H",
+				"S"
+			],
+			"dmg1": "1d6+1d4",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"While you're wielding this weapon, you can still make a Grapple check. On a success, you grapple your opponent with the sickle-edge of your sword, keeping them locked and dealing {@dice 1d4} piercing damage at the start of their turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kukri",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 800,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L",
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"This weapon deals {@dice 1d8} damage to environmental objects and creatures with the Plant type."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kusarigama",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1500,
+			"weaponCategory": "exotic",
+			"property": [
+				"DW",
+				"F",
+				"GR",
+				"S"
+			],
+			"dmg1": "1d8",
+			"dmg2": "1d4",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"When used as a Double Weapon, the Kusarigama gains the reach property."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nunchaku",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1000,
+			"weaponCategory": "exotic",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Stoßdolch",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 700,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L",
+				"DI"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Tonfa",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Two-Handed Scythe",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 9,
+			"value": 7500,
+			"weaponCategory": "exotic",
+			"property": [
+				"R",
+				"2H",
+				"F",
+				"GR"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Sword, cane",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2000,
+			"weaponCategory": "exotic",
+			"property": [
+				"CON",
+				"F"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Tomahawk",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"dmg1": "1d4",
+			"range": "20/60",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Bola",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 100,
+			"weaponCategory": "exotic",
+			"property": [
+				"GR",
+				"L",
+				"T"
+			],
+			"dmg1": "1d4",
+			"range": "20/40",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Boomerang",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 300,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L",
+				"RET",
+				"T"
+			],
+			"dmg1": "1d6",
+			"range": "30/80",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Shuriken",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 100,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"dmg1": "1d6",
+			"range": "40/100",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Palm Pistol",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 1,
+			"value": 5000,
+			"weaponCategory": "firearm",
+			"property": [
+				"L",
+				"RE",
+				"MI",
+				"A",
+				"AM"
+			],
+			"dmg1": "1d8",
+			"range": "40/160",
+			"reload": "1",
+			"misfire": "1",
+			"ammo": "2 gp for 20",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Pistol",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"value": 15000,
+			"weaponCategory": "firearm",
+			"property": [
+				"RE",
+				"MI",
+				"A",
+				"AM"
+			],
+			"dmg1": "1d10",
+			"range": "60/240",
+			"reload": "4",
+			"misfire": "1",
+			"ammo": "4 gp for 20",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Musket",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"value": 30000,
+			"weaponCategory": "firearm",
+			"property": [
+				"2H",
+				"RE",
+				"MI",
+				"A",
+				"AM"
+			],
+			"dmg1": "1d12",
+			"range": "120/480",
+			"reload": "6",
+			"misfire": "2",
+			"ammo": "5 gp for 20",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Revolver",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 5,
+			"value": 25000,
+			"weaponCategory": "firearm",
+			"property": [
+				"RE",
+				"MI",
+				"A",
+				"AM"
+			],
+			"dmg1": "1d10",
+			"range": "80/320",
+			"reload": "6",
+			"misfire": "2",
+			"ammo": "4 gp for 20",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Shotgun",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 8,
+			"value": 50000,
+			"weaponCategory": "firearm",
+			"property": [
+				"RE",
+				"MI",
+				"SC",
+				"A",
+				"AM"
+			],
+			"dmg1": "1d8",
+			"range": "15/30",
+			"reload": "2",
+			"misfire": "1",
+			"ammo": "5 gp for 5",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Blunderbuss",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"value": 30000,
+			"weaponCategory": "firearm",
+			"property": [
+				"S",
+				"2H",
+				"H",
+				"RE",
+				"MI",
+				"A",
+				"AM"
+			],
+			"dmg1": "2d8",
+			"range": "15/60",
+			"reload": "1",
+			"misfire": "2",
+			"ammo": "5 gp for 5",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"Enemies adjacent to you take an additional {@dice 1d4} piercing damage on a hit."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hand Mortar",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"value": 150000,
+			"weaponCategory": "firearm",
+			"property": [
+				"2H",
+				"RE",
+				"MI",
+				"EX",
+				"A",
+				"AM"
+			],
+			"dmg1": "2d8",
+			"range": "30/60",
+			"reload": "1",
+			"misfire": "3",
+			"ammo": "10 gp for 1",
+			"dmgType": "F",
+			"sword": true,
 			"sword": true,
 			"weapon": true,
 			"entries": [
@@ -119,6 +771,140 @@
 					"name": "Concealed",
 					"entries": [
 						"This weapon is not immediately obvious, and may be easily hidden or disguised as something else. A person attempting to locate the presence of this weapon must succeed on an {@skill Investigation} check opposed by a {@skill Stealth} check on the part of the character with the weapon equipped. Attacks with this weapon against creatures aware of you yet unaware of the weapon's presence are made with advantage."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DW",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double Weapon",
+					"entries": [
+						"A weapon with this property may be wielded as one weapon, or as two separate weapons both considered to be light. When wielded as one weapon, the weapon may still be one or two-handed, depending on its other properties. A weapon with this property lists to sets of damage die with it, the first for the main-hand of this weapon, the second for the off-hand, and damage on both sides of a double weapon are the same as if it were wielded as a single weapon. Held as a double weapon, one hand or the other may have additional properties, listed alongside their respective damage die. Properties on the weapon (aside from two-handed) apply to both halves of the double weapon, as well."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.dmg2}})"
+		},
+		{
+			"abbreviation": "GR",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Grappling",
+					"entries": [
+						"If a weapon has this property, an attack made with this weapon against an enemy in range of the weapon or within the weapon's reach may instead be made as a grapple. If the weapon carries the finesse property as well, the grapple may be made and maintained with a Dexterity check rather than an {@skill Athletics} check. If the weapon is ranged, the target's {@skill Athletics} or {@skill Acrobatics} checks to escape the grapple are made against the number set by the wielder's initial check, instead of a contested roll."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RET",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Returning",
+					"entries": [
+						"When a thrown weapon also carrying the returning property is thrown as part of an attack, it returns to its wielder at the end of their turn. The character must use their object interaction to catch the returning weapon, or it returns to the ground at the character's feet. When throwing a returning weapon, you can choose to not have it return in order to add 5 feet to its short range and 10 feet to its long range."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DI",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Disarm Immune",
+					"entries": [
+						"Any weapon that carries this property may not unwillingly be removed from your grasp while you remain conscious."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "UN",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Unarmed",
+					"entries": [
+						"When you make an unarmed strike, you can choose to have the attack deal damage equal to the damage of this weapon, rather than your normal unarmed strike damage. In addition, you hands are considered free for the purposes of object interactions and grappling."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RE",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"This weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.reload}})"
+		},
+		{
+			"abbreviation": "MI",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Misfire",
+					"entries": [
+						"Whenever you make an attack roll with a firearm, and the die roll is equal to or lower than the weapon's Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful {@item Tinker's tools|phb} check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be mended out of combat at the quarter of a cost of a firearm. Creatures who use a firearm without being proficient increase the weapon's misfire score by 1."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.misfire}})"
+		},
+		{
+			"abbreviation": "AM",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Ammo+",
+					"entries": [
+						"This weapon requires advanced ammunition to fire, usually gunpowder, bullets, or magazines."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.ammo}})"
+		},
+		{
+			"abbreviation": "EX",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Explosive",
+					"entries": [
+						"On a hit, every creature within 5 feet of the target much make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer {@dice 1d8} fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so. Explosive weapons will also damage terrain (if applicable)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SC",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Scatter",
+					"entries": [
+						"As a bonus action, you can cause your firearm to hit multiple targets. Make an attack roll against each creature in a cone equal to your firearm's normal range. On a successful hit, those creatures suffer damage as if you had attacked each of them (roll once). Firing this way increases your misfire score by 2 for that attack. You can only use Scatter once per round, regardless of how many bonus actions you may have."
 					]
 				}
 			]
