@@ -712,6 +712,7 @@
 			"value": 150000,
 			"weaponCategory": "firearm",
 			"property": [
+				"S",
 				"2H",
 				"RE",
 				"MI",
@@ -729,6 +730,13 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You cannot benefit from Repeating Shot with this weapon."
+					]
+				}
 			]
 		}
 	],
