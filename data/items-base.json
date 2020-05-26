@@ -293,7 +293,7 @@
 			]
 		},
 		{
-			"name": "Kusarigama",
+			"name": "Sickle & Chain",
 			"source": "SRP",
 			"type": "M",
 			"rarity": "none",
@@ -304,7 +304,8 @@
 				"DW",
 				"F",
 				"GR",
-				"S"
+				"S",
+				"AN"
 			],
 			"dmg1": "1d8",
 			"dmg2": "1d4",
@@ -317,6 +318,13 @@
 					"name": "Special",
 					"entries": [
 						"When used as a Double Weapon, the Kusarigama gains the reach property."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alternate Name",
+					"entries": [
+						"This weapon goes by an alternate name: Kusarigama."
 					]
 				}
 			]
@@ -340,7 +348,7 @@
 			]
 		},
 		{
-			"name": "Stoßdolch",
+			"name": "Push Dagger",
 			"source": "SRP",
 			"type": "M",
 			"rarity": "none",
@@ -350,13 +358,21 @@
 			"property": [
 				"F",
 				"L",
-				"DI"
+				"DI",
+				"AN"
 			],
 			"dmg1": "1d6",
 			"dmgType": "P",
 			"sword": true,
 			"weapon": true,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Alternate Name",
+					"entries": [
+						"This weapon goes by an alternate name: Stoßdolch."
+					]
+				}
 			]
 		},
 		{
@@ -387,16 +403,23 @@
 			"value": 7500,
 			"weaponCategory": "exotic",
 			"property": [
+				"S",
 				"R",
 				"2H",
-				"F",
-				"GR"
+				"F"
 			],
-			"dmg1": "1d10",
+			"dmg1": "2d4",
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"When you make an attack against a medium or large creature, you also attack any enemies directly to its left or right. On a hit, those creatures take {@dice 1d4} slashing damage."
+					]
+				}
 			]
 		},
 		{
@@ -622,7 +645,8 @@
 				"MI",
 				"SC",
 				"A",
-				"AM"
+				"AM",
+				"S"
 			],
 			"dmg1": "1d8",
 			"range": "15/30",
@@ -634,6 +658,13 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"If your target is within 5 feet of you, it takes an additional {@dice 1d6} piercing damage on a hit."
+					]
+				}
 			]
 		},
 		{
@@ -829,6 +860,11 @@
 			]
 		},
 		{
+			"abbreviation": "AN",
+			"source": "SRP",
+			"name": "Alternate Name"
+		},
+		{
 			"abbreviation": "UN",
 			"source": "SRP",
 			"entries": [
@@ -904,7 +940,7 @@
 					"type": "entries",
 					"name": "Scatter",
 					"entries": [
-						"Whenever you make the attack action, as a bonus action, you can cause your firearm to hit multiple targets. Make an attack roll against each creature in a cone equal to your firearm's normal range. On a successful hit, those creatures suffer damage as if you had attacked each of them (roll once). Firing this way increases your misfire score by 2 for that attack. You can only use Scatter once per round, regardless of how many bonus actions you may have."
+						"Whenever you make the attack action, as a bonus action, you can cause your firearm to hit multiple targets. Make an attack roll against each creature in a cone equal to your firearm's normal range. On a successful hit, those creatures suffer damage as if you had attacked each of them (roll once). Firing this way increases your misfire score by 2 for that attack. You can only use Scatter once per round, regardless of how many bonus actions you may have. The Scatter property is unaffected by the Sharpshooter feat."
 					]
 				}
 			]
