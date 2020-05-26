@@ -904,7 +904,7 @@
 					"type": "entries",
 					"name": "Scatter",
 					"entries": [
-						"As a bonus action, you can cause your firearm to hit multiple targets. Make an attack roll against each creature in a cone equal to your firearm's normal range. On a successful hit, those creatures suffer damage as if you had attacked each of them (roll once). Firing this way increases your misfire score by 2 for that attack. You can only use Scatter once per round, regardless of how many bonus actions you may have."
+						"Whenever you make the attack action, as a bonus action, you can cause your firearm to hit multiple targets. Make an attack roll against each creature in a cone equal to your firearm's normal range. On a successful hit, those creatures suffer damage as if you had attacked each of them (roll once). Firing this way increases your misfire score by 2 for that attack. You can only use Scatter once per round, regardless of how many bonus actions you may have."
 					]
 				}
 			]
