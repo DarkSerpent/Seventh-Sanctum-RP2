@@ -156,7 +156,7 @@
 				{
 					"name": "The Nine Tailed Path",
 					"entries": [
-                     "Kitsune begin with a single fox tail generally 3 feet long. At 4th level and every 2 levels afterwards, you grow an additional tail as you grow in worldly experience. Each tail you possess increases your lifespan by 100 years. Tails which are cut off or otherwise removed do not grow back naturally but may be restored by use of the {@spell Regenerate} spell. This does not affect the years gained in extended life if a tail is removed."
+                     "Kitsune begin with a single fox tail generally 3 feet long. At 4th level and every 2 levels afterwards, you grow an additional tail as you grow in worldly experience. Each tail you possess increases your lifespan by 100 years. Tails which are cut off or otherwise removed do not grow back naturally, but may be restored by use of the {@spell Regenerate} spell. Losing a tail or tails does not affect the years you gain of extended life."
 					],
 					"type": "entries"
 				},
@@ -199,16 +199,16 @@
 							"type": "entries"
 						},
 						{
-							"name": "Kistune Magic",
+							"name": "Sticky Fingers",
 							"entries": [
-                                "You know the {@spell fire bolt} cantrip. Charisma is your spellcasting ability for this spell."
+                                "You have advantage on {@skill Sleight of Hand} checks made to pick pockets without being noticed."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Charming",
+							"name": "Trickster",
 							"entries": [
-                                "You gain proficiency in the {@skill Performance} skill."
+                                "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and take the higher amount. You can use this feature once per tail you possess, and regain all expended uses when you finish a long rest."
 							],
 							"type": "entries"
 						}
@@ -230,16 +230,16 @@
 							"type": "entries"
 						},
 						{
-							"name": "Kistune Magic",
+							"name": "Detective",
 							"entries": [
-                                "You know the {@spell frostbite} cantrip. Charisma is your spellcasting ability for this spell."
+                                "You gain advantage on {@skill Investigation} checks made to discover clues and piece together evidence."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Detective",
+							"name": "Logical Mind",
 							"entries": [
-                                "You gain proficiency in the {@skill Investigation} skill."
+                                "Your mind is inherently logical, and is not easily swayed. As a bonus action, you can end one effect causing you to be {@condition Charmed} or {@condition Frightened}. You can use this feature once per tail you possess, and regain all expended uses when you finish a long rest."
 							],
 							"type": "entries"
 						}
@@ -261,16 +261,16 @@
 							"type": "entries"
 						},
 						{
-							"name": "Kistune Magic",
+							"name": "Superior Darkvision",
 							"entries": [
-                                "You know the {@spell sacred flame} cantrip. Charisma is your spellcasting ability for this spell."
+                                "Blessed by the moon, the Tsuki can call upon its illumination to enhance their eyes as naturally as they breathe. Your darkvision improves to 120 feet, represented by your internal connection to your clan's symbol."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Vigilant",
+							"name": "Lunar Charm",
 							"entries": [
-                                "You gain proficiency in the {@skill Perception} skill."
+                                "You can cast the {@spell charm person} spell once with this trait, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting modifier for this spell."
 							],
 							"type": "entries"
 						}
@@ -292,16 +292,16 @@
 							"type": "entries"
 						},
 						{
-							"name": "Kistune Magic",
+							"name": "Born From Mist",
 							"entries": [
-                                "You know the {@spell booming blade} cantrip. Charisma is your spellcasting ability for this spell."
+                                "As a bonus action, you can gain advantage on any {@skill Perception} or {@skill Stealth} check you make. You can use this feature once per tail you possess, and regain all expended uses when you finish a long rest."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Assailant",
+							"name": "Misty Escape",
 							"entries": [
-                                "You gain proficiency in the {@skill Stealth} skill."
+                                "As a reaction to taking damage, you can create a 20-foot-radius sphere of mist centered on you. The sphere spreads around corners, and its area is heavily obscured. It lasts for one minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. Once you use this ability, you can't do so again until you finish a short or long rest."
 							],
 							"type": "entries"
 						}
@@ -320,13 +320,6 @@
 							"name": "Fifth Clan of Shadow",
 							"entries": [
 								"Your unarmed claw attacks now deal {@dice 1d8} necrotic damage."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Kistune Magic",
-							"entries": [
-                                "You no longer maintain the ability to cast Kitsune Magic."
 							],
 							"type": "entries"
 						},
