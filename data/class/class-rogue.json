@@ -619,7 +619,8 @@
 										"type": "entries",
 										"name": "Silencer",
 										"entries": [
-											"Starting at 9th level, you have learned to modify your guns to illict no sound upon firing. Whenever you make an attack while under the {@action Hide} action, you may choose to fire a suppresed shot from your firearm. If you do so, regardless of whether you hit or miss your target, you do not give away your location. Suppressed shots fired this way lower your Sneak Attack die by half (rounded down)."
+											"Starting at 9th level, you have learned to modify your guns to illict no sound upon firing. Whenever you make an attack while under the {@action Hide} action, you may choose to fire a suppresed shot from your firearm. If you do so, regardless of whether you hit or miss your target, you do not give away your location. Suppressed shots fired this way lower your Sneak Attack die by half (rounded down).",
+											"You cannot use this feature within 15 feet of your target, nor can you use it alongside a firearm with the Explosive or Scatter properties."
 										]
 									}
 								]
