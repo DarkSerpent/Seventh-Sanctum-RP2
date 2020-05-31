@@ -596,7 +596,7 @@
 			],
 			"dmg1": "1d12",
 			"range": "120/480",
-			"reload": "6",
+			"reload": "1",
 			"misfire": "2",
 			"ammo": "5 gp for 20",
 			"dmgType": "P",
@@ -731,6 +731,40 @@
 			"weapon": true,
 			"entries": [
 				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You cannot benefit from Repeating Shot with this weapon."
+					]
+				}
+			]
+		},
+				{
+			"name": "Rifle",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 25,
+			"value": 30000,
+			"weaponCategory": "firearm",
+			"property": [
+				"2H",
+				"RE",
+				"MI",
+				"A",
+				"AM"
+			],
+			"dmg1": "2d12",
+			"range": "200/800",
+			"reload": "1",
+			"misfire": "3",
+			"ammo": "10 gp for 5",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+							{
 					"type": "entries",
 					"name": "Special",
 					"entries": [
