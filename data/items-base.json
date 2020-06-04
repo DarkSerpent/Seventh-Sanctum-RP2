@@ -72,6 +72,28 @@
 			]
 		},
 		{
+			"name": "Three-Section Staff",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 5,
+			"value": 2000,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"DW",	
+				"R",
+				"2H"
+			],
+			"dmg1": "1d8",
+			"dmg2": "1d4",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
 			"name": "Chakram",
 			"source": "SRP",
 			"type": "M",
