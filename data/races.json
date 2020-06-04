@@ -2226,6 +2226,13 @@
 					],
 					"type": "entries"
 				},
+								{
+					"name": "Beholder",
+					"entries": [
+                     "You have resistance to psychic damage."
+					],
+					"type": "entries"
+				},
 				{
 					"name": "Aberrant",
 					"entries": [
