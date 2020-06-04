@@ -2170,6 +2170,100 @@
 			]
 		},
 		{
+			"name": "Aftuan",
+			"source": "SRP",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"con": 1,
+					"cha": 2
+				}
+			],
+			"traitTags": [
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"deep": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+                     "Aftuan are theoretically immortal, but subsist off their legends in ancient folktales and stories. In order to continue their furrowed existence, they must continue to spread their creeping fear. A fear that can only be described as the fear of the unknown."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+                     "Aftuan are connected directly to Chaos, but this does not mean they're chaotic. Instead, their ability to view things from all aspects as Chaos guides them allows the Aftuan to take a uniquely true neutral approach to the world."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+                     "Aftuan are between 5 feet to 8 feet tall. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+                     "Your eyes give you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, you only see in shades of blue."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alien Mind",
+					"entries": [
+                     "You have advantage on saving throws against the {@condition Frightened} and {@condition Charmed} conditions. In addition, you cannot suffer from the effects of Madness."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Aberrant",
+					"entries": [
+                     "Your creature type is aberration, rather than humanoid."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Whispers in the Beyond",
+					"entries": [
+                     "You learn the {@spell vicious mockery} cantrip. When you reach 3rd level, you can cast the {@spell dissonant whispers} spell once per day. At 5th level, you can also cast the {@spell crown of madness} spell once per day. Charisma is your spellcasting modifier for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Limited Telepathy",
+					"entries": [
+                     "You can speak telepathically to other creatures within 60 feet. However, you can only speak Deep Speech this way, and creatures who don't speak Deep Speech can only make out distant, haunting whispers. The exception are creatures under the effects of Long-Term or Indefinite Madness, who can make out your words clearly."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Otherworldly Appendages",
+					"entries": [
+                     "Aftuan are birthed with four illithid tentactles that they can manifest from any part of their body. Your additional appendages allow you to interact with an additional object or feature of the environment for free on your turn. You may not carry and use shields for defense with these additional appendages. Nor do they grant you additional attacks, or allow you to wield weapons with them for combat."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+                     "You can speak, read, and write Common and Deep Speech. In addition, you learn how to read Qualith."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
 			"name": "Saki",
 			"source": "SRP",
 			"size": "M",
