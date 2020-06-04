@@ -2250,14 +2250,14 @@
 				{
 					"name": "Limited Telepathy",
 					"entries": [
-                     "You can speak telepathically to other creatures within 60 feet. However, you can only speak Deep Speech this way, and creatures who don't speak Deep Speech can only make out distant, haunting whispers. The exception are creatures under the effects of Long-Term or Indefinite Madness, who can make out your words clearly."
+                     "You can speak telepathically to other creatures within 60 feet. However, you can only speak Deep Speech this way, and creatures who don't speak Deep Speech can only make out distant, haunting whispers. The exception are creatures under the effects of Long-Term or Indefinite Madness, who can make out your words clearly, regardless of their known languages."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Otherworldly Appendages",
 					"entries": [
-                     "Aftuan are birthed with four illithid tentactles that they can manifest from any part of their body. Your additional appendages allow you to interact with an additional object or feature of the environment for free on your turn. You may not carry and use shields for defense with these additional appendages. Nor do they grant you additional attacks, or allow you to wield weapons with them for combat."
+                     "Aftuan are birthed with four illithid tentactles that can manifest from any part of their body. Your additional appendages allow you to interact with an additional object or feature of the environment for free on your turn. You may not carry and use shields for defense with these additional appendages. Nor do they grant you additional attacks, or allow you to wield weapons with them for combat."
 					],
 					"type": "entries"
 				},
