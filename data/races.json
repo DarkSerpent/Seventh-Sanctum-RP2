@@ -524,6 +524,13 @@
 					"type": "entries"
 				},
 				{
+					"name": "Bloodless",
+					"entries": [
+                     "You are immune to poison damage and the {@condition Poisoned} condition."
+					],
+					"type": "entries"
+				},
+				{
 					"name": "Them Bones",
 					"entries": [
                      "If both your hands are unoccupied, you can use a bonus action to rearrange your skeletal structure, or return your body to its original configuration. When you rearrange your bones, choose one of the following options, any of which are considered to occupy both of your hands:"					],
