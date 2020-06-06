@@ -126,6 +126,66 @@
 				}
 			]
 		},
+				{
+			"name": "Akimbo Master",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"other": "Proficiency in a firearm"
+				}
+			],
+			"entries": [
+               "You master the art of wielding two ranged weapons at once. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "You can draw or holster two sidearms when you would normally be able to draw or holster only one.",
+               "If you are wielding two ranged weapons with the reload property, you can ignore the reload property for those weapons, and do not need a free hand to reload them. This does not work on weapons with a reload property of 1.",
+               "You can wield two one-handed ranged weapons at once, even if they do not have the light property."
+					]
+				}
+			]
+		},
+		{
+			"name": "Six-Gun Ace",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"other": "Proficiency with revolvers"
+				}
+			],
+			"entries": [
+               "You have perfected the art of shooting with your revolver. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "You gain a +1 bonus to attack rolls with the revolver.",
+               "You cannot be disarmed while wielding a revolver in one hand if your other hand is free.",
+               "When you make an attack with your revolver and are not holding anything in your other hand, you can use your bonus action to make two additional attacks against creatures within its normal range. You do not add your ability score modifier to the damage of these attacks, unless that modifier is negative. You can use this feature a number of times equal to your Dexterity modifier (minimum 1), and you regain all expended charges on a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Deadeye",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"other": "Proficiency with rifles or muskets"
+				}
+			],
+			"entries": [
+               "Rifles are complex weapons, but you know just how to make every shot count. You gain the following benefits when wielding a rifle or musket:",
+				{
+					"type": "list",
+					"items": [
+               "You gain a +1 bonus to attack rolls you make with these weapons.",
+               "You can reroll 1s to damage with these weapons.",
+               "If you roll a critical hit or deal a killing blow with these weapons, your shot pierces the target and strikes a creature within a 10-foot line behind it. If the original roll would hit the creature, it deals damage. Otherwise, the bullet misses."
+					]
+				}
+			]
+		},
 		{
 			"name": "Peltast",
 			"source": "OSoW",
