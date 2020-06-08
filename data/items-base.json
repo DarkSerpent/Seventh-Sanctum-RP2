@@ -557,6 +557,7 @@
 			"value": 5000,
 			"weaponCategory": "firearm",
 			"property": [
+				"CON",
 				"L",
 				"RE",
 				"MI",
