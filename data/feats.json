@@ -231,7 +231,7 @@
 				{
 					"type": "list",
 					"items": [
-               "You have a swimming speed equal to your base walking speed.",
+               "You gain an innate swimming speed of 30 feet. If you already have a swimming speed, it instead increases by 15.",
                "When you wield a trident with one hand, its damage die changes to 1d8 from 1d6. When you wield a trident with two hands, its damage die changes to 1d10 from 1d8.",
                "Tridents have the reach property. When you strike a creature with a Trident you may expend a bonus action to force a creature to make a contested {@skill Athletics} check with you. On a success you may force the creature to move into any unoccupied space within five feet of you."
             ]
