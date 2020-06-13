@@ -671,7 +671,7 @@
 				{
 					"name": "Frighten Crows",
 					"entries": [
-                     "Any crows or ravens of CR 1 or less within 60 feet of you are automatically frightened of you until they are no longer within this range. This ability has no effect on familiars conjured by the find familiar spell or similar sources."
+                     "Any crows or ravens of CR 1 or less within 60 feet of you are automatically frightened of you until they are no longer within this range. This ability has no effect on familiars conjured by the {@spell find familiar} spell or similar sources."
 					],
 					"type": "entries"
 				},
