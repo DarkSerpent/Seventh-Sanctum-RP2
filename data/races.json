@@ -650,7 +650,7 @@
 				{
 					"name": "Silent Night",
 					"entries": [
-                     "While standing completely still, you appear to be a scarecrow that is indistinguishable from an inanimate construct. In addition, you make no sound, and only magic can be used to detect whether you are alive or not. If you take damage in this state, you also show no outward signs of pain, and spells that would cause you to speak or make sound like {@spell Tasha's Hideous Laughter} have no effect."
+                     "After standing completely still for at least one minute, you appear to be a scarecrow that is indistinguishable from an inanimate construct. In addition, you make no sound, and only magic can be used to detect whether you are alive or not. If you take damage in this state, you also show no outward signs of pain, and spells that would cause you to speak or make sound like {@spell Tasha's Hideous Laughter} have no effect."
 					],
 					"type": "entries"
 				},
