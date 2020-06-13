@@ -591,6 +591,114 @@
 			]
 		},
 		{
+			"name": "Scarecrow",
+			"source": "SRP",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"choose": {
+						"from": [
+							"con",
+							"cha"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"traitTags": [
+				"Monstrous Race"
+			],
+			"languageProficiencies": [
+				{
+					"choose": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+                     "Scarecrows do not age in the traditional sense, but they do decay over time. The necromantic energies that sustain you will heal most wounds you take at approximately the same rate as a mortal, and your hit die function as normal. A scarecrow will generally live up to a maximum of five hundred years, at which their soul will be absorbed back into the Void to be reincarnated once more."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+                     "Scarecrow hold on to the alignments of their previous incarnations. Most are created by witches and hags and as such tend to be evil, as it better suits the purposes of their creators. An especially malicious hag could take delight into binding a traditionally good human soul into the body of a scarecrow and revel over corrupting their soul over the course of centuries."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Living Construct",
+					"entries": [
+                     "Scarecrow are gifted with supernatural properties. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish. Additionally, you have two creature types: humanoid and construct. You can be affected by a spell or ability that works on either of your creature types."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+                     "The forces behind your animation imbue you with the power to watch over the holdings of your masters, by day or night. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Silent Night",
+					"entries": [
+                     "While standing completely still, you appear to be a scarecrow that is indistinguishable from an inanimate construct. In addition, you make no sound, and only magic can be used to detect whether you are alive or not. If you take damage in this state, you also show no outward signs of pain, and spells that would cause you to speak or make sound like {@spell Tasha's Hideous Laughter} have no effect."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Body of Straw",
+					"entries": [
+                     "You are immune to poison damage and the {@condition poisoned} condition. As a result of your bodily structure, whenever you take fire damage, you take additional damage equal to 5 - your Constitution modifier. This damage cannot be reduced or ignored by resistance or immunity."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Claws of the Damned",
+					"entries": [
+                     "You possess clawed fingers on each of your hands, giving you a natural claw attack, which you may use as an unarmed strike. This claw attack deals slashing damage equal to {@dice 1d4} + either your Strength or Dexterity modifier (your choice). In addition, you can use Dexterity in place of Strength for attack rolls with your claws, and your claws are considered to be a melee weapon with the finesse property for any ability or feature that requires it."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Frighten Crows",
+					"entries": [
+                     "Any crows or ravens of CR 1 or less within 60 feet of you are automatically frightened of you until they are no longer within this range. This ability has no effect on familiars conjured by the find familiar spell or similar sources."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Scarecrow's Vigil",
+					"entries": [
+                     "Instead of sleeping, you enter an inactive state for 4 hours each day, standing completely motionless and sometimes (for a better vantage, or because old habits are hard to break) affixed to a tree or post. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal. While you remain motionless, whether or not you are in this inactive state, you are indistinguishable from a normal scarecrow."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Glare of the Void",
+					"entries": [
+                     "As a bonus action, target one creature you can see within 30 feet of you. That creature must make a Wisdom saving throw against a DC of 8 + your proficiency bonus + your Charisma modifier. If the creature fails this saving throw, it is frightened of you until the end of your next turn. Once you use this ability successfully, you require a short or long rest before you can use it again."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+                     "You can speak, read, and write Common and one other language of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
 			"name": "Human (Mark of Ryder)",
 			"source": "SRP",
 			"size": "M",
@@ -2272,6 +2380,108 @@
 					"name": "Language",
 					"entries": [
                      "You can speak, read, and write Common and Deep Speech. In addition, you learn how to read Qualith."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Ankh-Bulette",
+			"source": "SRP",
+			"size": "M",
+			"speed": {
+				"walk": 30,
+				"burrow": 15
+			},
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"traitTags": [
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"primordial": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+                     "Ankh-Bullete live up to two hundred years after the time they ascended, sustained by the unholy powers that mutated them, before the dark energies fizzle out and the creature perishes."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+                     "The bloodlust that lives within all ankh-bullete drives them toward evil, but the strong willed can maintain a neutral disposition. A rare, exceptional few can even become good."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+                     "Ankh-Bullete are between 5 feet to 7 feet tall, although as a quadruped, their height can deminish to as low as 3 feet when running. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+					"You have disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Ankheg's Tremorsense",
+					"entries": [
+                     "You have tremorsense up to 10 feet. As an action which lasts for one minute, you can extend your tremorsense to 40 feet. You can only use this feature twice per short rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Wereboar's Relentlessness",
+					"entries": [
+                     "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You cannot use this feature again until you finish a long rest."
+					],
+					"type": "entries"
+				},
+								{
+					"name": "Umber Hulk's Burrowing",
+					"entries": [
+                     "You have a base burrowing speed of 15 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Monstrous",
+					"entries": [
+                     "Your creature type is monstrosity, rather than humanoid."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+                     "Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Deadly Leap",
+					"entries": [
+                     "If you jump at least 15 feet as part of your movement, you can use an action to slam on the ground in a space that contains one or more other creatures. Each of those creatures must succeed on a Strength or Dexterity saving throw equal to 8 + your proficiency bonus + your Strength modifier. On a failed save, those creatures are knocked {@condition prone} and take {@dice 1d6} bludgeoning damage. This damage increases to 2d6 at 5th level, 3d6 at 10th level, 4d6 at 15th level, and 5d6 at 20th level."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+                     "You can speak, read, and write Common and Terran."
 					],
 					"type": "entries"
 				}
