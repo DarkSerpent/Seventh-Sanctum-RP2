@@ -2557,8 +2557,12 @@
 					"cha": 2,
 					"choose": {
 						"from": [
+							"str",
+							"dex",
+							"con",
 							"int",
-							"dex"
+							"wis",
+							"cha"
 						],
 						"count": 1
 					}
