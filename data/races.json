@@ -2713,7 +2713,7 @@
 				{
 					"name": "Arctic Regeneration",
 					"entries": [
-                     "Whenever you complete a short rest, you can roll one {@dice 1d6} for each hit die you expend. Add the result to the total health you gain."
+                     "Whenever you complete a short rest, you can roll one {@dice d6} for each hit die you expend. Add the result to the total health you gain."
 					],
 					"type": "entries"
 				},
