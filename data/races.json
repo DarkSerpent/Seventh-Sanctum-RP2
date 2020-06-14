@@ -2658,7 +2658,7 @@
 			"size": "M",
 			"speed": {
 				"walk": 30,
-				"burrow": 15
+				"climb": 25
 			},
 			"ability": [
 				{
@@ -2711,16 +2711,16 @@
 					"type": "entries"
 				},
 				{
-					"name": "Wereboar's Relentlessness",
+					"name": "Arctic Regeneration",
 					"entries": [
-                     "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You cannot use this feature again until you finish a long rest."
+                     "Whenever you complete a short rest, you can roll one {@dice 1d6} for each hit die you expend. Add the result to the total health you gain."
 					],
 					"type": "entries"
 				},
 								{
-					"name": "Umber Hulk's Burrowing",
+					"name": "Etthercap's Finesse",
 					"entries": [
-                     "You have a base burrowing speed of 15 feet."
+                     "You gain a base climbing speed of 25. You can also climb difficult surfaces, including upside down on ceilings, without the need to make an ability check. In addition, you can end your turn atop a difficult surface without falling to the ground."
 					],
 					"type": "entries"
 				},
@@ -2732,16 +2732,9 @@
 					"type": "entries"
 				},
 				{
-					"name": "Standing Leap",
-					"entries": [
-                     "Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start."
-					],
-					"type": "entries"
-				},
-				{
 					"name": "Deadly Leap",
 					"entries": [
-                     "If you jump at least 15 feet as part of your movement, you can use an action to slam on the ground in a space that contains one or more other creatures. Each of those creatures must succeed on a Strength or Dexterity saving throw equal to 8 + your proficiency bonus + your Strength modifier. On a failed save, those creatures are knocked {@condition prone} and take {@dice 1d6} bludgeoning damage. This damage increases to 2d6 at 5th level, 3d6 at 10th level, 4d6 at 15th level, and 5d6 at 20th level."
+                     "Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start. If you jump at least 15 feet as part of your movement, you can use an action to slam on the ground in a space that contains one or more other creatures. Each of those creatures must succeed on a Strength or Dexterity saving throw equal to 8 + your proficiency bonus + your Strength modifier. On a failed save, those creatures are knocked {@condition prone} and take {@dice 1d6} bludgeoning damage. This damage increases to 2d6 at 5th level, 3d6 at 10th level, 4d6 at 15th level, and 5d6 at 20th level."
 					],
 					"type": "entries"
 				},
