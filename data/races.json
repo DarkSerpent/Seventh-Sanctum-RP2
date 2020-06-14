@@ -703,7 +703,7 @@
 			"source": "SRP",
 			"size": "M",
 			"speed": {
-				"walk": 30
+				"walk": 35
 			},
 			"ability": [
 				{
@@ -752,6 +752,13 @@
 					"name": "Ability Score Increase",
 					"entries": [
                      "Choose one of the abilities you did not increase between Strength, Constitution, or Wisdom. That ability score increases by 1."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Gait of the Wolf",
+					"entries": [
+                     "Your base walking speed increases to 35 feet."
 					],
 					"type": "entries"
 				},
