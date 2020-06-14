@@ -2658,7 +2658,7 @@
 			"size": "M",
 			"speed": {
 				"walk": 30,
-				"climb": 25
+				"climb": 20
 			},
 			"ability": [
 				{
@@ -2692,7 +2692,7 @@
 				{
 					"name": "Size",
 					"entries": [
-                     "The Beneath are between 5 feet to 7 feet tall, although as a quadruped, their height can deminish to as low as 3 feet when running. Your size is Medium."
+                     "The Beneath are between 8 feet to 9 feet tall, although as a quadruped, their height can deminish to as low as 3 feet when running. Your size is Medium."
 					],
 					"type": "entries"
 				},
@@ -2718,9 +2718,10 @@
 					"type": "entries"
 				},
 								{
-					"name": "Etthercap's Finesse",
+					"name": "Umber Hulk's Burrowing",
 					"entries": [
-                     "You gain a base climbing speed of 25. You can also climb difficult surfaces, including upside down on ceilings, without the need to make an ability check. In addition, you can end your turn atop a difficult surface without falling to the ground."
+                     "As a bonus action, you can expend up to your current movement speed to burrow underground, traveling to a destination within range. While you are burrowing, you are considered to be under the effects of full-cover. After using this feature, you decide whether you'll emerge on the current turn, or the turn after you start to burrow.",
+					 "Regardless of when you arrive at your destination, you cannot use this feature again until you complete a short or long rest."
 					],
 					"type": "entries"
 				},
