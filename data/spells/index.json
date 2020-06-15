@@ -13,5 +13,6 @@
 	"UASorcererAndWarlock": "spells-ua-saw.json",
 	"UAStarterSpells": "spells-ua-ss.json",
 	"UAThatOldBlackMagic": "spells-ua-tobm.json",
+	"SRP": "spells-srp.json",
 	"XGE": "spells-xge.json"
 }

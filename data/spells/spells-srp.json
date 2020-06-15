@@ -1,0 +1,117 @@
+{
+	"spell": [
+		{
+			"name": "Crown of Crystal",
+			"source": "SRP",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a shard of crystal"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create 3 shards of transparent crystal that orbit your head. As a bonus action, you can launch one of the crystals at a creature within 60 feet of you. When you do so, make a ranged spell attack. On a hit, the creature takes {@dice 1d6} piercing damage. Whether or not the crystal hits, that crystal is expended and shatters. The spell ends early once all crystals have been expended.",
+				"The number of crystals you can create with this spell increases to 4 at 5th level, 5 at 11th level, and 6 at 17th level."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Amaterasu",
+			"source": "SRP",
+			"level": 8,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of dust from an immolated vampire"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You exhale black flame toward a target creature of your choice within range. Make a ranged spell attack. On a hit, the target is engulfed in numbing black flames and becomes {@condition poisoned}. The target must make a successful Constitution saving throw at the end of each of their turns for the duration, or gain 1 level of {@condition exhaustion} for each failure. If the target makes three successful Constitution saves, the fire vanishes as soon as it came, and the target is no longer poisoned.",
+				"On the target’s turn, anyone adjacent to it must make a successful Dexterity saving throw or be engulfed in Amaterasu's wreathing black flames.",
+				"Anyone killed by Amaterasu is disintegrated (as if by the {@italic disintegrate} spell). A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a true resurrection or a wish spell. ",
+				"When not applied to a creature, Amaterasu's flames are said to burn for seven days and seven nights, but the black flame will not spread as normal fire would, instead remaining still. Like an eternal light."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
