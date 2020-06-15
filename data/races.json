@@ -3848,7 +3848,7 @@
 			]
 		},
 		{
-			"name": "Kobold",
+			"name": "Kobold (Base)",
 			"source": "SRP",
 			"size": "S",
 			"speed": 30,
