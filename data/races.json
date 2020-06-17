@@ -2225,7 +2225,7 @@
 					"type": "entries",
 					"name": "Thermal Vision",
 					"entries": [
-                     "Equipped with a heat-detecting thermal vision system beneath your eyelids, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades reprentative of thermal vision."
+                     "Equipped with a heat-detecting thermal vision system beneath your eyelids, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades representative of thermal vision."
 					]
 				},
 				{
@@ -2307,7 +2307,7 @@
 						{
 							"name": "Autonomous Blaster Device",
 							"entries": [
-                     "You can cast the {@spell magic missile} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a short or long rest. Intelligence is your spellcasting ability for this spell."
+                     "You can cast the {@spell magic missile} spell with a 2nd-level spell slot once with this trait, and regain the ability to do so when you finish a short or long rest. Intelligence is your spellcasting ability for this spell."
 							],
 							"type": "entries"
 						}
