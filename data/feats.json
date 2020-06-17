@@ -586,6 +586,220 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Arcane Plagiarist",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Kenku"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+               "You have learned to mimic the abilities of others, including the arcane. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "When you see a creature within 30 feet cast a spell, you can make a Wisdom check equal to 10 + the spell's level. On a success, you pull out a piece of parchment and copy down the spell's casting procedures, material components, and effects."
+					]
+				},
+						{
+							"type": "inset",
+							"entries": [
+								{
+									"entries": [
+				"This parchment can be copied down into a spellbook as a spell scroll could, with the effects equivalent to the spell you witnessed. However, this parchment can not be used as a spell scroll could, as it makes the magic foundation that would allow a spell to be cast."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+				"This scroll lasts for one week, and afterwards, the magic stealing properties of your mimicry fade, turning the runic markings that would allow you to copy the spell into a spellbook turn to gibberish."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+							}
+						},
+				{
+					"type": "list",
+					"items": [
+				"Once you use this ability, you must finish a long rest before you can use it again."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blood of the Steeled Heart",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Lizardfolk"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+               "Your years surviving the brutish treatment of you and your people has steeled your resolve to push forward, to break racial boundaries and grant yourself impressive resistance to even the most punishing of events. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "You have advantage on saving throws that would cause you to be {@condition frightened}.",
+               "You can use your Hungry Jaws trait a number of times equal to your Constitution modifer, rather than once every short or long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mind Breaker",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Aftuan"
+						}
+					]
+				}
+			],
+			"entries": [
+               "Your mental trespassing scars your victim's minds, and the wound left behind is easily recognizable for those who know where to look. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "You are aware of all creatures within 10 feet who have been affected by a 1st level or higher enchantment spell you've cast.",
+               "When the effects of a 1st level enchantment spell with a duration of 1 minute or longer ends on a creature, it takes psychic damage equal to the spell's level + your Charisma modifier. You can optionally choose not to deal this additional damage.",
+               "When all creatures you target with an enchantment spell succeed on its saving throw, and the spell itself has no effect on the targeted creatures, you do not expend the spell slot used to cast the spell. Once you use this feature, you must complete a long rest before you can use it again."
+					]
+				}
+			]
+		},
+		{
+			"name": "Active Computational Adjustment",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Nasod (Soldier), Nasod (Undercity Operative)"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"entries": [
+               "After being created by the Foundary, you found that you were installed with a special computational component that predicts your enemy's moves and causes your body to automatically respond. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "When you would make a Dexterity saving throw, you can instead make an Intelligence saving throw. You can use this feature a number of times equal to your Intelligence modifier, and you regain all expended uses on a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Destined For Greatness",
+			"source": "SRP",
+			"entries": [
+               "You have lived a life focused on a singular task, and as such, have mastered singular craft that you yourself hold dear. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "You gain proficiency in a skill of your choice.",
+               "You gain a +1 bonus to any ability check you make which apply your chosen skill's proficiency.",
+               "The ability score most relevant to the skill increases by 1, to a maximum of 20."
+					]
+				}
+			]
+		},
+		{
+			"name": "Production Medic",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Nasod (Production)"
+						}
+					]
+				}
+			],
+			"entries": [
+               "Some Production Nasods were created to work on factory lines. Others were created to work on battlefields. As a Production Medic, you became incredibly proficient at keeping your fellow soldiers alive and defying the die of death. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "Allies within 50 feet of you must fail an additional death saving throw to die.",
+               "You can use a bonus action to move up to half your movement speed toward an unstable creature within your range of sight. This movement does not provoke attacks of opportunity.",
+               "You automatically succeed on any Wisdom check made to stabilize a dying creature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dangerous Profession",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Nasod (Production)"
+						}
+					]
+				}
+			],
+			"entries": [
+               "Working on the factory line has subjected you to numerous magical effects as you attempted to replicate their function in technological form. In such a magicless city, you had to learn to resist magical effects lest you succumb to wounds no medic could heal. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "You can add half your proficiency bonus to a saving throw made against a spell, if you do not already add your proficiency bonus."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wrought From the Beneath",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "The Beneath"
+						}
+					]
+				}
+			],
+			"entries": [
+               "You were often called a pangolin. A creature who exists as a needless predator who rolls across the ground in abject confusion. In defiance, you decided to prove them wrong. Through the blood that runs through your veins, a distinct bloodline that siphons back to the ancient duergar, you became large. Exceedingly large. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "As an action, you become a Large size creature. As you grow, your proportions increase by a factor of 1.6 as you tower over the creatures in your vicinity. While in this state, you gain resistance to non-magical bludgeoning, piercing, and slashing damage. In addition, creatures behind you gain the benefits of three-quarters cover. This form lasts for one minute, and afterward, you revert to your original form. Once you use this feature, you cannot use it again until you finish a long rest."
+					]
+				}
+			]
 		}
 	]
 }
