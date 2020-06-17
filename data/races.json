@@ -1952,7 +1952,7 @@
 					"ability": [
 						{
 							"con": 2,
-							"int": 1
+							"str": 1
 						}
 					],
 					"entries": [
