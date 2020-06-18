@@ -3716,7 +3716,7 @@
 						{
 							"name": "Reveler",
 							"entries": [
-                                "You have proficiency in the {@skill Performance} and {@skill Persuasion} skills, and you have proficiency with one musical instrument of your choice."
+                                "You have proficiency in the {@skill Performance} and {@skill Persuasion} skills."
 							],
 							"type": "entries"
 						},
