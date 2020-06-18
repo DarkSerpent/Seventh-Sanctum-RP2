@@ -810,9 +810,10 @@
 												"type": "list",
 												"items": [
 													"You are immune to cold and fire damage.",
+													"You can see 120 feet into the ethreal plane.",
 													"If an ally would fail their final death saving throw within 30 feet of you, they are instead stabilized.",
 													"You can move through other creatures and objects as if they were difficult terrain.",
-													"When an enemy drops to zero hit points within 30 feet of you, they are outright killed."
+													"When an enemy drops to below thirty hit points within 30 feet of you, they are outright killed."
 												]
 											},
 											"Once you use this feature, you can't use it again until you finish a long rest."
