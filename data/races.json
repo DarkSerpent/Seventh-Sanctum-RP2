@@ -3638,6 +3638,210 @@
 			]
 		},
 		{
+			"name": "Fey",
+			"source": "SRP",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"null": null
+				}
+			],
+			"languageProficiencies": [
+				{
+					"choose": true
+				}
+			],
+			"traitTags": [
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+                     "Fey mature at the same rate as humans, but are considered young until they reach the age of 100. On average, they live about 700 years."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+                     "Fey delight in living a life free of the mantle of law. They gravitate toward being good, but some have devious streaks and enjoy causing dismay."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+                     "Fey range from just under 5 feet to about 6 feet in height, with generally slender builds. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "The Great Summer Court",
+					"entries": [
+                     "Your creature type is fey, rather than humanoid."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Ram",
+					"entries": [
+                     "You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice 1d4} + your Strength modifier."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Satyr",
+					"ability": [
+						{
+							"dex": 1,
+							"choose": {
+								"from": [
+									"int",
+									"cha"
+								],
+								"count": 1,
+								"amount": 2
+							}
+						}
+					],
+					"speed": {
+						"walk": 30
+					},
+					"entries": [
+						{
+							"name": "Reveler",
+							"entries": [
+                                "You have proficiency in the {@skill Performance} and {@skill Persuasion} skills, and you have proficiency with one musical instrument of your choice."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Mirthful Leaps",
+							"entries": [
+                                "Whenever you make a long or high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Magical Luck",
+							"entries": [
+                                "You have advantage on all Intelligence, Charisma, and Dexterity saving throws against magic."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Piper & the Goat",
+							"entries": [
+                                "You gain proficiency with panpipes, which you can use to play a variety of melodies that instill magical effects by manifesting the nature of the Feywild. The DC for these melodies are equal to 8 + your Charisma modifier + your proficiency bonus. Once you use any of these features, you cannot do so again until you complete a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"type": "inset",
+							"entries": [
+								{
+									"entries": [
+                                       "{@bold Melody of Charm}. As an action, you play a dizzying and enchanting tune to a creature within 30 feet of you. That creature must make a Wisdom saving throw with a DC equal to your melody save DC. On a failed save, that creature becomes {@condition charmed} for one minute. Undead and creatures immune to being {@condition charmed} aren't affected by this melody."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@bold Melody of Galloping}. As an action, you play a chipper and upbeat tune as you gain a skip in your step and feel a blossoming freedom in your chest. Your movement speed increases by 10 for one minute."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@bold Melody of Slumber}. As an action, you play a gentle and soft tune to a creature within 30 feet of you. That creature must make a Wisdom saving throw with a DC equal to your melody save DC. On a failed save, that creature descends into a deep slumber as it falls under the {@condition unconscious} condition. Undead and creatures immune to being {@condition charmed} aren't affected by this melody."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Melodies"
+							}
+						},
+						{
+							"name": "Languages",
+							"entries": [
+                                "You can speak, read, and write Common, Sylvan, and one other language of your choice."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Draenei",
+					"ability": [
+						{
+							"int": 1,
+							"choose": {
+								"from": [
+									"wis",
+									"cha"
+								],
+								"count": 1,
+								"amount": 2
+							}
+						}
+					],
+					"speed": {
+						"walk": 30
+					},
+					"entries": [
+						{
+							"name": "Darkvision",
+							"entries": [
+                                "Due to your starlight eyes,  you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of blue."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Body of Dreams",
+							"entries": [
+                                "You have advantage on saving throws against being {@condition petrified}."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Gift of the Naaru",
+							"entries": [
+                                "You learn the {@spell thaumaturgy} cantrip. When you reach 3rd level, you can cast the {@spell augury} spell once per day and the {@spell aid} spell once per day. Wisdom or Charisma (your choice) is your spellcasting modifier for these spells."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Planar Trance",
+							"entries": [
+                                "Draenei don't need to sleep. Instead, they materialize their astral forms in the plane of dreams, remaining semiconscious of their material forms. This trance needs to happen at least 4 hours a day. While observing the dream plane, you can manifest your own dream, allowing you to be effected by magic such as the {@spell dream} spell. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Fey Ancestry",
+							"entries": [
+                                "You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Languages",
+							"entries": [
+                                "You can speak, read, and write Common, Sylvan, and Quori."
+							],
+							"type": "entries"
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Abyssborn",
 			"source": "SRP",
 			"size": "M",
