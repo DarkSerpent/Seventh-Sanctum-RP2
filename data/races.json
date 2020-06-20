@@ -4429,6 +4429,13 @@
                                 "While attempting to convince a creature of something, you can choose to attack their hearts directly with the most adorable pair of puppy eyes they've ever seen. For the next minute, you gain advantage on Charisma ({@skill Persuasion}) checks against that creature. Once you use this feature, you cannot use it again until you finish a short or long rest."
 							],
 							"type": "entries"
+						},
+						{
+							"type": "entries",
+							"name": "Languages",
+							"entries": [
+								"You can speak, read, and write Common and one other language of your choice."
+							]
 						}
 					]
 				}
