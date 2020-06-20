@@ -780,6 +780,42 @@
 			]
 		},
 		{
+			"name": "Woke",
+			"source": "SRP",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"count": 1,
+						"amount": 1
+					}
+				}
+			],
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Awakened (Cat), Awakened (Chicken), Awakened (Dog)"
+						}
+					]
+				}
+			],
+			"entries": [
+               "Your body has been completely transformed by the magic that gave you sentience. As a result of this, your form has adapted to a more humanoid shape, allowing you to accomplish more complex tasks than previously possible. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "You can now pick up weapons and use them in combat, as well as handle larger complex tasks akin to the average humanoid race.",
+               "You gain the ability to write in languages you understand, if you couldn't previously.",
+               "Being Tiny doesn’t impose disadvantage on your attack rolls with heavy weapons."
+					]
+				}
+			]
+		},
+		{
 			"name": "Wrought From the Beneath",
 			"source": "SRP",
 			"prerequisite": [
