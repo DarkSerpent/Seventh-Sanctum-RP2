@@ -4320,7 +4320,7 @@
 							"type": "entries",
 							"name": "Peck & Claw",
 							"entries": [
-								"You have proficiency with your claws, which are a finesse weapon that deal {@dice 1d8} slashing damage."
+								"You have proficiency with your claws, which are a finesse weapon that deal {@dice 1d6} slashing damage."
 							]
 						},
 						{
