@@ -808,6 +808,31 @@
 			]
 		},
 		{
+			"name": "Forgiveness",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Saki (Cook), Saki (Executioner), Saki (Prophet), Saki (Scholar), Saki (Warrior)"
+						}
+					]
+				}
+			],
+			"entries": [
+               "Every part of your body has become a weapon, a fine-tuned instrument which you can utilize in brutal chokeholds the lowlanders often call hugs. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "When you add your proficiency bonus to an ability check made to grapple, you can instead add twice your proficiency bonus.",
+               "While grappling a creature, you gain the benefits of half cover.",
+               "As a bonus action while you are grappling a creature, you can crush them in your warm embrace, dealing damage equal to your Strength modifier.",
+               "You cannot gain the benefit of any of these features using a weapon with the Grappling property."
+					]
+				}
+			]
+		},
+		{
 			"name": "Woke",
 			"source": "SRP",
 			"ability": [
