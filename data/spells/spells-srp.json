@@ -58,6 +58,73 @@
 			}
 		},
 		{
+			"name": "Amanuensis",
+			"source": "SRP",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a blank sheet of paper"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose any non-magical writing you can see within range. That writing is magically copied onto a sheet of blank paper you are holding. This spell copies 250 words per minute and creates a perfect duplicate of the original. It does not translate the text or make it clearer.",
+				"Illustrations or magical writings (such as the text of a spellbook, a spell scroll, or a glyph of warding) cannot be copied by this spell. If the original text contains both normal writing and magical writing or illustrations (such as a letter with a glyph of warding or a drawing in one corner), only the normal text is copied.",
+				"You must provide blank paper, parchment, or another writing supplement for the spell to copy text onto. If a blank sheet would become filled with copied text as a result of this spell, you must cast the spell again with a new blank sheet of paper to continue copying."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
 			"name": "Amaterasu",
 			"source": "SRP",
 			"level": 8,
