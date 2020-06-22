@@ -719,6 +719,34 @@
 			]
 		},
 		{
+			"name": "Diehard",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Demibeast"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+               "A growl in the night, pained and furious. Knives and blades may slow you, but your resolve holds stronger. As a demibeast, it's never quite you time. You refuse to die. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "You gain a +1 bonus to death saving throws.",
+               "When you are reduced to 0 hit points, you can immediately move up to half your movement speed in any direction. This movement does not provoke attacks of opportunity."
+					]
+				}
+			]
+		},
+		{
 			"name": "Destined For Greatness",
 			"source": "SRP",
 			"entries": [
@@ -811,6 +839,56 @@
                "You can now pick up weapons and use them in combat, as well as handle larger complex tasks akin to the average humanoid race.",
                "You gain the ability to write in languages you understand, if you couldn't previously.",
                "Being Tiny doesn’t impose disadvantage on your attack rolls with heavy weapons."
+					]
+				}
+			]
+		},
+		{
+			"name": "Abyssal Centrifuge",
+			"source": "SRP",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Abyssborn"
+						}
+					]
+				}
+			],
+			"entries": [
+               "You have mastered the art of the scythe, an Abyssborn's most trusted weapon, and have perfected the art of rapidly switching forms mid-combat. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+               "After taking the Attack action to make a melee weapon attack against a creature, you can use a bonus action to use your Shard of Almorphius feature, instead of the normally required action. Once you use this feature, you cannot use it again until you finish a long rest.",
+               "You have two Abyss points. When you hit with a melee weapon attack using a two-handed scythe, you can expend one Abyss point to activate an effect dependent on your current form:"
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Humane.} The target creature must make a Dexterity saving throw. On a failed save, you rend their limbs out from under them, reducing their movement speed to 0 until the end of their next turn."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Abyss.} The target creature must make a Strength saving throw. On a failed save, you slam your scythe down onto the floor, causing the ground to tremble underneath them. That creature is knocked {@condition prone}."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Darkvision"
+							}
+						},
+				{
+					"type": "list",
+					"items": [
+               "Your DC for these abilities are 8 + your proficiency bonus + your Charisma modifier. You regain all expended Abyss points on a long rest."
 					]
 				}
 			]
