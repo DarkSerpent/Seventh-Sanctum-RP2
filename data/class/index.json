@@ -1,5 +1,6 @@
 {
 	"fighter": "class-fighter.json",
 	"paladin": "class-paladin.json",
+	"ranger": "class-ranger.json",
 	"rogue": "class-rogue.json"
 }
