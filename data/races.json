@@ -3849,6 +3849,150 @@
 			]
 		},
 		{
+			"name": "Mousefolk",
+			"source": "SRP",
+			"size": "S",
+			"speed": {
+				"walk": 25
+			},
+			"ability": [
+				{
+					"null": null
+				}
+			],
+			"languageProficiencies": [
+				{
+					"choose": true
+				}
+			],
+			"traitTags": [
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+                     "A Mousefolk reaches adulthood at the age of 5 and lives to be about 60 years old."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+                     "Most Mousefolk are neutral, and tend towards good. They try to keep the conflicts of the other races at arm's length, but display remarkable ferocity when their friends, families, or communities are threatened. A reverence for nature and life is close to the heart of Mousefolk, and they are loath to take a life if it can be avoided. They prefer to live quiet and unassuming lives, giving honest work for honest pay."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+                     "Mousefolk grow between 2 and 2 1/2 feet tall and weigh about 25 pounds. Your size is Small."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Keen Eye",
+					"entries": [
+                     "You have proficiency in the Perception skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fleet of Foot",
+					"entries": [
+                     "You have proficiency with the rapier, shortsword, shortbow, and handaxe."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Softpaw",
+					"ability": [
+						{
+							"dex": 2,
+							"int": 1
+						}
+					],
+					"speed": {
+						"walk": 25	
+					},
+					"entries": [
+						{
+							"name": "Artistry",
+							"entries": [
+                                "You gain proficiency with one type of artisan's tools or one musical instrument."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Squirm",
+							"entries": [
+                                "You can move through tiny-sized spaces as if you were tiny."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Nimble Sense",
+							"entries": [
+							"When targeted with an attack of opportunity, you may use your reaction to impose disadvantage on that attack."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Languages",
+							"entries": [
+                                "You can speak, read, and write Common and Squeak Speak."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Meadowguard",
+					"ability": [
+						{
+							"dex": 2,
+							"wis": 1
+						}
+					],
+					"speed": {
+						"walk": 25
+					},
+					"entries": [
+						{
+							"name": "Brave Heart",
+							"entries": [
+                                "You have advantage on saving throws against being {@condition frightened}."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Grace of the Small",
+							"entries": [
+                                "Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Invoke Gift",
+							"entries": [
+                                "You can instill power into the weapon of a nearby creature to enhance their blow with divine energy. As an action, a creature within 30 feet of you.",
+                                "Until the end of your next turn, the next time that creature succeeds on a melee weapon attack, that creature heals for {@dice 1d10} hit points (if you are good or neutral) or gains {@dice 1d8} temporary hit points (if you are evil). Once you use this trait, you can't use it again until you finish a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Languages",
+							"entries": [
+                                "You can speak, read, and write Common and Squeak Speak."
+							],
+							"type": "entries"
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Abyssborn",
 			"source": "SRP",
 			"size": "M",
