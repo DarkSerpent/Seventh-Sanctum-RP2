@@ -80,7 +80,7 @@
 				{
 					"name": "Final Light",
 					"entries": [
-                        "Upon reaching zero hit points, your body becomes one with the Plane of Fire, and you explode into a fiery storm. Each hostile creature in a 30 feet radius must make a Dexterity saving throw equal to your 8 + your Charisma modifier + your proficiency bonus. On a failed save, they take {@dice 1d8} fire damage. For every level above 1, add an additional {@dice 1d8} fire damage. Once you use this trait, you can't use it again until you finish a long rest."
+                        "Upon reaching zero hit points, your body becomes one with the Plane of Fire, and you explode into a fiery storm. Each hostile creature in a 30 feet radius must make a Dexterity saving throw equal to your 8 + your Charisma modifier + your proficiency bonus. On a failed save, they take {@dice 1d8} fire damage. For every level above 1, add an additional {@dice 1d8} fire damage. On a successful save, they instead take half damage. Once you use this trait, you can't use it again until you finish a long rest."
 					],
 					"type": "entries"
 				},
