@@ -2468,7 +2468,7 @@
 						},
 						{
 							"entries": [
-                               "{@b Limited Flight.} You have a fly speed equivalent to your base walking speed. You cannot fly while you are carrying more than half of your maximum carrying capacity. While flying you make attack rolls and ability checks at disadvantage, cannot maintain concentration on spells, nor cast spells."
+                               "{@b Flight.} You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor."
 							],
 							"type": "entries"
 						},
