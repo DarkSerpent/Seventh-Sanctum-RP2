@@ -3541,6 +3541,13 @@
 					"type": "entries"
 				},
 				{
+					"name": "Fungi",
+					"entries": [
+                     "Your creature type is plant, rather than humanoid."
+					],
+					"type": "entries"
+				},
+				{
 					"name": "Sun Sickness",
 					"entries": [
                      "You become {@condition Poisoned} if you spend more than 1 minute in direct sunlight. This condition ends when you spend at least 1 minute in dim or dark conditions."
