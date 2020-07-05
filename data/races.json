@@ -2060,7 +2060,7 @@
 				{
 					"name": "Flight",
 					"entries": [
-                     "As part of a move action, a Toran can instead fly 40 feet, but must end their movement on the ground or a solid surface. A Toran who ends its turn in the air immediately plummets to the ground. To use this speed you can't be wearing medium or heavy armor."
+                     "You have a flying speed of 40 feet. To use this speed, you can't be wearing medium or heavy armor."
 					],
 					"type": "entries"
 				},
@@ -2369,6 +2369,168 @@
 							"type": "entries"
 						}
 					]
+				}
+			]
+		},
+		{
+			"name": "Demihuman",
+			"source": "SRP",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+						"choose": {
+							"from": [
+									"str",
+									"dex",
+									"con",
+									"int",
+									"wis",
+									"cha"
+							],
+							"count": 1,
+							"amount": 2
+					}
+				}
+			],
+			"traitTags": [
+			],
+			"languageProficiencies": [
+				{
+					"other": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+                     "Demihumans reach adulthood in their late teens and live less than a century."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+                     "Demiumans tend toward no particular alignment. The best and the worst are found among them."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+                     "Demihumans vary widely in height and build, from barely 4 feet to well over 7 feet tall. Regardless of your position in that range, your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Ability Score Increase",
+					"entries": [
+                     "Choose one of the abilities you did not increase between Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma. That ability score increases by 1."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Birth From Creation",
+					"entries": [
+                     "All Demihumans are radically different from one another, depending on the changes than manifested within them from birth. You can select 2 breed traits of your choice from the following list:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+                               "{@b Adept Climber.} Gain proficiency in your choice of {@skill Athletics} or {@skill Acrobatics}. You have a climb speed equivalent to your walking speed."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Beast of Burden.} You are considered one size larger than you are for the purposes of determining carrying capacity and the amount you can push, drag, or lift."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Echolocation.} As a bonus action on your turn you can emit a shriek inaudible to creatures without this trait. Until the end of your next turn you have blindsight up to 30 feet away while you are not {@condition deafened}."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Darkvision.} Accustomed to life underground or the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Limited Flight.} You have a fly speed equivalent to your base walking speed. You cannot fly while you are carrying more than half of your maximum carrying capacity. While flying you make attack rolls and ability checks at disadvantage, cannot maintain concentration on spells, nor cast spells."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Jumper.} Gain proficiency in your choice of {@skill Athletics} or {@skill Acrobatics}. Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Keen Senses.} Gain proficiency in the {@skill Perception} skill and choose one sense (sight, smell, taste, temperature, or touch). You gain advantage on Perception rolls that utilize that sense."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Kin of Mine.} Gain proficiency in {@skill Animal Handling}. Your proficiency bonus is doubled when you make an {@skill Animal Handling} check. In addition, you have two creature types: humanoid and beast. You can be affected by a spell or ability that works on either of your creature types."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Longstrider.} Your base walking speed increases to 35 feet."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Natural Armor.} When you aren’t wearing armor, your AC equals 11 + your Constitution or Dexterity modifier (your choice)."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Natural Talent.} Beasts of the earth, sky, and sea have talents as varied as their shapes. You gain proficiency in a skill of your choice."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Natural Weapon.} You have a natural weapon that you are proficient in (this could be a bite, claw, quill, club tail, or other bestial feature). This natural weapon is a finesse weapon that deals {@dice 1d4} bludgeoning, piercing, poison, or slashing damage (your choice)."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Born From Waves.} You have a swim speed equivalent to your walking speed and can breathe in air and water."
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Birth From Creation"
+					}
+				},
+				{
+					"name": "Language",
+					"entries": [
+                     "You begin with Common and Beastspeech. Beastspeech can only be learned by Demihumans and, when speaking it, they can communicate with the animal they resemble as if under the effect of the spell, {@spell speak with animals}. For example, a sheep demihuman could speak with sheep."
+					],
+					"type": "entries"
 				}
 			]
 		},
@@ -4084,7 +4246,7 @@
 								},
 								{
 									"entries": [
-                                       "{@b Abyss.} Your base walking speed increases to 35 feet. As a bonus action, you can increase this walking speed to 40 feet."
+                                       "{@b Abyss.} Your base walking speed increases to 35 feet. As a bonus action, you can increase this walking speed to 40 feet for one minute."
 									],
 									"type": "entries"
 								}
@@ -4586,8 +4748,8 @@
 			]
 		},
 		{
-			"name": "Aarakocra (Revised)",
-			"source": "OSoW",
+			"name": "Aarakocra (Base)",
+			"source": "SRP",
 			"size": "M",
 			"speed": {
 				"walk": 25,
@@ -4633,9 +4795,9 @@
 					]
 				},
 				{
-					"name": "Aerial Vault",
+					"name": "Flight",
 					"entries": [
-                         "You gain a flying speed of 40 feet while you aren't wearing medium or heavy armor. You fall if you end your turn in the air."
+                         "You have a flying speed of 40 feet. To use this speed, you can't be wearing medium or heavy armor."
 					],
 					"type": "entries"
 				},
