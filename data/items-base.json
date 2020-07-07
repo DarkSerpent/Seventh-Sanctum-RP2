@@ -569,7 +569,7 @@
 			"type": "Technological Item",
 			"value": 1000,
 			"entries": [
-				"Handcuffs are restraints designed to lock two limbs—normally the wrists—of a prisoner together. They fit any Medium-size or Small human or other creature that has an appropriate body structure. You can make an opposed Strength ({@skill Athletics}) check against a grappled creature to attach the handcuffs to the creature.",
+				"Handcuffs are restraints designed to lock two limbs—normally the wrists—of a prisoner together. They fit any Medium-size or Small human or other creature that has an appropriate body structure. You can make an opposed Strength ({@skill Athletics}) check against a grappled creature to attach the handcuffs to the creature, putting them under the {@condition restrained} condition.",
 				"These heavy-duty cuffs require a Strength ({@skill Athletics}) check with a DC of 25 to break, and require a Dexterity ({@skill Sleight of Hand}) check or Dexterity ({@skill Acrobatics}) check (DC 20) to remove without the key.",
 				"Steel Handcuffs, upon purchasing, always come with a key, which can be used to unlock the handcuffs without a check.",
 				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
@@ -583,7 +583,7 @@
 			"type": "Technological Item",
 			"value": 500,
 			"entries": [
-				"Handcuffs are restraints designed to lock two limbs—normally the wrists—of a prisoner together. They fit any Medium-size or Small human or other creature that has an appropriate body structure. You can make an opposed Strength ({@skill Athletics}) check against a grappled creature to attach the handcuffs to the creature.",
+				"Handcuffs are restraints designed to lock two limbs—normally the wrists—of a prisoner together. They fit any Medium-size or Small human or other creature that has an appropriate body structure. You can make an opposed Strength ({@skill Athletics}) check against a grappled creature to attach the handcuffs to the creature, putting them under the {@condition restrained} condition.",
 				"These are single-use disposable handcuffs, much like heavy-duty cable ties. They require a Strength ({@skill Athletics}) check with a DC of 20 to break, and require a Dexterity ({@skill Sleight of Hand}) check or Dexterity ({@skill Acrobatics}) check (DC 15) to remove. They can only be removed by cutting them off.",
 				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
 			]
