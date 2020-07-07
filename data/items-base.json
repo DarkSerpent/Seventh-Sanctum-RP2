@@ -579,7 +579,7 @@
 			"name": "Zip-Tie",
 			"source": "SRP",
 			"rarity": "none",
-			"weight": 0.5,
+			"weight": 0.05,
 			"type": "Technological Item",
 			"value": 500,
 			"entries": [
