@@ -445,6 +445,38 @@
 			]
 		},
 		{
+			"name": "Headphones",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 0.1,
+			"type": "Technological Item",
+			"value": 10000,
+			"entries": [
+				"Headphones are a pair of earphones joined by a band placed over the head, for listening to audio signals such as music or speech. They can be connected using an audio jack attached to a wire (or ocassionally, through a wireless pairing mechanism known as bluetooth) in order to receive audio files from an output device (usually a smartphone, music player, or equivalent).",
+				"The volume of the output device can generally be adjusted in order to change the decibels at which the audio is played. Maximizing or near-maximizing the volume will result in the user being put under the {@condition deafened} condition, as they are unable to hear anything other than the audio pouring out from the internal speakers.",
+				"Headphones can be reskinned as earphones. If done so, their weight reduced by a considerable margin (generally anywhere from 0.01 lbs to 0.05 lbs). In addition, headphones that utilize bluetooth connectively require time to charge, similar to that of smartphones.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Smartphone",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 0.2,
+			"type": "Technological Item",
+			"value": 50000,
+			"entries": [
+				"A mobile phone that performs many of the functions of a computer, typically having a touchscreen interface, Internet access, and an operating system capable of running downloaded applications.",
+				"There are many things a smartphone has access to, which includes but are not limited to:",
+				"{@bold Communication.} Conversations using smartphones can be made across long distances, similar to that of sending stones. However, the difference lies in the ability to have full-length conversations back-and-forth through the digital wire. In addition, two smartphones do not need to be linked, and any smartphone in the world can be called by simply dialing another smartphone's number.",
+				"{@bold Networking.} Various applications can be accessed utilizing a smartphone, such as news apps that grant numerous amounts of up-to-date information about the world. This information, without a smartphone, would normally be gathered via bulletin or through use of a television screen.",
+				"{@bold Gaming.} Games can be played on smartphones, granting the user something to do when passing a large amount of time, such as when the party decides to take a short rest. Boredom on long trips is a real issue, you know.",
+				"{@bold Limited Use.} The main issue with smartphones are their limited uses outside of nations with proper wire networking such as Slecrotor and Zyraitix—without any cellphone communication towers, communication and networking is left as an impossibility (although games can still be played on smartphones without a connection). Smartphones will refuse to dial outside of their designated service range, usually a few miles away from a cellphone tower or equivalent.",
+				"{@bold Charging.} Majority of all smartphones are charged using a wired USB device that plugs into a wall socket or power outlet. In most cases, it is also possible to charge smartphones using a wireless charging device powered via spellstone known as a {@italic mana dynamo}. Many inns which serve out-of-state guests, specifically around populated epicenters for carousing and trade, will have these devices.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
 			"name": "Sword, cane",
 			"source": "SRP",
 			"type": "M",
