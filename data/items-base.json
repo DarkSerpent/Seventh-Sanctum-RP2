@@ -589,6 +589,19 @@
 			]
 		},
 		{
+			"name": "Recorder",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 0.5,
+			"type": "Technological Item",
+			"value": 35000,
+			"entries": [
+				"This small metal device fits in your hand like a charm, and is loosely equipped with a few functions, the primary of which allow its user to record the vocal utterances of another creature.",
+				"This device can record up to five minutes of audio without stopping, and while you cannot record more than five minutes, you can delete your previous recordings in order to free-up space. Whenever you finish recording a creature, ask your DM how much time elapsed to determine how much space you have left in your recorder.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
 			"name": "Sword, cane",
 			"source": "SRP",
 			"type": "M",
