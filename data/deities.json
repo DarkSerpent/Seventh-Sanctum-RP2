@@ -51,7 +51,7 @@
 							"entries": [
 								"You throw up your hands as if beginning a grand show. Emerging from your feet, a thick sheet of ice forms around you in a radius of 100 feet in the symbol of a giant snowflake.",
 								"The slick ice that makes up this area is difficult terrain for everyone except for you and other followers of Aslanth. While traveling on this ice, you are permanently under the effects of the Disengage action, and your innate movement speed becomes 50 as you glide across the ice.",
-								"As an action on your turn, you can dismiss and shatter the ice around you. All creatures within the snowflake must make a Dexterity saving throw. On a failed save, they take 6d8 cold damage and become restrained for one turn. If you do not choose to dismiss this effect, it automatically shatters after 1 minute."
+								"As an action on your turn, you can dismiss and shatter the ice around you. All creatures within the snowflake must make a Dexterity saving throw. On a failed save, they take {@dice 6d8} cold damage and become restrained for one turn. If you do not choose to dismiss this effect, it automatically shatters after 1 minute."
 							]
 						}
 					]
