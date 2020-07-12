@@ -40,7 +40,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Heart of Winter",
+							"name": "Heart of Winter (Passive)",
 							"entries": [
 								"While you are contracted to Aslanth, you do not suffer any ill effects from extreme cold (see chapter 5 of the Dungeon's Master Guide). In addition, you also gain resistance to cold damage. If you already have resistance to cold damage, it becomes immunity instead."
 							]
