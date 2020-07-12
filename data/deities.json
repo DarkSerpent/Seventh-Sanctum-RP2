@@ -343,7 +343,7 @@
 							"type": "entries",
 							"name": "Arrival Impact",
 							"entries": [
-								"While raging, when you use the attack option, you can use one of your attacks to leap into the air and land in an unoccupied square 40 feet away. Upon landing, you create an elemental explosion centered on your arrival, representative of one of the many layers of the Nine Hells.",
+								"While raging, when you use the attack action, you can use one of your attacks to leap into the air and land in an unoccupied square 40 feet away. Upon landing, you create an elemental explosion centered on your arrival, representative of one of the many layers of the Nine Hells.",
 								"Each creature within 20 feet other than yourself and your allies must make a Dexterity saving throw against a DC equal to 8 + your proficiency bonus + your Constitution modifier. Once you use this feature, you cannot use it again until you finish a short or long rest."
 							]
 						},
@@ -387,6 +387,67 @@
 								"There is no such thing as sin; only power, and those foolish enough not to take it for themselves.",
 								"When you die, die standing. To die running is the most foolhardy you can be. "
 							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Blood for the Blood Lord",
+							"entries": [
+								"Once per long rest, you can rage as a free action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Enhance: Arrival Impact",
+							"entries": [
+								"Your Arrival Impact can now be used on any square within 40-feet. In addition, you gain the following three additional options for your Arrival Impact, representative of one of the many layers of the Nine Hells:"
+							]
+						},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Phlegethos.} Enemies within range take {@dice 6d8} fire damage on a failed save. In addition, they must make a Constitution saving throw with the same DC. On a second failed save, they take an additional {@dice 2d8} fire damage, gaining {@dice 2d8} temporary hit points on a successful save."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Stygia.} Enemies within your range take {@dice 3d6} cold damage on a failed save, or half as much on a successful one. In addition, suitable ground within a 30-foot radius of you becomes covered in a thick sheen of ice. This ice lasts for one minute before melting, and counts as difficult terrain for creatures other than you. When a creature ends their turn in the ice, they must make a Dexterity saving throw. On a failed save, that creature is knocked {@condition prone}."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Malbolge.} Enemies within your range take {@dice 1d8} aeon damage on a failed save. In addition, they suffer the effects of the {@spell confusion} spell for two rounds."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Arrival Impact"
+							}
 						}
 					]
 				}
