@@ -73,6 +73,117 @@
 			]
 		},
 		{
+			"name": "Comprel (Cali Feathermere Castellet Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Betrayer",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Arcana",
+				"Life",
+				"Death"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The Lady of Poisons was born a mortal on the Material Plane. As a human, she held no divinity, but she sought to harness it. Her mortal name was Otacilia, and her legend quickly grew throughout Kagrea as a famous alchemist. She was no ordinary alchemist, however⁠—the truth of the matter was, Otacilia was an assassin. Hired to kill an Arisen, she had somehow distilled a poison which could harm the gods, and before her trial that would have likely removed her soul from the cycle of rebirth, she ascended.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Comprel, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Lady of Alchemy (Passive)",
+							"entries": [
+								"Using a consumable for yourself is a bonus action. Handing it off is an object interaction. Feeding the consumable to another character is a bonus action. In addition, you can expend a spell slot of 1st level or higher to create experimental elixirs through your Homunculus Servant, as opposed to through yourself. Finally, your Homunculus Servant's hit point maximum increases by 2 per each level of Alchemist you've obtained."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lady of Poisons (Passive)",
+							"entries": [
+								"You gain resistance to acid damage and poison damage. If you already have resistance to acid or poison damage, it becomes immunity instead."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Surpass Your Boundaries (Passive)",
+							"entries": [
+								"Each of your experimental elixirs evolve to become stronger, as determined by the following table:"
+							]
+						},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Healing.} The drinker regains a number of hit points equal to {@dice 4d4} + your Intelligence modifier."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Swiftness.} The drinker's walking speed increases by 15 feet for 1 hour."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Resilience.} The drinker gains a +1 bonus to AC and +1 bonus to saving throws for 10 minutes."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Boldness.} The drinker can roll a {@dice 2d4} and add the number rolled to every attack roll and saving throw they make for the next minute."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Flight.} The drinker gains a flying speed of 30 feet for 10 minutes."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Transformation.} The drinker's body is transformed as if by the {@spell alter self} spell. The drinker determines the transformation caused by the spell, and can select two options rather than one, the effects of which last for 10 minutes."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Boundaries"
+							}
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Comprel",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"You shall have the intelligence to realize your own ignorance.",
+								"You shall not deny the chance to learn something new.",
+								"You shall elevate the world through alchemy, and seek to bring forth new knowledge on Kagrea."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Mistel (Lancelot Laurent Version)",
 			"source": "SRP",
 			"pantheon": "Adamantian",
