@@ -136,6 +136,50 @@
 							]
 						}
 					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Duty Heavier Than a Mountain (Passive)",
+							"entries": [
+								"You gain a +1 bonus to death saving throws."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Death as Light as a Feather",
+							"entries": [
+								"When you take damage from any source, you can reduce that damage to 0. Once you use this benefit, you can't use it again until you finish a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bestow Knighthood",
+							"entries": [
+								"As an action, you touch the shoulder of a willing creature within 5-feet of you with your weapon. That creature receives a temporary Boon of Knighthood, joining your ranks as a Follower of Mistel.",
+								"That creature becomes bound by the Commandments of Mistel, forced to follow them even against their will. In addition, that creature receives a +2 bonus to their AC and +2 on all attack rolls they make with a ranged or melee weapon.",
+								"While that creature is within 5-feet of you, they can draw upon your connection to Mistel and utilize her power. As a bonus action, that creature can speak Mistel's name, drawing divine fury to their next attack. On a successful hit, the target takes an additional {@dice 2d6} radiant damage and must make a Wisdom saving throw (DC 12 + their proficiency bonus). On a failed save, you can use a reaction to bind that creature to the Commandments of Mistel, forcing them to follow her code as well. This effect wears off when the Boon of Knighthood dissipates.",
+								"The Boon of Knighthood lasts for 3 rounds. Once you make use of this benefit, you cannot use it again until you finish a long rest."
+							]
+						}
+					]
 				}
 			]
 		},
