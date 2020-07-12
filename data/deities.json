@@ -160,7 +160,7 @@
 				}
 			},
 			"entries": [
-				"The Arisen Training and Ambition. Bruniik will often assist those who follow him to grow in strength as well as learning how to read your enemy and use your body to it's fullest extent. Bruniik doesn't shun defeat, he uses it as an excuse to learn and improve one's skill.",
+				"The Lord of Training and Ambition. Bruniik will often assist those who follow him to grow in strength as well as learning how to read your enemy and use your body to it's fullest extent. Bruniik doesn't shun defeat, he uses it as an excuse to learn and improve one's skill.",
 				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
 				"As a follower of Bruniik, you have been granted 5 knowledge points at {@italic Bond Level 1}, which you can spend to activate the following abilities:",
 				{
@@ -189,7 +189,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Always Learning (Passive)",
+							"name": "Always Learning I (Passive)",
 							"entries": [
 								"You regain all expended knowledge points on a long rest, or one knowledge point on a short rest."
 							]
@@ -206,6 +206,54 @@
 								"Improving yourself is your top priority.",
 								"Stagnation is degradation.",
 								"Learning strength and weakness is the key to improvement."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, the amount of knowledge points you have increase to 6. In addition, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Enhance: Take Flight (3)",
+							"entries": [
+								"Immediately after using Take Flight, you can expend 3 more knowledge points. Your innate flying speed increases to 60 feet, and the duration decreases to 1 minute."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dragon's Fortitude (2)",
+							"entries": [
+								"As a bonus action, your hit point maximum increases by 20 for 1 hour."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Flawless Combatant (Long Rest)",
+							"entries": [
+								"When you miss with a melee weapon attack, you can choose to hit instead. Once you use this benefit, you can't use it again until you finish a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Always Learning II (Passive)",
+							"entries": [
+								"You regain all expended knowledge points on a long rest, or two knowledge points on a short rest."
 							]
 						}
 					]
