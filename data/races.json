@@ -2230,7 +2230,7 @@
 						{
 							"type": "list",
 							"items": [
-								"You have advantage on saving throws against being {@condition Poisoned}, and you have resistance to poison damage.",
+								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance to poison damage.",
 								"You are immune to disease.",
 								"You don't need to eat, drink, or breathe.",
 								"Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.",
@@ -2250,15 +2250,8 @@
 					"type": "entries",
 					"name": "Mind Over Matter",
 					"entries": [
-                     "Your mechanical mind is inherently logical, and is not easily swayed. You have advantage on saving throws against being {@condition Charmed}."
+                     "Your mechanical mind is inherently logical, and is not easily swayed. You have advantage on saving throws against being {@condition charmed}."
 					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-                     "You can speak, read, and write Common and Neural."
-					],
-					"type": "entries"
 				}
 			],
 			"subraces": [
@@ -2298,8 +2291,15 @@
 							"type": "entries",
 							"name": "On the Line",
 							"entries": [
-								"You know the {@spell mending} cantrip. Intelligence is your spellcasting ability for it."
+								"You know the {@spell mending} cantrip, and your casting time for this spell is an action. Intelligence is your spellcasting ability for it."
 							]
+						},
+						{
+							"name": "Languages",
+							"entries": [
+							"You can speak, read, and write Common and Neural."
+							],
+							"type": "entries"
 						}
 					]
 				},
@@ -2325,7 +2325,7 @@
 						{
 							"name": "It's Just Anti-Freeze",
 							"entries": [
-                     "You have resistance to cold damage."
+							"You have resistance to cold damage. In addition, you do not suffer any ill effects from extreme cold or heat."
 							],
 							"type": "entries"
 						},
@@ -2333,6 +2333,69 @@
 							"name": "Autonomous Blaster Device",
 							"entries": [
                      "You can cast the {@spell magic missile} spell with a 2nd-level spell slot once with this trait, and regain the ability to do so when you finish a short or long rest. Intelligence is your spellcasting ability for this spell."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Born in the Future",
+							"entries": [
+                     "You gain one exotic weapon or firearm proficiency."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Languages",
+							"entries": [
+							"You can speak, read, and write Common and Neural."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Magi",
+                    "traitTags": [
+						"Spellcasting",
+						"Damage Resistance"
+					],
+					"ability": [
+						{
+							"choose": {
+								"from": [
+										"int",
+										"cha"
+								],
+								"count": 1,
+								"amount": 2
+							}
+						}
+					],
+					"entries": [
+						{
+							"name": "Orbital Shield",
+							"entries": [
+                     "You have resistance to force damage."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Modern Magic",
+							"entries": [
+                     "You know the {@spell on/off} cantrip. When you reach 3rd level, you can cast the {@spell expeditious retreat} spell once per day. At 5th level, you can cast the {@spell levitate} spell once per day. Intelligence or Wisdom (your choice) is your spellcasting ability for these spells."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Lightning Magnet",
+							"entries": [
+                     "As an action at the beginning of your turn, you can assume the form of lightning by breaking your physical form apart into all its components. Until the beginning of your next turn, you can take no actions, bonus actions, or reactions. In addition, you have resistance to bludgeoning, piercing, slashing, lightning, and thunder damage. You also ignore difficult terrain. After using this ability, you can use it again after you take a short or long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Languages",
+							"entries": [
+							"You can speak, read, and write Common and Neural."
 							],
 							"type": "entries"
 						}
@@ -2369,9 +2432,16 @@
 							"type": "entries"
 						},
 						{
-							"name": "Extra Language",
+							"name": "Rough Plating",
 							"entries": [
-                     "You can speak, read, and write Aquan."
+                     "Your plating digs into the skin of those who attempt to grab you, forcing them to exchange the position of their hands constantly to avoid stabbing themselves. You have advantage on all checks to resist or escape a grapple."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Languages",
+							"entries": [
+							"You can speak, read, and write Common, Neural, and Aquan."
 							],
 							"type": "entries"
 						}
