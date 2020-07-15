@@ -409,7 +409,7 @@
 				"F",
 				"L"
 			],
-			"dmg1": "1d8",
+			"dmg1": "1d6",
 			"dmgType": "B",
 			"sword": true,
 			"weapon": true,
