@@ -23,6 +23,33 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
+						"You may not benefit from the rogue's Sneak Attack feature while using this weapon two-handed. This weapon can be chosen as a kensei weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Odachi",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 2500,
+			"weaponCategory": "exotic",
+			"property": [
+				"2H",
+				"F",
+				"S"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
 						"You may not benefit from the rogue's Sneak Attack feature while using this weapon two-handed."
 					]
 				}
