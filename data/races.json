@@ -721,14 +721,14 @@
 				{
 					"name": "Age",
 					"entries": [
-                     "Young demibeasts grow quickly, reaching maturity by 10 years of age, but only live for up to 80 years. Many demibeasts see dying as a result of old age as a sign of weakness, and as such, most demibeast die in battle or during their hunts."
+                     "Young demibeasts grow quickly, reaching maturity by 10 years of age, but only live for up to 80 years. Many demibeasts see dying as a result of old age as a sign of weakness, and as such, most demibeast die in battle or during their hunts. There are a few, though, such as those who take on the appearance of sheep, as multiple years of sedimentary living have left them more passive then their brethren."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Size",
 					"entries": [
-                     "Demibeasts are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium."
+                     "Demibeasts of the wolf blood are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Sheep blood, however, tend to be equivalent in size to the average human. Your size is Medium."
 					],
 					"type": "entries"
 				},
