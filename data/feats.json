@@ -100,7 +100,7 @@
 				{
 					"type": "list",
 					"items": [
-						"When you take the Attack action and attack with only a glaive, halberd, quarterstaff, two-handed scythe, or spear, you can use a bonus action to make a melee attack with the opposite end of the weapon; this attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@dice d4}, and the attack deals bludgeoning damage.",
+						"When you take the Attack action and attack with only a glaive, halberd, quarterstaff, two-handed scythe, pike, or spear, you can use a bonus action to make a melee attack with the opposite end of the weapon; this attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@dice d4}, and the attack deals bludgeoning damage.",
 						"While you are wielding a glaive, halberd, pike, quarterstaff, two-handed scythe, or spear, other creatures provoke an opportunity attack from you when they enter your reach."
 					]
 				}
@@ -739,7 +739,7 @@
 				{
 					"race": [
 						{
-							"name": "Demibeast"
+							"name": "Demibeast (Wolf)"
 						}
 					]
 				}
