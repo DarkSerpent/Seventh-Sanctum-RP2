@@ -703,28 +703,19 @@
 			"source": "SRP",
 			"size": "M",
 			"speed": {
-				"walk": 35
+				"walk": 30
 			},
 			"ability": [
 				{
-					"choose": {
-						"from": [
-							"str",
-							"con",
-							"wis"
-						],
-						"count": 1,
-						"amount": 2
-					}
+					"null": null
 				}
-			],
-			"traitTags": [
-				"Monstrous Race"
 			],
 			"languageProficiencies": [
 				{
 					"choose": true
 				}
+			],
+			"traitTags": [
 			],
 			"entries": [
 				{
@@ -749,6 +740,41 @@
 					"type": "entries"
 				},
 				{
+					"name": "Darkvision",
+					"entries": [
+                     "Accustomed to roaming under the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Man & the Beast",
+					"entries": [
+                     "You have two creature types: humanoid and beast. You can be affected by a spell or ability that works on either of your creature types."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Wolf",
+					"ability": [
+						{
+							"choose": {
+								"from": [
+									"str",
+									"con",
+									"wis"
+								],
+							"count": 1,
+							"amount": 2
+						}
+				}
+					],
+					"speed": {
+						"walk": 35
+					},
+					"entries": [
+				{
 					"name": "Ability Score Increase",
 					"entries": [
                      "Choose one of the abilities you did not increase between Strength, Constitution, or Wisdom. That ability score increases by 1."
@@ -759,20 +785,6 @@
 					"name": "Gait of the Wolf",
 					"entries": [
                      "Your base walking speed increases to 35 feet."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-                     "Accustomed to roaming under the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Man & the Wolf",
-					"entries": [
-                     "You have two creature types: humanoid and beast. You can be affected by a spell or ability that works on either of your creature types."
 					],
 					"type": "entries"
 				},
@@ -822,24 +834,96 @@
 								[
 									"Mountain",
 									"High Altitude"
-								]
+										]
+									]
+								}
 							]
-						}
+						},
+						{
+							"name": "Unrivaled Hunter",
+							"entries": [
+							"Whenever you make a Wisdom ({@skill Survival}) check related to smelling out a trail or following a creature's scent, you are considered proficient in the Survival skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+							],
+							"type": "entries"
+						},
+				{
+					"name": "Language",
+					"entries": [
+                     "You begin with Common and Beastspeech. Beastspeech can only be learned by Demis and, when speaking it, they can communicate with the animal they resemble as if under the effect of the spell, {@spell speak with animals}. For example, a sheep demibeast could speak with sheep."
+					],
+					"type": "entries"
+				}
 					]
 				},
 				{
-					"name": "Unrivaled Hunter",
+					"name": "Sheep",
+					"ability": [
+						{
+							"choose": {
+								"from": [
+									"dex",
+									"int",
+									"cha"
+								],
+								"count": 1,
+								"amount": 2
+							}
+						}
+					],
+					"speed": {
+						"walk": 30
+					},
 					"entries": [
-                     "Whenever you make a Wisdom ({@skill Survival}) check related to smelling out a trail or following a creature's scent, you are considered proficient in the Survival skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+				{
+					"name": "Ability Score Increase",
+					"entries": [
+                     "Choose one of the abilities you did not increase between Dexterity, Intelligence, or Charisma. That ability score increases by 1."
+					],
+					"type": "entries"
+				},
+						{
+							"name": "Sure-Footed",
+							"entries": [
+                                "You have advantage on saving throws against being knocked {@condition prone}."
+							],
+							"type": "entries"
+						},
+				{
+					"name": "Ram",
+					"entries": [
+                     "You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice 1d4} + your Strength modifier."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Herd Mentality",
+					"entries": [
+                     "So long as there is an ally within 15 feet of you, you have advantage on saving throws that would cause you to be {@condition frightened}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Peak Dwellers",
+					"entries": [
+                         "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to strong wind and cold environments, as described in chapter 5 of the Dungeon Master's Guide."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Counting Sheep",
+					"entries": [
+                    "At 1st level, you can cast the {@spell sleep} spell once per long rest. When you reach 5th level, you can cast {@spell sleep} at 3rd level once per short or long rest. Intelligence or Charisma (your choice) is your spellcasting modifier for this spell."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Language",
 					"entries": [
-                     "You can speak, read, and write Common and one other language of your choice."
+                     "You begin with Common and Beastspeech. Beastspeech can only be learned by Demis and, when speaking it, they can communicate with the animal they resemble as if under the effect of the spell, {@spell speak with animals}. For example, a sheep demibeast could speak with sheep."
 					],
 					"type": "entries"
+				}
+					]
 				}
 			]
 		},
@@ -2605,7 +2689,7 @@
 				{
 					"name": "Language",
 					"entries": [
-                     "You begin with Common and Beastspeech. Beastspeech can only be learned by Demihumans and, when speaking it, they can communicate with the animal they resemble as if under the effect of the spell, {@spell speak with animals}. For example, a sheep demihuman could speak with sheep."
+                     "You begin with Common and Beastspeech. Beastspeech can only be learned by Demis and, when speaking it, they can communicate with the animal they resemble as if under the effect of the spell, {@spell speak with animals}. For example, a sheep demihuman could speak with sheep."
 					],
 					"type": "entries"
 				}
