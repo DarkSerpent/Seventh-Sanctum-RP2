@@ -232,7 +232,7 @@
 						{
 							"name": "Detective",
 							"entries": [
-                                "You gain advantage on {@skill Investigation} checks made to discover clues and piece together evidence."
+                                "You gain advantage on Intelligence and Intelligence ({@skill Investigation}) checks made to discover clues and piece together evidence."
 							],
 							"type": "entries"
 						},
