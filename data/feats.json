@@ -1,22 +1,15 @@
 {
-	"feat": [
-		{
+	"feat": [{
 			"name": "Dark Reaping",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "revenant"
-						}
-					]
-				}
-			],
-			"ability": [
-				{
-					"cha": 1
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "revenant"
+				}]
+			}],
+			"ability": [{
+				"cha": 1
+			}],
 			"entries": [
 				"You have manifested a deeper connection to the Rift, which allows you to extract the thoughts of man and use it to fuel your abilities. You gain the following benefits:",
 				{
@@ -25,35 +18,33 @@
 						"Additionally, when a creature within 30 feet of you is reduced to 0 hit points and dies, you can feed upon the power of their death to gain your choice of one of the following benefits:"
 					]
 				},
-						{
-							"type": "inset",
+				{
+					"type": "inset",
+					"entries": [{
 							"entries": [
-								{
-									"entries": [
-                                       "• Temporary hit points equal to your total character level + your Constitution modifier, which last for up to one minute."
-									],
-									"type": "entries"
-								},
-								{
-									"entries": [
-                                       "• The first attack you hit with on your next turn deals additional necrotic damage equal to your total character level + your choice of either your Strength or Charisma modifier."
-									],
-									"type": "entries"
-								},
-								{
-									"entries": [
-                                       "• Advantage on all saving throws until the start of your next turn."
-									],
-									"type": "entries"
-								}
+								"• Temporary hit points equal to your total character level + your Constitution modifier, which last for up to one minute."
 							],
-							"data": {
-							}
+							"type": "entries"
 						},
+						{
+							"entries": [
+								"• The first attack you hit with on your next turn deals additional necrotic damage equal to your total character level + your choice of either your Strength or Charisma modifier."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+								"• Advantage on all saving throws until the start of your next turn."
+							],
+							"type": "entries"
+						}
+					],
+					"data": {}
+				},
 				{
 					"type": "list",
 					"items": [
-				"Once you use this ability, you must finish a short or long rest before you can use it again."
+						"Once you use this ability, you must finish a short or long rest before you can use it again."
 					]
 				}
 			]
@@ -61,33 +52,27 @@
 		{
 			"name": "Sentient Bones",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "skeleton"
-						}
-					]
+			"prerequisite": [{
+				"race": [{
+					"name": "skeleton"
+				}]
+			}],
+			"ability": [{
+				"choose": {
+					"from": [
+						"dex",
+						"con"
+					],
+					"amount": 1
 				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"dex",
-							"con"
-						],
-						"amount": 1
-					}
-				}
-			],
+			}],
 			"entries": [
 				"You have become increasingly more self-aware as you time spent back on the Material Plane increases. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "Additionally, you can use a bonus action to detach or reattach one of your hands, which allows the hand to wander freely by walking on its fingertips. This deatched hand has a walking speed and climbing speed of 30 and can move up, down, and across vertical surfaces and upside down along ceilings.",
-               "The hand has a strength score of 5, a hit point maximum equal to twice your total character level, and otherwise uses your statistics and AC. You cannot detach a hand in this way while using the Them Bones trait, or use Them Bones while a hand is detached."
+						"Additionally, you can use a bonus action to detach or reattach one of your hands, which allows the hand to wander freely by walking on its fingertips. This deatched hand has a walking speed and climbing speed of 30 and can move up, down, and across vertical surfaces and upside down along ceilings.",
+						"The hand has a strength score of 5, a hit point maximum equal to twice your total character level, and otherwise uses your statistics and AC. You cannot detach a hand in this way while using the Them Bones trait, or use Them Bones while a hand is detached."
 					]
 				}
 			]
@@ -107,18 +92,33 @@
 			]
 		},
 		{
-			"name": "Blade Mastery",
+			"name": "Punch King",
 			"source": "SRP",
-			"prerequisite": [
-			],
 			"entries": [
-               "You master the shortsword, longsword, scimitar, rapier, katana, sword cane, jian, khopesh, two-handed khopesh, odachi, and greatsword. You gain the following benefits when using them:",
+				"Accustomed to the turbulent fighting that wielding two pairs of gauntlets bring, you casually strike across the battlefield with the force of a thousand suns. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You gain a +1 bonus to attack rolls you make with the weapon.",
-               "On your turn, you can use your reaction to assume a parrying stance, provided you have the weapon in hand. Doing so grants you a +1 bonus to your AC until the start of your next turn or until you’re not holding the weapon.",
-               "When you make an opportunity attack with the weapon, you have advantage on the attack roll."
+						"While wielding a gauntlet in each hand, your hands are considered free for the purposes of grappling.",
+						"When you hit a creature with a gauntlet attack on your turn, you can use a bonus action to attempt to grapple the target, instead of the normal action.",
+						"When you use a gauntlet, its damage die changes from a {@dice d4} to a {@dice d6}. (This benefit has no effect if another feature has already improved the weapon's die.)",
+						"If you are currently grappling a target using your gauntlets, you can attempt to slam the enemy down and inflict brute force trauma upon them and their allies. As an action, you slam your grappled target down on the ground, dealing {@dice 1d8} damage of the weapon's type for every 10 feet of movement you walk before making this special attack. In addition, all enemies within 5-feet of the target must make a Dexterity saving throw (DC: 8 + your proficiency bonus + your Strength modifier). On a failed save, those targets take {@dice 1d8} damage of the weapon's type."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blade Mastery",
+			"source": "SRP",
+			"prerequisite": [],
+			"entries": [
+				"You master the shortsword, longsword, scimitar, rapier, katana, sword cane, jian, khopesh, two-handed khopesh, odachi, and greatsword. You gain the following benefits when using them:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to attack rolls you make with the weapon.",
+						"On your turn, you can use your reaction to assume a parrying stance, provided you have the weapon in hand. Doing so grants you a +1 bonus to your AC until the start of your next turn or until you’re not holding the weapon.",
+						"When you make an opportunity attack with the weapon, you have advantage on the attack roll."
 					]
 				}
 			]
@@ -126,36 +126,33 @@
 		{
 			"name": "Fell Handed",
 			"source": "OSoW",
-			"prerequisite": [
-			],
+			"prerequisite": [],
 			"entries": [
-               "You master the handaxe, battleaxe, greataxe, warhammer, and maul. You gain the following benefits when using any of them:",
+				"You master the handaxe, battleaxe, greataxe, warhammer, and maul. You gain the following benefits when using any of them:",
 				{
 					"type": "list",
 					"items": [
-               "You gain a +1 bonus to attack rolls you make with the weapon.",
-               "Whenever you have advantage on a melee attack roll you make with the weapon and hit, you can knock the target prone if they are one size larger or smaller, if the lower of the two d20 rolls would also hit the target.",
-               "Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes bludgeoning damage equal to your Strength modifier (minimum of 0) if the attack misses but the higher of the two d20 rolls would have hit."
+						"You gain a +1 bonus to attack rolls you make with the weapon.",
+						"Whenever you have advantage on a melee attack roll you make with the weapon and hit, you can knock the target prone if they are one size larger or smaller, if the lower of the two d20 rolls would also hit the target.",
+						"Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes bludgeoning damage equal to your Strength modifier (minimum of 0) if the attack misses but the higher of the two d20 rolls would have hit."
 					]
 				}
 			]
 		},
-				{
+		{
 			"name": "Akimbo Master",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"other": "Proficiency in a firearm"
-				}
-			],
+			"prerequisite": [{
+				"other": "Proficiency in a firearm"
+			}],
 			"entries": [
-               "You master the art of wielding two ranged weapons at once. You gain the following benefits:",
+				"You master the art of wielding two ranged weapons at once. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You can draw or holster two sidearms when you would normally be able to draw or holster only one.",
-               "If you are wielding two ranged weapons with the reload property, you can ignore the reload property for those weapons, and do not need a free hand to reload them. This does not work on weapons with a reload property of 1.",
-               "You can wield two one-handed ranged weapons at once, even if they do not have the light property."
+						"You can draw or holster two sidearms when you would normally be able to draw or holster only one.",
+						"If you are wielding two ranged weapons with the reload property, you can ignore the reload property for those weapons, and do not need a free hand to reload them. This does not work on weapons with a reload property of 1.",
+						"You can wield two one-handed ranged weapons at once, even if they do not have the light property."
 					]
 				}
 			]
@@ -163,19 +160,17 @@
 		{
 			"name": "Six-Gun Ace",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"other": "Proficiency with revolvers"
-				}
-			],
+			"prerequisite": [{
+				"other": "Proficiency with revolvers"
+			}],
 			"entries": [
-               "You have perfected the art of shooting with your revolver. You gain the following benefits:",
+				"You have perfected the art of shooting with your revolver. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You gain a +1 bonus to attack rolls with the revolver.",
-               "You cannot be disarmed while wielding a revolver in one hand if your other hand is free.",
-               "When you make an attack with your revolver and are not holding anything in your other hand, you can use your bonus action to make two additional attacks against creatures within its normal range. You do not add your ability score modifier to the damage of these attacks, unless that modifier is negative. You can use this feature a number of times equal to your Dexterity modifier (minimum 1), and you regain all expended charges on a long rest."
+						"You gain a +1 bonus to attack rolls with the revolver.",
+						"You cannot be disarmed while wielding a revolver in one hand if your other hand is free.",
+						"When you make an attack with your revolver and are not holding anything in your other hand, you can use your bonus action to make two additional attacks against creatures within its normal range. You do not add your ability score modifier to the damage of these attacks, unless that modifier is negative. You can use this feature a number of times equal to your Dexterity modifier (minimum 1), and you regain all expended charges on a long rest."
 					]
 				}
 			]
@@ -183,19 +178,17 @@
 		{
 			"name": "Deadeye",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"other": "Proficiency with rifles or muskets"
-				}
-			],
+			"prerequisite": [{
+				"other": "Proficiency with rifles or muskets"
+			}],
 			"entries": [
-               "Rifles are complex weapons, but you know just how to make every shot count. You gain the following benefits when wielding a rifle or musket:",
+				"Rifles are complex weapons, but you know just how to make every shot count. You gain the following benefits when wielding a rifle or musket:",
 				{
 					"type": "list",
 					"items": [
-               "You gain a +1 bonus to attack rolls you make with these weapons.",
-               "You can reroll 1s to damage with these weapons.",
-               "If you roll a critical hit or deal a killing blow with these weapons, your shot pierces the target and strikes a creature within a 10-foot line behind it. If the original roll would hit the creature, it deals damage. Otherwise, the bullet misses."
+						"You gain a +1 bonus to attack rolls you make with these weapons.",
+						"You can reroll 1s to damage with these weapons.",
+						"If you roll a critical hit or deal a killing blow with these weapons, your shot pierces the target and strikes a creature within a 10-foot line behind it. If the original roll would hit the creature, it deals damage. Otherwise, the bullet misses."
 					]
 				}
 			]
@@ -203,17 +196,16 @@
 		{
 			"name": "Peltast",
 			"source": "OSoW",
-			"prerequisite": [
-			],
+			"prerequisite": [],
 			"entries": [
-               "You’ve mastered the ability to draw and throw weapons at your foes. You gain the following benefits:",
+				"You’ve mastered the ability to draw and throw weapons at your foes. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "Attacking at long range with your thrown weapons no longer imposes disadvantage.",
-               "Being within 5 feet of a hostile creature doesn't impose disadvantage on ranged attack rolls.",
-               "When you make a ranged attack with a thrown weapon, you can choose to immediately draw one weapon as a part of that attack.",
-               "Whenever you take the Attack action to make a ranged attack with a thrown weapon, you can use your bonus action to make one additional ranged attack with a thrown weapon."
+						"Attacking at long range with your thrown weapons no longer imposes disadvantage.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on ranged attack rolls.",
+						"When you make a ranged attack with a thrown weapon, you can choose to immediately draw one weapon as a part of that attack.",
+						"Whenever you take the Attack action to make a ranged attack with a thrown weapon, you can use your bonus action to make one additional ranged attack with a thrown weapon."
 					]
 				}
 			]
@@ -221,148 +213,135 @@
 		{
 			"name": "Flail Master",
 			"source": "OSoW",
-			"prerequisite": [
-			],
+			"prerequisite": [],
 			"entries": [
-               "You’ve mastered the ability to sweep and swing flails at your foes. You gain the following benefits:",
+				"You’ve mastered the ability to sweep and swing flails at your foes. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You gain a +1 bonus to attack rolls you make with a flail.",
-               "As a bonus action on your turn, you can prepare yourself to extend your weapon to sweep over targets' shields. Until the end of this turn, your attack rolls with the weapon gain a +2 bonus against any target using a shield.",
-               "When you hit with an opportunity attack using a flail, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone."
-            ]
+						"You gain a +1 bonus to attack rolls you make with a flail.",
+						"As a bonus action on your turn, you can prepare yourself to extend your weapon to sweep over targets' shields. Until the end of this turn, your attack rolls with the weapon gain a +2 bonus against any target using a shield.",
+						"When you hit with an opportunity attack using a flail, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone."
+					]
 				}
 			]
 		},
 		{
 			"name": "Mariner",
 			"source": "OSoW",
-			"prerequisite": [
-			],
+			"prerequisite": [],
 			"entries": [
-               "You have spent time at sea and learned to use the tools of a mariner in combat.",
+				"You have spent time at sea and learned to use the tools of a mariner in combat.",
 				{
 					"type": "list",
 					"items": [
-               "You gain an innate swimming speed of 30 feet. If you already have a swimming speed, it instead increases by 15.",
-               "When you wield a trident with one hand, its damage die changes to 1d8 from 1d6. When you wield a trident with two hands, its damage die changes to 1d10 from 1d8.",
-               "Tridents have the reach property. When you strike a creature with a Trident you may expend a bonus action to force a creature to make a contested {@skill Athletics} check with you. On a success you may force the creature to move into any unoccupied space within five feet of you."
-            ]
+						"You gain an innate swimming speed of 30 feet. If you already have a swimming speed, it instead increases by 15.",
+						"When you wield a trident with one hand, its damage die changes to 1d8 from 1d6. When you wield a trident with two hands, its damage die changes to 1d10 from 1d8.",
+						"Tridents have the reach property. When you strike a creature with a Trident you may expend a bonus action to force a creature to make a contested {@skill Athletics} check with you. On a success you may force the creature to move into any unoccupied space within five feet of you."
+					]
 				}
 			]
 		},
 		{
 			"name": "Born in the Arena",
 			"source": "OSoW",
-			"prerequisite": [
-			],
+			"prerequisite": [],
 			"entries": [
-               "Extensive training with nets has earned you the following benefits:",
+				"Extensive training with nets has earned you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You don't suffer disadvantage when attack a creature within 5 feet of you with a net, or when throwing a net up to its long range.",
-               "You can add your proficiency bonus to the DC, AC, and damage requirement for escaping or destroying you nets.",
-               "When you use the Attack action and attack with a net, you can use a bonus action to attack with a one-handed weapon you are holding.",
-               "When a creature provokes an opportunity attack from you, you can use your reaction to make a ranged weapon attack against that creature with a net."
-            ]
+						"You don't suffer disadvantage when attack a creature within 5 feet of you with a net, or when throwing a net up to its long range.",
+						"You can add your proficiency bonus to the DC, AC, and damage requirement for escaping or destroying you nets.",
+						"When you use the Attack action and attack with a net, you can use a bonus action to attack with a one-handed weapon you are holding.",
+						"When a creature provokes an opportunity attack from you, you can use your reaction to make a ranged weapon attack against that creature with a net."
+					]
 				}
 			]
 		},
 		{
 			"name": "Sling Superiority",
 			"source": "OSoW",
-			"prerequisite": [
-			],
+			"prerequisite": [],
 			"entries": [
-               "You are trained in their military methods and have mastered the use of slings in combat.",
+				"You are trained in their military methods and have mastered the use of slings in combat.",
 				{
 					"type": "list",
 					"items": [
-               "When you end your turn without moving, before your next turn when a creature within 30 feet of you moves, you can use your reaction to make a ranged weapon attack with a sling against that creature.",
-               "Once per turn when you make a ranged weapon attack without disadvantage using a sling, you can make an additional ranged weapon attack with a sling against a different creature.",
-               "The first time you score a critical hit with a sling against a creature on a turn, that creature has disadvantage on all attack rolls and ability checks it makes until the start of your next turn."
-            ]
+						"When you end your turn without moving, before your next turn when a creature within 30 feet of you moves, you can use your reaction to make a ranged weapon attack with a sling against that creature.",
+						"Once per turn when you make a ranged weapon attack without disadvantage using a sling, you can make an additional ranged weapon attack with a sling against a different creature.",
+						"The first time you score a critical hit with a sling against a creature on a turn, that creature has disadvantage on all attack rolls and ability checks it makes until the start of your next turn."
+					]
 				}
 			]
 		},
 		{
 			"name": "Spear Mastery",
 			"source": "OSoW",
-			"prerequisite": [
-			],
+			"prerequisite": [],
 			"entries": [
-               "Though the spear is a simple weapon to learn, it rewards you for the time you have taken to master it. You gain the following benefits:",
+				"Though the spear is a simple weapon to learn, it rewards you for the time you have taken to master it. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "Spears you use gain the Finesse property.",
-               "When you use a spear, its damage die changes from a d6 to a d8, and from a d8 to a d10 when wielded with two hands. (This benefit has no effect if another feature has already improved the weapon's die.)",
-               "You can set your spear to receive a charge. As a bonus action, choose a creature you can see that is at least 20 feet away from you. If that creature moves within your spear's reach on its next turn, you can make a melee attack against it with your spear as a reaction. If the attack hits, the target takes an extra 1d8 piercing damage, or an extra 1d10 piercing damage if you wield the spear with two hands. You can't use this ability if the creature used the Disengage action before moving.",
-               "As a bonus action on your turn, you can increase your reach with a spear by 5 feet for the rest of your turn."
-            ]
+						"Spears you use gain the Finesse property.",
+						"When you use a spear, its damage die changes from a d6 to a d8, and from a d8 to a d10 when wielded with two hands. (This benefit has no effect if another feature has already improved the weapon's die.)",
+						"You can set your spear to receive a charge. As a bonus action, choose a creature you can see that is at least 20 feet away from you. If that creature moves within your spear's reach on its next turn, you can make a melee attack against it with your spear as a reaction. If the attack hits, the target takes an extra 1d8 piercing damage, or an extra 1d10 piercing damage if you wield the spear with two hands. You can't use this ability if the creature used the Disengage action before moving.",
+						"As a bonus action on your turn, you can increase your reach with a spear by 5 feet for the rest of your turn."
+					]
 				}
 			]
 		},
 		{
 			"name": "Lash Endowed",
 			"source": "OSoW",
-			"prerequisite": [
-			],
+			"prerequisite": [],
 			"entries": [
-               "You have extensive training with whips and have learned a handful of tricks useful in combat. You gain the following benefits:",
+				"You have extensive training with whips and have learned a handful of tricks useful in combat. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "When you use a whip, its damage die increases from a d4 to a d6.",
-               "Once per turn when you deal damage with a whip or weighted chain to a creature that is no more than one size larger than you, you can force that creature to make a Strength saving throw (DC 8 + your proficiency bonus + your choice of your Strength or Dexterity modifier). On a failure, you choose whether the creature drops one object of your choice that it’s holding, falls prone, or has its movement speed halved until the start of your next turn. When reducing its movement speed in this way, you also move proportionate to the creature.",
-               "When you take the Attack action and attack with a one- handed weapon, you can use a bonus action to attack with a whip or weighted chain you are holding."
-            ]
+						"When you use a whip, its damage die increases from a d4 to a d6.",
+						"Once per turn when you deal damage with a whip or weighted chain to a creature that is no more than one size larger than you, you can force that creature to make a Strength saving throw (DC 8 + your proficiency bonus + your choice of your Strength or Dexterity modifier). On a failure, you choose whether the creature drops one object of your choice that it’s holding, falls prone, or has its movement speed halved until the start of your next turn. When reducing its movement speed in this way, you also move proportionate to the creature.",
+						"When you take the Attack action and attack with a one- handed weapon, you can use a bonus action to attack with a whip or weighted chain you are holding."
+					]
 				}
 			]
 		},
 		{
 			"name": "Exorcist",
 			"source": "OSoW",
-			"prerequisite": [
-			],
+			"prerequisite": [],
 			"entries": [
-               "You have been taught secret techniques for the removal of possessing spirits. You gain the following benefits:",
+				"You have been taught secret techniques for the removal of possessing spirits. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "Increase your Wisdom score by 1, to a maximum of 20.",
-               "You can use your action to touch a creature within your reach and determine if the creature is possessed or under the effects of an enchantment spell. If so, you learn the type of spirit possessing the creature or the spell enchanting it.",
-               "By presenting a holy symbol to a creature within 10 feet as an action, you can attempt an exorcism ritual. If the creature is possessed by a spirit, the possessing spirit must make a Wisdom saving throw, with a DC = 8 + your proficiency bonus + your Wisdom modifier. On a failure, the spirit is expelled, and it cannot enter that creature again for 24 hours. On a success, the creature is immune to exorcism attempts for 24 hours."
-            ]
+						"Increase your Wisdom score by 1, to a maximum of 20.",
+						"You can use your action to touch a creature within your reach and determine if the creature is possessed or under the effects of an enchantment spell. If so, you learn the type of spirit possessing the creature or the spell enchanting it.",
+						"By presenting a holy symbol to a creature within 10 feet as an action, you can attempt an exorcism ritual. If the creature is possessed by a spirit, the possessing spirit must make a Wisdom saving throw, with a DC = 8 + your proficiency bonus + your Wisdom modifier. On a failure, the spirit is expelled, and it cannot enter that creature again for 24 hours. On a success, the creature is immune to exorcism attempts for 24 hours."
+					]
 				}
 			]
 		},
 		{
 			"name": "Energy Saber",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "half-nasod"
-						}
-					]
-				}
-			],
-			"ability": [
-				{
-					"dex": 1
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "half-nasod"
+				}]
+			}],
+			"ability": [{
+				"dex": 1
+			}],
 			"entries": [
-               "You have trained incredibly hard to master the unique swordplay of the half-nasods. You gain the following benefits:",
+				"You have trained incredibly hard to master the unique swordplay of the half-nasods. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You gain two additional charges of Energy Weapon. You regain all expended charges after a short or long rest.",
-               "While Energy Weapon is active, your weapon also gains the reach property (10 feet). In addition, if the target creature fails the saving throw, you can reduce the speed of the target by 10 feet until the start of your next turn."
+						"You gain two additional charges of Energy Weapon. You regain all expended charges after a short or long rest.",
+						"While Energy Weapon is active, your weapon also gains the reach property (10 feet). In addition, if the target creature fails the saving throw, you can reduce the speed of the target by 10 feet until the start of your next turn."
 					]
 				}
 			]
@@ -370,26 +349,22 @@
 		{
 			"name": "Otherworldly",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "ghost",
-							"subrace": "spirit"
-						}
-					]
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "ghost",
+					"subrace": "spirit"
+				}]
+			}],
 			"entries": [
-               "Your soul has grown exceptionally powerful, and you may channel its energy into a semblance of mortal magic. You can cast the following spells with this ability: {@spell blink}, {@spell catapult}, and {@spell invisibility}.",
-			{
+				"Your soul has grown exceptionally powerful, and you may channel its energy into a semblance of mortal magic. You can cast the following spells with this ability: {@spell blink}, {@spell catapult}, and {@spell invisibility}.",
+				{
 					"type": "list",
 					"items": [
-               "When you can {@spell invisibility} this way, you can only target yourself.",
-               "Any spell cast using this feat is automatically cast at its lowest possible level.",
-               "Choose between Wisdom or Charisma; this is your spellcasting ability for these spells.",
-               "At 4th level, {@spell catapult} casts at 2nd level. It becomes 3rd level at 8th, 4th level at 12th, 5th level at 16th, and 6th level at 20th.",
-               "You regain the ability to cast any spells provided by this feat once you finish a long rest."
+						"When you can {@spell invisibility} this way, you can only target yourself.",
+						"Any spell cast using this feat is automatically cast at its lowest possible level.",
+						"Choose between Wisdom or Charisma; this is your spellcasting ability for these spells.",
+						"At 4th level, {@spell catapult} casts at 2nd level. It becomes 3rd level at 8th, 4th level at 12th, 5th level at 16th, and 6th level at 20th.",
+						"You regain the ability to cast any spells provided by this feat once you finish a long rest."
 					]
 				}
 			]
@@ -397,35 +372,29 @@
 		{
 			"name": "Undying Grasp",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "ghost",
-							"subrace": "soulkin"
-						}
-					]
+			"prerequisite": [{
+				"race": [{
+					"name": "ghost",
+					"subrace": "soulkin"
+				}]
+			}],
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex"
+					],
+					"amount": 1
 				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex"
-						],
-						"amount": 1
-					}
-				}
-			],
+			}],
 			"entries": [
-               "Your life has bonded with the sarcophagus, turning both aspects into an extension of your will. You gain the following benefits:",
-			{
+				"Your life has bonded with the sarcophagus, turning both aspects into an extension of your will. You gain the following benefits:",
+				{
 					"type": "list",
 					"items": [
-               "When you hit with your Grasp from Beyond, you can force the creature to make a Constitution saving throw (DC: 10 + your Proficiency bonus + your Strength modifier).",
-               "On a failed save, the creature becomes {@condition Paralyzed}.",
-               "You can use this ability twice, after which you must spend a long rest before you can use Undying Grasp again."
+						"When you hit with your Grasp from Beyond, you can force the creature to make a Constitution saving throw (DC: 10 + your Proficiency bonus + your Strength modifier).",
+						"On a failed save, the creature becomes {@condition Paralyzed}.",
+						"You can use this ability twice, after which you must spend a long rest before you can use Undying Grasp again."
 					]
 				}
 			]
@@ -433,23 +402,19 @@
 		{
 			"name": "Might of the Small",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"other": "Creature size of small"
-				}
-			],
-			"ability": [
-				{
-					"str": 1
-				}
-			],
+			"prerequisite": [{
+				"other": "Creature size of small"
+			}],
+			"ability": [{
+				"str": 1
+			}],
 			"entries": [
-               "You have an unusually strong carrying capacity and grip for a creature of your size, honed through years of constant training with heavy weapons. You gain the following benefits:",
-			{
+				"You have an unusually strong carrying capacity and grip for a creature of your size, honed through years of constant training with heavy weapons. You gain the following benefits:",
+				{
 					"type": "list",
 					"items": [
-               "Being Small doesn’t impose disadvantage on your attack rolls with heavy weapons.",
-               "Your Strength score is doubled for the purpose of determining your carrying capacity and the weight you can push, drag, or lift."
+						"Being Small doesn’t impose disadvantage on your attack rolls with heavy weapons.",
+						"Your Strength score is doubled for the purpose of determining your carrying capacity and the weight you can push, drag, or lift."
 					]
 				}
 			]
@@ -457,50 +422,46 @@
 		{
 			"name": "Black Lotus",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"other": "Proficiency in Poisoner's Kit"
-				}
-			],
+			"prerequisite": [{
+				"other": "Proficiency in Poisoner's Kit"
+			}],
 			"entries": [
-               "You have extensive experience dealing with poisons. Your mastery earns you the following benefits:",
-			{
+				"You have extensive experience dealing with poisons. Your mastery earns you the following benefits:",
+				{
 					"type": "list",
 					"items": [
-               "You have resistance to poison damage, and gain advantage on saving throws to avoid being poisoned.",
-               "In addition, when you take a long rest, you can create a single dose of one of the following poisons using your Poisoner's Kit:"
+						"You have resistance to poison damage, and gain advantage on saving throws to avoid being poisoned.",
+						"In addition, when you take a long rest, you can create a single dose of one of the following poisons using your Poisoner's Kit:"
 					]
 				},
-						{
-							"type": "inset",
+				{
+					"type": "inset",
+					"entries": [{
 							"entries": [
-								{
-									"entries": [
-                                       "{@b Powderboil.} This powdered poison can be applied to a weapon as an object interaction. The next time the weapon deals damage to a creature, it must succeed on a Constitution saving throw or take poison damage. The poison's damage is equal to xd8, where x equals half of your current level."
-									],
-									"type": "entries"
-								},
-								{
-									"entries": [
-                                       "{@b Stomachturner.} This slick oil can be applied to a weapon as an object interaction. The next time the weapon deals damage, the opposing creature must succeed on a Constitution saving throw or be poisoned for 1 minute, or until they spend an action on their turn to regain their senses."
-									],
-									"type": "entries"
-								},
-								{
-									"entries": [
-                                       "{@b Night's Kiss.} This tasteless and odorless liquid can be slipped into drink or food. When a creature consumes the poison, it must make a Constitution saving throw or fall unconscious for 10 minutes. This effect ends if the creature takes damage."
-									],
-									"type": "entries"
-								}
+								"{@b Powderboil.} This powdered poison can be applied to a weapon as an object interaction. The next time the weapon deals damage to a creature, it must succeed on a Constitution saving throw or take poison damage. The poison's damage is equal to xd8, where x equals half of your current level."
 							],
-							"data": {
-							}
+							"type": "entries"
 						},
-			{
+						{
+							"entries": [
+								"{@b Stomachturner.} This slick oil can be applied to a weapon as an object interaction. The next time the weapon deals damage, the opposing creature must succeed on a Constitution saving throw or be poisoned for 1 minute, or until they spend an action on their turn to regain their senses."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+								"{@b Night's Kiss.} This tasteless and odorless liquid can be slipped into drink or food. When a creature consumes the poison, it must make a Constitution saving throw or fall unconscious for 10 minutes. This effect ends if the creature takes damage."
+							],
+							"type": "entries"
+						}
+					],
+					"data": {}
+				},
+				{
 					"type": "list",
 					"items": [
-               "Poisons created in this way lose their potency, and expire 24 hours after creation.",
-               "The DC for all saving throws for poisons created with this feat is 8 + your proficiency bonus + your Intelligence modifier."
+						"Poisons created in this way lose their potency, and expire 24 hours after creation.",
+						"The DC for all saving throws for poisons created with this feat is 8 + your proficiency bonus + your Intelligence modifier."
 					]
 				}
 			]
@@ -552,15 +513,11 @@
 		{
 			"name": "Aposematism",
 			"source": "OSoW",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Grung"
-						}
-					]
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "Grung"
+				}]
+			}],
 			"entries": [
 				"You are a particularly dangerous Grung who has mastered the inherent properties of their body. You gain the following benefits:",
 				{
@@ -577,26 +534,20 @@
 		{
 			"name": "Divebomber",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Aarakocra (Revised), Toran"
-						}
-					]
-				}
-			],
-			"ability": [
-				{
-					"dex": 1
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "Aarakocra (Revised), Toran"
+				}]
+			}],
+			"ability": [{
+				"dex": 1
+			}],
 			"entries": [
-               "You have mastered the art of in-flight combat, and can navigate the winds of battle with ease. You gain the following benefits:",
+				"You have mastered the art of in-flight combat, and can navigate the winds of battle with ease. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "While in the air, if you fly at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your talons."
+						"While in the air, if you fly at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your talons."
 					]
 				}
 			]
@@ -604,51 +555,43 @@
 		{
 			"name": "Arcane Plagiarist",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Kenku"
-						}
-					]
-				}
-			],
-			"ability": [
-				{
-					"wis": 1
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "Kenku"
+				}]
+			}],
+			"ability": [{
+				"wis": 1
+			}],
 			"entries": [
-               "You have learned to mimic the abilities of others, including the arcane. You gain the following benefits:",
+				"You have learned to mimic the abilities of others, including the arcane. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "When you see a creature within 30 feet cast a spell, you can make a Wisdom check equal to 10 + the spell's level. On a success, you pull out a piece of parchment and copy down the spell's casting procedures, material components, and effects."
+						"When you see a creature within 30 feet cast a spell, you can make a Wisdom check equal to 10 + the spell's level. On a success, you pull out a piece of parchment and copy down the spell's casting procedures, material components, and effects."
 					]
 				},
-						{
-							"type": "inset",
+				{
+					"type": "inset",
+					"entries": [{
 							"entries": [
-								{
-									"entries": [
-				"This parchment can be copied down into a spellbook as a spell scroll could, with the effects equivalent to the spell you witnessed. However, this parchment can not be used as a spell scroll could, as it makes the magic foundation that would allow a spell to be cast."
-									],
-									"type": "entries"
-								},
-								{
-									"entries": [
-				"This scroll lasts for one week, and afterwards, the magic stealing properties of your mimicry fade, turning the runic markings that would allow you to copy the spell into a spellbook turn to gibberish."
-									],
-									"type": "entries"
-								}
+								"This parchment can be copied down into a spellbook as a spell scroll could, with the effects equivalent to the spell you witnessed. However, this parchment can not be used as a spell scroll could, as it makes the magic foundation that would allow a spell to be cast."
 							],
-							"data": {
-							}
+							"type": "entries"
 						},
+						{
+							"entries": [
+								"This scroll lasts for one week, and afterwards, the magic stealing properties of your mimicry fade, turning the runic markings that would allow you to copy the spell into a spellbook turn to gibberish."
+							],
+							"type": "entries"
+						}
+					],
+					"data": {}
+				},
 				{
 					"type": "list",
 					"items": [
-				"Once you use this ability, you must finish a long rest before you can use it again."
+						"Once you use this ability, you must finish a long rest before you can use it again."
 					]
 				}
 			]
@@ -656,27 +599,21 @@
 		{
 			"name": "Blood of the Steeled Heart",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Lizardfolk"
-						}
-					]
-				}
-			],
-			"ability": [
-				{
-					"con": 1
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "Lizardfolk"
+				}]
+			}],
+			"ability": [{
+				"con": 1
+			}],
 			"entries": [
-               "Your years surviving the brutish treatment of you and your people has steeled your resolve to push forward, to break racial boundaries and grant yourself impressive resistance to even the most punishing of events. You gain the following benefits:",
+				"Your years surviving the brutish treatment of you and your people has steeled your resolve to push forward, to break racial boundaries and grant yourself impressive resistance to even the most punishing of events. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You have advantage on saving throws that would cause you to be {@condition frightened}.",
-               "You can use your Hungry Jaws trait a number of times equal to your Constitution modifer, rather than once every short or long rest."
+						"You have advantage on saving throws that would cause you to be {@condition frightened}.",
+						"You can use your Hungry Jaws trait a number of times equal to your Constitution modifer, rather than once every short or long rest."
 					]
 				}
 			]
@@ -684,23 +621,19 @@
 		{
 			"name": "Mind Breaker",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Aftuan"
-						}
-					]
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "Aftuan"
+				}]
+			}],
 			"entries": [
-               "Your mental trespassing scars your victim's minds, and the wound left behind is easily recognizable for those who know where to look. You gain the following benefits:",
+				"Your mental trespassing scars your victim's minds, and the wound left behind is easily recognizable for those who know where to look. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You are aware of all creatures within 10 feet who have been affected by a 1st level or higher enchantment spell you've cast.",
-               "When the effects of a 1st level enchantment spell with a duration of 1 minute or longer ends on a creature, it takes psychic damage equal to the spell's level + your Charisma modifier. You can optionally choose not to deal this additional damage.",
-               "When all creatures you target with an enchantment spell succeed on its saving throw, and the spell itself has no effect on the targeted creatures, you do not expend the spell slot used to cast the spell. Once you use this feature, you must complete a long rest before you can use it again."
+						"You are aware of all creatures within 10 feet who have been affected by a 1st level or higher enchantment spell you've cast.",
+						"When the effects of a 1st level enchantment spell with a duration of 1 minute or longer ends on a creature, it takes psychic damage equal to the spell's level + your Charisma modifier. You can optionally choose not to deal this additional damage.",
+						"When all creatures you target with an enchantment spell succeed on its saving throw, and the spell itself has no effect on the targeted creatures, you do not expend the spell slot used to cast the spell. Once you use this feature, you must complete a long rest before you can use it again."
 					]
 				}
 			]
@@ -708,26 +641,20 @@
 		{
 			"name": "Active Computational Adjustment",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Nasod (Soldier), Nasod (Undercity Operative), Nasod (Magi)"
-						}
-					]
-				}
-			],
-			"ability": [
-				{
-					"int": 1
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "Nasod (Soldier), Nasod (Undercity Operative), Nasod (Magi)"
+				}]
+			}],
+			"ability": [{
+				"int": 1
+			}],
 			"entries": [
-               "After being created by the Foundary, you found that you were installed with a special computational component that predicts your enemy's moves and causes your body to automatically respond. You gain the following benefits:",
+				"After being created by the Foundary, you found that you were installed with a special computational component that predicts your enemy's moves and causes your body to automatically respond. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "When you would make a Dexterity saving throw, you can instead make an Intelligence saving throw. You can use this feature a number of times equal to your Intelligence modifier, and you regain all expended uses on a long rest."
+						"When you would make a Dexterity saving throw, you can instead make an Intelligence saving throw. You can use this feature a number of times equal to your Intelligence modifier, and you regain all expended uses on a long rest."
 					]
 				}
 			]
@@ -735,27 +662,21 @@
 		{
 			"name": "Diehard",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Demibeast (Wolf)"
-						}
-					]
-				}
-			],
-			"ability": [
-				{
-					"con": 1
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "Demibeast (Wolf)"
+				}]
+			}],
+			"ability": [{
+				"con": 1
+			}],
 			"entries": [
-               "A growl in the night, pained and furious. Knives and blades may slow you, but your resolve holds stronger. As a demibeast, it's never quite you time. You refuse to die. You gain the following benefits:",
+				"A growl in the night, pained and furious. Knives and blades may slow you, but your resolve holds stronger. As a demibeast, it's never quite you time. You refuse to die. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "When you roll a death saving throw, you crit on a roll of 19 or 20.",
-               "When you are reduced to 0 hit points, you can immediately move up to half your movement speed in any direction. This movement does not provoke attacks of opportunity."
+						"When you roll a death saving throw, you crit on a roll of 19 or 20.",
+						"When you are reduced to 0 hit points, you can immediately move up to half your movement speed in any direction. This movement does not provoke attacks of opportunity."
 					]
 				}
 			]
@@ -764,13 +685,13 @@
 			"name": "Destined For Greatness",
 			"source": "SRP",
 			"entries": [
-               "You have lived a life focused on a singular task, and as such, have mastered singular craft that you yourself hold dear. You gain the following benefits:",
+				"You have lived a life focused on a singular task, and as such, have mastered singular craft that you yourself hold dear. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You gain proficiency in a skill of your choice.",
-               "You gain a +1 bonus to any ability check you make which apply your chosen skill's proficiency.",
-               "The ability score most relevant to the skill increases by 1, to a maximum of 20."
+						"You gain proficiency in a skill of your choice.",
+						"You gain a +1 bonus to any ability check you make which apply your chosen skill's proficiency.",
+						"The ability score most relevant to the skill increases by 1, to a maximum of 20."
 					]
 				}
 			]
@@ -778,23 +699,19 @@
 		{
 			"name": "Production Medic",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Nasod (Production)"
-						}
-					]
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "Nasod (Production)"
+				}]
+			}],
 			"entries": [
-               "Some Production Nasods were created to work on factory lines. Others were created to work on battlefields. As a Production Medic, you became incredibly proficient at keeping your fellow soldiers alive and defying the die of death. You gain the following benefits:",
+				"Some Production Nasods were created to work on factory lines. Others were created to work on battlefields. As a Production Medic, you became incredibly proficient at keeping your fellow soldiers alive and defying the die of death. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "Allies within 50 feet of you must fail an additional death saving throw to die.",
-               "You can use a bonus action to move up to half your movement speed toward an unstable creature within your range of sight. This movement does not provoke attacks of opportunity.",
-               "You automatically succeed on any Wisdom check made to stabilize a dying creature."
+						"Allies within 50 feet of you must fail an additional death saving throw to die.",
+						"You can use a bonus action to move up to half your movement speed toward an unstable creature within your range of sight. This movement does not provoke attacks of opportunity.",
+						"You automatically succeed on any Wisdom check made to stabilize a dying creature."
 					]
 				}
 			]
@@ -802,16 +719,15 @@
 		{
 			"name": "Artificer Initiate",
 			"source": "SRP",
-			"prerequisite": [
-			],
+			"prerequisite": [],
 			"entries": [
-               "You’ve learned some of an artificer’s inventiveness, granting you the following benefits:",
+				"You’ve learned some of an artificer’s inventiveness, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You learn one cantrip of your choice from the artificer spell list, and you learn one 1st-level spell of your choice from that list. Intelligence is your spellcasting ability for these spells. Whenever you gain a level, you can replace one of these spells with another spell of the same level from the artificer spell list.",
-               "You can cast this feat’s 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.",
-               "You gain proficiency with one type of artisan’s tools of your choice, and you can use that type of tool as a spellcasting focus for any spell you cast that uses Intelligence as its spellcasting ability."
+						"You learn one cantrip of your choice from the artificer spell list, and you learn one 1st-level spell of your choice from that list. Intelligence is your spellcasting ability for these spells. Whenever you gain a level, you can replace one of these spells with another spell of the same level from the artificer spell list.",
+						"You can cast this feat’s 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.",
+						"You gain proficiency with one type of artisan’s tools of your choice, and you can use that type of tool as a spellcasting focus for any spell you cast that uses Intelligence as its spellcasting ability."
 					]
 				}
 			]
@@ -819,26 +735,23 @@
 		{
 			"name": "Chef",
 			"source": "SRP",
-			"prerequisite": [
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"con"
-						],
-						"amount": 1
-					}
+			"prerequisite": [],
+			"ability": [{
+				"choose": {
+					"from": [
+						"con"
+					],
+					"amount": 1
 				}
-			],
+			}],
 			"entries": [
-               "Time and effort spent mastering the culinary arts has paid off. You gain the following benefits:",
+				"Time and effort spent mastering the culinary arts has paid off. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You gain proficiency with cook’s utensils if you don’t already have it.",
-               "As part of a short rest, you can cook special food, provided you have ingredients and cook’s utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 + your proficiency bonus. At the end of the short rest, any creature who eats the food and spends one or more Hit Dice to regain hit points regains an extra {@dice 1d8} hit points.",
-               "With one hour of work or when you finish a long rest, you can cook a number of treats equal to your proficiency bonus. These special treats last 8 hours after being made. A creature can use a bonus action to eat one of those treats to gain temporary hit points equal to your proficiency bonus."
+						"You gain proficiency with cook’s utensils if you don’t already have it.",
+						"As part of a short rest, you can cook special food, provided you have ingredients and cook’s utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 + your proficiency bonus. At the end of the short rest, any creature who eats the food and spends one or more Hit Dice to regain hit points regains an extra {@dice 1d8} hit points.",
+						"With one hour of work or when you finish a long rest, you can cook a number of treats equal to your proficiency bonus. These special treats last 8 hours after being made. A creature can use a bonus action to eat one of those treats to gain temporary hit points equal to your proficiency bonus."
 					]
 				}
 			]
@@ -846,26 +759,23 @@
 		{
 			"name": "Crusher",
 			"source": "SRP",
-			"prerequisite": [
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex"
-						],
-						"amount": 1
-					}
+			"prerequisite": [],
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex"
+					],
+					"amount": 1
 				}
-			],
+			}],
 			"entries": [
-               "You are practiced in the art of crushing your enemies, granting you the following benefits:",
+				"You are practiced in the art of crushing your enemies, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "Once per turn, when you hit a creature with an attack that deals bludgeoning damage, you can move it 5 feet to an unoccupied space, provided the target is no more than one size larger than you.",
-               "When you score a critical hit that deals bludgeoning damage to a creature, attack rolls against that creature are made with advantage until the end of your next turn."
+						"Once per turn, when you hit a creature with an attack that deals bludgeoning damage, you can move it 5 feet to an unoccupied space, provided the target is no more than one size larger than you.",
+						"When you score a critical hit that deals bludgeoning damage to a creature, attack rolls against that creature are made with advantage until the end of your next turn."
 					]
 				}
 			]
@@ -873,18 +783,16 @@
 		{
 			"name": "Eldritch Adept",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"other": "Spellcasting or Pact Magic feature"
-				}
-			],
+			"prerequisite": [{
+				"other": "Spellcasting or Pact Magic feature"
+			}],
 			"entries": [
-               "Studying occult lore, you have unlocked eldritch power within yourself: ",
+				"Studying occult lore, you have unlocked eldritch power within yourself: ",
 				{
 					"type": "list",
 					"items": [
-               "You learn one Eldritch Invocation option of your choice from the warlock class. If the invocation has a prerequisite, you can choose that invocation only if you’re a warlock and only if you meet the prerequisite.",
-               "Whenever you gain a level, you can replace the invocation with another one from the warlock class."	
+						"You learn one Eldritch Invocation option of your choice from the warlock class. If the invocation has a prerequisite, you can choose that invocation only if you’re a warlock and only if you meet the prerequisite.",
+						"Whenever you gain a level, you can replace the invocation with another one from the warlock class."
 					]
 				}
 			]
@@ -892,26 +800,23 @@
 		{
 			"name": "Fey Touched",
 			"source": "SRP",
-			"prerequisite": [
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
+			"prerequisite": [],
+			"ability": [{
+				"choose": {
+					"from": [
+						"int",
+						"wis",
+						"cha"
+					],
+					"amount": 1
 				}
-			],
+			}],
 			"entries": [
-               "Your exposure to the Feywild or one of its denizens has left a magical mark on you. You gain the following benefits:",
+				"Your exposure to the Feywild or one of its denizens has left a magical mark on you. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You learn the {@spell misty step} spell and one 1st-level spell of your choice. The 1st-level spell must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can’t cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat."
+						"You learn the {@spell misty step} spell and one 1st-level spell of your choice. The 1st-level spell must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can’t cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat."
 					]
 				}
 			]
@@ -919,19 +824,17 @@
 		{
 			"name": "Fighting Initiate",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"other": "Proficiency with a martial weapon"
-				}
-			],
+			"prerequisite": [{
+				"other": "Proficiency with a martial weapon"
+			}],
 			"entries": [
-               "Your martial training has helped you develop a particular style of fighting. As a result, you gain the following benefits:",
+				"Your martial training has helped you develop a particular style of fighting. As a result, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You learn one Fighting Style option of your choice from the fighter class. If you already have a style, the one you choose must be different.",
-               "Whenever you gain a level, you can replace this feat’s fighting style with another one from the fighter class that you don’t have.",
-               ""
+						"You learn one Fighting Style option of your choice from the fighter class. If you already have a style, the one you choose must be different.",
+						"Whenever you gain a level, you can replace this feat’s fighting style with another one from the fighter class that you don’t have.",
+						""
 					]
 				}
 			]
@@ -939,18 +842,16 @@
 		{
 			"name": "Metamagic Adept",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"other": "Spellcasting or Pact Magic feature"
-				}
-			],
+			"prerequisite": [{
+				"other": "Spellcasting or Pact Magic feature"
+			}],
 			"entries": [
-               "You’ve learned how to exert your will on your spells to alter how they function. You gain the following benefits:",
+				"You’ve learned how to exert your will on your spells to alter how they function. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You learn two Metamagic options of your choice from the sorcerer class. You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise. Whenever you gain a level, you can replace one of your Metamagic options with another one from the sorcerer class.",
-               "You gain 2 sorcery points to spend on Metamagic (these points are added to any sorcery points you have from another source but can be used only on Metamagic). You regain all spent sorcery points when you finish a long rest."
+						"You learn two Metamagic options of your choice from the sorcerer class. You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise. Whenever you gain a level, you can replace one of your Metamagic options with another one from the sorcerer class.",
+						"You gain 2 sorcery points to spend on Metamagic (these points are added to any sorcery points you have from another source but can be used only on Metamagic). You regain all spent sorcery points when you finish a long rest."
 					]
 				}
 			]
@@ -958,26 +859,23 @@
 		{
 			"name": "Piercer",
 			"source": "SRP",
-			"prerequisite": [
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex"
-						],
-						"amount": 1
-					}
+			"prerequisite": [],
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex"
+					],
+					"amount": 1
 				}
-			],
+			}],
 			"entries": [
-               "You have achieved a penetrating precision in combat, granting you the following benefits:",
+				"You have achieved a penetrating precision in combat, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "Once per turn, when you hit a creature with an attack that deals piercing damage, you can reroll one of the attack’s damage dice, and you must use the new roll.",
-               "When you score a critical hit that deals piercing damage to a creature, you can roll one additional damage die when determining the extra piercing damage the target takes."
+						"Once per turn, when you hit a creature with an attack that deals piercing damage, you can reroll one of the attack’s damage dice, and you must use the new roll.",
+						"When you score a critical hit that deals piercing damage to a creature, you can roll one additional damage die when determining the extra piercing damage the target takes."
 					]
 				}
 			]
@@ -985,16 +883,15 @@
 		{
 			"name": "Poisoner",
 			"source": "SRP",
-			"prerequisite": [
-			],
+			"prerequisite": [],
 			"entries": [
-               "You can prepare and deliver deadly poisons, gaining the following benefits: ",
+				"You can prepare and deliver deadly poisons, gaining the following benefits: ",
 				{
 					"type": "list",
 					"items": [
-               "When you make a damage roll, you ignore resistance to poison damage.",
-               "You can coat a weapon in poison as a bonus action, instead of an action.",
-               "You gain proficiency with the poisoner’s kit if you don’t already have it. With one hour of work using a poisoner’s kit and expending 50 gp worth of materials, you can create a number of doses of potent poison equal to your proficiency bonus. Once applied, the poison retains potency for 1 minute or until you hit with the weapon. When a weapon coated in this poison deals damage to a creature, that creature must succeed on a DC 14 Constitution saving throw or take {@dice 2d8} poison damage and become poisoned until the end of your next turn. "
+						"When you make a damage roll, you ignore resistance to poison damage.",
+						"You can coat a weapon in poison as a bonus action, instead of an action.",
+						"You gain proficiency with the poisoner’s kit if you don’t already have it. With one hour of work using a poisoner’s kit and expending 50 gp worth of materials, you can create a number of doses of potent poison equal to your proficiency bonus. Once applied, the poison retains potency for 1 minute or until you hit with the weapon. When a weapon coated in this poison deals damage to a creature, that creature must succeed on a DC 14 Constitution saving throw or take {@dice 2d8} poison damage and become poisoned until the end of your next turn. "
 					]
 				}
 			]
@@ -1002,30 +899,27 @@
 		{
 			"name": "Practiced Expert",
 			"source": "SRP",
-			"prerequisite": [
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
+			"prerequisite": [],
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex",
+						"con",
+						"int",
+						"wis",
+						"cha"
+					],
+					"amount": 1
 				}
-			],
+			}],
 			"entries": [
-               "You have honed your proficiency with particular skills or tools, gaining the following benefits:",
+				"You have honed your proficiency with particular skills or tools, gaining the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You gain proficiency with one skill or tool of your choice.",
-               "Choose one of your skill or tool proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen proficiency."
+						"You gain proficiency with one skill or tool of your choice.",
+						"Choose one of your skill or tool proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen proficiency."
 					]
 				}
 			]
@@ -1033,26 +927,23 @@
 		{
 			"name": "Shadow Touched",
 			"source": "SRP",
-			"prerequisite": [
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
+			"prerequisite": [],
+			"ability": [{
+				"choose": {
+					"from": [
+						"int",
+						"wis",
+						"cha"
+					],
+					"amount": 1
 				}
-			],
+			}],
 			"entries": [
-               "You learn how to bend shadows from your experience with the Shadowfell. You gain the following benefits:",
+				"You learn how to bend shadows from your experience with the Shadowfell. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You learn the {@spell darkness} spell and one 1st-level spell of your choice. The 1st-level spell must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can’t cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat."
+						"You learn the {@spell darkness} spell and one 1st-level spell of your choice. The 1st-level spell must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can’t cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat."
 					]
 				}
 			]
@@ -1060,28 +951,25 @@
 		{
 			"name": "Shield Training",
 			"source": "SRP",
-			"prerequisite": [
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con"
-						],
-						"amount": 1
-					}
+			"prerequisite": [],
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex",
+						"con"
+					],
+					"amount": 1
 				}
-			],
+			}],
 			"entries": [
-               "You’ve trained in the effective use of shields. You gain the following benefits:",
+				"You’ve trained in the effective use of shields. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You gain proficiency with shields.",
-               "In combat, you can don or doff a shield as the free object interaction on your turn.",
-               "If you have the Spellcasting or Pact Magic feature, you can use a shield as a spellcasting focus."
+						"You gain proficiency with shields.",
+						"In combat, you can don or doff a shield as the free object interaction on your turn.",
+						"If you have the Spellcasting or Pact Magic feature, you can use a shield as a spellcasting focus."
 					]
 				}
 			]
@@ -1089,26 +977,23 @@
 		{
 			"name": "Slasher",
 			"source": "SRP",
-			"prerequisite": [
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex"
-						],
-						"amount": 1
-					}
+			"prerequisite": [],
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex"
+					],
+					"amount": 1
 				}
-			],
+			}],
 			"entries": [
-               "You’ve learned where to cut to have the greatest results, granting you the following benefits:",
+				"You’ve learned where to cut to have the greatest results, granting you the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "Once per turn when you hit a creature with an attack that deals slashing damage, you can reduce the speed of the target by 10 feet until the start of your next turn.",
-               "When you score a critical hit that deals slashing damage to a creature, you grievously wound it. Until the start of your next turn, the target has disadvantage on all attack rolls."
+						"Once per turn when you hit a creature with an attack that deals slashing damage, you can reduce the speed of the target by 10 feet until the start of your next turn.",
+						"When you score a critical hit that deals slashing damage to a creature, you grievously wound it. Until the start of your next turn, the target has disadvantage on all attack rolls."
 					]
 				}
 			]
@@ -1116,15 +1001,14 @@
 		{
 			"name": "Tandem Tactician",
 			"source": "SRP",
-			"prerequisite": [
-			],
+			"prerequisite": [],
 			"entries": [
-               "Your presence in a scrap tends to elevate your comrades. You gain the following benefits: ",
+				"Your presence in a scrap tends to elevate your comrades. You gain the following benefits: ",
 				{
 					"type": "list",
 					"items": [
-               "You can use the Help action as a bonus action.",
-               "When you use the Help action to aid an ally in attacking a creature, increase the range of the Help action by 10 feet. Additionally, you can help two allies targeting the same creature within range when you use the Help action this way."
+						"You can use the Help action as a bonus action.",
+						"When you use the Help action to aid an ally in attacking a creature, increase the range of the Help action by 10 feet. Additionally, you can help two allies targeting the same creature within range when you use the Help action this way."
 					]
 				}
 			]
@@ -1132,25 +1016,22 @@
 		{
 			"name": "Tracker",
 			"source": "SRP",
-			"prerequisite": [
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"wis"
-						],
-						"amount": 1
-					}
+			"prerequisite": [],
+			"ability": [{
+				"choose": {
+					"from": [
+						"wis"
+					],
+					"amount": 1
 				}
-			],
+			}],
 			"entries": [
-               "You have spent time hunting creatures and honed your skills, gaining the following benefits:",
+				"You have spent time hunting creatures and honed your skills, gaining the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You learn the hunter’s mark spell. You can cast it once without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have. Wisdom is your spellcasting ability for this spell.",
-               "You have advantage on Wisdom ({@skill Survival}) checks to track creatures."
+						"You learn the hunter’s mark spell. You can cast it once without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have. Wisdom is your spellcasting ability for this spell.",
+						"You have advantage on Wisdom ({@skill Survival}) checks to track creatures."
 					]
 				}
 			]
@@ -1158,21 +1039,17 @@
 		{
 			"name": "Dangerous Profession",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Nasod (Production)"
-						}
-					]
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "Nasod (Production)"
+				}]
+			}],
 			"entries": [
-               "Working on the factory line has subjected you to numerous magical effects as you attempted to replicate their function in technological form. In such a magicless city, you had to learn to resist magical effects lest you succumb to wounds no medic could heal. You gain the following benefits:",
+				"Working on the factory line has subjected you to numerous magical effects as you attempted to replicate their function in technological form. In such a magicless city, you had to learn to resist magical effects lest you succumb to wounds no medic could heal. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You can add half your proficiency bonus to a saving throw made against a spell, if you do not already add your proficiency bonus."
+						"You can add half your proficiency bonus to a saving throw made against a spell, if you do not already add your proficiency bonus."
 					]
 				}
 			]
@@ -1180,24 +1057,20 @@
 		{
 			"name": "Forgiveness",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Saki (Cook), Saki (Executioner), Saki (Prophet), Saki (Scholar), Saki (Warrior)"
-						}
-					]
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "Saki (Cook), Saki (Executioner), Saki (Prophet), Saki (Scholar), Saki (Warrior)"
+				}]
+			}],
 			"entries": [
-               "Every part of your body has become a weapon, a fine-tuned instrument which you can utilize in brutal chokeholds the lowlanders often call hugs. You gain the following benefits:",
+				"Every part of your body has become a weapon, a fine-tuned instrument which you can utilize in brutal chokeholds the lowlanders often call hugs. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "When you add your proficiency bonus to an ability check made to grapple, you can instead add twice your proficiency bonus.",
-               "While grappling a creature, you gain the benefits of half cover.",
-               "As a bonus action while you are grappling a creature, you can crush them in your warm embrace, dealing damage equal to your Strength modifier.",
-               "You cannot gain the benefit of any of these features using a weapon with the Grappling property."	
+						"When you add your proficiency bonus to an ability check made to grapple, you can instead add twice your proficiency bonus.",
+						"While grappling a creature, you gain the benefits of half cover.",
+						"As a bonus action while you are grappling a creature, you can crush them in your warm embrace, dealing damage equal to your Strength modifier.",
+						"You cannot gain the benefit of any of these features using a weapon with the Grappling property."
 					]
 				}
 			]
@@ -1205,35 +1078,29 @@
 		{
 			"name": "Woke",
 			"source": "SRP",
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex"
-						],
-						"count": 1,
-						"amount": 1
-					}
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex"
+					],
+					"count": 1,
+					"amount": 1
 				}
-			],
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Awakened (Cat), Awakened (Chicken), Awakened (Dog)"
-						}
-					]
-				}
-			],
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "Awakened (Cat), Awakened (Chicken), Awakened (Dog)"
+				}]
+			}],
 			"entries": [
-               "Your body has been completely transformed by the magic that gave you sentience. As a result of this, your form has adapted to a more humanoid shape, allowing you to accomplish more complex tasks than previously possible. You gain the following benefits:",
+				"Your body has been completely transformed by the magic that gave you sentience. As a result of this, your form has adapted to a more humanoid shape, allowing you to accomplish more complex tasks than previously possible. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "You can now pick up weapons and use them in combat, as well as handle larger complex tasks akin to the average humanoid race.",
-               "You gain the ability to write in languages you understand, if you couldn't previously.",
-               "Being Tiny doesn’t impose disadvantage on your attack rolls with heavy weapons."
+						"You can now pick up weapons and use them in combat, as well as handle larger complex tasks akin to the average humanoid race.",
+						"You gain the ability to write in languages you understand, if you couldn't previously.",
+						"Being Tiny doesn’t impose disadvantage on your attack rolls with heavy weapons."
 					]
 				}
 			]
@@ -1241,49 +1108,44 @@
 		{
 			"name": "Abyssal Centrifuge",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Abyssborn"
-						}
-					]
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "Abyssborn"
+				}]
+			}],
 			"entries": [
-               "You have mastered the art of the scythe, an Abyssborn's most trusted weapon, and have perfected the art of rapidly switching forms mid-combat. You gain the following benefits:",
+				"You have mastered the art of the scythe, an Abyssborn's most trusted weapon, and have perfected the art of rapidly switching forms mid-combat. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "After taking the Attack action to make a melee weapon attack against a creature, you can use a bonus action to use your Shard of Almorphius feature, instead of the normally required action. Once you use this feature, you cannot use it again until you finish a long rest.",
-               "You have two Abyss points. When you hit with a melee weapon attack using a two-handed scythe, you can expend one Abyss point to activate an effect dependent on your current form:"
+						"After taking the Attack action to make a melee weapon attack against a creature, you can use a bonus action to use your Shard of Almorphius feature, instead of the normally required action. Once you use this feature, you cannot use it again until you finish a long rest.",
+						"You have two Abyss points. When you hit with a melee weapon attack using a two-handed scythe, you can expend one Abyss point to activate an effect dependent on your current form:"
 					]
 				},
-						{
-							"type": "inset",
-							"name": "",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [{
 							"entries": [
-								{
-									"entries": [
-                                       "{@b Humane.} The target creature must make a Dexterity saving throw. On a failed save, you rend their limbs out from under them, reducing their movement speed to 0 until the end of their next turn."
-									],
-									"type": "entries"
-								},
-								{
-									"entries": [
-                                       "{@b Abyss.} The target creature must make a Strength saving throw. On a failed save, you slam your scythe down onto the floor, causing the ground to tremble underneath them. That creature is knocked {@condition prone}."
-									],
-									"type": "entries"
-								}
+								"{@b Humane.} The target creature must make a Dexterity saving throw. On a failed save, you rend their limbs out from under them, reducing their movement speed to 0 until the end of their next turn."
 							],
-							"data": {
-								"overwrite": "Darkvision"
-							}
+							"type": "entries"
 						},
+						{
+							"entries": [
+								"{@b Abyss.} The target creature must make a Strength saving throw. On a failed save, you slam your scythe down onto the floor, causing the ground to tremble underneath them. That creature is knocked {@condition prone}."
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Darkvision"
+					}
+				},
 				{
 					"type": "list",
 					"items": [
-               "Your DC for these abilities are 8 + your proficiency bonus + your Charisma modifier. You regain all expended Abyss points on a long rest."
+						"Your DC for these abilities are 8 + your proficiency bonus + your Charisma modifier. You regain all expended Abyss points on a long rest."
 					]
 				}
 			]
@@ -1291,21 +1153,17 @@
 		{
 			"name": "Wrought From the Beneath",
 			"source": "SRP",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "The Beneath"
-						}
-					]
-				}
-			],
+			"prerequisite": [{
+				"race": [{
+					"name": "The Beneath"
+				}]
+			}],
 			"entries": [
-               "You were often called a pangolin. A creature who exists as a needless predator who rolls across the ground in abject confusion. In defiance, you decided to prove them wrong. Through the blood that runs through your veins, a distinct bloodline that siphons back to the ancient duergar, you became large. Exceedingly large. You gain the following benefits:",
+				"You were often called a pangolin. A creature who exists as a needless predator who rolls across the ground in abject confusion. In defiance, you decided to prove them wrong. Through the blood that runs through your veins, a distinct bloodline that siphons back to the ancient duergar, you became large. Exceedingly large. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-               "As an action, you become a Large size creature. As you grow, your proportions increase by a factor of 1.6 as you tower over the creatures in your vicinity. While in this state, you gain resistance to non-magical bludgeoning, piercing, and slashing damage. In addition, creatures behind you gain the benefits of three-quarters cover. This form lasts for one minute, and afterward, you revert to your original form. Once you use this feature, you cannot use it again until you finish a long rest."
+						"As an action, you become a Large size creature. As you grow, your proportions increase by a factor of 1.6 as you tower over the creatures in your vicinity. While in this state, you gain resistance to non-magical bludgeoning, piercing, and slashing damage. In addition, creatures behind you gain the benefits of three-quarters cover. This form lasts for one minute, and afterward, you revert to your original form. Once you use this feature, you cannot use it again until you finish a long rest."
 					]
 				}
 			]

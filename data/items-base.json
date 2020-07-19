@@ -200,13 +200,21 @@
 			"property": [
 				"CON",
 				"F",
-				"L"
+				"L",
+				"S"
 			],
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"sword": true,
 			"weapon": true,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"While this weapon is sheathed, your hands are considered free."
+					]
+				}
 			]
 		},
 		{
@@ -219,13 +227,21 @@
 			"weaponCategory": "martial",
 			"property": [
 				"DI",
-				"L"
+				"L",
+				"S"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
 			"sword": true,
 			"weapon": true,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"While wielding two gauntlets and no shield, you increase your Armor Class by 1. You can only benefit from this effect once."
+					]
+				}
 			]
 		},
 		{
@@ -1106,7 +1122,7 @@
 					"type": "entries",
 					"name": "Unarmed",
 					"entries": [
-						"When you make an unarmed strike, you can choose to have the attack deal damage equal to the damage of this weapon, rather than your normal unarmed strike damage. In addition, you hands are considered free for the purposes of object interactions and grappling."
+						"When you make an unarmed strike, you can choose to have the attack deal damage equal to the damage of this weapon, rather than your normal unarmed strike damage. In addition, your hands are considered free for the purposes of object interactions and grappling."
 					]
 				}
 			]
