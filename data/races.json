@@ -3994,7 +3994,7 @@
 								},
 								{
 									"entries": [
-                     "{@bold Antivenom}. The creature is cured of the {@condition posioned} condition and gains advantage on saving throws against the {@condition poisoned} condition for one minute."
+                     "{@bold Antivenom}. The creature is cured of the {@condition poisoned} condition and gains advantage on saving throws against the {@condition poisoned} condition for one minute."
 									],
 									"type": "entries"
 								}
