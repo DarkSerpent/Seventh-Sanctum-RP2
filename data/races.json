@@ -3804,7 +3804,7 @@
 			},
 			"ability": [
 				{
-					"int": 1
+					"null": null
 				}
 			],
 			"traitTags": [
@@ -3853,6 +3853,34 @@
 					"type": "entries"
 				},
 				{
+					"name": "Paralyzing Gaze",
+					"entries": [
+                     "Once you reach 5th level, you learn the spell {@spell hold person}. You can cast this spell once per long rest, as your paralyzing schlera are scratched and need time to regenerate. Your spellcasting modifier for this spell is Intelligence."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Amazon",
+					"ability": [
+						{
+							"int": 1,
+							"choose": {
+								"from": [
+									"str",
+									"dex"
+								],
+								"count": 1,
+								"amount": 2
+							}
+						}
+					],
+					"speed": {
+						"walk": 35
+					},
+					"entries": [
+				{
 					"name": "Serpent's Sting",
 					"entries": [
                      "You gain the benefits of Serpent's Sting in one of three situations:"
@@ -3882,7 +3910,7 @@
 								}
 							],
 							"data": {
-								"overwrite": "Serpent's Sting"
+								"overwrite": "Serpent's Sting II"
 							}
 						},
 						{
@@ -3900,57 +3928,22 @@
 					"type": "entries"
 				},
 				{
-					"name": "Paralyzing Gaze",
-					"entries": [
-                     "Once you reach 5th level, you learn the spell {@spell hold person}. You can cast this spell once per long rest, as your paralyzing schlera are scratched and need time to regenerate. Your spellcasting modifier for this spell is Intelligence."
-					],
-					"type": "entries"
-				},
-				{
 					"name": "Language",
 					"entries": [
                      "You can speak, read, and write Common, Abyssal, and Draconic."
 					],
 					"type": "entries"
 				}
-			],
-			"subraces": [
-				{
-					"name": "Amazon",
-					"ability": [
-						{
-							"int": 1,
-							"choose": {
-								"from": [
-									"str",
-									"dex"
-								],
-								"count": 1,
-								"amount": 2
-							}
-						}
-					],
-					"speed": {
-						"walk": 35
-					},
-					"entries": [
-						{
-							"name": "Warriors",
-							"entries": [
-                                "You gain proficiency in the {@skill Athletics} skill."
-							],
-							"type": "entries"
-						}
 					]
 				},
 				{
 					"name": "Sculptor",
 					"ability": [
 						{
-							"int": 1,
+							"dex": 1,
 							"choose": {
 								"from": [
-									"wis",
+									"int",
 									"cha"
 								],
 								"count": 1,
@@ -3960,16 +3953,68 @@
 					],
 					"speed": {
 						"walk": 30,
-						"climb": 20
+						"climb": 30
 					},
 					"entries": [
 						{
-							"name": "Builders",
+							"name": "The Art of Intelligence",
 							"entries": [
-                                "You gain proficiency with one artisan tool of your choice: {@item Carpenter's tools|phb} or {@item Mason's tools|phb}."
+                                "Choose two tools from the following list: {@item Carpenter's tools|phb}, {@item Mason's tools|phb}, {@item Cobbler's tools|phb}, {@item Painter's tools|phb}, {@item Weaver's tools|phb}, {@item Glassblower's tools|phb}, or {@item Potter's tools|phb}. You gain proficiency in those tools, and you double your proficiency bonus for any ability checks you make with them."
 							],
 							"type": "entries"
-						}
+						},
+				{
+					"name": "Serpent's Ward",
+					"entries": [
+                     "Once per long rest, one of your snakes can inject you or a creature within 5-feet of you with a special poison. Instead of harming the individual, this poison seeks to establish antibodies in the body of the individual to increase their resistances. When you use this feature, you choose one effect from the list of variations below:"
+					],
+					"type": "entries"
+				},
+						{
+							"type": "inset",
+							"entries": [
+								{
+									"entries": [
+                     "{@bold Acid Ward}. The creature gains resistance to acid for one minute."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                     "{@bold Poison Ward}. The creature gains resistance to poison for one minute."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                     "{@bold Antivenom}. The creature is cured of the {@condition posioned} condition and gains advantage on saving throws against the {@condition poisoned} condition for one minute."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Serpent's Ward II"
+							}
+						},
+				{
+					"name": "Master of High Places",
+					"entries": [
+                     "You gain a climb speed of 30 feet."
+					],
+					"type": "entries"
+				},
+						{
+							"entries": [
+							],
+							"type": "entries"
+						},
+				{
+					"name": "Language",
+					"entries": [
+                     "You can speak, read, and write Common, Abyssal, and Draconic."
+					],
+					"type": "entries"
+				}
 					]
 				}
 			]
