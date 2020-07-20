@@ -3855,7 +3855,7 @@
 				{
 					"name": "Paralyzing Gaze",
 					"entries": [
-                     "Once you reach 5th level, you learn the spell {@spell hold person}. You can cast this spell once per long rest, as your paralyzing schlera are scratched and need time to regenerate. Your spellcasting modifier for this spell is Intelligence."
+                     "Once you reach 5th level, you learn the spell {@spell hold person}. You can cast this spell once per long rest, as your paralyzing schlera are scratched and need time to regenerate. Intelligence is your spellcasting modifier for this spell."
 					],
 					"type": "entries"
 				}
