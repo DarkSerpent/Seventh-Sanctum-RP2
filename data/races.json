@@ -3928,6 +3928,13 @@
 					"type": "entries"
 				},
 				{
+					"name": "Slithering Path",
+					"entries": [
+                     "Your base walking speed increases to 35 feet."
+					],
+					"type": "entries"
+				},
+				{
 					"name": "Language",
 					"entries": [
                      "You can speak, read, and write Common, Abyssal, and Draconic."
