@@ -4274,7 +4274,7 @@
 				{
 					"name": "Keen Eye",
 					"entries": [
-                     "You have proficiency in the Perception skill."
+                     "You have proficiency in the Wisdom ({@skill Perception}) skill."
 					],
 					"type": "entries"
 				},
