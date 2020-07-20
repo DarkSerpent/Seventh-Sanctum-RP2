@@ -3459,7 +3459,7 @@
 							"type": "entries",
 							"name": "Flight",
 							"entries": [
-								"You gain a flying speed of 20 feet. When using your flying speed, you cannot end your turn more than 5 feet above a solid surface, and gently descend down to this distance at a speed of 60 feet per round if you are any higher."
+								"You gain a flying speed of 20 feet and can hover."
 							]
 						},
 						{
