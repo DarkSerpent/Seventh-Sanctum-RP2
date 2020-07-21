@@ -5109,64 +5109,6 @@
 							"type": "entries"
 						},
 						{
-							"name": "Surprise!",
-							"entries": [
-                                "As a bonus action after you cast a cantrip, you can choose to roll a {@dice d20}. If you roll a 1, roll again on the Hippity Hoppity table to create a random magical effect:"
-							],
-							"type": "entries"
-						},
-									{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"caption": "",
-												"colLabels": [
-													"1d6",
-													"Effect"
-												],
-												"colStyles": [
-													"col-2 text-center",
-													"col-10"
-												],
-												"rows": [
-													[
-														"1",
-														"{@b Property Control}. A hostile creature you can see within 30 feet must make a Dexterity saving throw equal to your spell save DC. On a failed save, that creature falls {@condition prone}. If there are no hostile creatures within 30 feet, you instead target an allied creature."
-													],
-													[
-														"2",
-														"{@b Tract & Wealth}. A random creature within 15 feet of you has {@dice 5d6} gold pieces magically appear in their pocket. If that creature has no pockets, the gold instead funnels out of a magic tube onto their head."
-													],
-													[
-														"3",
-														"{@b Estate Housing}. You gain {@dice 1d6} + your Intelligence modifier temporary hit points. If you already have temporary hit points from another effect, you instead are magically compelled dance in place."
-													],
-													[
-														"4",
-														"{@b Forclose}. You are {@condition frightened} by the nearest creature for two rounds. After those two rounds are over, or you are cured from the {@condition frightened} condition by an outside source, you immediately heal for {@dice 1d6} hit points."
-													],
-													[
-														"5",
-														"{@b Buying Land}. Your size increases by one size category for the next minute. If your size would increase to Small or greater this way, you are no longer under the effects of Amongst Giants."
-													],
-													[
-														"6",
-														"{@b I Found the Plot!} You gain 30 feet of truesight for one minute."
-													]
-												]
-											}
-										]
-									},
-						{
-							"name": "",
-							"entries": [
-                                "You can use this feature a number of times equal to your Intelligence modifier, and regain all expended uses on a long rest."
-							],
-							"type": "entries"
-						},
-						{
 							"type": "entries",
 							"name": "Languages",
 							"entries": [
