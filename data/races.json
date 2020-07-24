@@ -5169,7 +5169,8 @@
 				{
 					"name": "Attuned Flight",
 					"entries": [
-                         "You have a flying speed of 40 feet. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item."
+                         "You have a flying speed of 40 feet. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item.",
+						 "If you do not attune to the Way of Worlds, you can still fly using this feature. However, your maximum height is 5 feet. While flying this way, you can still hover."
 					],
 					"type": "entries"
 				},
