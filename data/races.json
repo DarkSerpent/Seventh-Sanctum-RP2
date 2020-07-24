@@ -2230,9 +2230,9 @@
 					"type": "entries"
 				},
 				{
-					"name": "Flight",
+					"name": "Attuned Flight",
 					"entries": [
-                     "You have a flying speed of 40 feet. To use this speed, you can't be wearing medium or heavy armor."
+                     "You have a flying speed of 40 feet. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item."
 					],
 					"type": "entries"
 				},
@@ -2717,7 +2717,7 @@
 						},
 						{
 							"entries": [
-                               "{@b Flight.} You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor."
+                               "{@b Attuned Flight.} You have a flying speed of 30 feet. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item."
 							],
 							"type": "entries"
 						},
@@ -3547,7 +3547,7 @@
 							"type": "entries",
 							"name": "Otherworldly Flight",
 							"entries": [
-								"You gain a flying speed of 20 feet and can hover."
+								"You gain a flying speed of 20 feet and can hover. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item."
 							]
 						},
 						{
@@ -5167,9 +5167,9 @@
 					]
 				},
 				{
-					"name": "Flight",
+					"name": "Attuned Flight",
 					"entries": [
-                         "You have a flying speed of 40 feet. To use this speed, you can't be wearing medium or heavy armor."
+                         "You have a flying speed of 40 feet. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item."
 					],
 					"type": "entries"
 				},
