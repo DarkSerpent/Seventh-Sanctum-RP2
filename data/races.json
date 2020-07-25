@@ -313,7 +313,7 @@
 						{
 							"name": "Second Clan of Ice",
 							"entries": [
-								"Your unarmed claw attacks now deal {@dice 1d4} ice damage."
+								"Your unarmed claw attacks now deal {@dice 1d4} cold damage."
 							],
 							"type": "entries"
 						},
