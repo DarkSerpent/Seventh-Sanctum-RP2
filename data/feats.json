@@ -4,7 +4,7 @@
 			"source": "SRP",
 			"prerequisite": [{
 				"race": [{
-					"name": "revenant"
+					"name": "Revenant"
 				}]
 			}],
 			"ability": [{
@@ -680,7 +680,7 @@
 			"source": "SRP",
 			"prerequisite": [{
 				"race": [{
-					"name": "Demibeast (Wolf)"
+					"name": "Demibeast (Leonin), Demibeast (Ursus), Demibeast (Wolf)"
 				}]
 			}],
 			"ability": [{
@@ -1074,7 +1074,7 @@
 			"source": "SRP",
 			"prerequisite": [{
 				"race": [{
-					"name": "Saki (Cook), Saki (Executioner), Saki (Prophet), Saki (Scholar), Saki (Warrior)"
+					"name": "Demibeast (Ursus), Saki (All)"
 				}]
 			}],
 			"entries": [
@@ -1105,7 +1105,7 @@
 			}],
 			"prerequisite": [{
 				"race": [{
-					"name": "Awakened (Cat), Awakened (Chicken), Awakened (Dog)"
+					"name": "Awakened (All)"
 				}]
 			}],
 			"entries": [
