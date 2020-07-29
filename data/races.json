@@ -3381,7 +3381,7 @@
 					"type": "entries",
 					"name": "Door Opener",
 					"entries": [
-                     "You learn the {@skill mold earth} cantrip, and are skilled at using it to modify doorways to allow for your larger build. You can repair the doorway afterward without expending an action."
+                     "You learn the {@spell mold earth} cantrip, and are skilled at using it to modify doorways to allow for your larger build. You can repair the doorway afterward without expending an action."
 					]
 				},
 				{
@@ -3563,7 +3563,7 @@
 						{
 							"name": "Divine Prophet",
 							"entries": [
-                     "You gain proficiency in {@skill Religon}."
+                     "You gain proficiency in {@skill religion}."
 							],
 							"type": "entries"
 						},
