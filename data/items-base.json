@@ -1755,7 +1755,7 @@
 			"name": "Zelo's Morning After Pills",
 			"source": "GS",
 			"type": "Guild Shop Item",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"value": 15000,
 			"reqAttune": false,
 			"entries": [
