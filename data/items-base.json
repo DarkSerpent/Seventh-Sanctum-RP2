@@ -1005,8 +1005,7 @@
 					"type": "list",
 					"items": [
 						"{@spell Mending} — {@bold 0th Level} — At will",
-						"{@spell Spiritual Weapon} — {@bold 2nd Level} — 3/day",
-						"{@spell Spiritual Weapon} — {@bold 3rd Level} — 1/week"
+						"{@spell Spiritual Weapon} — {@bold 2nd Level} — 3/day"
 					]
 				}
 			]
