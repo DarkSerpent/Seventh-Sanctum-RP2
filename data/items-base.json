@@ -1095,7 +1095,6 @@
 		{
 			"name": "Doom & Gloom",
 			"source": "GS",
-			"type": "M",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": true,
@@ -1368,8 +1367,8 @@
 			"type": "Guild Shop Item, Technological Item",
 			"value": 600000,
 			"entries": [
-				"This fluorescent baton has an accented glow of a variety of colors ranging from blue, orange, purple, green, and white. It is one foot long but extends to roughly 3 feet. ",
-				"While holding this baton the user may spend an action extending and constructing a motorcycle from the device. This has the normal statistics of a motorcycle with these adjustments: ",
+				"This fluorescent baton has an accented glow of a variety of colors ranging from blue, orange, purple, green, and white. It is one foot long but extends to roughly 3 feet.",
+				"While holding this baton the user may spend an action extending and constructing a motorcycle from the device. This has the normal statistics of a motorcycle with these adjustments:",
 				{
 					"type": "list",
 					"items": [
@@ -1393,6 +1392,375 @@
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
 				"This weapon has been modified with magic runes. As a free action, the wielder may activate the runes on this weapon. While activated, the next attack does an additional {@dice 2d6} fire damage, and if the attack hits a creature, it must make a DC 15 Strength save or be knocked prone. Once used this way, the rune becomes innert for 24 hours."
+			]
+		},
+		{
+			"name": "Cloak of Cherry Blossoms",
+			"source": "GS",
+			"rarity": "common",
+			"tier": "minor",
+			"reqAttune": false,
+			"weight": 0.01,
+			"type": "Guild Shop Item",
+			"value": 15000,
+			"entries": [
+				"While wearing this cloak, you can use a bonus action to cause a small storm of harmless cherry blossoms to flutter around you."
+			]
+		},
+		{
+			"name": "Through the Fire and the Flames",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": true,
+			"baseItem": "gauntlet|srp",
+			"type": "Guild Shop Weapon",
+			"value": 60000,
+			"entries": [
+				"These pair of gauntlets are shaped in the likeness of a dragon's mouth. You can cast the spell {@spell burning hands} once from each fist, for a total of two times, with a DC of 13. Once you use each fist this way, you cannot do so again until next dawn.",
+				"In addition, you gain a +1 bonus to attack and damage rolls using unarmed strikes with this weapon."
+			]
+		},
+		{
+			"name": "Kindermore's Tincture of Disfigurement",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item, Consumable",
+			"value": 300000,
+			"entries": [
+				"This vial of thick liquid of swirling greens and pinks holds one use of Kindermore's Tincture of Disfigurement. If applied to an area of the body, the tincture causes severe and painful acid burns that last for {@dice 1d4} hours. After 1 minute of severe pain, the wound begins to heal and the pain subsides. A disfigured skin scarification is in place of the skin that the tincture was applied to. The scars fully heal after {@di8ce 1d4} hours and the creature's appearance is returned to normal.",
+				"The tincture causes the target to take {@dice 3d8} acid damage. It's hit point maximum is also reduced by an amount equal to the damage taken. The effect cannot cause the target's maximum hit points to drop to 0. If it would drop to 0, the target instead is reduced to a maximum of 1, falls unconscious, and must begin making death saving throws.  At the end of the duration, the effects on a target's maximum hit points is removed and the target regains the lost HP.",
+				"The healing effect at the end of the duration does not occur if the creature dies. The healing effect of the tincture has no effect on constructs, undead, or inanimate objects.",
+				"The acid can be applied to the face in an attempt to disguise a creatures identity. A successful DC 20 Intelligence check  is necessary to discern the true identity. The effect does not end for the entire duration except through the {@spell regenerate} or {@spell wish} spells."
+			]
+		},
+		{
+			"name": "Elemental Fang, Fire",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"baseItem": "lance|phb",
+			"reqAttune": true,
+			"type": "Guild Shop Weapon",
+			"value": 600000,
+			"entries": [
+				"You gain a +1 to attack and damage rolls with this item.",
+				"You can cast the {@spell scorching ray} spell from the lance (+5 attack bonus). This spell cannot be cast again from the lance again until next dawn.",
+				"Additionally, you can empower one of your strikes with elemental energy, increasing its strength by {@dice 1d10} fire damage. You must move 20 feet in a straight line and declare this effect before the attack is made. Using this effect expends a charge, of which you have 3. You regain all expended charges each dawn."
+			]
+		},
+		{
+			"name": "Elemental Fang, Cold",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"baseItem": "lance|phb",
+			"reqAttune": true,
+			"type": "Guild Shop Weapon",
+			"value": 600000,
+			"entries": [
+				"You gain a +1 to attack and damage rolls with this item.",
+				"You can cast the {@spell snilloc's snowball swarm} spell from the lance (DC 13). This spell cannot be cast again from the lance again until next dawn.",
+				"Additionally, you can empower one of your strikes with elemental energy, increasing its strength by {@dice 1d10} cold damage. You must move 20 feet in a straight line and declare this effect before the attack is made. Using this effect expends a charge, of which you have 3. You regain all expended charges each dawn."
+			]
+		},
+		{
+			"name": "Elemental Fang, Acid",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"baseItem": "lance|phb",
+			"reqAttune": true,
+			"type": "Guild Shop Weapon",
+			"value": 600000,
+			"entries": [
+				"You gain a +1 to attack and damage rolls with this item.",
+				"You can cast the {@spell melf's acid arrow} spell from the lance (+5 attack bonus). This spell cannot be cast again from the lance again until next dawn.",
+				"Additionally, you can empower one of your strikes with elemental energy, increasing its strength by {@dice 1d10} acid damage. You must move 20 feet in a straight line and declare this effect before the attack is made. Using this effect expends a charge, of which you have 3. You regain all expended charges each dawn."
+			]
+		},
+		{
+			"name": "Elemental Fang, Lightning",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"baseItem": "lance|phb",
+			"reqAttune": true,
+			"type": "Guild Shop Weapon",
+			"value": 600000,
+			"entries": [
+				"You gain a +1 to attack and damage rolls with this item.",
+				"You can cast the {@spell shatter} spell from the lance (DC 13). This spell cannot be cast again from the lance again until next dawn.",
+				"Additionally, you can empower one of your strikes with elemental energy, increasing its strength by {@dice 1d10} lightning damage. You must move 20 feet in a straight line and declare this effect before the attack is made. Using this effect expends a charge, of which you have 3. You regain all expended charges each dawn."
+			]
+		},
+		{
+			"name": "Stormcaller",
+			"source": "GS",
+			"rarity": "very rare",
+			"tier": "major",
+			"baseItem": "longbow|phb",
+			"reqAttune": true,
+			"type": "Guild Shop Weapon",
+			"value": 6000000,
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"You can speak the command word of this bow as a bonus action. After doing so, for the next minute, the bow and all ammunition fired from it are charged with magical lightning.",
+				"While Stormcaller is charged, you can point a finger to the sky and shout, &quot;Strike!&quot; as a bonus action to cause lightning bolts to strike down at any piece of charged ammunition.",
+				"All creatures sharing the same space as a piece of charged ammunition in the ground must make a Dexterity saving throw (DC: 8 + your proficiency bonus + your Charisma modifier) or take {@dice 1d10} lightning damage (or half as much on a successful save). Any creature with a piece of charged ammunition lodged in its body or armor automatically fail this saving throw.",
+				"Once a piece of charged ammunition is struck by lightning, it loses its charge. You can’t use this property again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Sigil of the Claw",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"entries": [
+				"While wearing this sigil, you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical."
+			]
+		},
+		{
+			"name": "Sigil of the Claw",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"entries": [
+				"While wearing this sigil, you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical."
+			]
+		},
+		{
+			"name": "Knave's Eye Patch",
+			"source": "GS",
+			"rarity": "rare",
+			"value": 600000,
+			"tier": "major",
+			"reqAttune": true,
+			"type": "Guild Shop Item",
+			"entries": [
+				"While wearing this eye patch, you gain these benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Wisdom ({@skill Perception}) checks that rely on sight.",
+						"If you have the Sunlight Sensitivity trait, you are unaffected by the trait.",
+						"You are immune to magic that allows other creatures to read your thoughts or determine whether you are lying. Creatures can communicate telepathically with you only if you allow it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bracer of Flying Daggers",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"value": 600000,
+			"weight": 0.2,
+			"reqAttune": true,
+			"type": "Guild Shop Item",
+			"entries": [
+				"This armband appears to have thin {@item dagger|phb|daggers} strapped to it. As an action, you can pull up to two magic daggers from the bracer and immediately hurl them, making a ranged attack with each dagger. A dagger vanishes if you don't hurl it right away, and the daggers disappear right after they hit or miss. The bracer never runs out of daggers."
+			]
+		},
+		{
+			"name": "Night Caller",
+			"source": "GS",
+			"rarity": "uncommon",
+			"value": 60000,
+			"weight": 0.05,
+			"type": "Guild Shop Item",
+			"weight": 1,
+			"entries": [
+				"This whistle is carved from transparent crystal, and it resembles a tiny dragon curled up like a snail. The name Night Caller is etched on the whistle in Dwarvish runes. If a character succeeds on a DC 20 Intelligence ({@skill Arcana} or {@skill History}) check, the character recalls lore that says the {@creature duergar} made several such whistles for various groups in an age past.",
+				"If you blow the whistle in darkness or under the night sky, it allows you to cast the {@spell animate dead} spell. The target can be affected through up to 10 feet of soft earth or similar material, and if it is, it takes 1 minute to claw its way to the surface to serve you. Once the whistle has animated an undead creature, it can't do so again until 7 days have passed.",
+				"Once every 24 hours, you can blow the whistle to reassert control over one or two creatures you animated with it."
+			],
+			"attachedSpells": [
+				"animate dead"
+			]
+		},
+		{
+			"name": "Amulet of the Drunkard",
+			"source": "GS",
+			"rarity": "uncommon",
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"weight": 0.2,
+			"entries": [
+				"This amulet smells of old, ale-stained wood. While wearing it, you can regain {@dice 4d4 + 4} hit points when you drink a pint of beer, ale, mead, or wine. Once the amulet has restored hit points, it can't do so again until the next dawn."
+			]
+		},
+		{
+			"name": "Blood Spear",
+			"source": "GS",
+			"baseItem": "spear|phb",
+			"rarity": "uncommon",
+			"value": 60000,
+			"reqAttune": true,
+			"type": "Guild Shop Weapon",
+			"weight": 3,
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"bonusWeapon": "+2",
+			"entries": [
+				"When you hit with a melee attack using this magic spear and reduce the target to 0 hit points, you gain {@dice 2d6} temporary hit points."
+			]
+		},
+		{
+			"name": "Balloon Pack",
+			"source": "GS",
+			"rarity": "uncommon",
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"entries": [
+				"This backpack contains the spirit of an {@creature air elemental} and a compact leather balloon. While you're wearing the backpack, you can deploy the balloon as an action and gain the effect of the {@spell levitate} spell for 10 minutes, targeting yourself and requiring no concentration. Alternatively, you can use a reaction to deploy the balloon when you're falling and gain the effect of the {@spell feather fall} spell for yourself.",
+				"When either spell ends, the balloon slowly deflates as the elemental spirit escapes and returns to the Elemental Plane of Air. As the balloon deflates, you descend gently toward the ground for up to 60 feet. If you are still in the air at the end of this distance, you fall if you have no other means of staying aloft.",
+				"After the spirit departs, the backpack's property is unusable unless the backpack is recharged for 1 hour in an elemental air node, which binds another spirit to the backpack."
+			],
+			"attachedSpells": [
+				"levitate",
+				"feather fall"
+			]
+		},
+		{
+			"name": "Bottled Breath",
+			"source": "GS",
+			"type": "P",
+			"rarity": "uncommon",
+			"value": 30000,
+			"weight": 0.5,
+			"type": "Guild Shop Item, Consumable",
+			"entries": [
+				"This bottle contains a breath of elemental air. When you inhale it, you either exhale it or hold it.",
+				"If you exhale the breath, you gain the effect of the {@spell gust of wind} spell. If you hold the breath, you don't need to breathe for 1 hour, though you can end this benefit early (for example, to speak). Ending it early doesn't give you the benefit of exhaling the breath."
+			],
+			"attachedSpells": [
+				"gust of wind"
+			]
+		},
+		{
+			"name": "Paper Bird",
+			"source": "GS",
+			"rarity": "uncommon",
+			"value": 30000,
+			"type": "Guild Shop Item, Consumable",
+			"entries": [
+				"After you write a message of fifty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper bird and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the bird turns into ash as it takes flight.",
+				"The bird is an object that has 1 hit point, an Armor Class of 13, a flying speed of 60 feet, a Dexterity of 16 (+3), and a score of 1 (\u22125) in all other abilities, and it is immune to poison and psychic damage.",
+				"It travels to within 5 feet of its intended recipient by the most direct route, whereupon it turns into a nonmagical and inanimate sheet of parchment that can be unfolded only by the intended recipient. If the bird's hit points or speed is reduced to 0 or if it is otherwise immobilized, it turns into ash.",
+				"Paper birds usually come in small, flat boxes containing {@dice 1d6 + 3} sheets of the parchment."
+			]
+		},
+		{
+			"name": "Needle of Mending",
+			"source": "GS",
+			"baseItem": "dagger|PHB",
+			"rarity": "rare",
+			"value": 600000,
+			"type": "Guild Shop Weapon",
+			"reqAttune": true,
+			"weight": 1,
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This weapon is a magic dagger disguised as a sewing needle. When you hold it and use a bonus action to speak its command word, it transforms into a dagger or back into a needle.",
+				"You gain a +1 bonus to attack and damage rolls made with the dagger. While holding it, you can use an action to cast the {@spell mending} cantrip from it."
+			],
+			"attachedSpells": [
+				"mending"
+			]
+		},
+		{
+			"name": "Robe of Serpents",
+			"source": "GS",
+			"rarity": "uncommon",
+			"value": 60000,
+			"reqAttune": true,
+			"type": "Guild Shop Item",
+			"entries": [
+				"A robe of serpents is a stylish silk garment that is popular among wealthy nobles and retired assassins. The robe is emblazoned with {@dice 1d4 + 3} stylized serpents, all brightly colored.",
+				"As a bonus action on your turn, you can transform one of the robe's serpents into a {@creature giant poisonous snake}. The snake instantly falls from the robe, slithers into an unoccupied space next to you, and acts on your initiative count. The snake can tell friendly creatures from hostile ones and attacks the latter. The snake disappears in a harmless puff of smoke after 1 hour, when it drops to 0 hit points, or when you dismiss it (no action required). Once detached, a snake can't return to the robe. When all of the robe's snakes have detached, the robe becomes a nonmagical garment."
+			]
+		},
+		{
+			"name": "Robe of Summer",
+			"source": "GS",
+			"rarity": "rare",
+			"value": 600000,
+			"type": "Guild Shop Item",
+			"reqAttune": true,
+			"weight": 1,
+			"entries": [
+				"This elegant garment is made from fine cloth in hues of red, orange, and gold. While you wear the robe, you have resistance to cold damage. In addition, you are comfortable as if the temperature were that of a balmy day, so you suffer no ill effects from the weather's temperature extremes."
+			]
+		},
+		{
+			"name": "Seeker Dart",
+			"source": "GS",
+			"baseItem": "dart|phb",
+			"type": "Guild Shop Weapon",
+			"rarity": "uncommon",
+			"value": 60000,
+			"weight": 0.25,
+			"property": [
+				"F",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"entries": [
+				"This small dart is decorated with designs like windy spirals that span the length of its shaft.",
+				"When you whisper the word \"seek\" and hurl this dart, it seeks out a target of your choice within 120 feet of you. You must have seen the target before, but you don't need to see it now. If the target isn't within range or if there is no clear path to it, the dart falls to the ground, its magic spent and wasted. Otherwise, elemental winds guide the dart instantly through the air to the target. The dart can pass though openings as narrow as 1 inch wide and can change direction to fly around corners.",
+				"When the dart reaches its target, the target must succeed on a DC 16 Dexterity saving throw or take {@dice 1d4} piercing damage and {@dice 3d4} lightning damage. The dart's magic is then spent, and it becomes an ordinary dart."
+			]
+		},
+		{
+			"name": "Ring of Truth Telling",
+			"source": "GS",
+			"type": "Guild Shop Item",
+			"rarity": "uncommon",
+			"value": 60000,
+			"reqAttune": true,
+			"entries": [
+				"While wearing this ring, you have advantage on Wisdom ({@skill Insight}) checks to determine whether someone is lying to you."
+			]
+		},
+		{
+			"name": "Ring of Obscuring",
+			"source": "GS",
+			"type": "Guild Shop Item",
+			"rarity": "uncommon",
+			"value": 60000,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"This band of iron resembles a skull and is cold to the touch. It has 3 charges and regains {@dice 1d3} expended charges daily at dawn. As an action while wearing the ring, you can expend 1 of its charges to cast the {@spell fog cloud} spell from it, with the following changes: the cloud is centered on you when it first appears, and the spell lasts for 1 minute (no concentration required)."
+			],
+			"attachedSpells": [
+				"fog cloud"
 			]
 		}
 	],
