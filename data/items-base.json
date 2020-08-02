@@ -1762,6 +1762,17 @@
 			"attachedSpells": [
 				"fog cloud"
 			]
+		},
+		{
+			"name": "Zelo's Morning After Pills",
+			"source": "GS",
+			"type": "Guild Shop Item",
+			"rarity": "uncommon",
+			"value": 15000,
+			"reqAttune": false,
+			"entries": [
+				"A pill container filled with small white pills. Each container has 30 pills, of which a single pill can be used to accelerate the effects of being drunk. One pill while drunk will leave you with a hangover. One pill while hung over will leave you lucid. Two pills while drunk will leave you lucid."
+			]
 		}
 	],
 	"itemProperty": [
