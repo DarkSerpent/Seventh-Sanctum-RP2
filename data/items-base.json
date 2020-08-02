@@ -1526,18 +1526,6 @@
 			]
 		},
 		{
-			"name": "Sigil of the Claw",
-			"source": "GS",
-			"rarity": "uncommon",
-			"tier": "major",
-			"reqAttune": false,
-			"type": "Guild Shop Item",
-			"value": 60000,
-			"entries": [
-				"While wearing this sigil, you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical."
-			]
-		},
-		{
 			"name": "Knave's Eye Patch",
 			"source": "GS",
 			"rarity": "rare",
