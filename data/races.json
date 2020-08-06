@@ -4480,7 +4480,7 @@
 				{
 					"name": "Age",
 					"entries": [
-                     "Dragonkin mature at the same rate as humans, but after age 18, they visibly age at a span of 1 year for every 10. On average, they live about 100 years."
+                     "Dragonkin mature at the same rate as humans, but after age 18, they visibly age at a span of 1 year for every 5. On average, they live about 500 years."
 					],
 					"type": "entries"
 				},
@@ -4581,7 +4581,7 @@
 						{
 							"name": "Draconic Visage",
 							"entries": [
-                                "You exemplify both your pride and arrogance as a warrior, releasing an aura that threatens to send those weaker than you into epileptic shock. Creatures within 30 feet of you must make a Charisma saving throw (DC: 8 + your proficiency bonus + your Charisma modifier). On a failed save, those creatures become {@condition frightened} for one minute. A creature can repeat the saving throw at the end of each of their turns, ending the effect on a success. Once you use this ability, you cannot use it again until you finish a short or long rest."
+                                "You exemplify both your pride and arrogance as a warrior, releasing an aura that threatens to send those weaker than you into epileptic shock. As an action, creatures within 30 feet of you must make a Charisma saving throw (DC: 8 + your proficiency bonus + your Charisma modifier). On a failed save, those creatures become {@condition frightened} for one minute. A creature can repeat the saving throw at the end of each of their turns, ending the effect on a success. Once you use this ability, you cannot use it again until you finish a short or long rest."
 							],
 							"type": "entries"
 						},
