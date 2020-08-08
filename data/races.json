@@ -2384,10 +2384,43 @@
 				{
 					"name": "Dazzling Plummage",
 					"entries": [
-                     "As a bonus action you can double your proficiency bonus on any Charisma skill check. After using this ability you can't use it again until after a short rest."
+                     "As a bonus action you can double your proficiency bonus on any Charisma skill check. After using this ability you cannot use it again until you finish a short or long rest."
 					],
 					"type": "entries"
 				},
+						{
+							"name": "Ancient Melody",
+							"entries": [
+                                "You gain proficiency with your voice, which you can use to sing a variety of melodies that instill magical effects by manifesting the nature of Arvandor. The DC for these melodies are equal to 8 + your Charisma modifier + your proficiency bonus. Once you use any of these features, you cannot do so again until you complete a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"type": "inset",
+							"entries": [
+								{
+									"entries": [
+                                       "{@bold Haiku}. As an action, you sing a peaceful and enchanting tune to a creature within 30 feet of you. That creature must make a Wisdom saving throw with a DC equal to your melody save DC. On a failed save, that creature must use an action on their next turn to give you the final verse. After they do so, their turn immediately ends, and they cannot take reactions until the end of their next turn."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@bold Sonnet}. As an action, you sing a song of freedom with a wild, elegant intensity that binds others to you in utter acceptance to your presence unreservedly. When you do so, you appear next to a creature within 60 feet of you, and do not provoke opportunity attacks from that creature until the end of your turn."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@bold Soliloquy}. As an action, you sing an epic and bombastic melody to a creature within 60 feet of you. That creature must make a Wisdom saving throw with a DC equal to your melody save DC. On a failed save, that creature is only aware of you for the next minute. The creature can repeat this saving throw at the end of each of their turns, ending the effect on a success."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Melodies"
+							}
+						},
 				{
 					"name": "Language",
 					"entries": [
@@ -2821,7 +2854,7 @@
 				{
 					"name": "Birth From Creation",
 					"entries": [
-                     "All Demihumans are radically different from one another, depending on the changes than manifested within them from birth. You can select 2 breed traits of your choice from the following list:"
+                     "All Demihumans are radically different from one another, depending on the changes than manifested within them from birth. You can select 3 breed traits of your choice from the following list:"
 					],
 					"type": "entries"
 				},
@@ -2885,7 +2918,7 @@
 						},
 						{
 							"entries": [
-                               "{@b Natural Armor.} When you aren’t wearing armor, your AC equals 11 + your Constitution or Dexterity modifier (your choice)."
+                               "{@b Natural Armor.} When you aren’t wearing armor, your AC equals 12 + your Constitution or Dexterity modifier (your choice)."
 							],
 							"type": "entries"
 						},
@@ -2904,6 +2937,24 @@
 						{
 							"entries": [
                                "{@b Born From Waves.} You have a swim speed equivalent to your walking speed and can breathe in air and water."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Regeneration.} Whenever you complete a short rest, you can roll one {@dice d6} if you expended any hit dice. Add the result to the total health you gain."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Relentless.} When you are reduced to 0 hit points but not killed outright, you can use a reaction to drop to 1 hit point instead. Once you use this ability, you cannot use it again until you finish a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Chameleon.} You have advantage on Dexterity ({@skill Stealth}) checks if you have not moved during the current turn. In addition, you can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
 							],
 							"type": "entries"
 						}
@@ -5619,6 +5670,14 @@
 					"type": "entries"
 				},
 				{
+					"name": "Updraft",
+					"entries": [
+                         "Your powerful legs come segmented into two separate sections, which shift together tightly to produce a large amount of force that puts horses to shame.",
+						 "As a bonus action, you can launch yourself 10-feet into the air in a single movement. This movement does not provoke opportunity attacks, and you immediately begin flying with your Attuned Flight or similar feature. If you do not have a fly speed, you maintain your elevation for a few seconds, falling back to the ground at the end of your turn.",
+						 "Once you use this ability, you cannot do so again until you finish a short or long rest."					],
+					"type": "entries"
+				},
+				{
 					"name": "Peak Dwellers",
 					"entries": [
                          "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to strong wind and cold environments, as described in chapter 5 of the Dungeon Master's Guide."
@@ -5628,7 +5687,7 @@
 				{
 					"name": "Intimidating Plummage",
 					"entries": [
-                         "As a bonus action you can double your proficiency bonus on any {@skill Intimidation} skill check. After using this ability, you can't use it again until after a short or long rest."
+                         "As a bonus action you can double your proficiency bonus on any {@skill Intimidation} skill check. After using this ability, you cannot use it again until you finish a short or long rest."
 					],
 					"type": "entries"
 				},
@@ -5636,6 +5695,13 @@
 					"name": "Talons",
 					"entries": [
 						"You have proficiency with your claws, which are a finesse weapon that deal {@dice 1d6} slashing damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Shining Wings",
+					"entries": [
+						"Your wings have been sheened with a divine blessing from the Elemental Plane of Air, which you can use to reestablish your connection to your forlorn home. As a bonus action, you regain {@dice 2d4+4} hit points. Once you use this ability, you cannot use it again until you finish a long rest."
 					],
 					"type": "entries"
 				},
