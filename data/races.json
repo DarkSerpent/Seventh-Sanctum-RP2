@@ -2392,7 +2392,7 @@
 							"name": "Ancient Melody",
 							"entries": [
                                 "You gain proficiency with your voice, which you can use to sing a variety of melodies that instill a magical effect by manifesting the nature of Arvandor.",
-								"As an action, you sing a peaceful and enchanting tune to a creature within 30 feet of you. That creature must make a Wisdom saving throw with a DC equal to your melody save DC (8 + your Charisma modifier + your proficiency bonus). On a failed save, that creature must use an action on their next turn to give you the final verse. After they do so, their turn immediately ends, and they cannot take reactions until the end of their next turn.",
+								"As an action, you sing a peaceful and enchanting haiku to a creature within 30 feet of you. That creature must make a Wisdom saving throw with a DC equal to your melody save DC (8 + your Charisma modifier + your proficiency bonus). On a failed save, that creature must use an action on their next turn to give you the final verse. After they do so, their turn immediately ends, and they cannot take reactions until the end of their next turn.",
 								"Once you use this ability, you cannot do so again until you finish a short or long rest."
 							],
 							"type": "entries"
