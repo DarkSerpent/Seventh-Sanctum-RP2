@@ -537,8 +537,8 @@
 										"name": "My Form Hast Ascended",
 										"entries": [
 											"As you have begun to grow stronger, so has your unexplainable strength. As you once gained the ability to bring forth your floating weapons, you now gain the ability to bring yourself forth as well.",
-											"As an action, you can take to the air, hovering a scant 5 feet off the ground. While hovering, you ignore difficult terrain, and your movement speed increases by 10. You can maintain this limited levitation for a minute, and are able to switch between hovering and walking along the ground at will.",
-											"Once you use this ability, you cannot use it again until you finish a short or long rest."
+											"As an action, you can take to the air, gaining a fly speed equal to your movement speed. While flying this way, you cannot fly higher than 10-feet, although you ignore difficult terrain, and your movement speed increases by 10. You can maintain this limited levitation for a minute, and are able to switch between hovering and walking along the ground at will.",
+											"You can use this feature once per short or long rest at 10th level, and gain an additional use at 15th level."
 										]
 									},
 									{
@@ -547,8 +547,9 @@
 										"entries": [
 											"Your knowledge and skill utilizing weapons of all kinds expands. Choose one of the following fighting styles to add to your repertoire:",
 											"{@bold Heart of the Grave.} When an attack you make with a bludgeoning weapon scores a critical hit, you cripple that target by denting their armor and ease of movement. That target's AC is reduced by 1, so long as they are not resistant or immune to bludgeoning damage. A target regains all lost AC on a short or long rest.",
-											"{@bold Heart of the Knave.} When an attack you make with a piercing weapon scores a critical hit, you slip through the cracks in their armor, applying pressure directly to their body. Your attack deals an extra {@dice 1d8} piercing damage, and their movement speed is reduced by 15 until the end of their next turn, so long as they are not resistant or immune to piercing damage.",
-											"{@bold Heart of the Brave.} When an attack you make with a slashing weapon scores a critical hit, you weapon slices through your target's arteries, causing abundant blood to spill from their wound as they begin to bleed. At the start of each of their turns, the target takes {@dice 1d4} slashing damage. Undead and constructs are immune to this effect, as are creatures who are resistant or immune to slashing damage. This effect lasts for a minute, or until the creature finishes a short or long rest."
+											"{@bold Heart of the Knave.} When an attack you make with a piercing weapon scores a critical hit, you slip through the cracks in their armor, applying pressure directly to their body. Your attack deals an extra {@dice 1d8} piercing damage, and their movement speed is reduced by 20 until the end of their next turn, so long as they are not resistant or immune to piercing damage.",
+											"{@bold Heart of the Brave.} When an attack you make with a slashing weapon scores a critical hit, you weapon slices through your target's arteries, causing abundant blood to spill from their wound as they begin to bleed. At the start of each of their turns, the target takes {@dice 1d4} slashing damage. Undead and constructs are immune to this effect, as are creatures who are resistant or immune to slashing damage. This effect lasts for a minute, or until the creature finishes a short or long rest. In addition, if you score a critical hit a target with a slashing weapon who is already bleeding, they immediately take {@dice 1d4} force damage, instead of reapplying this effect.",
+											"In addition, whenever you score a critical hit with any weapon, you can use a reaction to gain insight into your opponent's defenses. Your crit chance increases by a factor of the dice you roll, starting at 20. On each subsequent crit, it goes down by 1, first to 19-20, then to 18-20, and finally to 17-20. Your critical chance cannot extend past this amount, and after the full minute elapses, your critical strike chance returns to 20. Once you use this feature, you cannot use it again until you finish a long rest."
 										]
 									}
 								]
@@ -561,7 +562,7 @@
 										"type": "entries",
 										"name": "Thou Hast My Internal Flurry",
 										"entries": [
-											"You have started on the path of mastering your unexplainable strength, and enemies find it hard to escape your grasp now. You sphere of influence when controlling floating weapons expands to 15 feet, and creatures of your choice who begin their turn within your range take {@dice 1d6} slashing, piercing, or bludgeoning damage (your choice)."
+											"You have started on the path of mastering your unexplainable strength, and enemies find it hard to escape your grasp now. Your sphere of influence when controlling floating weapons expands to 15 feet, and creatures of your choice who begin their turn within your range take {@dice 1d6} slashing, piercing, or bludgeoning damage (your choice)."
 										]
 									}
 								]
@@ -574,8 +575,8 @@
 										"type": "entries",
 										"name": "Storm of Ordnance",
 										"entries": [
-											"You have mastered the art of the Bladecaller, able to stand against legions of men twice your strength and build. You can lift yourself even higher off the ground with your It Now Affects Me feature, turning your telekinetic form into an existence who wroughts destruction from above.",
-											"Instead of hovering, using It Now Affects Me grants you a flying speed of 60 feet for 1 minute. In addition, you have advantage on checks made to grapple you or knock you {@condition prone}."
+											"You have mastered the art of the Bladecaller, able to stand against legions of men twice your strength and build. You can lift yourself even higher off the ground with your My Form Hast Ascended feature, turning your telekinetic form into an existence who wroughts destruction from above.",
+											"Instead of your unique flight, using My Form Hast Ascended instead grants you a hover speed of 60 feet for 1 minute. In addition, you have advantage on checks made to grapple you and saving throws to put you under the {@condition frightened} condition, and creatures of your choice who start their turn in your sphere of influence while under My Form Hast Ascended take {@dice 2d6} slashing, piercing, or bludgeoning damage (your choice), instead of the normal {@dice 1d6}."
 										]
 									}
 								]
