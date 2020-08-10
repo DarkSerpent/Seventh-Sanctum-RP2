@@ -4534,7 +4534,7 @@
 						{
 							"name": "Blessings of Autumn Wind",
 							"entries": [
-                                "You have advantage on all Intelligence, Charisma, and Dexterity saving throws against magic."
+                                "You have advantage on all Dexterity, Wisdom, and Charisma saving throws against magic."
 							],
 							"type": "entries"
 						},
