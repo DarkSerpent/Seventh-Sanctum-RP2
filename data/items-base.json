@@ -744,6 +744,7 @@
 			"value": 100,
 			"weaponCategory": "exotic",
 			"property": [
+				"S",
 				"F",
 				"L",
 				"T"
@@ -754,6 +755,13 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"If this weapon is used to make a melee weapon attack, it instead becomes an Improvised Weapon."
+					]
+				}
 			]
 		},
 		{
