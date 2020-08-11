@@ -1872,7 +1872,7 @@
 					"type": "entries",
 					"name": "Returning",
 					"entries": [
-						"When a thrown weapon also carrying the returning property is thrown as part of an attack, it returns to its wielder at the end of their turn. The character must use their object interaction to catch the returning weapon, or it returns to the ground at the character's feet. When throwing a returning weapon, you can choose to not have it return in order to add 5 feet to its short range and 10 feet to its long range."
+						"When a thrown weapon also carrying the returning property is thrown as part of an attack, it returns to its wielder immediately after the attack. When throwing a returning weapon, you can choose to not have it return in order to add 5 feet to its short range and 10 feet to its long range."
 					]
 				}
 			]
