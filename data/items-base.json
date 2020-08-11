@@ -715,12 +715,13 @@
 		{
 			"name": "Boomerang",
 			"source": "SRP",
-			"type": "R",
+			"type": "M",
 			"rarity": "none",
 			"weight": 2,
 			"value": 300,
 			"weaponCategory": "exotic",
 			"property": [
+				"S",
 				"F",
 				"RET",
 				"T"
@@ -731,6 +732,13 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"If this weapon is used to make a melee weapon attack, it instead becomes an Improvised Weapon."
+					]
+				}
 			]
 		},
 		{
