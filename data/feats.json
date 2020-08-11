@@ -195,7 +195,7 @@
 		},
 		{
 			"name": "Peltast",
-			"source": "OSoW",
+			"source": "SRP",
 			"prerequisite": [],
 			"entries": [
 				"You’ve mastered the ability to draw and throw weapons at your foes. You gain the following benefits:",
@@ -204,8 +204,8 @@
 					"items": [
 						"Attacking at long range with your thrown weapons no longer imposes disadvantage.",
 						"Being within 5 feet of a hostile creature doesn't impose disadvantage on ranged attack rolls.",
-						"When you make a ranged attack with a thrown weapon, you can choose to immediately draw one weapon as a part of that attack.",
-						"Whenever you take the Attack action to make a ranged attack with a thrown weapon, you can use your bonus action to make one additional ranged attack with a thrown weapon."
+						"Before you make an attack with the thrown property that you are proficient with, you can choose to take a penalty equal to your proficiency to the attack roll. If the attack hits, add double your proficiency to the damage roll.",
+						"Whenever you take the Attack action to make a ranged attack with a thrown weapon, you can use your bonus action to make one additional ranged attack with a thrown weapon. If the weapon you are throwing already has the light property, you instead increase its short and long range by 10 feet."
 					]
 				}
 			]
