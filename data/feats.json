@@ -101,8 +101,9 @@
 					"items": [
 						"While wielding a gauntlet in each hand, those gauntlets gain the unarmed keyword.",
 						"When you hit a creature with a gauntlet attack on your turn, you can use a bonus action to attempt to grapple the target, instead of the normal action.",
-						"When you use a gauntlet, its damage die changes from a {@dice d4} to a {@dice d6}..",
-						"If you are currently grappling a target using your gauntlets, you can attempt to slam the enemy down and inflict brute force trauma upon them and their allies. As an action, you slam your grappled target down on the ground, dealing {@dice 1d8} damage of the weapon's type for every 10 feet of movement you walk before making this special attack. In addition, all enemies within 5-feet of the target must make a Dexterity saving throw (DC: 8 + your proficiency bonus + your Strength modifier). On a failed save, those targets take {@dice 1d8} damage of the weapon's type."
+						"When you use a gauntlet, its damage die changes from a {@dice d4} to a {@dice d6}.",
+						"If you are currently grappling a target using your gauntlets, you can attempt to slam the enemy down and inflict brute force trauma upon them and their allies. As an action, you slam your grappled target down on the ground, dealing {@dice 1d8} damage of the weapon's type for every 10 feet of movement you walk before making this special attack. In addition, all enemies within 5-feet of the target must make a Dexterity saving throw (DC: 8 + your proficiency bonus + your Strength modifier). On a failed save, those targets take {@dice 1d8} damage of the weapon's type.",
+						"While moving with the intention to slam, your movement speed retains the halved negative, regardless of any modifiers you may have."
 					]
 				}
 			]
@@ -238,6 +239,22 @@
 						"You gain a +1 bonus to attack rolls you make with a flail.",
 						"As a bonus action on your turn, you can prepare yourself to extend your weapon to sweep over targets' shields. Until the end of this turn, your attack rolls with the weapon gain a +2 bonus against any target using a shield.",
 						"When you hit with an opportunity attack using a flail, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone."
+					]
+				}
+			]
+		},
+		{
+			"name": "Grappler",
+			"source": "SRP",
+			"prerequisite": [],
+			"entries": [
+				"You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"While you are grappling only one creature, your speed is not halved.",
+						"You have advantage on attack rolls against a creature you are grappling.",
+						"You can use your action to try to pin a creature {@condition grappled} by you. To do so, make another grapple check. If you succeed, you and the creature are both {@condition restrained} until the grapple ends."
 					]
 				}
 			]
