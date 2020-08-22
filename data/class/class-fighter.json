@@ -523,7 +523,7 @@
 											"These reactions are special, as they do not count to the number reactions you can take. Instead, your Internal Will can take a number of reactions equal to the amount of melee weapons and shields you control as a floating weapon per turn. You can only take one reaction on any instance that would proke one of your reactions.",
 											"{@bold Destroy Missiles.} You use a reaction to reduce the incoming damage of a ranged weapon attack by the damage die of one of your floating weapons.",
 											"{@bold Flurry of Will.} You use a reaction to interfere in an enemy's movement. When a creature moves into the range of your floating weapons, they must make a Dexterity saving throw equal to 8 + your proficiency bonus + your Strength or Dexterity. On a failed save, that enemy is knocked {@condition prone}.",
-											"{@bold Opportunity of Attack.} You use a reaction to strike against a creature with one of your floating weapons when they attempt to leave your range. This attack is considered an opportunity attack, and subject to features that can prevent damage such as the Mobile feat."
+											"{@bold Opportunity of Attack.} You use a reaction to strike against a creature with one of your floating weapons when they attempt to leave your range. This attack is considered an opportunity attack, and subject to features that can prevent damage such as the Mobile feat. In addition, this reaction can take advantage of abilities that allow you to opportunity attack in unique situations, such as the Polearm Master and Sentinel feat."
 										]
 									}
 								]
@@ -545,7 +545,7 @@
 										"type": "entries",
 										"name": "Martial Strength",
 										"entries": [
-											"Your knowledge and skill utilizing weapons of all kinds expands. Choose one of the following fighting styles to add to your repertoire:",
+											"Your knowledge and skill utilizing weapons of all kinds expands. You add the following fighting styles to add to your repertoire:",
 											"{@bold Heart of the Grave.} When an attack you make with a bludgeoning weapon scores a critical hit, you cripple that target by denting their armor and ease of movement. That target's AC is reduced by 1, so long as they are not resistant or immune to bludgeoning damage. A target regains all lost AC on a short or long rest.",
 											"{@bold Heart of the Knave.} When an attack you make with a piercing weapon scores a critical hit, you slip through the cracks in their armor, applying pressure directly to their body. Your attack deals an extra {@dice 1d8} piercing damage, and their movement speed is reduced by 20 until the end of their next turn, so long as they are not resistant or immune to piercing damage.",
 											"{@bold Heart of the Brave.} When an attack you make with a slashing weapon scores a critical hit, you weapon slices through your target's arteries, causing abundant blood to spill from their wound as they begin to bleed. At the start of each of their turns, the target takes {@dice 1d4} slashing damage. Undead and constructs are immune to this effect, as are creatures who are resistant or immune to slashing damage. This effect lasts for a minute, or until the creature finishes a short or long rest. In addition, if you score a critical hit a target with a slashing weapon who is already bleeding, they immediately take {@dice 1d4} force damage, instead of reapplying this effect.",
