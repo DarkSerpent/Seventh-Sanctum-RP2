@@ -576,7 +576,7 @@
 										"name": "Storm of Ordnance",
 										"entries": [
 											"You have mastered the art of the Bladecaller, able to stand against legions of men twice your strength and build. You can lift yourself even higher off the ground with your My Form Hast Ascended feature, turning your telekinetic form into an existence who wroughts destruction from above.",
-											"Instead of your unique flight, using My Form Hast Ascended instead grants you a hover speed of 60 feet for 1 minute. In addition, you have advantage on checks made to grapple you and saving throws to put you under the {@condition frightened} condition, and creatures of your choice who start their turn in your sphere of influence while under My Form Hast Ascended take {@dice 2d6} slashing, piercing, or bludgeoning damage (your choice), instead of the normal {@dice 1d6}."
+											"Instead of your unique flight, using My Form Hast Ascended instead grants you a hover speed of 60 feet for 1 minute. In addition, you have advantage on checks made to put you under the {@condition grappled} or {@condition frightened} condition, you cannot be knocked {@condition prone}, and creatures of your choice who start their turn in your sphere of influence while under My Form Hast Ascended take {@dice 2d6} slashing, piercing, or bludgeoning damage (your choice), instead of the normal {@dice 1d6}."
 										]
 									}
 								]
