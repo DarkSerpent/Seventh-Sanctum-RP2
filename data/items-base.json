@@ -599,7 +599,7 @@
 			"entries": [
 				"This device is designed to help the police end car chases. The strip comes rolled in a spool about the size of a small suitcase. It can be deployed as an action by rolling it across a roadway, where it lies like a flat, segmented belt (at maximum it extends 15 by 5 feet). Until the strip is activated, the spikes do not protrude, and cars can pass safely over it. You can activate it as a reaction via a control device attached to the end of the strip by a 10-foot-long cord, causing the spikes to extend.",
 				"Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn’t need to make the saving throw.",
-				"Wheeled vehicles passing over the strip are automatically hit—although vehicles equipped with puncture-resistant tires are not affected.",
+				"Wheeled vehicles passing over an activated strip are automatically hit regardless at the speed they were travelling at, although vehicles equipped with puncture-resistant tires are not affected. When a vehicle is hit by an activated strip, their movement speed is restricted to phase 1 for 3 rounds, and after those 3 rounds elapse, their movement speed becomes 0 until their tires are repaired.",
 				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
 			]
 		},
