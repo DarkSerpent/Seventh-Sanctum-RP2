@@ -96,6 +96,13 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You cannot gain the benefits of the feat Great Weapon Master with this weapon."
+					]
+				}
 			]
 		},
 		{
