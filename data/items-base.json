@@ -1242,6 +1242,124 @@
 			]
 		},
 		{
+			"name": "Returning Weapon",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Weapon",
+			"value": 60000,
+			"entries": [
+				"{@italic Applies to any weapon with the thrown property.}",
+				"When this weapon is thrown as part of an attack, it returns to its wielder immediately after the attack.",
+				"{@italic {@bold Base items}}. This item variant can be applied to the following base items:",
+				{
+					"type": "list",
+					"items": [
+						"Double-Bladed Scimitar (Returning Double-Bladed Scimitar)",
+						"Greatsword (Returning Greatsword)",
+						"Longsword (Returning Longsword)",
+						"Rapier (Returning Rapier)",
+						"Scimitar (Returning Scimitar)",
+						"Shortsword (Returning Shortsword)"
+					]
+				}
+			]
+		},
+		{
+			"name": "Returning Weapon +1",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Weapon",
+			"value": 600000,
+			"entries": [
+				"{@italic Applies to any weapon with the thrown property.}",
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"When this weapon is thrown as part of an attack, it returns to its wielder immediately after the attack.",
+				"{@italic {@bold Base items}}. This item variant can be applied to the following base items:",
+				{
+					"type": "list",
+					"items": [
+						"Double-Bladed Scimitar (Returning Double-Bladed Scimitar)",
+						"Greatsword (Returning Greatsword)",
+						"Longsword (Returning Longsword)",
+						"Rapier (Returning Rapier)",
+						"Scimitar (Returning Scimitar)",
+						"Shortsword (Returning Shortsword)"
+					]
+				}
+			]
+		},
+		{
+			"name": "Returning Weapon +2",
+			"source": "GS",
+			"rarity": "very rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Weapon",
+			"value": 6000000,
+			"entries": [
+				"{@italic Applies to any weapon with the thrown property.}",
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"When this weapon is thrown as part of an attack, it returns to its wielder immediately after the attack.",
+				"{@italic {@bold Base items}}. This item variant can be applied to the following base items:",
+				{
+					"type": "list",
+					"items": [
+						"Double-Bladed Scimitar (Returning Double-Bladed Scimitar)",
+						"Greatsword (Returning Greatsword)",
+						"Longsword (Returning Longsword)",
+						"Rapier (Returning Rapier)",
+						"Scimitar (Returning Scimitar)",
+						"Shortsword (Returning Shortsword)"
+					]
+				}
+			]
+		},
+		{
+			"name": "Koi's Retreat",
+			"baseItem": "shield|phb",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"entries": [
+				"This iron shield has a small glass domed boss at its center, filled with mystic water that houses two koi fish which perpetually circle one another. The koi fish can bring forth good fortune, but only when left at rest.",
+				"When this item is placed on a flat natural surface (such as earth or stone) for at least 1 hour undisturbed, the glass dome expands to fill the entire width of shield, allowing the koi roam around this makeshift pond freely where they begin to glow.",
+				"The first creature who touches the dome while the koi are glowing receives a divine blessing. Once during the next 24 hours, when that creature rolls a 1 on a {@dice d20} roll they can treat that roll as a 20 instead.",
+				"After the blessing is bestowed, the dome shrinks back to the normal size of the boss and the shield can be equipped as normal. Once a blessing has been granted, it cannot do so again until {@dice 2d4} days have passed."
+			]
+		},
+		{
+			"name": "Weapon of Resurgence",
+			"source": "GS",
+			"type": "Guild Shop Weapon",
+			"tier": "major",
+			"rarity": "rare",
+			"value": 600000,
+			"reqAttune": "by a paladin",
+			"entries": [
+				"This weapon emanates a soft green aura while in the hands of a paladin and grants a +1 to attack and damage rolls.",
+				"If you hit a creature while attuned to this weapon, you regain one point of your lay on hands. You can only gain this benefit once per turn.",
+				"{@italic {@bold Base items}}. This item variant can be applied to the following base items:",
+				{
+					"type": "list",
+					"items": [
+						"Double-Bladed Scimitar (Double-Bladed Scimitar of Resurgence)",
+						"Greatsword (Greatsword of Resurgence)",
+						"Longsword (Longsword of Resurgence)",
+						"Rapier (Rapier of Resurgence)",
+						"Scimitar (Scimitar of Resurgence)",
+						"Shortsword (Shortsword of Resurgence)"
+					]
+				}
+			]
+		},
+		{
 			"name": "Dress of Many Pockets",
 			"source": "GS",
 			"rarity": "common",
