@@ -1029,7 +1029,8 @@
 						"{@spell Mending} — {@bold 0th Level} — At will",
 						"{@spell Spiritual Weapon} — {@bold 2nd Level} — 3/day"
 					]
-				}
+				},
+				"{@italic Item designed by @Aizea La Win#5106.}"
 			]
 		},
 		{
@@ -1042,7 +1043,8 @@
 			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
-				"While this feather is equipped on your person, you can use a bonus action to make your hair dramatically blow in a nonexistent breeze."
+				"While this feather is equipped on your person, you can use a bonus action to make your hair dramatically blow in a nonexistent breeze.",
+				"{@italic Item designed by @Amarulence#5357.}"
 			]
 		},
 		{
@@ -1055,7 +1057,8 @@
 			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
-				"This simple wooden box, seemingly crafted with shoddy materials, creates {@dice 1d4} harmless spiders every week."
+				"This simple wooden box, seemingly crafted with shoddy materials, creates {@dice 1d4} harmless spiders every week.",
+				"{@italic Item designed by @Amarulence#5357.}"
 			]
 		},
 		{
@@ -1070,7 +1073,8 @@
 			"entries": [
 				"This mug has a slot on its side, just large enough to fit a coin. Slotting in 10 copper coins will produce a mild-flavored ale or beer (accompanied by an arcade-style ding for each coin slotted in).",
 				"The coins vanish upon being inserted. In addition, the nearest establishment that sells beverages of the alcoholic variety will receive the money in the till or lockbox of their business.",
-				"The side of the mug has a simple logo: {@bold Zingaro}. Meanwhile, the bottom has been engraved with small, runic letters: {@italic &quot;Zingaro, the beer for your generation&quot;.}"
+				"The side of the mug has a simple logo: {@bold Zingaro}. Meanwhile, the bottom has been engraved with small, runic letters: {@italic &quot;Zingaro, the beer for your generation&quot;.}",
+				"{@italic Item designed by @Mr.Philanthropic#0001.}"
 			]
 		},
 		{
@@ -1083,7 +1087,8 @@
 			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
-				"This ring turns invisible when worn."
+				"This ring turns invisible when worn.",
+				"{@italic Item designed by @Amarulence#5357.}"
 			]
 		},
 		{
@@ -1096,7 +1101,8 @@
 			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
-				"A white eyeglass that extend outwards 1-foot, decorated with strange gold markings. Looking through this glass allows you to see yourself as if you were looking at yourself from afar. It's often called the &quot;Stalking Glass&quot;."
+				"A white eyeglass that extend outwards 1-foot, decorated with strange gold markings. Looking through this glass allows you to see yourself as if you were looking at yourself from afar. It's often called the &quot;Stalking Glass&quot;.",
+				"{@italic Item designed by @Amarulence#5357.}"
 			]
 		},
 		{
@@ -1111,7 +1117,8 @@
 			"entries": [
 				"This dazzling belt reflects anything against the buckle with serene clarity, and cannot be smudged by even the grimiest of fingerprints. The buckle is shaped like a large letter &quot;Q&quot;, and looks unnecessarily gaudy.",
 				"Toward the side of the belt is a small leather pouch, which can hold one type of kit by storing it in the Astral Plane. While inside this pouch, the kit becomes weightless and non-detectable by magical means.",
-				"Placing any item inside the pouch that isn't a kit will cause it to fall out, as the leather is ripped open from the inside out. After this, the belt ceases to be magical."
+				"Placing any item inside the pouch that isn't a kit will cause it to fall out, as the leather is ripped open from the inside out. After this, the belt ceases to be magical.",
+				"{@italic Item designed by @KuroiHoshi#4159.}"
 			]
 		},
 		{
@@ -1209,6 +1216,12 @@
 									},
 				{
 					"type": "entries",
+					"entries": [
+				"{@italic Item designed by @Aizea La Win#5106.}"
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Special",
 					"entries": [
 						"When you make an attack against a medium or large creature, you also attack any enemies directly to its left or right. On a hit, those creatures take {@dice 1d4} slashing damage."
@@ -1228,6 +1241,7 @@
 				"You gain a +1 bonus to attack and damage rolls made with these obsidian weapons of demonic make.",
 				"These weapons deal {@dice 2d6} damage instead of their normal damage dice, and landing a critical hit with the weapon doesn’t double the weapon’s damage dice. Whenever you land an attack with the weapon and roll the same number on both of the weapon’s damage dice, you can immediately roll another d6 and add it to the weapon's damage dice.",
 				"You can continue rolling extra damage dice until you roll a number that does not match the previous rolls.",
+				"{@italic Item designed by @Aizea La Win#5106.}",
 				"{@italic {@bold Base items}}. This item variant can be applied to the following base items:",
 				{
 					"type": "list",
@@ -1252,6 +1266,7 @@
 			"entries": [
 				"{@italic Applies to any weapon with the thrown property.}",
 				"When this weapon is thrown as part of an attack, it returns to its wielder immediately after the attack.",
+				"{@italic Item designed by @Aizea La Win#5106.}",
 				"{@italic {@bold Base items}}. This item variant can be applied to the following base items:",
 				{
 					"type": "list",
@@ -1278,6 +1293,7 @@
 				"{@italic Applies to any weapon with the thrown property.}",
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
 				"When this weapon is thrown as part of an attack, it returns to its wielder immediately after the attack.",
+				"{@italic Item designed by @Aizea La Win#5106.}",
 				"{@italic {@bold Base items}}. This item variant can be applied to the following base items:",
 				{
 					"type": "list",
@@ -1304,6 +1320,7 @@
 				"{@italic Applies to any weapon with the thrown property.}",
 				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
 				"When this weapon is thrown as part of an attack, it returns to its wielder immediately after the attack.",
+				"{@italic Item designed by @Aizea La Win#5106.}",
 				"{@italic {@bold Base items}}. This item variant can be applied to the following base items:",
 				{
 					"type": "list",
@@ -1331,7 +1348,90 @@
 				"This iron shield has a small glass domed boss at its center, filled with mystic water that houses two koi fish which perpetually circle one another. The koi fish can bring forth good fortune, but only when left at rest.",
 				"When this item is placed on a flat natural surface (such as earth or stone) for at least 1 hour undisturbed, the glass dome expands to fill the entire width of shield, allowing the koi roam around this makeshift pond freely where they begin to glow.",
 				"The first creature who touches the dome while the koi are glowing receives a divine blessing. Once during the next 24 hours, when that creature rolls a 1 on a {@dice d20} roll they can treat that roll as a 20 instead.",
-				"After the blessing is bestowed, the dome shrinks back to the normal size of the boss and the shield can be equipped as normal. Once a blessing has been granted, it cannot do so again until {@dice 2d4} days have passed."
+				"After the blessing is bestowed, the dome shrinks back to the normal size of the boss and the shield can be equipped as normal. Once a blessing has been granted, it cannot do so again until {@dice 2d4} days have passed.",
+				"{@italic Item designed by @Aizea La Win#5106.}"
+			]
+		},
+		{
+			"name": "Solar Surfer",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": true,
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"entries": [
+				"This custom-built machine (designed to be used by Solar Sailors in the Skywatcher Grand Prix) is designed to be small enough to be carried and even used for fast transport when travelling. Their quick-activation and portability make them a smart option for those in Accord who wish to get around quickly and faster than the required effort to retrieve a crew and pilot an airship.",
+				"The surfboard itself weighs 10 pounds and remains folded until the user speaks the command word, which can be customized for each solar surfer. While extended, the solar surfer requires direct sunlight to function. If achieved, it has a flying speed of 100 feet and can carry up to 400 pounds, but its flying speed becomes halved feet while carrying over 200 pounds.",
+				"A pilot can angle the sail to change direction, and the surfboard hovers in the air until they choose to land. A solar surfer requires a least one free hand to pilot, although a solar surfer can remain in the air with no hands on the controls (making it possible for a pilot to use a two-handed weapon while in the air).",
+				"In addition, a pilot can reflect the light of the sun through the sails at an enemy. That creature must make a DC 15 Constitution saving throw or take {@dice 3d8+1d4} radiant damage, or half as much on a successful save. A sail's delicate living-fibers can only channel the sun's radiance 5 times before needing to be repaired, which the living-fibers does at a rate of 1 charge each dawn.",
+				"A pilot can attempt to fire an additional charge from their solar surfer beyond the fifth, but doing so will fry the internal components of the sail, and the solar surfer will immediately plummet to the ground, having become unusable and unrepairable.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Pen-Accelerator Mk. V",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": true,
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+				"These five orbital nanolasers revolve in an arc around your back—the set of oscillating crystals at their cores reflecting light back in a sheen of colors representative of their elemental properties. A small computer attaches to your waist underneath your clothes, hooked up to wires connected to sensing pads on your body which can translate the firing of synapses in your mind."
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+				"As a bonus action on your turn, you can fire one of the five lasers at an ally or hostile creature. Each laser has a range of 90 feet, and an attack roll equal to your proficiency bonus + your Intelligence modifier (if required)."
+					]
+				},
+									{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Crystal",
+													"Effect"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"{@bold Blue}",
+														"On a hit, deals {@dice 1d4+2} cold damage."
+													],
+													[
+														"{@bold Purple}",
+														"On a hit, deals {@dice 1d4+2} lightning damage."
+													],
+													[
+														"{@bold Red}",
+														"On a hit, deals {@dice 1d4+2} fire damage."
+													],
+													[
+														"{@bold Yellow}",
+														"Gives a creature {@dice 1d4+2} temporary hit points."
+													],
+													[
+														"{@bold Green}",
+														"Heals a creature for {@dice 1d4} hit points."
+													]
+												]
+											}
+										]
+									},
+				"Your Pen-Accelerator has 10 charges, and firing any laser expends one charge. You regain all expended charges on a long rest.",
+				"{@italic Item designed by @Amarulence#5357.}",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
 			]
 		},
 		{
@@ -1345,6 +1445,7 @@
 			"entries": [
 				"This weapon emanates a soft green aura while in the hands of a paladin and grants a +1 to attack and damage rolls.",
 				"If you hit a creature while attuned to this weapon, you regain one point of your lay on hands. You can only gain this benefit once per turn.",
+				"{@italic Item designed by @Aizea La Win#5106.}",
 				"{@italic {@bold Base items}}. This item variant can be applied to the following base items:",
 				{
 					"type": "list",
@@ -1371,7 +1472,8 @@
 			"entries": [
 				"This dress has many pockets. When someone compliments this dress, you can use your reaction to reply with &quot;Thanks! It has pockets!&quot; When you do, you can stick your hand into any pocket of the dress and pull out any mundane, non-magical, and non-consumable item of your choice. You can only pull out an item once per day per person that compliments the dress. Items pulled out from the dress disappear after 10 minutes.",
 				"{@italic &quot;Nice dress, lil' missy,&quot; the old grizzled dwarf captain said, nodding to the halfling girl in a vibrant yellow sundress.}",
-				"{@italic &quot;Thanks! It has pockets!&quot; replied the little halfling girl, perhaps a bit too enthusiastically, as she pulls out a greataxe from her dress to demonstrate.}"
+				"{@italic &quot;Thanks! It has pockets!&quot; replied the little halfling girl, perhaps a bit too enthusiastically, as she pulls out a greataxe from her dress to demonstrate.}",
+				"{@italic Item designed by @Aizea La Win#5106.}"
 			]
 		},
 		{
@@ -1385,7 +1487,7 @@
 			"value": 15000,
 			"entries": [
 				"While wearing this circlet, despite their best attempts, creatures in your vicinity will incessantly mispronounce your name. The mispronunciations will generally rhyme with your name, with each's phonetic spelling only being slightly different",
-				"{@bold i.e:} Charles becomes Chairles, Charbles, and occasionally, Barblebee."
+				"{@italic Item designed by @Amarulence#5357.}"
 			]
 		},
 		{
@@ -1398,7 +1500,8 @@
 			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
-				"When you blow this whistle, a duck appears behind you. Once you blown on it, you must wait 5 minutes before using it again. Once used, any previous ducks summoned by this whistle disappears, and is replaced by the new duck."
+				"When you blow this whistle, a duck appears behind you. Once you blown on it, you must wait 5 minutes before using it again. Once used, any previous ducks summoned by this whistle disappears, and is replaced by the new duck.",
+				"{@italic Item designed by @Mr.Philanthropic#0001.}"
 			]
 		},
 		{
@@ -1411,7 +1514,8 @@
 			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
-				"This dull, gray stone is roughly the size of one's fist, and fits rather snuggly in the palm of one's hand. When a creature is struck with this stone, that creature takes {@dice 1d4} bludgeoning damage, immediately followed by healing for {@dice 1d4} health."
+				"This dull, gray stone is roughly the size of one's fist, and fits rather snuggly in the palm of one's hand. When a creature is struck with this stone, that creature takes {@dice 1d4} bludgeoning damage, immediately followed by healing for {@dice 1d4} health.",
+				"{@italic Item designed by @Amarulence#5357.}"
 			]
 		},
 		{
@@ -1426,7 +1530,8 @@
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
 				"Whenever this wand is used, the caster most roll a Wisdom saving throw (DC 10). On a failed save, the caster must shout &quot;BACAWK!&quot; at the top of their lungs and squawk like a chicken. This effect lasts for only a few seconds, and the caster is aware of their actions the entire time.",
-				"The wand regains {@dice 1d6+1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
+				"The wand regains {@dice 1d6+1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed.",
+				"{@italic Item designed by @Amarulence#5357.}"
 			]
 		},
 		{
@@ -1444,6 +1549,7 @@
 				"The broom cannot travel more than 60-feet above any surface, as the antigravity sensors on its lower ridge would malfunction, causing the broom to stall and fall at a speed of 30 feet per round before restarting itself after reapproaching its maximum height.",
 				"You can send the broom to travel alone to a destination within 1 mile of you so long as you can enter the coordinates in the planar transport module (a task which requires a successful Intelligence check with a DC 15. Seriously, who designed this thing?!). A failed save will result in your broom taking you somewhere {@italic a bit} off the mark, with the definition of &quot;a bit&quot; being up to DM discretion.",
 				"While flying on this broom, the amount of noise it kicks up as the rocket propels you forward and the engine hums provides ample opportunity for your presence to be discovered. Any item or spell that can remove sound (such as the silence spell) will block out this sound as it would any normal mundane item.",
+				"{@italic Item designed by @Amarulence#5357.}",
 				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
 			]
 		},
@@ -1459,6 +1565,7 @@
 			"entries": [
 				"These, as the young kids call it, hip headphones are some of the most mainstream and popular brand around. They are a sleek black and come in over the ear and bud form. The younger generation of Zyratix considers these a must have when listening to music. ",
 				"While wearing both halves of the headphones you are under the {@condition deafened} condition and listen to some cool jams. While deafened by these headphones you are immune to charm effects that require you to hear. You are still able to wear one and not be deafened.",
+				"{@italic Item designed by @Aizea La Win#5106.}",
 				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
 			]
 		},
@@ -1477,6 +1584,7 @@
 				"As an item interaction the user may have a song playback. This music can be heard up to 100 feet away but can also be channeled through a pair of headphones and privately listened.",
 				"The user may also spend an additional item interaction to crank up the volume to max. While at max volume the distance the device can be heard extends 100 feet and any creature that can hear within 30 feet of the boombox makes concentration checks at disadvantage.",
 				"If in Zyratix, the user may upload songs from a central database rather than record them live.",
+				"{@italic Item designed by @Aizea La Win#5106.}",
 				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
 			]
 		},
@@ -1494,6 +1602,7 @@
 				"While holding this device, a creature can use its action to have Nayrek Remixer start listening. If anything within 30 feet of the device is performing with sound, whether using an instrument, singing, or something else, the ring can store the sounds of it provided it listens for at least five minutes. The Nayrek Remixer can hold up to 60 different &quot;songs&quot; on it.",
 				"As an item interaction the user may have a song playback. This music can be heard up to 60 feet away but can also be channeled through a pair of headphones and privately listened. ",
 				"If in Zyratix, the user may upload songs from a central database rather than record them live.",
+				"{@italic Item designed by @Aizea La Win#5106.}",
 				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
 			]
 		},
@@ -1517,6 +1626,7 @@
 						"It sheds bright light out 15-feet."
 					]
 				},
+				"{@italic Item designed by @Aizea La Win#5106.}",
 				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
 			]
 		},
@@ -1531,7 +1641,8 @@
 			"value": 600000,
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"This weapon has been modified with magic runes. As a free action, the wielder may activate the runes on this weapon. While activated, the next attack does an additional {@dice 2d6} fire damage, and if the attack hits a creature, it must make a DC 15 Strength save or be knocked prone. Once used this way, the rune becomes innert for 24 hours."
+				"This weapon has been modified with magic runes. As a free action, the wielder may activate the runes on this weapon. While activated, the next attack does an additional {@dice 2d6} fire damage, and if the attack hits a creature, it must make a DC 15 Strength save or be knocked prone. Once used this way, the rune becomes innert for 24 hours.",
+				"{@italic Item designed by @EPICENDER#0745.}"
 			]
 		},
 		{
@@ -1544,7 +1655,8 @@
 			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
-				"While wearing this cloak, you can use a bonus action to cause a small storm of harmless cherry blossoms to flutter around you."
+				"While wearing this cloak, you can use a bonus action to cause a small storm of harmless cherry blossoms to flutter around you.",
+				"{@italic Item designed by @DIO#6259.}"
 			]
 		},
 		{
@@ -1558,7 +1670,8 @@
 			"value": 60000,
 			"entries": [
 				"These pair of gauntlets are shaped in the likeness of a dragon's mouth. You can cast the spell {@spell burning hands} once from each fist, for a total of two times, with a DC of 13. Once you use each fist this way, you cannot do so again until next dawn.",
-				"In addition, you gain a +1 bonus to attack and damage rolls using unarmed strikes with this weapon."
+				"In addition, you gain a +1 bonus to attack and damage rolls using unarmed strikes with this weapon.",
+				"{@italic Item designed by @Aizea La Win#5106.}"
 			]
 		},
 		{
@@ -1573,7 +1686,8 @@
 				"This vial of thick liquid of swirling greens and pinks holds one use of Kindermore's Tincture of Disfigurement. If applied to an area of the body, the tincture causes severe and painful acid burns that last for {@dice 1d4} hours. After 1 minute of severe pain, the wound begins to heal and the pain subsides. A disfigured skin scarification is in place of the skin that the tincture was applied to. The scars fully heal after {@di8ce 1d4} hours and the creature's appearance is returned to normal.",
 				"The tincture causes the target to take {@dice 3d8} acid damage. It's hit point maximum is also reduced by an amount equal to the damage taken. The effect cannot cause the target's maximum hit points to drop to 0. If it would drop to 0, the target instead is reduced to a maximum of 1, falls unconscious, and must begin making death saving throws.  At the end of the duration, the effects on a target's maximum hit points is removed and the target regains the lost HP.",
 				"The healing effect at the end of the duration does not occur if the creature dies. The healing effect of the tincture has no effect on constructs, undead, or inanimate objects.",
-				"The acid can be applied to the face in an attempt to disguise a creatures identity. A successful DC 20 Intelligence check  is necessary to discern the true identity. The effect does not end for the entire duration except through the {@spell regenerate} or {@spell wish} spells."
+				"The acid can be applied to the face in an attempt to disguise a creatures identity. A successful DC 20 Intelligence check  is necessary to discern the true identity. The effect does not end for the entire duration except through the {@spell regenerate} or {@spell wish} spells.",
+				"{@italic Item designed by @Aizea La Win#5106.}"
 			]
 		},
 		{
@@ -1588,7 +1702,8 @@
 			"entries": [
 				"You gain a +1 to attack and damage rolls with this item.",
 				"You can cast the {@spell scorching ray} spell from the lance (+5 attack bonus). This spell cannot be cast again from the lance again until next dawn.",
-				"Additionally, you can empower one of your strikes with elemental energy, increasing its strength by {@dice 1d10} fire damage. You must move 20 feet in a straight line and declare this effect before the attack is made. Using this effect expends a charge, of which you have 3. You regain all expended charges each dawn."
+				"Additionally, you can empower one of your strikes with elemental energy, increasing its strength by {@dice 1d10} fire damage. You must move 20 feet in a straight line and declare this effect before the attack is made. Using this effect expends a charge, of which you have 3. You regain all expended charges each dawn.",
+				"{@italic Item designed by @Aizea La Win#5106.}"
 			]
 		},
 		{
@@ -1603,7 +1718,8 @@
 			"entries": [
 				"You gain a +1 to attack and damage rolls with this item.",
 				"You can cast the {@spell snilloc's snowball swarm} spell from the lance (DC 13). This spell cannot be cast again from the lance again until next dawn.",
-				"Additionally, you can empower one of your strikes with elemental energy, increasing its strength by {@dice 1d10} cold damage. You must move 20 feet in a straight line and declare this effect before the attack is made. Using this effect expends a charge, of which you have 3. You regain all expended charges each dawn."
+				"Additionally, you can empower one of your strikes with elemental energy, increasing its strength by {@dice 1d10} cold damage. You must move 20 feet in a straight line and declare this effect before the attack is made. Using this effect expends a charge, of which you have 3. You regain all expended charges each dawn.",
+				"{@italic Item designed by @Aizea La Win#5106.}"
 			]
 		},
 		{
@@ -1618,7 +1734,8 @@
 			"entries": [
 				"You gain a +1 to attack and damage rolls with this item.",
 				"You can cast the {@spell melf's acid arrow} spell from the lance (+5 attack bonus). This spell cannot be cast again from the lance again until next dawn.",
-				"Additionally, you can empower one of your strikes with elemental energy, increasing its strength by {@dice 1d10} acid damage. You must move 20 feet in a straight line and declare this effect before the attack is made. Using this effect expends a charge, of which you have 3. You regain all expended charges each dawn."
+				"Additionally, you can empower one of your strikes with elemental energy, increasing its strength by {@dice 1d10} acid damage. You must move 20 feet in a straight line and declare this effect before the attack is made. Using this effect expends a charge, of which you have 3. You regain all expended charges each dawn.",
+				"{@italic Item designed by @Aizea La Win#5106.}"
 			]
 		},
 		{
@@ -1633,7 +1750,8 @@
 			"entries": [
 				"You gain a +1 to attack and damage rolls with this item.",
 				"You can cast the {@spell shatter} spell from the lance (DC 13). This spell cannot be cast again from the lance again until next dawn.",
-				"Additionally, you can empower one of your strikes with elemental energy, increasing its strength by {@dice 1d10} lightning damage. You must move 20 feet in a straight line and declare this effect before the attack is made. Using this effect expends a charge, of which you have 3. You regain all expended charges each dawn."
+				"Additionally, you can empower one of your strikes with elemental energy, increasing its strength by {@dice 1d10} lightning damage. You must move 20 feet in a straight line and declare this effect before the attack is made. Using this effect expends a charge, of which you have 3. You regain all expended charges each dawn.",
+				"{@italic Item designed by @Aizea La Win#5106.}"
 			]
 		},
 		{
@@ -1650,7 +1768,8 @@
 				"You can speak the command word of this bow as a bonus action. After doing so, for the next minute, the bow and all ammunition fired from it are charged with magical lightning.",
 				"While Stormcaller is charged, you can point a finger to the sky and shout, &quot;Strike!&quot; as a bonus action to cause lightning bolts to strike down at any piece of charged ammunition.",
 				"All creatures sharing the same space as a piece of charged ammunition in the ground must make a Dexterity saving throw (DC: 8 + your proficiency bonus + your Charisma modifier) or take {@dice 1d10} lightning damage (or half as much on a successful save). Any creature with a piece of charged ammunition lodged in its body or armor automatically fail this saving throw.",
-				"Once a piece of charged ammunition is struck by lightning, it loses its charge. You can’t use this property again until you finish a long rest."
+				"Once a piece of charged ammunition is struck by lightning, it loses its charge. You can’t use this property again until you finish a long rest.",
+				"{@italic Item designed by @Aizea La Win#5106.}"
 			]
 		},
 		{
@@ -1899,7 +2018,8 @@
 			"value": 15000,
 			"reqAttune": false,
 			"entries": [
-				"A pill container filled with small white pills. Each container has 30 pills, of which a single pill can be used to accelerate the effects of being drunk. One pill while drunk will leave you with a hangover. One pill while hung over will leave you lucid. Two pills while drunk will leave you lucid."
+				"A pill container filled with small white pills. Each container has 30 pills, of which a single pill can be used to accelerate the effects of being drunk. One pill while drunk will leave you with a hangover. One pill while hung over will leave you lucid. Two pills while drunk will leave you lucid.",
+				"{@italic Item designed by @Mr.Philanthropic#0001.}"
 			]
 		}
 	],
