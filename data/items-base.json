@@ -1581,7 +1581,7 @@
 				"CADs allows the processing of all the necessary components for magic in a single moment. In detail, these devices help accelerate the invocation of magic, as well as provide stability.",
 				"Choose whether your CAD takes the form of a bracelet, necklace, simple melee weapon, or {@item pistol|srp}. You can not use your CAD to perform a melee or ranged attack (unless you are using it as an improvised weapon).",
 				"While attuned to a basic CAD, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of any spell that requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.",
-				"You can modify your CAD with cartridges, which will temporary evolve the weapon for a limited amount of uses. You can only have one cartridge slotted into a CAD at a time. These cartridges can also be found in the Guild Shop.",
+				"You can modify your CAD with cartridges, which will temporary evolve the weapon for a limited amount of uses. You can only have one cartridge slotted into a CAD at a time. Swapping out cartridges is an object interaction. These cartridges can also be found in the Guild Shop.",
 				"{@italic Item designed by @Amarulence#5357.}",
 				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
 			]
@@ -1636,6 +1636,104 @@
 			"entries": [
 				"This metal shoulder guard is always chilly to the touch.  While worn, willfully ignoring another humanoid's attempt to converse with you causes them to experience a sensation of chills running down their spine.",
 				"{@italic Item designed by @Aizea La Win#5106.}"
+			]
+		},
+		{
+			"name": "Cartridge: Centaur Series (CAD)",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item, Consumable",
+			"value": 30000,
+			"entries": [
+				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;General-Purpose Centaur CAD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"Whenever your Psionic die would decrease by one die size, you can expend one charge to retain its current value."
+					]
+				},
+				"You have 5 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Sorcery Booster (CAD)",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item, Consumable",
+			"value": 300000,
+			"entries": [
+				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;No Head Dragon CAD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"Whenever an enemy would be forced to make a saving throw against a spell that requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat, you can expend a charge to impose disadvantage on the throw."
+					]
+				},
+				"You have 3 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Taurus Silver (CAD)",
+			"source": "GS",
+			"rarity": "very rare",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item, Consumable",
+			"value": 3000000,
+			"entries": [
+				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Taurus Silver CAD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"When you would cast a spell that requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat that requires an action, you can expend a charge to make it a bonus action."
+					]
+				},
+				"You have 3 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Experiment Realizer (CAD)",
+			"source": "GS",
+			"rarity": "common",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item, Consumable",
+			"value": 7500,
+			"entries": [
+				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Experiment Realizer CAD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"You can expend one a charge to cast the {@spell dancing lights} cantrip as a bonus action."
+					]
+				},
+				"You have 5 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Basic Universal Tuning Device (UTD)",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": "by a spellcaster",
+			"type": "Guild Shop Item, Technological Item",
+			"value": 60000,
+			"entries": [
+				"The Universal Tuning Device, better known as UTD, is a spell support processor. This device incorporates synthetic materials (artificially manufactured Neurons) that convert Psion signals into electric signals, using the Psion from a magic ritual (sequence) to produce a collection of electronic magic—the Activation Sequence of a spell.",
+				"UTDs allows for the modification of magic in a single moment. In detail, these devices allow for on-the-fly measures, as well as provide unique opportunities to take advantages of a target's weaknesses.",
+				"Choose whether your UTD takes the form of a bracelet, necklace, simple melee weapon, or {@item pistol|srp}. You can not use your UTD to perform a melee or ranged attack (unless you are using it as an improvised weapon).",
+				"While attuned to a basic UTD, you can cast the mending spell at will. When cast this way, you can repair a break or tear up to 5 feet in size. In addition, you can reroll 1s on spells. That roll must restore hit points or be a damage roll that deals cold, fire, or lightning damage.",
+				"You can modify your UTD with cartridges, which will temporary evolve the weapon for a limited amount of uses. You can only have one cartridge slotted into a UTD at a time. Swapping out cartridges is an object interaction. These cartridges can also be found in the Guild Shop.",
+				"{@italic Item designed by @Amarulence#5357.}",
+				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
 			]
 		},
 		{
