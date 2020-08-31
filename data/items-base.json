@@ -1613,6 +1613,7 @@
 			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
+				"These colorful picks attach to your fingers and allow for vibrant strumming. You can click your picks together in order to manifest a small sound that travels no further than 30 feet, so long as that sound is percussive in nature. Each pick is inscribed with a singular gylph from a runic alphabet. Translation is currently impossible—although really, nobody wants to know what they say anyway.",
 				"{@bold Instantaneous Instrument}. While attuned to these picks, you can use a bonus action to manifest a stringed musical instrument in your empty hand. You choose the form that this instrument takes each time you create it.",
 				"Your {@italic Instantaneous Instrument} disappears if it is more than 5 feet away from you for more than a minute. It also disappears if you use this feature again, you dismiss the instrument as a free action, or you die.",
 				"You can choose to transform a stringed instrument of your choice into your {@italic Instantaneous Instrument} by performing a special ritual. The ritual is known as the &quot;Seance of Sick Guitar Riffs&quot;, and takes place over the course of one hour. After the ritual is complete, you dismiss the instrument, shunting it into an extradimensional space.",
