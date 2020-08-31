@@ -1271,12 +1271,17 @@
 				{
 					"type": "list",
 					"items": [
-						"Double-Bladed Scimitar (Returning Double-Bladed Scimitar)",
-						"Greatsword (Returning Greatsword)",
-						"Longsword (Returning Longsword)",
-						"Rapier (Returning Rapier)",
-						"Scimitar (Returning Scimitar)",
-						"Shortsword (Returning Shortsword)"
+						"Dagger (Returning Dagger)",
+						"Dart (Returning Dart)",
+						"Handaxe (Returning Handaxe)",
+						"Javelin (Returning Javelin)",
+						"Light Hammer (Returning Light Hammer)",
+						"Spear (Returning Spear)",
+						"Trident (Returning Trident)",
+						"Yklwa (Returning Yklwa)",
+						"Bola (Returning Bola)",
+						"Shuriken (Returning Shuriken)",
+						"Tomahawk (Returning Tomahawk)"
 					]
 				}
 			]
@@ -1298,12 +1303,17 @@
 				{
 					"type": "list",
 					"items": [
-						"Double-Bladed Scimitar (Returning Double-Bladed Scimitar)",
-						"Greatsword (Returning Greatsword)",
-						"Longsword (Returning Longsword)",
-						"Rapier (Returning Rapier)",
-						"Scimitar (Returning Scimitar)",
-						"Shortsword (Returning Shortsword)"
+						"Dagger (Returning Dagger)",
+						"Dart (Returning Dart)",
+						"Handaxe (Returning Handaxe)",
+						"Javelin (Returning Javelin)",
+						"Light Hammer (Returning Light Hammer)",
+						"Spear (Returning Spear)",
+						"Trident (Returning Trident)",
+						"Yklwa (Returning Yklwa)",
+						"Bola (Returning Bola)",
+						"Shuriken (Returning Shuriken)",
+						"Tomahawk (Returning Tomahawk)"
 					]
 				}
 			]
@@ -1325,12 +1335,17 @@
 				{
 					"type": "list",
 					"items": [
-						"Double-Bladed Scimitar (Returning Double-Bladed Scimitar)",
-						"Greatsword (Returning Greatsword)",
-						"Longsword (Returning Longsword)",
-						"Rapier (Returning Rapier)",
-						"Scimitar (Returning Scimitar)",
-						"Shortsword (Returning Shortsword)"
+						"Dagger (Returning Dagger)",
+						"Dart (Returning Dart)",
+						"Handaxe (Returning Handaxe)",
+						"Javelin (Returning Javelin)",
+						"Light Hammer (Returning Light Hammer)",
+						"Spear (Returning Spear)",
+						"Trident (Returning Trident)",
+						"Yklwa (Returning Yklwa)",
+						"Bola (Returning Bola)",
+						"Shuriken (Returning Shuriken)",
+						"Tomahawk (Returning Tomahawk)"
 					]
 				}
 			]
@@ -1644,7 +1659,7 @@
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, Consumable",
+			"type": "Guild Shop Item, consumable",
 			"value": 30000,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;General-Purpose Centaur CAD&quot;, and gives it the following effect:",
@@ -1664,7 +1679,7 @@
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, Consumable",
+			"type": "Guild Shop Item, consumable",
 			"value": 300000,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;No Head Dragon CAD&quot;, and gives it the following effect:",
@@ -1684,7 +1699,7 @@
 			"rarity": "very rare",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, Consumable",
+			"type": "Guild Shop Item, consumable",
 			"value": 3000000,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Taurus Silver CAD&quot;, and gives it the following effect:",
@@ -1704,7 +1719,7 @@
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, Consumable",
+			"type": "Guild Shop Item, consumable",
 			"value": 7500,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Experiment Realizer CAD&quot;, and gives it the following effect:",
@@ -1734,6 +1749,120 @@
 				"You can modify your UTD with cartridges, which will temporary evolve the weapon for a limited amount of uses. You can only have one cartridge slotted into a UTD at a time. Swapping out cartridges is an object interaction. These cartridges can also be found in the Guild Shop.",
 				"{@italic Item designed by @Amarulence#5357.}",
 				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Gloves of Flaming Fury",
+			"source": "GS",
+			"rarity": "rare",
+			"value": 600000,
+			"reqAttune": true,
+			"tier": "major",
+			"type": "Guild Shop Item",
+			"entries": [
+				"While you wear both of these leather gloves, any non- magical weapon you grasp with either glove is treated as a magic weapon.",
+				"As a bonus action, you can use the gloves to cause magical flames to envelop one or two melee weapons in your grasp. Each flaming weapon deals an extra {@dice 1d6} fire damage on a hit. The flames last until you sheath or let go of either weapon. Once used, this property can't be used again until the next dawn."
+			]
+		},
+		{
+			"name": "Adaptive Helm",
+			"source": "GS",
+			"rarity": "uncommon",
+			"value": 60000,
+			"reqAttune": true,
+			"tier": "major",
+			"type": "Guild Shop Item",
+			"entries": [
+				"This metal helmet is set with crystals that change color when exposed to elemental energy.",
+				"While wearing this helm, if you are the target of an attack which would deal acid, cold, fire, lightning, or thunder damage you can use a reaction to adapt to that damage type. While adapted, you have resistance to that damage type. The helm returns to its normal state after ten minutes."
+			]
+		},
+		{
+			"name": "Lifewell Tattoo",
+			"source": "GS",
+			"rarity": "rare",
+			"value": 600000,
+			"reqAttune": true,
+			"type": "Guild Shop Item",
+			"tier": "major",
+			"tattoo": true,
+			"entries": [
+				"This tattoo comprises symbols of life and rebirth. While this tattoo is on your skin, you have resistance to necrotic damage.",
+				{
+					"type": "entries",
+					"name": "Death Ward",
+					"entries": [
+						"When you would be reduced to 0 hit points, you drop to 1 hit point instead. Once used, this benefit can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lightbringer",
+			"baseItem": "mace|phb",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Weapon",
+			"value": 60000,
+			"entries": [
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"The head of this mace is shaped like a sunburst and made of solid brass. Named Lightbringer, this weapon glows as bright as a torch when its wielder commands. While glowing, the mace deals an extra {@dice 1d6} radiant damage to undead creatures."
+			]
+		},
+		{
+			"name": "Bonecounter",
+			"source": "GS",
+			"baseItem": "mace|phb",
+			"type": "Guild Shop Weapon",
+			"tier": "major",
+			"rarity": "rare",
+			"value": 600000,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"bonusWeapon": "+2",
+			"entries": [
+				"This weapon is a magical +2 mace called Bonecounter. Whenever this weapon is used to destroy an undead creature, a single silver piece appears in the wielder's pocket."
+			]
+		},
+		{
+			"name": "Flying Chariot",
+			"source": "GS",
+			"rarity": "rare",
+			"value": 600000,
+			"type": "Guild Shop Item",
+			"tier": "major",
+			"bonusAc": "+1",
+			"entries": [
+				"The chariot's riders and creatures pulling the chariot gain a +1 bonus to their AC.",
+				"If this magic chariot is pulled by one or more flying creatures, it too can fly.",
+				{
+					"type": "inset",
+					"name": "Chariots",
+					"entries": [
+						"Chariots and the creatures pulling them work like controlled mounts, as described in the mounted combat rules in the {@book Player's Handbook|PHB|9|Mounted Combat}, but with the following differences:",
+						{
+							"type": "list",
+							"items": [
+								"Mounting or dismounting a chariot costs you 5 feet of movement, rather than a number of feet equal to half your speed.",
+								"Being mounted on a chariot grants you half cover.",
+								"A chariot's speed is equal to the speed of the slowest creature pulling it.",
+								"If multiple creatures are pulling the chariot, they all act on the same initiative, and they must take the same action on their turn."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -1982,7 +2111,7 @@
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, Consumable",
+			"type": "Guild Shop Item, consumable",
 			"value": 300000,
 			"entries": [
 				"This vial of thick liquid of swirling greens and pinks holds one use of Kindermore's Tincture of Disfigurement. If applied to an area of the body, the tincture causes severe and painful acid burns that last for {@dice 1d4} hours. After 1 minute of severe pain, the wound begins to heal and the pain subsides. A disfigured skin scarification is in place of the skin that the tincture was applied to. The scars fully heal after {@di8ce 1d4} hours and the creature's appearance is returned to normal.",
@@ -2192,7 +2321,7 @@
 			"rarity": "uncommon",
 			"value": 30000,
 			"weight": 0.5,
-			"type": "Guild Shop Item, Consumable",
+			"type": "Guild Shop Item, consumable",
 			"entries": [
 				"This bottle contains a breath of elemental air. When you inhale it, you either exhale it or hold it.",
 				"If you exhale the breath, you gain the effect of the {@spell gust of wind} spell. If you hold the breath, you don't need to breathe for 1 hour, though you can end this benefit early (for example, to speak). Ending it early doesn't give you the benefit of exhaling the breath."
@@ -2206,7 +2335,7 @@
 			"source": "GS",
 			"rarity": "uncommon",
 			"value": 30000,
-			"type": "Guild Shop Item, Consumable",
+			"type": "Guild Shop Item, consumable",
 			"entries": [
 				"After you write a message of fifty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper bird and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the bird turns into ash as it takes flight.",
 				"The bird is an object that has 1 hit point, an Armor Class of 13, a flying speed of 60 feet, a Dexterity of 16 (+3), and a score of 1 (\u22125) in all other abilities, and it is immune to poison and psychic damage.",
