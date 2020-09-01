@@ -1611,7 +1611,7 @@
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
 				"This quarterstaff is engraved in a blue-and-red runic alphabet. The words are ancient enough to be considered untranslatable, and in the hands of a spellcaster, they glow with a soft white energy. The polearm itself is made of solid steel, with gold trimmings along the outside ushering an aura of prosperity.",
 				"When you make a melee weapon attack with this weapon, you can choose to expend one charge in order to channel your mana into the staff. Your attack rolls are made using your Intelligence modifier, and you add your Intelligence modifier to damage instead of the weapon's normal modifier.",
-				"During the channeling process, Bo Prime vibrates with a intensity equal to the mana you channel inside it. If you successfully land a hit, you can force the target to make a Constitution saving throw using your spell save DC. On a failed save, the target becomes incapacitated until the start of your next turn.",
+				"During the channeling process, Bo Prime vibrates with a intensity equal to the mana you channel inside it. If you successfully land a hit, you can force the target to make a Constitution saving throw using your spell save DC. On a failed save, the target becomes {@condition incapacitated} until the start of your next turn.",
 				"Your channeled mana dissipates after your first successful hit with the weapon. You have a number of charges equal to half you Intelligence modifier (rounded up, minimum of 1), and regain all expended charges on a long rest.",
 				"{@italic Item designed by @Amarulence#5357.}"
 			]
