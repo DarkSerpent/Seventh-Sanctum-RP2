@@ -1128,7 +1128,7 @@
 			"tier": "major",
 			"reqAttune": true,
 			"weight": 9,
-			"value": 6000000,
+			"value": 4500000,
 			"weaponCategory": "Guild Shop",
 			"property": [
 				"S",
@@ -1264,7 +1264,6 @@
 			"type": "Guild Shop Weapon",
 			"value": 60000,
 			"entries": [
-				"{@italic Applies to any weapon with the thrown property.}",
 				"When this weapon is thrown as part of an attack, it returns to its wielder immediately after the attack.",
 				"{@italic Item designed by @Aizea La Win#5106.}",
 				"{@italic {@bold Base items}}. This item variant can be applied to the following base items:",
@@ -1295,7 +1294,6 @@
 			"type": "Guild Shop Weapon",
 			"value": 600000,
 			"entries": [
-				"{@italic Applies to any weapon with the thrown property.}",
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
 				"When this weapon is thrown as part of an attack, it returns to its wielder immediately after the attack.",
 				"{@italic Item designed by @Aizea La Win#5106.}",
@@ -1325,9 +1323,8 @@
 			"tier": "major",
 			"reqAttune": false,
 			"type": "Guild Shop Weapon",
-			"value": 6000000,
+			"value": 4500000,
 			"entries": [
-				"{@italic Applies to any weapon with the thrown property.}",
 				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
 				"When this weapon is thrown as part of an attack, it returns to its wielder immediately after the attack.",
 				"{@italic Item designed by @Aizea La Win#5106.}",
@@ -1540,7 +1537,7 @@
 			"tier": "major",
 			"reqAttune": false,
 			"type": "Guild Shop Weapon",
-			"value": 6000000,
+			"value": 4500000,
 			"entries": [
 				"A long, pitch black, whip with metal tips which is said to have caused more than a few red cheeks.",
 				"You have a +2 to hit and damage rolls with this magic weapon.",
@@ -1560,7 +1557,7 @@
 			"tier": "major",
 			"reqAttune": true,
 			"type": "Guild Shop Item",
-			"value": 6000000,
+			"value": 4500000,
 			"entries": [
 				"This complete suit of plate armor is missing its helmet, and only a glance is needed to reveal a chilling aura. It was found on the body of a headless horseman slain by a high-ranking adventuring party, and beyond that, nothing else is known.",
 				"{@bold Curse of the Beheaded}. Upon attuning to this armor, the wearer must succeed on a DC 20 Constitution saving throw. On a failed save, the wearer is beheaded and becomes classified as a headless horseman. The attunement is transferred to your own head, as opposed to being connected to the armor. The residue of magic then dissipates, turning the suit into nothing more than an ordinary set of plate armor.",
@@ -1700,7 +1697,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"type": "Guild Shop Item, consumable",
-			"value": 3000000,
+			"value": 2250000,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Taurus Silver CAD&quot;, and gives it the following effect:",
 				{
@@ -1749,6 +1746,262 @@
 				"You can modify your UTD with cartridges, which will temporary evolve the weapon for a limited amount of uses. You can only have one cartridge slotted into a UTD at a time. Swapping out cartridges is an object interaction. These cartridges can also be found in the Guild Shop.",
 				"{@italic Item designed by @Amarulence#5357.}",
 				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Cartridge: Quick Tuning (UTD)",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
+			"value": 30000,
+			"entries": [
+				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Quick Tuning UTD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that deals cold, fire, or lightning damage, you can expend a charge. Change that damage type to one of the following: cold, fire, or lightning."
+					]
+				},
+				"You have 6 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Evolution Tuning (UTD)",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
+			"value": 300000,
+			"entries": [
+				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Evolution Tuning UTD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast cast a spell that deals cold, fire, or lightning damage, you can expend a charge. You can roll one additional damage die for that spell. You choose whether the additional damage die deals cold, fire, or lightning damage. Regardless of what you choose, the additional damage die cannot deal the same damage type as the base spell."
+					]
+				},
+				"You have 3 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Rewrite (UTD)",
+			"source": "GS",
+			"rarity": "very rare",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
+			"value": 2250000,
+			"entries": [
+				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Accel Ultima UTD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell of 2nd-level or higher that restores hit points or deals cold, fire, or lightning damage, you can expend a charge. You replicate the effects of the spell as if it were upcast by one spell slot, but you only exhaust the appropriate on-level spell slot."
+					]
+				},
+				"You have 3 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Medica Silver (UTD)",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
+			"value": 30000,
+			"entries": [
+				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Medica Silver UTD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that restores hit points, you can expend a charge. Add your Intelligence modifier to the roll."
+					]
+				},
+				"You have 5 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Grand Accel (UTD)",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"entries": [
+				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Grand Accel UTD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"While this cartridge is slotted in, you can reroll 1s on rolls that give temporary hit points, or damage rolls that deal radiant, necrotic, or thunder damage."
+					]
+				},
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Wanderering Blade",
+			"baseItem": "greatsword|phb",
+			"source": "GS",
+			"rarity": "very rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Weapon",
+			"value": 4500000,
+			"entries": [
+				"You have a +2 to attack and damage rolls made with this magic weapon.",
+				"This weapon has found it's way to many different hands over the years. The runes on this blade light ablaze with sickening radiance. Blades of this type are talked about throughout history, inspiring awe and fear depending on who lays their eyes on the blade.",
+				"When you hit a creature with this greatsword, you can choose to channel the blade's history into the target. That creature must make a Wisdom saving throw (DC 16) or be {@condition frightened} by the wielder until the end of their next turn, as the deaths of every creature felled by the blade flashes before their eyes. On a successful save, the creature becomes immune to this effect for 2 rounds.",
+				"{@italic Item designed by @bigbeefydood11#1340.}"
+			]
+		},
+		{
+			"name": "Frefil's Jolly Oozebean Sugarbombs",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": true,
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+				"You can eat one of these delicious, jelly-filled sweets as a bonus action on your turn. Each one comes with a side effect that lasts for one hour and depends on the associated color and flavor of the bean. Refer below when determining the bean's effects. Each bag contains one bean of each type."
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+				"{@bold Upset Stomach}. You can only be under the effects of one sugarbomb that has this property at a time. Eating a sugarbomb while already under the effects of another one ends the first one's effect early and forces you to make a DC 13 Constitution saving throw. On a failed save, you become {@condition poisoned} for 1 minute."
+					]
+				},
+									{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Jellybean",
+													"Effect"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"{@bold White Chilled Peppermint}",
+														"Gummy exterior with a watery center. You can breathe underwater."
+													],
+													[
+														"{@bold Black Bubbling Licorice}",
+														"Thick, but effervescent. You have resistance to acid damage and can safely eat otherwise inedible & nonpoisonous organic materials."
+													],
+													[
+														"{@bold Blue Sour Lemon-Lime}",
+														"Pleasantly gummy, but slightly numbs the mouth. Grappling or being grappled deals {@dice 1d8} acid damage to the other creature."
+													],
+													[
+														"{@bold Gray-Hot Spiced Mead}",
+														"Harder exterior with a gooey center. You have advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+													],
+													[
+														"{@bold Gold-Foil Caramel}",
+														"Rubbery and chewy. You gain a climbing speed equal to your movement speed."
+													],
+													[
+														"{@bold Red Cinnamon Strawberry}",
+														"Thick and coats the tongue slightly. You gain {@dice 1d8+4} temporary hit points."
+													],
+													[
+														"{@bold Green Savory Apple}",
+														"Spongey center covered with a dissolving shell. You have resistance to poison damage and advantage on ability checks to escape the {@condition grappled} condition and {@condition restrained} condition."
+													],
+													[
+														"{@bold Yellow Mustard Currant}",
+														"Slippery and resilient. You have resistance against lightning damage and immunity to damage from the magic missile spell."
+													]
+												]
+											}
+										]
+									},
+				"{@italic Item designed by @Gebri#6969.}"
+			]
+		},
+		{
+			"name": "Infernal Puzzle Box",
+			"source": "GS",
+			"value": 60000,
+			"rarity": "uncommon",
+			"tier": "minor",
+			"type": "Guild Shop Item",
+			"entries": [
+				"An infernal puzzle box is a cube-shaped container 5 to 6 inches on a side, composed of airtight, interlocking parts made from materials found in the Nine Hells. Most of these boxes are made of infernal iron, though some are carved from bone or horn. Infernal puzzle boxes are used to safeguard diabolical contracts signed between devils and mortals, even after the terms of these contracts are fulfilled. An empty infernal puzzle box weighs 3 pounds regardless of the materials used to fashion it.",
+				"When an object small enough to fit inside an infernal puzzle box is placed in it, the container magically seals shut around the object, and no magic can force the box open. The sealed box becomes immune to all damage as well. Every infernal puzzle box is constructed with a unique means of opening it. The trick to solving the puzzle is always mundane, never magical. Once a creature figures out the trick or sequence of steps needed to open a particular infernal puzzle box, that creature can open the box as an action, allowing access to the box's contents.",
+				"A creature that spends 1 hour holding an infernal puzzle box while trying to open it can make a DC 30 Intelligence ({@skill Investigation}) check. If the check succeeds, the creature figures out the trick or sequence of steps needed to open the box. If the check fails by 5 or more, the creature must make a DC 18 Wisdom saving throw, taking 42 ({@dice 12d6}) psychic damage on a failed save, or half as much damage on a successful one."
+			]
+		},
+		{
+			"name": "Storm Boomerang",
+			"source": "GS",
+			"value": 60000,
+			"rarity": "uncommon",
+			"tier": "major",
+			"type": "Guild Shop Weapon",
+			"baseItem": "boomerang|srp",
+			"entries": [
+				"This boomerang is a ranged weapon carved from {@creature griffon} bone and etched with the symbol of elemental air. On a hit, the boomerang deals an additional {@dice 3d4} thunder damage, and the target must succeed on a DC 10 Constitution saving throw or be {@condition stunned} until the end of its next turn.",
+				"Once the boomerang deals thunder damage to a target, the weapon loses its ability to deal thunder damage and its ability to stun a target. These properties return after the boomerang spends at least 1 hour inside an elemental air node."
+			]
+		},
+		{
+			"name": "Dagger of Blindsight",
+			"source": "GS",
+			"value": 600000,
+			"rarity": "rare",
+			"tier": "major",
+			"type": "Guild Shop Weapon",
+			"baseItem": "dagger|phb",
+			"reqAttune": true,
+			"weight": 1,
+			"entries": [
+				"This rare magic item requires attunement. A creature attuned to it gains {@sense blindsight} out to a range of 30 feet. The dagger has a saw-toothed edge and a black pearl nested in its pommel."
+			]
+		},
+		{
+			"name": "Seawater Cutlass",
+			"source": "GS",
+			"value": 60000,
+			"rarity": "uncommon",
+			"tier": "major",
+			"type": "Guild Shop Weapon",
+			"baseItem": "scimitar|phb",
+			"entries": [
+				"These curved blades trail golden light when swung through the air. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"On a successful hit with the cutlass, the target's speed is reduced by 10 feet until the start of your next turn."
+			]
+		},
+		{
+			"name": "Spies' Murmur",
+			"source": "GS",
+			"value": 60000,
+			"rarity": "uncommon",
+			"type": "Guild Shop Item",
+			"tier": "minor",
+
+			"reqAttune": true,
+			"entries": [
+				"This headpiece, crafted from dark metal, is worn curved around the ear. If you know a creature wearing another Spies' Murmur and that creature is within 1 mile of you, you can communicate telepathically with each other. As a bonus action, you can allow that creature to hear everything you hear for 1 hour. You can end this effect as a bonus action, and it ends if you're {@condition incapacitated}."
 			]
 		},
 		{
@@ -2193,7 +2446,7 @@
 			"baseItem": "longbow|phb",
 			"reqAttune": true,
 			"type": "Guild Shop Weapon",
-			"value": 6000000,
+			"value": 4500000,
 			"entries": [
 				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
 				"You can speak the command word of this bow as a bonus action. After doing so, for the next minute, the bow and all ammunition fired from it are charged with magical lightning.",
