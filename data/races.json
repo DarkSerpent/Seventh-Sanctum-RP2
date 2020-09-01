@@ -3394,7 +3394,7 @@
 					"type": "entries",
 					"name": "Rock Hurler",
 					"entries": [
-                     "You are considered proficient in the use of appropriately-sized rocks and boulders as ranged weapons. Such boulders typically weigh fifty pounds, and deal bludgeoning damage equal to {@dice 1d10} + your Strength modifier, and have the thrown (30/150) and heavy qualities. These boulders are also considered simple ranged weapons."
+                     "You are considered proficient in the use of appropriately-sized rocks and boulders as ranged weapons. Such boulders typically weigh fifty pounds, and deal bludgeoning damage equal to {@dice 1d10} + your Strength modifier, and have the thrown (30/150) and heavy qualities. These boulders are also considered simple melee weapons."
 					]
 				},
 				{
