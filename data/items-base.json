@@ -2705,6 +2705,67 @@
 				"A pill container filled with small white pills. Each container has 30 pills, of which a single pill can be used to accelerate the effects of being drunk. One pill while drunk will leave you with a hangover. One pill while hung over will leave you lucid. Two pills while drunk will leave you lucid.",
 				"{@italic Item designed by @Mr.Philanthropic#0001.}"
 			]
+		},
+		{
+			"name": "Aura of the Dragon",
+			"source": "Arisen",
+			"tier": "major",
+			"rarity": "legendary",
+			"weaponCategory": "martial",
+			"property": [
+				"2H",
+				"H",
+				"AR"
+			],
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"reqAttune": true,
+			"entries": [
+				"{@italic This is the weapon of Bruniik, modified to be used by Tactus Agmulf.}",
+				"The Aura of the Dragon has seeped inside your soul, granting your mind focus and turning your fists to steel. This weapon represents a mastery of Bruniik's teachings—but the growth of a student never ends. While you may have succeeded in Bruniik's rigorous combat training, the true training involves the soul, and the heart.",
+				"Attacking is a matter of projecting your aura outwards. Instilling the fortitude wrought by your mental training into the minds of your opponents. Such mastery of the draconic arts does not come lightly, however. You have begun to grow scales along your upper neck and arms. Rough and filled with heart, just like the training you were put through.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"{@bold Knowledge of the Dragon}. While attuned to this weapon, your maximum {@italic knowledge points} increase by 2.",
+				"{@bold Mind of Focus}. While this weapon equipped, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type.",
+				"{@bold Fist of Steel}. When you successfully hit with this weapon, you can choose to expend a number of knowledge points up to your maximum in order to enact one of the following effects:",
+									{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Knowledge Points",
+													"Effect"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"{@bold 1 KP}",
+														"Instead of its normal damage, your weapon now deals {@dice 2d6} radiant and {@dice 1d6} bludgeoning damage until the end of your turn."
+													],
+													[
+														"{@bold 2 KP}",
+														"The creature you hit must make a Constitution saving throw (DC 8 + your proficiency bonus + your Strength modifier). On a failed save, their initiative drops by {@dice 1d6}. If they would drop one or more turns in initiative, they are {@condition stunned} until the end of your next turn."
+													],
+													[
+														"{@bold 5 KP}",
+														"Starting from the point at which you activate this ability, you regain half of the damage you deal as hit points until the end of your turn."
+													],
+													[
+														"{@bold 8 KP}",
+														"You implant a part of your soul into the creature you hit, ravaging their body from the inside-out. That creature must make a Strength, Constitution, and Charisma saving throw (DC + your proficiency bonus + your Constitution modifier). On one or more failed saves, that creature unattunes to a number of items in their possession and falls {@condition unconscious} for a number of rounds equal to the amount of failed saves they made, starting from the lowest rarity item and onwards."
+													]
+												]
+											}
+										]
+									},
+				"",
+				""
+			]
 		}
 	],
 	"itemProperty": [
@@ -2794,6 +2855,20 @@
 				}
 			],
 			"template": "{{prop_name}} ({{item.dmg2}})"
+		},
+		{
+			"abbreviation": "AR",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Arisen Weapon",
+					"entries": [
+						"So long as you remain bound to your Arisen, you are considered proficient in this weapon. If you ever are to become unbound to your Arisen, the weapon vanishes, and so do any benefits it gives.",
+						"No creature other than the bonded target may use or hold this weapon—the action becomes physically impossible whenever attempted. In addition, you gain the ability to summon this weapon as a bonus action on your turn, causing it to instantly appear equipped onto your form and become attuned (if you have a free attunement slot)."
+					]
+				}
+			]
 		},
 		{
 			"abbreviation": "GR",
