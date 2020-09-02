@@ -387,7 +387,7 @@
 							"type": "entries",
 							"name": "Enhance: Take Flight (3)",
 							"entries": [
-								"Immediately after using Take Flight, you can expend 3 more knowledge points. Your innate flying speed increases to 60 feet, and the duration decreases to 1 minute."
+								"Immediately after using {@italic Take Flight}, you can expend 3 more knowledge points. Your innate flying speed increases to 60 feet, and the duration decreases to 1 minute."
 							]
 						},
 						{
@@ -409,6 +409,51 @@
 							"name": "Always Learning II (Passive)",
 							"entries": [
 								"You regain all expended knowledge points on a long rest, or two knowledge points on a short rest."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 3}, you gain the following additional benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+						{
+							"type": "entries",
+							"name": "Mind of the Dragon (Passive)",
+							"entries": [
+								"In addition to the other benefits you gain when using {@italic Dragon Tactics}, you can also choose up to three enemies. Those enemies have their initiatives increase by {@dice 1d4} or reduce by {@dice 1d4} (your choice)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Body of the Dragon (Passive)",
+							"entries": [
+								"In addition to the other benefits you gain when using {@italic Enhance: Take Flight}, you also gain access to {@italic Dragon's Breath} and {@italic Dragon's Roar}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dragon's Breath (Recharge 5-6)",
+							"entries": [
+								"When you use your {@italic Enhance: Take Flight}, you develop the glands to shoot raw, destructive elements from your mouth.",
+								"As an action on your turn, each creature in a 10 by 60 ft. line must make a DC 18 Dexterity saving throw. On a failed save, those creatures take {@dice 6d6} radiant damage, or half as much on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dragon's Roar (Recharge 6)",
+							"entries": [
+								"When you use your {@italic Enhance: Take Flight}, you develop the vocal power to let loose a vicious roar, filling nearby creatures with dread.",
+								"As an action on its turn, Any number of creatures of YOUR choice within 20 feet of you must make a DC 18 Wisdom saving throw. On a failed save, creatures are frightened by you for one minute. The creature can repeat the saving throw at the end of their turn, ending the effect on a success. A creature who successfully passes the save is immune to this effect for ten minutes."
 							]
 						}
 					]
