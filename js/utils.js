@@ -2255,6 +2255,7 @@ Parser.CONDITION_TO_COLOR = {
 
 SRC_SRP = "SRP";
 SRC_GS = "GS";
+SRC_Arisen = "Arisen Weapon";
 SRC_OSoW = "OSoW";
 SRC_CoS = "CoS";
 SRC_DMG = "DMG";
@@ -2406,6 +2407,7 @@ TftYP_NAME = "Tales from the Yawning Portal";
 Parser.SOURCE_JSON_TO_FULL = {};
 Parser.SOURCE_JSON_TO_FULL[SRC_SRP] = "Seventh Sanctum RP";
 Parser.SOURCE_JSON_TO_FULL[SRC_GS] = "Guild Shop";
+Parser.SOURCE_JSON_TO_FULL[SRC_Arisen] = "Arisen Weapon";
 Parser.SOURCE_JSON_TO_FULL[SRC_OSoW] = "Orion: Stars of Waterdeep";
 Parser.SOURCE_JSON_TO_FULL[SRC_CoS] = "Curse of Strahd";
 Parser.SOURCE_JSON_TO_FULL[SRC_DMG] = "Dungeon Master's Guide";

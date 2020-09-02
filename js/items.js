@@ -399,7 +399,7 @@ function addItems (data) {
 
 	// populate table labels
 	$(`h3.ele-mundane span.side-label`).text("Homebrew Items");
-	$(`h3.ele-magic span.side-label`).text("Guild Shop");
+	$(`h3.ele-magic span.side-label`).text("Arisen & Guild Shop");
 
 	mundaneList.update();
 	magicList.update();
