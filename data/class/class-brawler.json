@@ -1,0 +1,739 @@
+{
+	"class": [
+		{
+			"name": "Brawler (WIP)",
+			"source": "SRP",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"str",
+				"con"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple, improvised, brass knuckles, gauntlets"
+				],
+				"tools": [
+					"your choice of thieves' tools",
+					"a gaming set",
+					"or one type of artisan's tools of your choice"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"deception",
+								"intimidation",
+								"perception",
+								"sleight of hand",
+								"insight",
+								"stealth"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item leather armor|phb} or (b) any one {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} of your choice",
+					"(a) {@item thieves' tools|phb} (b) a gaming set or (c) a set of artisan's tools",
+					"(a) {@item explorer's pack|phb} or (b) {@item dungeoneer's pack|phb}"
+				],
+				"goldAlternative": "{@dice 5d4|5d4|Starting Gold}"
+			},
+			"multiclassing": {
+				"requirements": {
+					"str": 13,
+					"con": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					],
+					"weapons": [
+						"improvised"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Beat 'Em Up",
+						"Flow"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							0
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							3
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							5
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							5
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							6
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							6
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							7
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							7
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							8
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							8
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							9
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							9
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							10
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							10
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							12
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				[
+					{
+						"name": "Beat 'Em Up",
+						"entries": [
+							"Beginning at 1st level, your years fighting in the back allies of Kagrea have given you mastery over combat styles that utilize the power of your own fists (and improvised weapons). You gain the following benefits while you are either unarmed, using an improvised weapon, or using brass knuckles or gauntlets. You must be wearing light or no armor and not be wielding a shield to gain these benefits:",
+							{
+								"type": "list",
+								"items": [
+									"You can roll a {@dice d6} in place of the normal damage for that weapon. This die increases in value as you gain levels in Brawler, as shown by the Beat 'Em Up column on the Brawler table.",
+									"When you make the Attack action on your turn with an unarmed strike, improvised weapon, brass knuckles, or gauntlet, you can make one attack with that weapon or grapple as a bonus action."
+								]
+							}
+						]
+					},
+					{
+						"name": "Unarmored Defense",
+						"entries": [
+							"Also at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Constitution modifier + your Charisma modifier."
+						]
+					}
+				],
+				[
+					{
+						"name": "Feeling the Flow",
+						"entries": [
+							"Starting at 2nd level, you can tap into the flow of combat, allowing you to channel a subconscious sense for the direction of a fight. This subconscious sense is represented by a number of flow points. Your Brawler level determines the amount of flow points you have available to you, as shown by the Flow column of the Brawler table.",
+							"Choose two Flow Features below to add to your combat repertoire. You can spend a number of flow points to fuel those features as outlined below. You learn more Flow Features as you gain levels in this class, and regain all expended flow points on a short rest.",
+							"You gain one more Flow Feature at 13th level, and another at 19th level.",
+							{
+								"type": "abilityDc",
+								"name": "Flow",
+								"attributes": [
+									"str"
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Quick Jabs",
+								"entries": [
+									"Immediately after you take the Attack action on your turn, you can spend 1 flow point to make two unarmed strikes as a bonus action. If both unarmed strikes hit, you can move 10 feet in any direction for free without provoking opportunity attacks."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Strike Steel",
+								"entries": [
+									"As a bonus action, you can spend 2 flow point to put up your guard. You gain temporary hit points equal to your Beat 'Em Up die + your Brawler level + your Constitution modifier. You ignore any leftover damage that would go over the temporary hit points into your hit point total granted by this ability."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Dodge & Weave",
+								"entries": [
+									"As a reaction to being missed by an melee or ranged attack, you can spend 1 flow point. Make one attack with an unarmed strike or gauntlet at a target within 5 feet of you. On a successful hit, you gain advantage on your next attack until the end of your next turn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Seismic Slam",
+								"entries": [
+									"Immediately after you successfully grapple a creature on your turn, you can spend 1 flow point to slam them to the ground and knock them {@condition prone}. You can expend 1 additional flow point: that creature takes damage equal to your Beat 'Em Up die + your Strength modifier, and their movement speed is halved until the end of their next turn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Reverse Gravity",
+								"entries": [
+									"When you hit a creature with an unarmed strike or gauntlet, you can spend 1 flow point in an attempt to ground them. The target must succeed on a Constitution saving throw or have their speed be reduced to 0 until the end of your next turn. In addition, that target has disadvantage on attacks made to hit you until the end of their next turn.",
+									"When you use this feature, you can choose to expend 1 additional flow point. The target has disadvantage to hit any creature until the end of their next turn, rather than just you."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Mage Seeker",
+								"entries": [
+									"When you hit a creature with an unarmed strike or gauntlet, you can spend 1 flow point. The target must succeed on a Constitution saving throw. On a failed save, that creature is {@condition deafened}, and cannot speak or cast spells that require verbal components until the end of your next turn.",
+									"If you hit a spellcaster with this feature, and that spellcaster failed the saving throw, you can expend 1 more flow point. On your next turn, you can cast the {@spell booming blade} spell as an action. When you do so, you can make an unarmed strike instead of a weapon attack, and you retain the ability to attack as a bonus action with your Beat 'Em Up feature."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Adrenaline Rush",
+								"entries": [
+									"As a bonus action, you can expend 1 flow point. Your base movement speed increases by 15, you gain a climbing and swimming speed of 30 feet, and you ignore difficult terrain until the start of your next turn. You can expend 1 additional flow point: until the end of your next turn, your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start."
+								]
+							}
+						]
+					},
+					{
+						"name": "Street Smarts",
+						"entries": [
+							"At 2nd level, carousing, shadowboxing, and sparring all count as light activity for the purposes of short and long rests. In addition, once you have caroused in a settlement for 8 hours or more, you know all public locations within it as if you were born and raised there. You also cannot be made lost by non-magical means while within the settlement."
+						]
+					}
+				],
+				[
+					{
+						"name": "Fight Club",
+						"entries": [
+							"At 3rd level, you choose the type of brawling style you sign your likeness to: the Bloodhound Bruisers, the Piss & Vinegar, the Hard Hearted Thugs, or the Mixed Martial Mayhem. Each of which is detailed at the end of the class's description. Your choice grants you features at 3rd level, and again at 6th, 11th, and 17th level."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 4th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Haymaker",
+						"entries": [
+							"At 5th level, you can throw aside all concern for accuracy in order to land a square, crushing blow onto your opponent.",
+							"When you make your first attack on your turn, you can decide to throw a powerful Haymaker onto your opponent. Doing so gives you disadvantage on that first attack. On a successful hit, you add double your Beat 'Em Up die to the damage of that attack, and every attack afterwards until the end of your turn has advantage.",
+							"You can use this feature a number of times equal to your Strength modifier, and regain all expended charges on a long rest."
+						]
+					}
+				],
+				[
+					{
+						"name": "Flow-Powered Strikes",
+						"entries": [
+							"Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage."
+						]
+					},
+					{
+						"name": "Fight Club Feature",
+						"entries": [
+							"At 6th level, you gain a feature granted by your Fight Club choice."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Battle Genius",
+						"entries": [
+							"Starting at 7th level, your ability to feel the flow of the fight allows you to weasle your way out of trouble when you otherwise couldn't. You have advantage on Dexterity saving throws against effects that would target you. To gain this benefit, you cannot be {@condition incapacitated}.",
+							"In addition, you can use your action to end one effect on yourself that is causing you to be {@condition charmed} or {@condition frightened}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 8th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Down But Not Out",
+						"entries": [
+							"At 9th level, you've learned to stay in the fight even when faced with impossible odds. When you would drop to 0 hit points, you can roll a number of Beat 'Em Up die equal to your Constitution modifier. Subtract damage from that attack equal to the number you rolled.",
+							"If you would reduce the damage to 0 this way, any excess negation instead becomes temporary hit points for you. Once you use this feature, you cannot use it again until you finish a short or long rest."
+						]
+					}
+				],
+				[
+					{
+						"name": "School of Hard Knocks",
+						"entries": [
+							"By 10th level, you’ve graduated top of the class at the school of hard knocks. And you took most of them to the head. You gain advantage on saving throws that would render you {@condition stunned} or {@condition unconscious}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Fight Club Feature",
+						"entries": [
+							"At 11th level, you gain a feature granted by your Fight Club choice."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 12th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Rabble Reveler",
+						"entries": [
+							"Starting at 13th level, word of your exploits travels quickly in cities and other settlements. After you take a long rest by carousing in a settlement, you gain advantage on Charisma ({@skill Persuasion}) and Charisma ({@skill Intimidation}) checks in that settlement until you complete another long rest, or you use this feature on another settlement."
+						]
+					}
+				],
+				[
+					{
+						"name": "Unbreakable Resolve",
+						"entries": [
+							"Starting at 14th level, you gain proficiency in Dexterity saving throws. In addition, whenever you fail a saving throw, you can spend 2 flow points to reroll the save and take the second result."
+						]
+					}
+				],
+				[
+					{
+						"name": "Herculean",
+						"entries": [
+							"At 15th level, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. In addition, whenever you deal damage with a melee weapon or unarmed strike to an inanimate object, that damage is doubled."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 16th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Fight Club Feature",
+						"entries": [
+							"At 17th level, you gain a feature granted by your Fight Club choice."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Way of Worlds",
+						"entries": [
+							"Starting at 18th level, your body has naturally adapted to the Way of Worlds as a result of your ability to feel the flow in battle. Whenever you succeed a saving throw, you can choose to regain 2 flow points. You can use this feature twice, and afterwards, you cannot use it again until you finish a long rest."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 19th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
+					}
+				],
+				[
+					{
+						"name": "Divine Physical Condition",
+						"entries": [
+							"At 20th level, your Strength and Constitution ability scores and maximum increase by 2. Additionally, whenever you take a long rest, you recover 2 levels of exhaustion instead of 1, and you treat exhaustion as if it was one level less."
+						]
+					}
+				]
+			],
+			"subclassTitle": "Fight Club",
+			"subclasses": [
+				{
+					"name": "Bloodhound Bruisers",
+					"shortName": "Bloodhound Bruisers",
+					"source": "SRP",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Bloodhound Bruisers",
+								"entries": [
+									"Brawlers in the Bloodhound Bruisers fight club are notorious for looking for trouble and finding it every time. Members of this fight club are highly observant of character traits and physical evidence and can form an almost supernatural connection to the cities they live in. Most use these abilities to become urban defenders of the downtrodden but others lend their talents to less savory organizations.",
+									{
+										"type": "entries",
+										"name": "Ever Vigilant",
+										"entries": [
+											"As a Bloodhound Bruiser, you learned to watch your back—and to watch it good. Starting from when you choose this fight club at 3rd level, you can no longer be surprised, and you gain advantage on initiative rolls. In addition, during the first round of combat, you have advantage on attack rolls against creatures who have not acted yet."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Detective Work",
+										"entries": [
+											"Also at 3rd level, you gain proficiency with two of the following skills of your choice: {@skill Insight}, {@skill Investigation}, or {@skill Perception}. In addition, when you make an Intelligence ({@skill Investigation}), Wisdom ({@skill Insight}), or Wisdom ({@skill Perception}) check, you can spend 1 flow point to gain advantage on that ability check.",
+											"In addition, your connection to the Bloodhound Bruisers has allowed for you to feel the flow in abnormal and supernatural ways. As an action, you can spend 2 flow points to target a creature within 60 feet of you. You learn that creature's vulnerabilities, resistances, and immunities, as well as their creature type."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Scrap Like a Sleuth",
+										"entries": [
+											"At 6th level, you've gained the ability to hone in on the idiosyncrasies and bad habits of an enemy, and to use those habits to your advantage. As a bonus action, you can expend 2 flow points to target an enemy you can see within 30 feet. For the next minute, you have advantage on attacks made against that creature, and you add your proficiency bonus to your AC against attacks made by that creature.", 
+											"During the minute, can expend 1 additional flow point. Until the end of your next turn, you become aware of that enemy's exact location, so long as they are on the same plane as you and are within 300 feet."
+										]
+									}
+								]
+							},
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "The Jury Stands",
+										"entries": [
+											"Also at 6th level, you've grown attuned to the flow of a lie, and can extract the truth from the eyes of your victims. So long as you are making direct eye contact with a creature, you have advantage on Wisdom ({@skill Insight}) checks to determine if they are lying. In addition, you can expend 2 flow points to force a creature you have direct eye contact with to make a Charisma saving throw. On a failed save, that creature finds it impossible to speak any words that are not the truth.",
+											"You cannot restrict a creature that is immune to the {@condition charmed} condition to only speak the truth. A creature in an {@spell antimagic field} is also immune to the effects of this restriction. The DM does not inform you whether the results of the roll were successful in restricting the creature—only if they passed or failed the roll."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Heart of a Scrapper",
+										"entries": [
+											"Starting at 9th level, you've mastered the art of looking for trouble, and have found it inexcusably easy to get what you want. You gain the following benefits:",
+											{
+												"type": "list",
+												"items": [
+													"You now add your proficiency bonus to your initiative.",
+													"You have darkvision out to a range of 120 feet.",
+													"You cannot become lost by any means."
+												]
+											},
+											"In addition, whenever you successfully hit an enemy with advantage, you can choose to regain 1 flow point. You can use this feature a number of times equal to your Intelligence modifier (minimum of 1), and regain all expended uses on a long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Eyes Wide Open",
+										"entries": [
+											"By 17th level, your eyes have metaphysically tuned to the Way of Worlds, allowing you to visibly see the flow and make judgement calls under supernaturally-imposed threats and reaction times. As a bonus action, you can expend 3 flow points to open your senses to the flow for 1 minute. During this time, you have advantage on Dexterity, Intelligence, and Charisma saving throws, and gain truesight out to 30 feet."
+										]
+									}
+								]
+							}
+						]
+					]
+				}
+			],
+			"fluff": [
+				{
+					"name": "Brawler",
+					"type": "section",
+					"entries": [
+						""
+					],
+					"source": "SRP",
+					"page": 0
+				}
+			]
+		}
+	]
+}
