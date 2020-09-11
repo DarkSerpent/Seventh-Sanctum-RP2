@@ -2727,6 +2727,7 @@
 				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
 				"{@bold Knowledge of the Dragon}. While attuned to this weapon, your maximum {@italic knowledge points} increase by 2.",
 				"{@bold Mind of Focus}. While this weapon equipped, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type.",
+				"{@bold Structure Mastery}. Whenever you hit an object with this weapon, the hit is a critical hit.",
 				"{@bold Fist of Steel}. When you successfully hit with this weapon, you can choose to expend a number of knowledge points up to your maximum in order to enact one of the following effects:",
 									{
 										"type": "entries",
