@@ -4,5 +4,6 @@
 	"paladin": "class-paladin.json",
 	"ranger": "class-ranger.json",
 	"brawler": "class-brawler.json",
+	"dragon knight": "class-dragonknight.json",
 	"rogue": "class-rogue.json"
 }
