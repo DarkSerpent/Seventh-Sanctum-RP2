@@ -463,7 +463,7 @@
 				{
 					"name": "Age",
 					"entries": [
-                     "Revenant do not age. Given time, the necromantic energies that sustain you will heal most wounds you take at approximately the same rate as a mortal, and your hit die function as normal."
+                     "Revenant do not age. Given time, the necromantic energies that sustain you will heal most wounds you take at approximately the same rate as a mortal, and your hit die function as normal. A Revenant escapes the Rift due to one emotion they hold dear to their hearts. Emotions such as &quot;Hope&quot;, &quot;Anger&quot;, and &quot;Desire&quot; are common emotions among Revenants. Once the emotion that ties their existence dissipates (like the desire to see one's family, or the anger to see an enemy dead), the necromantic energies evaporate, and the Revenant dies."
 					],
 					"type": "entries"
 				},
