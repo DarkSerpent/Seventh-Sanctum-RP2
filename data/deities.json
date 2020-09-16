@@ -721,6 +721,78 @@
 			]
 		},
 		{
+			"name": "Talos (Solitude Maximus Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Oath",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Trickery",
+				"Darkness",
+				"Order"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The Lord of Assassination was not given this title lightly. Talos has perfected the art form of a clean, and unseen kill. He is a master tactician, and often is known to plan out intricate modes of attack to defeat enemies unconventionally rather than fighting head on. None would even know if you were the victim of the Master Assassin, unless he wanted others to know.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Talos, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Father of the Abyss (Passive)",
+							"entries": [
+								"After the conclusion of combat, where your actions led to the death of one or more creatures, you can meditate for one minute. During this minute, you experience the lives of the creatures you killed in brief flourishes. While you cannot gather information this way, you become deeply intune with the emotions that creature experienced throughout their lives as you mourn their passing.",
+								"At the end of your meditation, roll {@dice 3d6} + your Charisma modifier. You gain that many temporary hit points, and you have advantage on saving throws against the {@condition charmed} or {@condition frightened} condition so long as those temporary hit points remain."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fan of Knives",
+							"entries": [
+								"As an action, you throw your weapon, treating it as a thrown weapon for the purposes of the attack with a range of 30 feet. Your weapon strikes a number of times equal to the amount of attacks you can make per turn, as it splits into several copies and flourishes around your enemy. After you make the final attack, you can choose to teleport a number of feet equal to the distance at which you threw your weapon, to a maximum of 30, and your weapon flies back to your hand.",
+								"If you kill an enemy with this ability, you can use a bonus action to reinforce your spirit, channeling the energy of the kill into your blade. Your next attack will critically strike.",
+								"You can use this ability a number of times equal to your Dexterity modifier (minimum of once), and regain all expended uses on a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Establish Order",
+							"entries": [
+								"As an action, you hold up your weapon, causing its blade to shimmer as a beam of white light shoots down from the heavens centered on you. After a momentarily blinding blast, white energy begins to expand outwards along the ground to a radius of 60 feet from where you used the ability, as you forcefully establish order.",
+								"This aura lasts for the next minute, and all creatures within the radius of the circle are considered to be {@condition charmed} toward each other. This aura does not follow you, and remains centered on the point where you activated the ability.",
+								"While you are in the aura, as an action, you can slam your weapon into the ground. All creatures in the aura must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier). On a failed save, those creatures are knocked {@condition prone}, and their movement speed becomes 0 until the end of their next turn. When you use your action this way, the aura dissipates at the end of your turn, and the effects it has on creatures end.",
+								"Once you use this ability, you cannot use it again until your finish a short or long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Talos",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"When moving to strike, ensure your victory beforehand.",
+								"Acting on impulse is a vice that will get you and others killed.",
+								"Know your enemy, better than you know yourself."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Archon (The Mann Version)",
 			"source": "SRP",
 			"pantheon": "Adamantian",
