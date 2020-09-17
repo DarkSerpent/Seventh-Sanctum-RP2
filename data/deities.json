@@ -869,6 +869,94 @@
 			]
 		},
 		{
+			"name": "Cosmic (Boyo the Pirate Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Old Deus",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Chaos"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"[Insert Arisen Description Here]",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Cosmic, you have been granted 5 manipulation points at {@italic Bond Level 1}, which you can spend to activate the following abilities:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Probability Manipulation (3)",
+							"entries": [
+								"Whenever you critically fail an ability check or an attack, you can use a reaction. That critical fail becomes a critical success."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Manipulate Luck (0)",
+							"entries": [
+								"As a bonus action, you can sacrifice any number of luck points. You gain that many manipulation points, up to your manipulation point maximum."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Situational Synchronicity (1)",
+							"entries": [
+								"When a creature you have vision of who currently resides in the same plane of existence as you makes a saving throw, you can expend one manipulation point as a reaction.",
+								"If that creature is willing, instead of them making the saving throw, you make the saving throw in that creature's stead. On a successful or failed save, you and the target both suffer the effects of the saving throw as if you were both targeted."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Path to Victory (4)",
+							"entries": [
+								"As an action, you tap into the probability of worlds, becoming capable of choosing from a certain pathway of choices, a number which will ensure the highest likelihood of making you victorious in any kind of outcome.",
+								"For the next minute, at the end of each your turns, select one option from the following list to take into effect:",
+							{
+								"type": "list",
+								"items": [
+									"The next {@dice 1d4} attacks against you have disadvantage. This effect lasts until the start of your next turn.",
+									"Choose a creature within 60 feet of you that is willing. Roll a {@dice 1d4}. You swap places with that creature in that many turns (including other creatures), or the start of your next turn, whatever comes first.",
+									"You gain {@dice 1d20 - 1d10} temporary hit points until the start of your next turn. If the number you roll would be negative, you instead take that much aeon damage."
+								]
+							}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Stability (Passive)",
+							"entries": [
+								"You regain all expended manipulation points on a long rest, or one manipulation point on a short rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Cosmic",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"",
+								"",
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Archon (The Mann Version)",
 			"source": "SRP",
 			"pantheon": "Adamantian",
