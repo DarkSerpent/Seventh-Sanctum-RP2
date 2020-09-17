@@ -996,6 +996,34 @@
 				},
 				{
 					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Animate",
+							"entries": [
+								"As an action, you reach out and touch a decrepit or abandoned robot, construct, animatronic, or other mechanical device which has or could once have held sentience. You restart that creature's mind, restoring them to life as if you had cast the {@spell resurrection} spell.",
+								"You are not placed under the restrictions of {@spell resurrection} after using this ability, you ignore its material cost, and can continue to cast spells as normal. In addition, the creature you target can have been dead for longer than a century. A creature brought back to life by this ability still suffers the negative penalties to attack rolls, saving throws, and ability checks.",
+								"Eve cannot perform this restart more than once a month, as she must reserve her power for other followers who may wish to enact this ability. Starting a month from when you last used this ability, it will become reavailable to be used again."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Immortality (Passive)",
+							"entries": [
+								"When you would fall {@condition unconscious}, fail your last death saving throw, or die to an effect which states {@spell true resurrection} as a way to restore you to life, you can instead transfer your consciousness to the Ethereal Star. Your body disappears from its current plane of existence, and the memories you've accumulated throughout the years and the blueprints to your physical form are stored in the Star's central archive.",
+								"Roll a {@dice 2d6}. You reappear in the plane you were on in that many rounds, within 60 feet from the spot you activated this ability with 1 hit point. Once you use this ability, you cannot use it again until next dawn. If you would roll the same number on both of the dice, this ability does not go on cooldown.",
+								"In addition, you no longer suffer the degradation of sanity that all Nasods experience through age, and you cannot be aged through magical means."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Commandments of Eve",
 					"entries": [
 						{
