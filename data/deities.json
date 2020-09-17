@@ -793,6 +793,82 @@
 			]
 		},
 		{
+			"name": "Nyle (Pandoria Meridian Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Feud",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "",
+			"domains": [
+				"Sea",
+				"Nature"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The god of the ocean and seas. Nyle is subject to prayer by a variety of individuals who wish for safe travel through the ever-dangerous high seas, and is also subject to reverence by the various races who reside in its inner-depths.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Nyle, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ocean & Sea (Passive, 25/25)",
+							"entries": [
+								"At the end of your turn, if you are currently submerged or partially submerged in a body of water, you regain up to 5 hit points. You can regain up to 25 hit points this way per long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Boundary Horizon",
+							"entries": [
+								"As an action, you can establish a magical link between two large or larger bodies of water, so long as you have at least 5 feet of movement. The two bodies of water you select must include one of which you are partially submerged in, and another of which you have seen or touched at least once before. The bodies of water you select for this ability must be on the same plane of existence.",
+								"Once you use this ability, you begin to slowly submerge yourself into the water feet first, the sections of your body underneath the wave vanishing as they pass through the water's horizon. Seconds later, you appear at your destination, rising from the waves head first.",
+								"Establishing the link and transporting yourself is all performed in a single action. Once you complete the transportation, the two bodies of water become unlinked, and require another action to connect. You cannot transport any creatures other than yourself when you use this ability."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Arrival of the Sea God",
+							"entries": [
+								"As an action, you can metamorphose any source of water you can touch into the sea, transforming your environment into an ocean with upward depth and width of up to 100 feet. This makeshift ocean is treated similar to a miniature plane of water.",
+								"While in this body of water, you can select a number of creatures up to your Charisma modifier (minimum of 1) and grant them the following benefits:",
+							{
+								"type": "list",
+								"items": [
+									"You gain a swimming speed equal to your movement speed, if you do not have one already. Futhermore, you can breathe water normally while submerged.",
+									"You gain resistance to fire damage."
+								]
+							},
+								"The makeshift ocean you create returns to its normal size after one minute. Once you use this ability, you cannot use it again until you finish a long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Nyle",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Be free. Don't let yourself be forced into submission.",
+								"Be lenient. Allow those under you to breathe, and not drown in promise.",
+								"Be understanding. Stop yourself from forcing your beliefs onto others."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Archon (The Mann Version)",
 			"source": "SRP",
 			"pantheon": "Adamantian",
