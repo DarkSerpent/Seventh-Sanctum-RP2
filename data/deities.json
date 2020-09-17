@@ -1039,6 +1039,117 @@
 			]
 		},
 		{
+			"name": "Sraosha (Regret Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Old Deus",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "",
+			"domains": [
+				"Order",
+				"Blood",
+				"Knighthood"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"[Insert Arisen Description Here]",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Sraosha, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Yes, My Queen (Passive)",
+							"entries": [
+								"When a creature CR 3 or above that you are engaging in combat with dies, you can use a reaction to assimilate the essence that their presence marked on the world, taking their true name and temporarily adding it as part of yours.",
+								"Upon doing this, your soul becomes etched with an ethereal marking known as a Night Mark. From the moment you absorb a creature's essence, you begin to use your own soul as a battery, empowering your combat abilities until it is fully drained.",
+								"This state lasts for one minute. At the end of this minute, you lose all Night Marks and gain one point of {@condition exhaustion}. Depending on how many Soul Marks you collect, you gain the following additional passive abilities:"
+							]
+						},
+						{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Night Marks",
+													"Effect"
+												],
+												"colStyles": [
+													"col-2",
+													"col-3"
+												],
+												"rows": [
+													[
+														"{@bold Blessing of Fury (1).}",
+														"You gain a +1 bonus to your AC, and you generate 1 fury point at the end of each of your turns."
+													],
+													[
+														"{@bold Blessing of Rule (2).}",
+														"Whenever you make a ranged attack roll, you can roll a {@dice 1d4}. Add that number to both your attack and damage rolls."
+													],
+													[
+														"{@bold Blessing of Loyalty (3).}",
+														"You gain a +1 bonus to your AC, and you become immune to the {@condition charmed} condition."
+													],
+													[
+														"{@bold Blessing of Blood (4).}",
+														"When you attack a creature with less than 30 hit points, that creature dies."
+													],
+													[
+														"{@bold Blessing of Order (5).}",
+														"You become resistant to all forms of damage, except for aeon."
+													],
+													[
+														"{@bold Blessing of Sraosha (6).}",
+														"You heal for a quarter of the damage you deal, and you do not gain an {@condition exhaustion} point at the conclusion of this state."
+													]
+												]
+											}
+										]
+						},
+						{
+							"type": "entries",
+							"name": "Covert Entry (Passive)",
+							"entries": [
+								"You gain the ability to move up, down, and across vertical surfaces and upside down along ceilings, all while leaving your hands free. You also gain a climbing speed equal to your walking speed."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Final Demise (Passive)",
+							"entries": [
+								"When you use your {@italic Final Light} feature, you can choose for it to do necrotic damage, instead of its usual fire damage."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Sraosha",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Serve thy Queen.",
+								"Obey thy Queen.",
+								"Love thy Queen."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Archon (The Mann Version)",
 			"source": "SRP",
 			"pantheon": "Adamantian",
