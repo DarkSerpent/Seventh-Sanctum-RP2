@@ -957,6 +957,60 @@
 			]
 		},
 		{
+			"name": "Eve (Valriya Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Big Five",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Knowledge",
+				"Technology",
+				"Order"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"Eve is the goddess of robotics, and governs over the domain of technology, a vast and inspiring art that represents all fundamental crafts made in the pursuit of overcoming reliance on magic. Above all else, Eve is a shining example of how far technology has come, and represents the sentience and humanitarian rights that all constructs strive for.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Eve, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Read (Passive)",
+							"entries": [
+								"When you cast the {@spell identify} spell as a ritual, the casting time of the spell instead becomes an action. In addition, you can cast {@spell identify} on non-magical objects. When you do so, instead of learning its properties and how to use them, you instead learn general surface knowledge about the object.",
+								"The information you receive when using the {@spell identify} spell is broadcasted into your mind via Eve's voice. This voice is not a form of telepathy, and you can hear it regardless of any barriers currently set up in your mind.",
+								"An example of identifying a non-magical object would be examining a fan, to which Eve would report: &quot;A machine for producing airflow, often for cooling. Most fans are powered by electric motors, but other sources of power may be used, including hydraulic motors, handcranks, and internal combustion engines.&quot;"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Eve",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Our continued existence is mandated on the belief that all creatures, organic or not, are equal.",
+								"Let us be analytical, for blind acceptance spells ruin for civilization.",
+								"Never stop creating. Let inspiration be your guide."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Archon (The Mann Version)",
 			"source": "SRP",
 			"pantheon": "Adamantian",
