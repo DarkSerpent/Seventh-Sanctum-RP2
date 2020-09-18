@@ -461,6 +461,79 @@
 			]
 		},
 		{
+			"name": "Bruniik (Ahvetina Dammor Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Unaligned",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "",
+			"domains": [
+				"Strength",
+				"Knowledge",
+				"Ambition"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The Lord of Training and Ambition. Bruniik will often assist those who follow him to grow in strength as well as learning how to read your enemy and use your body to it's fullest extent. Bruniik doesn't shun defeat, he uses it as an excuse to learn and improve one's skill.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Bruniik, you have been granted 5 knowledge points at {@italic Bond Level 1}, which you can spend to activate the following abilities:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Scythe Mastery (Passive)",
+							"entries": [
+								"Two-handed scythes you wield deal {@dice 2d6} slashing damage instead of their normal {@dice 2d4}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Your Weakness is My Strength (1)",
+							"entries": [
+								"Whenever a creature would have disadvantage to hit either you or Aamarelzaan, you can expend one knowledge point. That creature must reroll one of the dice once."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dragon Tactics (2)",
+							"entries": [
+								"You have a keen eye for seizing a tactical advantage. Immediately after rolling initiative, you can choose yourself and up to three allies you can see so long as you aren't incapacitated. You can swap the initiative results of the chosen creatures among them."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Always Learning I (Passive)",
+							"entries": [
+								"You regain all expended knowledge points on a long rest, or one knowledge point on a short rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Bruniik",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Improving yourself is your top priority.",
+								"Stagnation is degradation.",
+								"Learning strength and weakness is the key to improvement."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Krurm (Korth Axe Version)",
 			"source": "SRP",
 			"pantheon": "Adamantian",
