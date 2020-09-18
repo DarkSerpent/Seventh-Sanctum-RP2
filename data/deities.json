@@ -1009,6 +1009,8 @@
 			],
 			"title": "",
 			"domains": [
+				"Time",
+				"Space",
 				"Chaos"
 			],
 			"symbolImg": {
@@ -1017,7 +1019,7 @@
 				}
 			},
 			"entries": [
-				"[Insert Arisen Description Here]",
+				"<strike>Cosmic is oftentimes classified as being</strike> Cosmic, alongside the Adamantian Court, is said to <strike>be placed on a pedestal made of pure granite and modeled in the Ionic style</strike> his interior is constructed of normal steel plates <strike>plays host to a small range of anomalous species and organisms, some thought to be native</strike> Cosmic is <strike>human</strike>.",
 				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
 				"As a follower of Cosmic, you have been granted 5 manipulation points at {@italic Bond Level 1}, which you can spend to activate the following abilities:",
 				{
@@ -1077,9 +1079,7 @@
 						{
 							"type": "list",
 							"items": [
-								"",
-								"",
-								""
+								"I am at the center of everything that happens to me."
 							]
 						}
 					]
