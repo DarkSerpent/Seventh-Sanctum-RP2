@@ -515,7 +515,7 @@
 								},
 								{
 									"entries": [
-                                       "{@b Dis.} Enemies within your range take {@dice 2d8} lightning damage on a failed save, or half as much on a successful one. Enemies who fail this save are also {@condition deafened} for 1 round. In addition, for the next 4 rounds whenever those creatures willing move, they take an additional {@dice 1d8} lightning damage."
+                                       "{@b Dis.} Enemies within your range take {@dice 2d8} lightning damage on a failed save, or half as much on a successful one. Enemies who fail this save are also {@condition deafened} for 1 round. In addition, for the next 4 rounds whenever those creatures willingly move, they take an additional {@dice 1d8} lightning damage."
 									],
 									"type": "entries"
 								},
