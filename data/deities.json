@@ -1031,7 +1031,7 @@
 								"For the next minute, you whirl up a massive thunderstorm that threatens to disintegrate all in its path. At the end of each of your turns, the DM rolls a die to determine who the lightning clouds strike.",
 								"A lightning cloud will only seek to strike either you or those you have deemed your enemies. Your allies are not at risk for electric shock. Once you or an enemy being struck has been determined, that creature must make a Dexterity saving throw with a DC equal to 8 + your Strength modifier + you proficiency bonus.",
 								"On a failed save, that creature takes {@dice 2d10} lightning damage, or half as much on a successful one.",
-								"As a reaction to witnessing an enemy being struck by lightning, but before they make the saving throw, you can snap your fingers, redirecting the lightning...to yourself. You take 10 lightning damage, ignoring the saving throw.",
+								"As a reaction to witnessing an enemy being struck by lightning, but before they make the saving throw, you can snap your fingers, redirecting the lightning...to yourself. You take {@dice 10*1d4|10 × 1d4} lightning damage, ignoring the saving throw.",
 								"Once you activate this ability, you cannot use it again until you finish a long rest."
 							]
 						},
@@ -1040,7 +1040,7 @@
 							"name": "Supercharged (Passive)",
 							"entries": [
 								"Whenever you take 10 or more lightning damage, until the end of your next turn, your Arisen abilities gain additional effects depending on the {@italic Supercharged} text appended to the ability.",
-								"Once you activate a {@italic Supercharged} effect, you lose this passive benefit until you take another 10 lightning damage. If you take more than 30 lightning damage, {@italic Supercharged} lasts for every Arisen ability you use until the end of your next turn."
+								"Once you activate a {@italic Supercharged} effect, you lose this passive benefit until you take another 10 lightning damage. If you take 30 or more lightning damage, {@italic Supercharged} lasts for every Arisen ability you use until the end of your next turn."
 							]
 						},
 						{
