@@ -926,7 +926,7 @@
 			"name": "Nyle (Pandoria Meridian Version)",
 			"source": "SRP",
 			"pantheon": "Adamantian",
-			"category": "Feud",
+			"category": "Big Five",
 			"alignment": [
 				"C",
 				"G"
@@ -992,6 +992,84 @@
 								"Be free. Don't let yourself be forced into submission.",
 								"Be lenient. Allow those under you to breathe, and not drown in promise.",
 								"Be understanding. Stop yourself from forcing your beliefs onto others."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Siras (Morgan Geidos Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Big Five",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Tempest"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"Siras represents the dark side of nature. The uncaring and destructive force that might strike at any time. More specifically, he is the god of lightning and storms, and his personality is equal in measure to their bravado. He counts the ravager, the raider, the looter, and the brigand among his followers, so long as they aspire to greatness. To this account, he also includes royalty, nobles, and inventors in his repertoire of followers.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Siras, you have been granted the following four abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Lightning Crown",
+							"entries": [
+								"As an action, you hold up your hands to the skies, causing the heavens to turn gray, the furnace of the atmosphere to rumble, and the firmament of air to begin a viscous downpour that knows no end.",
+								"For the next minute, you whirl up a massive thunderstorm that threatens to disintegrate all in its path. At the end of each of your turns, the DM rolls a die to determine who the lightning clouds strike.",
+								"A lightning cloud will only seek to strike either you or those you have deemed your enemies. Your allies are not at risk for electric shock. Once you or an enemy being struck has been determined, that creature must make a Dexterity saving throw with a DC equal to 8 + your Strength modifier + you proficiency bonus.",
+								"On a failed save, that creature takes {@dice 2d10} lightning damage, or half as much on a successful one.",
+								"As a reaction to witnessing an enemy being struck by lightning, but before they make the saving throw, you can snap your fingers, redirecting the lightning...to yourself. You take 10 lightning damage, ignoring the saving throw.",
+								"Once you activate this ability, you cannot use it again until you finish a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Supercharged (Passive)",
+							"entries": [
+								"Whenever you would take 10 or more lightning damage, until the end of your next turn, your Arisen abilities gain additional effects depending on the {@italic Supercharged} text appended to the ability."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Grand Chariot (2/2, Short or Long Rest)",
+							"entries": [
+								"As part of your attack action, you can throw out a cataclysmic punch of frenzious valor, channeling the Lord of Storms into your fist for a beatdown that has no equal measure. Enemies in a 100-foot line must make a Strength saving throw with a DC equal to 8 + your Strength modifier + your proficiency bonus. On a failed save, those creatures take {@dice 3d6} + your Strength modifier thunder damage, or half as much on a successful one.",
+								"<u>Supercharged.</u> All enemy creatures within the 100-foot line also take {@dice 2d10} lightning damage, without need of a saving throw. In addition, creatures who fail the first saving throw are {@condition stunned} until the end of your next turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Thunder Knight (1/1, Long Rest)",
+							"entries": [
+								"As part of your attack action, you slam your fist into the ground, causing rubble and debris to launch into the stratosphere. Enemies in a radius of 30-feet must make a Strength saving throw with a DC of 8 + your Strength modifier + your proficiency bonus. On a failed save, those creatures take {@dice 3d10} thunder damage.",
+								"<u>Supercharged.</u> Creatures who fail the saving throw are also knocked {@condition prone} and take an additional {@dice 1d10} lightning damage. In addition, creatures who pass the saving throw take half damage."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Siras",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Be better!",
+								"Strike harder!",
+								"Make all bow beneath your brilliance, so none may doubt your excellence!"
 							]
 						}
 					]
