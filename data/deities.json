@@ -1039,7 +1039,8 @@
 							"type": "entries",
 							"name": "Supercharged (Passive)",
 							"entries": [
-								"Whenever you would take 10 or more lightning damage, until the end of your next turn, your Arisen abilities gain additional effects depending on the {@italic Supercharged} text appended to the ability."
+								"Whenever you take 10 or more lightning damage, until the end of your next turn, your Arisen abilities gain additional effects depending on the {@italic Supercharged} text appended to the ability.",
+								"Once you activate a {@italic Supercharged} effect, you lose this passive benefit until you take another 10 lightning damage. If you take more than 30 lightning damage, {@italic Supercharged} lasts for every Arisen ability you use until the end of your next turn."
 							]
 						},
 						{
