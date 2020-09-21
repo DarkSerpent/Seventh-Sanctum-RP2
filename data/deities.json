@@ -1078,6 +1078,81 @@
 			]
 		},
 		{
+			"name": "Calamity (Mr. Wellington Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Guardian",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Space"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"[Insert Arisen Description Here]",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Calamity, you have been granted the following four abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Entanglement Theory (Passive)",
+							"entries": [
+								"You have 6 entanglement points, which you can expend 2 of to grant an ability Entanglement. Entanglement adds additional properties to your active abilities, and causes them to become stronger. You regain all expended entanglement points on a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Wormhole (Passive)",
+							"entries": [
+								"When you would move a distance greater than 5-feet, you can choose to end that movement by teleporting. You appear at the end of the path you transcribed, using up the required movement. Although you use movement, you do not travel between the two points, and instead simply appear at your end destination. You can move this way once per turn, and only on your turn.",
+								"If your arrival destination would leave you inside an object or barrier, you take {@dice 1d10} force damage and are immediately ejected to the closest available space.",
+								"If your arrival destination would leave you inside a creature, that creature must make a Charisma saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, that creature takes {@dice 1d10} force damage. On a successful save, you take {@dice 1d10} force damage. Then, depending on whether the creature succeeded or failed the saving throw, either you or the creature is ejected to the closest available space."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Quantum Splice (2/2, Short or Long Rest)",
+							"entries": [
+								"Whenever you or a creature within 30 feet would have disadvantage on an attack roll or saving throw, you can use a reaction. That creature no longer has disadvantage, and cannot have advantage on that attack roll or saving throw.",
+								"<u>Entangled.</u> When you target an allied creature with this ability, they no longer have disadvantage on that attack roll or saving throw, and instead gain advantage. In addition, you can target an enemy creature. That creature no longer has advantage on an attack roll or saving throw."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Time-Independent Slash (3/3, Short or Long Rest)",
+							"entries": [
+								"Whenever you would hit with a melee weapon attack, you can expend one use of this ability. You regain {@dice 1d6 + 2} hit points and gain {@dice 1d4 + 1} temporary hit points.",
+								"<u>Entangled.</u> The creature you hit must make a Constitution saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, that creature has disadvantage on attack rolls and ability checks until the end of their next turn, and takes {@dice 1d10} force damage at the start of their next turn."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Calamity",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"",
+								"",
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Cosmic (Boyo the Pirate Version)",
 			"source": "SRP",
 			"pantheon": "Adamantian",
