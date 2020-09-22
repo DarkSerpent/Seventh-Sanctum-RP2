@@ -1088,6 +1088,7 @@
 			],
 			"title": "",
 			"domains": [
+				"Order",
 				"Space"
 			],
 			"symbolImg": {
@@ -1146,6 +1147,79 @@
 								"",
 								"",
 								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ceres (Malicor Salt Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Oath",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "",
+			"domains": [
+				"Nature",
+				"Light",
+				"Darkness"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"Ceres was born under the light in the moon, at the dawn of the first century while humanity still wandered the Evermarsh, bound by the strict rules of a hunter gatherer society. She is known as the goddess of the hunt, and is generally prayed to before any large gathering operation. She is also the mother of wolves, excluding lycantrophy. However, lycans still pray to her along with their mother deity, as they are both considered two sides of the same coin, each representative of a different part of their self.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Ceres, you have been granted the following three abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Wolf Emperor (Passive)",
+							"entries": [
+								"When an ability states you assume your Wolf Emperor form, your body disappears from the Material Plane and becomes stored in the Astral Plane. While in this plane, your body is completely invulnerable from any effect weaker than your contracted Arisen.",
+								"Your senses are then transferred to a shadow wolf, which appears on the space you left. The shadow wolf has the same stats as a {@creature dire wolf|MM}, although its mental abilities (Intelligence, Wisdom, Charisma) are replaced with yours, and its AC equals 14 + your Charisma modifier. In addition, your bite scales off Charisma, rather than Strength, and you can use it as a bonus action. Finally, your Wolf Emperor form retains the same saving throws and skill proficiencies as your true form, and can speak, read, and write the same languages as you.",
+								"Entering your Wolf Emperor form requires you use a bonus action and expend three hit dice. Roll the hit dice you expend this way. You take half the amount as slashing damage.",
+								"While you are in your Wolf Emperor form, your abilities gain Wolfblood. Wolfblood replaces the original property of your ability, as well as its name. You can only use the non-Wolfblood text of your Arisen abilities in your true form, and you can only use the Wolfblood text of your Arisen abilities as a shadow wolf.",
+								"You have full control of this shadow wolf until the end of your next turn, where it vanishes and is replaced by your true form. Upon reappearing, creatures within 10 feet of you must succeed on a Charisma saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus or be knocked back up to 30 feet in a direction you choose.",
+								"If your Wolf Emperor form would drop to 0 hit points, the shadow wolf vanishes, your true form reappears where it died, and creatures within 10 feet of you do not need to make a Charisma saving throw or be knocked back."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Consume/Pounce (Short or Long Rest, 2/2)",
+							"entries": [
+								"As an action, you reap a creature within 30 feet of you, absorbing their life essence into your own body. That creature must make a Charisma saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, that creature takes {@dice 5d6} psychic damage, and you regain one expended hit die. If you would do 20 or more damage with this ability, you can assume your Wolf Emperor form.",
+								"<u>Wolfblood.</u> As an action, instead of reaping an enemy, you instead jump to a creature within 30 feet of you without spending movement. Make an unarmed strike using your spellcasting ability modifier. On a hit, your jaws dig into that creature's flesh, causing them to take {@dice 6d6} necrotic damage and become {@condition poisoned} until the end of their next turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sun Barricade/Moon Strike (Long Rest, 2/2)",
+							"entries": [
+								"When a creature casts a spell of 6th-level or lower within 60 feet of you, you can use a reaction. That creature must make a contested check. You use your spellcasting ability modifier for this check, and the creature uses their own. If you succeed the contested check, the creature's spell fails, and that creature takes {@dice 3d6} radiant damage. If you would do 9 or more damage with this ability, you can assume your Wolf Emperor form at the start of your next turn.",
+								"<u>Wolfblood.</u> When a creature makes a ranged or melee weapon attack within 30 feet of you, you can use a reaction and howl. That creature must make a Charisma saving throw, with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, that creature takes {@dice 5d6} radiant damage, the attack they were currently making misses, and their attacks have disadvantage until the end of their next turn."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Ceres",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Work for humanity to strive! Keep the cycle going!",
+								"Respect nature and that which you hunt! Also, use every part of the animal.",
+								"Be optimistic! Think good of yourself and your companions."
 							]
 						}
 					]
