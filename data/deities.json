@@ -530,6 +530,54 @@
 							]
 						}
 					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, the amount of knowledge points you have increase to 6. In addition, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Force of Presence (1)",
+							"entries": [
+								"When an attack made within 10 feet of you would target a creature other than yourself, you can expend one point. That attack targets you instead."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Body of the Dragon (2)",
+							"entries": [
+								"When you are subject to damage from a singular source, you can use a reaction to expend two points. You take half damage from that source."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "True Aspect (Long Rest)",
+							"entries": [
+								"When Aamarelzaan makes a breath weapon attack, he can choose to enter a state more in tune with his draconic brethren, allowing him to break free of the restraints of the dragonbond. For the next minute, his {@italic Breath Weapon} recharges on a roll of 5-6."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Always Learning II (Passive)",
+							"entries": [
+								"You regain all expended knowledge points on a long rest, or two knowledge points on a short rest."
+							]
+						}
+					]
 				}
 			]
 		},
