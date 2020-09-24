@@ -1202,7 +1202,7 @@
 			]
 		},
 		{
-			"name": "Ceres (Malicor Salt Version)",
+			"name": "Ceres (Malicor Shalt Version)",
 			"source": "SRP",
 			"pantheon": "Adamantian",
 			"category": "Oath",
@@ -1549,6 +1549,58 @@
 								"Serve thy Queen.",
 								"Obey thy Queen.",
 								"Love thy Queen."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Planar Summoning (Long Rest)",
+							"entries": [
+								"As an action, you snap your fingers (or otherwise make some other minute motion) and call forth the boundaries of Sraosha's powers to summon for you a mount of unknown parallel. You summon a {@creature nightmare|MM} on a nearby space.",
+								"When you do so, you decide whether it is a infernal steed from the heights of Sraosha's plane (Confer Fire Resistance) or a shadowy apostle from the depths of them (Confer Necrotic Resistance).",
+								"Once summoned, you and the nightmare establish a telepathic link. So long as you are on the same plane of existence, you can communicate telepathically, and regardless of what language you speak, the nightmare understands you. In addition, the nightmare can channel its Ethereal Stride as if it were casting a ritual spell. On a successful casting, the nightmare transports you and up to three willing creatures to Sraosha's Plane.",
+								"When the nightmare drops to 0 hit points, it vanishes from existence as its presence is forcefully recalled to Sraosha's domain. The nightmare you summon with this ability is always the same one, and will develop its own feelings and thoughts regarding you. However, it is inclined to follow your commands as per Sraosha's decree.",
+								"{@italic &quot;Hope you enjoy, my Knight. This is a gift all those in my service eventually obtain—assuming they're useful. Utilize it wisely.&quot;} "
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Planar Establishment (Long Rest)",
+							"entries": [
+								"As an action, you clasp your hands together and slam them against the ground (or otherwise make some other exaggerated motion) and call upon Sraosha's will to establish a planar boundary in the plane you currently reside. A planar boundary of 40-feet in radius expands around you, consisting of either a muggy red wetland filled with trees of demonic make, or a barren wasteland of dry obsidian and ashstone pillars.",
+								"Any creature that is not an undead, fiend, monstrosity, or ooze cannot willing enter the boundary. In addition, creatures who reside within the planar boundary at the beginning of their turn that are not an undead, fiend, monstrosity, or ooze immediately take {@dice 6d10} psychic damage, as Sraosha's will corrodes their agency and admonishes their presence.",
+								"You have advantage on interacting sociably with undead, fiends, monstrosities, and oozes who reside within your boundary, as Sraosha's presence literally begins to exude from your body like a miasmic aura. In addition, all creatures of the aformentioned types can understand and comprehend your vocal utterances, and any response they attempt to make (even non-verbal kinds, such as the slushy dance of a slime) will manifest in your comprehension as a clear, understandable response.",
+								"This planar boundary lasts for one minute before the parent plane begins to reestablish itself, taking over the land corroded by Sraosha's will. Before or once the planar boundary is about to end, you can take a point of {@condition exhaustion} as a bonus action. The boundary's duration becomes ten minutes, but it loses its ability to repel creatures that are not undead, fiends, monstrosities, or oozes.",
+								"{@italic &quot;All planes already belong to me, my Knight. Some just need a little help.&quot;}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Planar Command (Passive)",
+							"entries": [
+								"You have risen further underneath Sraosha's chain of command, and monsterkind has begun to recognize you as one of Sraosha's Knights.",
+								"Undead, fiends, monstrosities, and oozes who formed naturally can sense the mark of Sraosha on your soul, as it glimmers in the darkness like a flickering limelight. If the default state of that creature would be hostile to you, they are now indifferent. If the default state of that creature would be indifferent to you, they are now friendly.",
+								"Creatures who are naturally hostile to Sraosha (although rare) are unaffected by the marking on your soul, and it may in fact cause them to be more hostile than normal.",
+								"{@italic &quot;My presence is already visible against the background of your soul. There is truly no going back now, my Knight.&quot;}"
 							]
 						}
 					]
