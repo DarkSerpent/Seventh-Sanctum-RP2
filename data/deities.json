@@ -660,6 +660,13 @@
 					"entries": [
 						{
 							"type": "entries",
+							"name": "Bellow the Greatest Strength (Passive)",
+							"entries": [
+								"You can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack. This effect stacks with {@italic Brutal Critical}."
+							]
+						},
+						{
+							"type": "entries",
 							"name": "Bloodlust",
 							"entries": [
 								"During your turn and only once per turn while you are raging, when you slay a creature with a melee weapon attack and there is an enemy creature within range of your movement speed, you can immediately move up to your speed towards the enemy creature and make one melee weapon attack at it. This attack does not count against the maximum number of extra attacks you can make when you take the attack action and your movement during this action does not count against your maximum move speed per turn.",
