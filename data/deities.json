@@ -291,6 +291,56 @@
 							]
 						}
 					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 3}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Never-Ending Purpose (Passive)",
+							"entries": [
+								"When you roll a death saving throw, you crit on a roll of 19 or 20."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bombardment",
+							"entries": [
+								"As an action, you establish a bond with Mistel, telepathically communicating to her the coordinates at which you wish an orbital bombardment to strike.",
+								"Mistel reorients the direction of her observatory's canon to the location you specified, opening up a planar rift to which the beam can shoot through. The orbital strike takes time to charge, equal to {@dice 1d4} rounds. Once fully charged, the laser fires, bombarding the coordinates which you specified.",
+								"You and creatures that you choose up to your Charisma modifier (minimum of 1) are transported to a safe bubble in the Astral Plane for the duration of the blast as the orbital strike lands, obliterating all obstacles and creatures within a 300-foot radius. Creatures in the midst of the bombardment must make a DC 25 Constitution saving throw. On a failed save, those creatures take {@dice 10d12 + 10} aeon damage, or half as much on a successful one. This beam does double damage to objects and structures.",
+								"During the aftermath of the blast, you and each of the creatures transported to the Astral Plane can choose to reappear in a space within 30 feet of where you were transported. Mistel cannot perform this orbital bombardment more than once a month, as she must conserve the canon's power for other followers who may wish to enact this ability. Starting a month from when you last used this ability, it will become reavailable to be used again.",
+								"Mistel will refuse to strike areas, creatures, or objects which would put her in bad standing with the Adamantian Court (such as destroying one of Sraosha's castles), and she will also refuse to strike areas, creatures, or objects which would be considered an act of terrorism or evil (such as a schoolhouse or orphanage)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Grand Celestia",
+							"entries": [
+								"As an action, you open up your mind to Roach, unifying your souls and resonating with each other's consciousness. Immediately after using this ability, the ground around you erupts into radiant energy. Creatures of your choice within a 30-foot radius must make a Dexterity saving throw. On a failed save, those creatures take {@dice 3d8} radiant damage and are {@condition blinded} until the end of their next turn, only taking half damage on a success.",
+								"You and Roach then unify into one being, with the appearance of Lancelot but the abilities, skills, and consciousness of the collection. In addition, you sprout angelic wings from your back, giving you the appearance of a divine being, and your creature type becomes Celestial to match. You gain Roach's movement speeds, and they replace your own if they are higher.",
+								"While in this form, you are always considered to be mounted, and spells which target you affect you twice (if applicable). For instance, when the spell {@spell cure wounds} would be cast on you, roll the dice which determine how much you heal twice. This also means spells that negatively affect you, such as {@spell inflict wounds}, also roll their die twice. This does not mean spell such as {@spell haste} target you twice, as you are still considered to be a singular creature.",
+								"You cannot be knocked {@condition prone} in this form, you have advantage on saving throws to resist being {@condition charmed} or {@condition frightened}, you gain immunity to radiant damage, and you gain Roach's hit points before the transformation as temporary hit points. Finally, Roach grants your attacks additional power as his spirit strikes in unison with you. All attacks you make while in this form deal an additional {@dice 1d6} force damage",
+								"This form lasts for one minute, after which your temporary hit points dissipate, your speed returns to normal, and you appear atop of Roach on space at which your transformation ended. As a result of using this taxing ability, you and Roach both gain two points of {@condition exhaustion} at its aftermath. All items considered a part of Roach, but not actually equipped onto him (such as the Flying Chariot) are fused into the form, but grants bonuses from their effect.",
+								"Once you use this ability, you cannot use it again until you finish a long rest."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -687,7 +737,7 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Blood for the Blood Lord",
+							"name": "Blood for the Blood Lord (Passive)",
 							"entries": [
 								"Once per long rest, you can rage as a free action."
 							]
@@ -746,6 +796,13 @@
 				{
 					"type": "entries",
 					"entries": [
+						{
+							"type": "entries",
+							"name": "Skulls for the Skull Throne (Passive)",
+							"entries": [
+								"The skulls you collect during your rampage grows your strength and power. When you slay an enemy and use {@italic Bloodlust} immediately after, you absorb the fallen enemy's essence. You gain a +1 bonus to your AC and saving throws for one minute. This ability stacks with itself."
+							]
+						},
 						{
 							"type": "entries",
 							"name": "Enhance: Arrival Impact",
