@@ -255,7 +255,7 @@
 					"items": [
 						"While you are grappling only one creature, your speed is not halved.",
 						"You have advantage on attack rolls against a creature you are grappling.",
-						"You can use your action to try to pin a creature {@condition grappled} by you. To do so, make another grapple check. If you succeed, you and the creature are both {@condition restrained} until the grapple ends."
+						"You can use your action to try to pin a creature {@condition grappled} by you. To do so, make another grapple check. If you succeed, the creature is {@condition restrained} until the grapple ends."
 					]
 				}
 			]
@@ -1120,6 +1120,33 @@
 						"While grappling a creature, you gain the benefits of half cover.",
 						"As a bonus action while you are grappling a creature, you can crush them in your warm embrace, dealing damage equal to your Strength modifier.",
 						"You cannot gain the benefit of any of these features using a weapon with the Grappling property."
+					]
+				}
+			]
+		},
+		{
+			"name": "Metabolic Control",
+			"source": "SRP",
+			"prerequisite": [{
+				"other": "Psionic Subclass (Psionics Wizard, Psi Knight, etc.)"
+			}],
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex",
+						"con"
+					],
+					"amount": 1
+				}
+			}],	
+			"entries": [
+				"You have refined psionic control over your body's functions. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"If your Psionic Talent die is available, you can take an action to channel your psionic power to nourish yourself for the next 24 hours, as if you consumed sufficient food and water for a day. When you take this action, your Psionic Talent die decreases by one die size.",
+						"If your Psionic Talent die is available, you can meditate for 1 minute, at the end of which you gain the benefits of finishing a short rest, and your Psionic Talent die decreases by one die size. You can't meditate in this way again until you finish a long rest."
 					]
 				}
 			]
