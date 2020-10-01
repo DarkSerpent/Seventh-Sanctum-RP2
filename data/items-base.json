@@ -1864,6 +1864,159 @@
 			]
 		},
 		{
+			"name": "Plastic Explosive",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
+			"value": 30000,
+			"entries": [
+				"Plastic explosives are a soft and hand-moldable solid form of explosive material. Plastic explosives are especially suited for explosive demolition of obstacles and fortifications by engineers, combat engineers and criminals. It can be cut, formed, wrapped, and combined with others of its type.",
+				"{@bold Planted.} Each creature within 5 feet of the explosive must make a Dexterity saving throw, taking {@dice 3d6} bludgeoning damage on a failed save, or half as much damage on a successful one. It deals double damage against objects and structures.",
+				"You can combine units of plastic explosive so they explode at the same time. Each additional pound of plastic explosive increases the damage by {@dice 1d6} (to a maximum of {@dice 10d6}) and the burst radius by 5 feet (to a maximum of 20 feet).",
+				"In addition, when you combine two or more units, you can change the burst radius to a cone-shaped explosion (you must determine the area affected by the explosive when you plant it).",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
+				"{@italic Item designed by @Gebri#6969.}"
+			]
+		},
+		{
+			"name": "Tear Gas",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
+			"value": 30000,
+			"entries": [
+				"Tear gas works by irritating mucous membranes in the eyes, nose, mouth and lungs, and causes crying, sneezing, coughing, difficulty breathing, pain in the eyes, and temporary blindness.",
+				"{@bold Grenade.} As an action, a character can throw a smoke grenade at a point. One round after the grenade lands, it emits a cloud of tear gas that creates a heavily obscured area in a 20-foot radius. It disperses after 1 minute, though a moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round. Any creature starting its turn in the gas is considered {@condition blinded} and it must make a Constitution saving throw or be {@condition incapacitated} (DC 15). A creature wearing a gas mask automatically succeeds the saving throw.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
+				"{@italic Item designed by @Gebri#6969.}"
+			]
+		},
+		{
+			"name": "Fire Extinguisher",
+			"source": "GS",
+			"rarity": "common",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 15000,
+			"entries": [
+				"The extinguisher has 10 charges. As an action, you can expend one charge to extinguish a 5-foot area of fire.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
+				"{@italic Item designed by @Gebri#6969.}"
+			]
+		},
+		{
+			"name": "Infrared Goggles",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"entries": [
+				"An infrared goggles has 10 charges. As a bonus action, you can expend one charge to turn them on to see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light for 10 minutes. You can't discern color in darkness and the image color produced is typically monochrome (shades of green or blue).",
+				"This item can be recharged if an adequate power source (such as batteries) are used to do so.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
+				"{@italic Item designed by @Gebri#6969.}"
+			]
+		},
+		{
+			"name": "Metal Detector",
+			"source": "GS",
+			"rarity": "common",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 15000,
+			"entries": [
+				"A handled portable sensor for detecting bits and pieces of metal in and on the ground. The metal detector has 10 charges. As an action, you can expend one charge to gain advantage on Wisdom ({@skill Perception}) checks you make when searching for metals and metallic objects for 10 minutes.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
+				"{@italic Item designed by @Gebri#6969.}"
+			]
+		},
+		{
+			"name": "Two-Way Radio",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"entries": [
+				"A hand-held, portable, two-way radio transceiver. Multiple radios use a single channel, and only one radio on the channel can transmit at a time, although any number can listen. The transceiver is normally in receiving mode and when the user wants to talk he presses a &quot;push-to-talk&quot; button. You can communicate with someone using a two-way radio at the same frequency up to 20 miles.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
+				"{@italic Item designed by @Gebri#6969.}"
+			]
+		},
+		{
+			"name": "Blinkback Belt",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": true,
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"entries": [
+				"A set of clips are attached to this segmented belt constructed of metallic links. Up to two melee weapons or up to four light melee weapons can be hung from the belt in straps or sheaths. These weapons must not have the two-handed or double-bladed property. ",
+				"When the wearer draws a weapon attached to this belt and throws it before the end of their next turn, the weapon teleports back to its strap or sheath immediately after the attack is resolved. If the weapon drops to the ground or if the wearer is disarmed of their weapon, they immediately teleport back to their belt at the start of their turn. ",
+				"Removing or switching weapons requires the user to end their attunement or to attune to belt once more.",
+				"{@italic Item designed by @MiriamRose#2345.}"
+			]
+		},
+		{
+			"name": "Conversing Mirrors",
+			"source": "GS",
+			"rarity": "very rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 4500000,
+			"entries": [
+				"This item comes in a box-set of two near-indestructible mirrors that can withstand a direct collision with a semi. They are connected through a planar wire that spans the entire Multiverse.",
+				"As an action, you can &quot;ring&quot; the other mirror, appearing as a request for communication on the adjacent mirror. Accepting the call will broadcast whatever the mirror is reflecting to the other mirror's screen, as well as voice. Either party can disconnect the mirror's connection at will, as well as turn off the reflection-sharing properties or temporarily mute the audio.",
+				"These mirrors can be used to speak long distances, commune with commanding officers, or even just keep in touch with loved ones on an arduous journey. And unlike cellphones, they can be used interplanar and in areas without cellphone towers.",
+				"However, due to their expensive production, quantity is rare, and the price is astronomical. Because of this, these mirrors aren't used often by the Association, militaristic organizations, or the aforementioned couple-in-love, as only nobles and wealthy Adventurers are able to afford them.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Manastone Bracelets",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"entries": [
+				"{@italic &quot;Allow me to take off my training bracelets.&quot;}",
+				"{@italic &quot;This isn't even my final form!&quot;}",
+				"{@italic &quot;I have trapped my power in these bracelets for thousands of years. Now, you will see my true power!&quot;}",
+				"Two linked bracelets created through a divine union of manastone and witchwood. These bracelets attach to each adjacent wrist, and limit the user's power through an infraction of space-time.",
+				"While wearing these bracelets, you can purposely weaken yourself to any level below your current. In order to reduce a creature's power, the creature wearing these bracelets must willingly accept their influence, making them useless as magical handcuffs.",
+				"Once you willingly accept the bracelets influence and select a level to be reduced to, the bracelets lock shut around your wrists, and you must speak their command word in order to release them. Releasing the bracelets restores you to your full power. You cannot incrementally increase or decrease your power any further once you accept the bracelet's influence.",
+				"You cannot use these bracelets to attend lower-tiered quests, nor can you force a creature through magic or mind control to accept their influence. These bracelets cannot be deactivated through any effects such as an antimagic field once they are bound to a creature.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cloak of Recognition Obstruction",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"entries": [
+				"A white cloak with a blue, soft silk interior. Two protrusions rise from the head with an upwards point, leading to cloak receiving a nickname among assassins and spies: &quot;the Cat-Earred Cloak&quot;.",
+				"While you wear this cloak with its hood up, your identity is obstructed from being perceived by any creature who lacks divinity. The cloak does not make you invisible, and your presence and identity can still be detected through other forms of magic and technology. However, creatures attempting to recognize you will find the act impossible, and their minds will be warped with a similar effect to that of prosopagnosia.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
 			"name": "Frefil's Jolly Oozebean Sugarbombs",
 			"source": "GS",
 			"rarity": "uncommon",
@@ -2344,6 +2497,21 @@
 			]
 		},
 		{
+			"name": "Cosmic Car Keys",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"entries": [
+				"A set of car keys on a silver ring, with a little black box with a small red button on it.",
+				"These car keys can be paired with any technological vehicle after a ten minute linking process. Afterwards, the vehicle in question is shunted into its own personal pocket dimension. The car keys can only be linked to one vehicle at a time and, as such, this pocket dimension can hold one vehicle as well.",
+				"As a bonus action, you can press the button on the car keys, opening a portal to the pocket dimension and dispensing the linked vehicle within five feet of the user. Pressing the button again will shunt the vehicle back into the pocket dimension, immediately expelling any creatures inside or on the vehicle.",
+				"{@italic Item designed by @DIO#6259.}"
+			]
+		},
+		{
 			"name": "Through the Fire and the Flames",
 			"source": "GS",
 			"rarity": "uncommon",
@@ -2665,6 +2833,220 @@
 				"This small dart is decorated with designs like windy spirals that span the length of its shaft.",
 				"When you whisper the word \"seek\" and hurl this dart, it seeks out a target of your choice within 120 feet of you. You must have seen the target before, but you don't need to see it now. If the target isn't within range or if there is no clear path to it, the dart falls to the ground, its magic spent and wasted. Otherwise, elemental winds guide the dart instantly through the air to the target. The dart can pass though openings as narrow as 1 inch wide and can change direction to fly around corners.",
 				"When the dart reaches its target, the target must succeed on a DC 16 Dexterity saving throw or take {@dice 1d4} piercing damage and {@dice 3d4} lightning damage. The dart's magic is then spent, and it becomes an ordinary dart."
+			]
+		},
+		{
+			"name": "Two-Birds Sling",
+			"source": "GS",
+			"baseItem": "sling|phb",
+			"type": "Guild Shop Weapon",
+			"rarity": "uncommon",
+			"reqAttune": false,
+			"value": 60000,
+			"range": "30/120",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"entries": [
+				"You have a +1 bonus to attack and damage rolls made with this weapon.",
+				"When you make a ranged attack with this sling and hit a target, you can cause the ammunition to ricochet toward a second target within 10 feet of the first, and then make a ranged attack against the second target.",
+				"{@italic Item suggested by @Ｂ Ａ Ｄ Ｃ Ｉ Ｖ Ｉ Ｌ Ｉ Ｚ Ａ Ｔ Ｉ Ｏ Ｎ#5740.}"
+			]
+		},
+		{
+			"name": "Spell Rifle",
+			"source": "GS",
+			"type": "Guild Shop Item",
+			"rarity": "uncommon",
+			"reqAttune": false,
+			"value": 60000,
+			"entries": [
+				"The spell rifle was developed as a way for ranged atillery mages to affect the battlefield from afar, and has gained popularity with wandslingers across Kagrea.",
+				"The spell rifle serves as a spellcasting focus and can be used by any spellcaster who can use a rod as a focus.",
+				"When held in two hands, you can use the rifle to cast cantrips at up to twice the standard range. However, when you cast a cantrip beyond the standard range, your attack rolls have disadvantage, and other creatures have advantage on any saving throws made against your cantrip.",
+				"As an example: a {@spell fire bolt} cast using a battle rod has a range of 240 feet, but attack rolls against targets more than 120 feet away are made at disadvantage.",
+				"{@italic Item suggested by @『Fucking Badass』#9789.}",
+				"{@italic Item modified by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Dodecahedron of Doom",
+			"source": "GS",
+			"rarity": "uncommon",
+			"value": 600000,
+			"rarity": "rare",
+			"type": "Guild Shop Item",
+			"entries": [
+				"This twelve-sided metal die is 12 inches across and bears the numbers 1 through 12 engraved on its pentagonal sides. The dodecahedron contains arcane clockwork mechanisms that whir and click whenever the die is cast.",
+				"The dodecahedron can be hurled up to 60 feet as an action. A random magical effect occurs when the die comes to rest after rolling across the ground for at least 10 feet. If an effect requires a target and no eligible target is within range, nothing happens. Spells cast by the dodecahedron require no components. Roll a {@dice d12} and consult the following table to determine the effect:",
+				{
+					"type": "table",
+					"colLabels": [
+						"d12",
+						"effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1\u20132",
+							"The dodecahedron explodes and is destroyed. Each creature within 20 feet of the exploding die must make a DC 13 Dexterity saving throw, taking 40 ({@dice 9d8}) force damage on a failed save, or half as much damage on a successful one."
+						],
+						[
+							"3\u20134",
+							"The dodecahedron casts {@spell light} on itself. The effect lasts until a creature touches the die."
+						],
+						[
+							"5\u20136",
+							"The dodecahedron casts {@spell ray of frost} (+5 to hit), targeting a random creature within 60 feet of it that doesn't have total cover against the attack."
+						],
+						[
+							"7\u20138",
+							"The dodecahedron casts {@spell shocking grasp} (+5 to hit) on the next creature that touches it."
+						],
+						[
+							"9\u201310",
+							"The dodecahedron casts {@spell darkness} on itself. The effect has a duration of 10 minutes."
+						],
+						[
+							"11\u201312",
+							"The next creature to touch the dodecahedron gains {@dice 1d10} temporary hit points that last for 1 hour."
+						]
+					]
+				},
+				"{@italic Item suggested by @Canidae#0420.}"
+			],
+			"attachedSpells": [
+				"light",
+				"ray of frost",
+				"shocking grasp",
+				"darkness"
+			]
+		},
+		{
+			"name": "Staff of the Ivory Claw",
+			"source": "GS",
+			"baseItem": "staff|phb",
+			"type": "Guild Shop Weapon",
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster",
+			"value": 600000,
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "B",
+			"entries": [
+				"This gray-and-cerulean staff is topped with a small dragon claw carved from ivory. While holding the staff, you gain a +1 bonus to spell attack rolls. Whenever you score a critical hit with a spell attack, the target takes an extra {@dice 3d6} radiant damage.",
+				"{@italic Item suggested by @sajigajis#3165.}"
+			]
+		},
+		{
+			"name": "Staff of Defense",
+			"source": "GS",
+			"baseItem": "staff|phb",
+			"type": "Guild Shop Weapon",
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster",
+			"value": 600000,
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "B",
+			"entries": [
+				"This slender, hollow staff is made of glass yet is as strong as oak. It weighs 3 pounds. You must be attuned to the staff to gain its benefits and cast its spells.",
+				"While holding the staff, you have a +1 bonus to your Armor Class. The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class's spell list: {@spell mage armor} (1 charge) or {@spell shield} (2 charges). No components are required.",
+				"The staff regains {@dice 1d6 + 4} expended charges each day at dawn. If you expend the staff's last charge, roll a {@dice d20}. On a 1, the staff shatters and is destroyed.",
+				"{@italic Item suggested by @Ｂ Ａ Ｄ Ｃ Ｉ Ｖ Ｉ Ｌ Ｉ Ｚ Ａ Ｔ Ｉ Ｏ Ｎ#5740.}"
+			]
+		},
+		{
+			"name": "Ring of Temporal Salvation",
+			"source": "GS",
+			"value": 600000,
+			"type": "Guild Shop Item",
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"If you die while wearing this gray crystal ring, you vanish and reappear in an unoccupied space within 5 feet of the space you left (or the nearest unoccupied space). You have a number of hit points equal to {@dice 3d6} + your Constitution modifier. If your hit point maximum is lower than the number of hit points you regain, your hit point maximum rises to a similar amount. If you have any levels of {@condition exhaustion}, reduce your level of {@condition exhaustion} by 1. Once the ring is used, it turns to dust and is destroyed.",
+				"{@italic Item suggested by @『Fucking Badass』#9789.}"
+			]
+		},
+		{
+			"name": "Ventilating Lungs",
+			"source": "GS",
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"recharge": "dawn",
+			"entries": [
+				"These metallic nodules were created in response to the poisonous gases used on the battlefields of the Last War. When you attune to these lungs, they replace the lungs in your chest, which disappear. The lungs allow you to breathe normally, even in an antimagic field, and their breathing function can't be suppressed by magic.",
+				"Outside an antimagic field or any other effect that suppresses magic, these lungs allow you to breathe normally in any environment (including a vacuum), and you have advantage on saving throws against harmful gases such as those created by a {@spell cloudkill} spell, a {@spell stinking cloud} spell, inhaled poisons, and gaseous breath weapons.",
+				"As an action, you can use these lungs to exhale a gust of wind, as if you had cast the {@spell gust of wind} spell (spell save DC 15) with no components. This property of the lungs can't be used again until the next dawn.",
+				"If your attunement to the lungs ends, your original lungs reappear.",
+				"{@italic Item suggested by @Ｂ Ａ Ｄ Ｃ Ｉ Ｖ Ｉ Ｌ Ｉ Ｚ Ａ Ｔ Ｉ Ｏ Ｎ#5740.}"
+			],
+			"attachedSpells": [
+				"gust of wind"
+			]
+		},
+		{
+			"name": "Dead Man's Plate",
+			"source": "GS",
+			"baseItem": "plate armor|phb",
+			"value": 600000,
+			"type": "Guild Shop Item",
+			"rarity": "rare",
+			"reqAttune": false,
+			"entries": [
+				"This jagged armor is made of castaway hooks and barbs. While wearing this armor, if you take the Attack action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you. The shoved creature takes {@dice 1d8} piercing damage, in addition to either being knocked {@condition prone} or pushed.",
+				"The wearer has disadvantage on Dexterity ({@skill Stealth}) checks. If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.",
+				"{@italic Item suggested by @Ｂ Ａ Ｄ Ｃ Ｉ Ｖ Ｉ Ｌ Ｉ Ｚ Ａ Ｔ Ｉ Ｏ Ｎ#5740.}"
+			]
+		},
+		{
+			"name": "Bag of Bounty",
+			"source": "GS",
+			"rarity": "uncommon",
+			"value": 60000,
+			"type": "Guild Shop Item",
+			"entries": [
+				"This is a sturdy leather sack with tiny Siberys shards embedded into the lining. You can use an action to cast create food and water, drawing a feast from within the bag. You shape this meal with your thoughts. You can create the standard bland fare without requiring any sort of check, but you can attempt to create finer food by making a Charisma check; if you're proficient with cook's utensils, add your bonus to this check. A failed check results in a sour and squalid meal.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Food Quality",
+						"Difficulty"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"Poor",
+							"No roll required"
+						],
+						[
+							"Modest",
+							10
+						],
+						[
+							"Comfortable",
+							13
+						],
+						[
+							"Wealthy",
+							15
+						],
+						[
+							"Aristocratic",
+							18
+						]
+					]
+				},
+				"A bag of bounty can be used up to three times over the course of a day. After that, the bag can't be used again until the next dawn.",
+				"{@italic Item suggested by @Ｂ Ａ Ｄ Ｃ Ｉ Ｖ Ｉ Ｌ Ｉ Ｚ Ａ Ｔ Ｉ Ｏ Ｎ#5740.}"
 			]
 		},
 		{
