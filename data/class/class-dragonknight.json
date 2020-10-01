@@ -677,9 +677,19 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Withering Breath",
+										"name": "Withering Aura",
 										"entries": [
-											"Beginning at 7th level, when a creature fails its saving throw against your dragon's Breath Weapon feature, it begins to wither for 1 minute. During that time, when it hits a creature with a weapon attack, the damage of that attack is reduced by an amount equal to your Charisma modifier. The target can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success." 
+											"Beginning at 7th level, when a creature is reduced to 0 hit points within 60 feet of you or your dragon, you can cause that creature to immediately die. Afterwards, a {@creature shadow|MM} rises from its corpse with the following changes:",
+										{
+											"type": "list",
+											"items": [
+												"The shadow's Intelligence and Charisma scores are reduced to 1.",
+												"The shadow is unaligned.",
+												"If the shadow would reduce a creature's Strength score to 0, a new shadow is not created.",
+												"A shadow can only drop a creature to a minimum of 1 Strength, and cannot kill a creature by dropping them to 0."
+											]
+										},
+										"The shadows last until the beginning of your dragon's next turn, and acts immediately after your dragon's initiative count. They take orders from both you and the dragon, requiring no action from either of you. You can only control a number of shadows equal to your Charisma modifier, and cannot have more than that many shadows summoned at once."
 										]
 									}
 								]
