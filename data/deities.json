@@ -884,8 +884,9 @@
 							"type": "entries",
 							"name": "Ascend Beyond Limits (0)",
 							"entries": [
-								"Select a combination of abilities below that add up less than or equal to the amount of cybernetic points you have available. As an action, you ascend beyond your mortal limits as dynamos materialize around you, strapping themselves to your body and modifying your physical capabilities for one hour.",
-								"After one hour, the power in the dynamos run empty, causing them to dematerialize. If you are flying when this happens, you slow fall at a speed of 30 feet per round until you touch the ground. You can only use this ability once per long rest."
+								"Select a combination of abilities below that add up less than or equal to the amount of cybernetic points you have available. As a bonus action, you ascend beyond your mortal limits as dynamos materialize around you, strapping themselves to your body and modifying your physical capabilities for one hour.",
+								"After one hour, the power in your dynamos run empty, causing them to dematerialize. If you are flying when this happens, you slow fall at a speed of 30 feet per round until you touch the ground. You can only use this ability once per long rest.",
+								"Some dynamos have a unique keyword known as {@italic cooldown}. Dynamos with cooldown, once used, take a number of turns to recharge equal to the number following the keyword."
 							]
 						},
 						{
@@ -894,43 +895,43 @@
 							"entries": [
 								{
 									"entries": [
-                                       "{@b Core: Flight (4).} You gain a flying speed of 30 feet."
+                                       "{@b Core: Flight (3).} You gain a flying speed of 30 feet. As a bonus action, you can {@italic boost}, increasing your flight speed to 45. If &quot;Legs: Speed&quot; is currently active, {@italic boost} affects that dynamo as well."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Arms: Assault (4).} You can cast the {@spell magic missile} spell with a 3rd-level spell slot as an action. This dynamo only lasts one minute."
+                                       "{@b Arms: Assault (3).} As a bonus action, you can summon a dynamo missile behind you which levitates in place for one minute. As a free action whenever you take the attack action or cast a spell, you can launch any number of missiles at an enemy, which has a range of 60 feet and deals {@dice 2d4+1} damage. You can control a number of missiles equal to your Intelligence modifier levitating around you at once. At the end of one minute, the missile dematerializes and frees up a space for another missile."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Legs: Speed (1).} Your walking speed increases by 15."
+                                       "{@b Legs: Speed (1).} Your walking speed increases by 15. As a bonus action, you can {@italic boost}, increasing your walking speed by an additional 10 feet. If &quot;Core: Flight&quot; is currently active, {@italic boost} affects that dynamo as well."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Feet: Tread (1).} You ignore difficult terrain and gain advantage on Dexterity ({@skill Acrobatics}) checks to climb difficult surfaces."
+                                       "{@b Feet: Tread (2).} You ignore difficult terrain and gain advantage on Dexterity ({@skill Acrobatics}) checks to climb difficult surfaces. In addition, ground 10-feet around you becomes difficult terrain for creatures you choose."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Legs: Boosters (2).} You can take the Dodge or Disengage action as a bonus action. This dynamo lasts for one minute."
+                                       "{@b Legs: Boosters (2).} You can take the Dodge or Disengage action as a bonus action. When you Disengage this way, you ignore features that state the creature can take an opportunity of attack against you. {@bold (Cooldown 1)}"
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Hands: Steel (1).} When you hit with an unarmed strike, you can deal {@dice 1d8} + your Strength modifier bludgeoning damage, instead of the normal damage for an unarmed strike."
+                                       "{@b Hands: Steel (1).} When you hit with an unarmed strike, you can deal {@dice 2d4} + your Intelligence modifier bludgeoning damage, instead of the normal damage for an unarmed strike. This unarmed strike counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Eyes: Sight (2).} You gain darkvision up to 120 feet. You can't discern color in darkness, only shades representative of thermal vision."
+                                       "{@b Eyes: Sight (3).} You gain darkvision up to 120 feet and truesight up to 10 feet. You can't discern color in darkness, only shades representative of thermal vision."
 									],
 									"type": "entries"
 								}
@@ -958,6 +959,74 @@
 								"Machines are tools. Their sentience is to be ignored and used to profit.",
 								"Do not let the common social standard hinder your brilliance. Enlighten others to your craft, even against their meaningless conventions.",
 								"Exist to elevate humanity. Your mind is but a tool to further the world."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, the amount of cybernetic points you have increase to 7. In addition, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Mathematic Observation (Passive)",
+							"entries": [
+								"You always know the chemical composition of an object, regardless of the material. In addition, you gain a general knack for understanding complex computing mechanisms and operating advanced machinery. This does not mean you understand it from a hardware perspective—you only comprehend its operation."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Enhance: Ascend Beyond Limits",
+							"entries": [
+								"Your {@italic Ascend Beyond Limits} gains the following new dynamos which can be attached or summoned to your form:"
+							]
+						},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "{@b Hands: Tremor (2).} As an attack action on your turn, you can slam your hands against the ground, unleashing a massive tremor which manifests a localized earthquake at your location. Creatures you choose within 30 feet must make a Dexterity saving throw with a DC equal to 8 + your Intelligence modifier + your proficiency bonus. On a failed save, those creatures are knocked {@condition prone} and have their speed reduced to 0 until the end of their next turn. {@bold (Cooldown 2)}"
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Turret: Dynamic Core (3).} For as long as your Ascend Beyond Limits remains active, turrets you summon have their damage rolls increased by {@dice 1d8} + your Intelligence modifier."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "{@b Turret: Monodrone Surgeon (4).} For as long as your Ascend Beyond Limits remains active, protector turrets you summon have the number of temporary hit points they can restore increase by {@dice 1d8}, and they gain a fly speed of 60."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Ascend Beyond Limits II"
+							}
+						},
+						{
+							"type": "entries",
+							"name": "Charging II (Passive)",
+							"entries": [
+								"You regain all expended cybernetic points on a long rest, or two cybernetic points on a short rest."
 							]
 						}
 					]
@@ -1299,6 +1368,7 @@
 							"name": "Wolf Emperor (Passive)",
 							"entries": [
 								"When an ability states you assume your Wolf Emperor form, your body disappears from the Material Plane and becomes stored in the Astral Plane. While in this plane, your body is completely invulnerable from any effect weaker than your contracted Arisen.",
+								"Your senses are then transferred to a shadow wolf, which appears on the space you left. The shadow wolf has the same stats as a {@creature dire wolf|MM}, although its mental abilities (Intelligence, Wisdom, Charisma) are replaced with yours, and its AC equals 14 + your Charisma modifier. In addition, your bite scales off Charisma, rather than Strength, and you can use it as a bonus action. Finally, your Wolf Emperor form retains the same saving throws and skill proficiencies as your true form, and can speak, read, and write the same languages as you.",
 								"Your senses are then transferred to a shadow wolf, which appears on the space you left. The shadow wolf has the same stats as a {@creature dire wolf|MM}, although its mental abilities (Intelligence, Wisdom, Charisma) are replaced with yours, and its AC equals 14 + your Charisma modifier. In addition, your bite scales off Charisma, rather than Strength, and you can use it as a bonus action. Finally, your Wolf Emperor form retains the same saving throws and skill proficiencies as your true form, and can speak, read, and write the same languages as you.",
 								"Entering your Wolf Emperor form requires you use a bonus action and expend three hit dice. Roll the hit dice you expend this way. You take half the amount as slashing damage.",
 								"While you are in your Wolf Emperor form, your abilities gain Wolfblood. Wolfblood replaces the original property of your ability, as well as its name. You can only use the non-Wolfblood text of your Arisen abilities in your true form, and you can only use the Wolfblood text of your Arisen abilities as a shadow wolf.",
