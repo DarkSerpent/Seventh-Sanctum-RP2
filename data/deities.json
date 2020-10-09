@@ -1102,6 +1102,49 @@
 							]
 						}
 					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Marionette (Passive)",
+							"entries": [
+								"You no longer require verbal components for your spells or arisen abilities. In addition, you can surround yourself in a veil of silence, causing your steps, weapon attacks, and environmental interactions to produce no sound."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Deathwalk",
+							"entries": [
+								"As a bonus action, you can target a corpse within 100-feet that has been dead for less than an hour. You disappear into a thin fog, transporting yourself between your current location and the corpse. You reppear at the corpse immediately or at the start of your next turn (your choice), rising from the ground in a veil of thick shadows.",
+								"Creatures within 15-feet of your arrival point who see you rise from the corpse must make a Wisdom saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, those creatures become {@condition frightened}.",
+								"You can use this ability a number of times equal to your Charisma modifier (minimum of 1), and you regain all expended uses on a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Knife in the Dark",
+							"entries": [
+								"When combat begins, you can use a reaction to take your first turn as a surprise round. Afterwards, you skip over your next turn in initiative."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -1820,6 +1863,57 @@
 								"Assert dominance and power over others.",
 								"Repay cruelty done unto you with further evil. If others show you kindness, exploit it.",
 								"As you ascend to power, do not pity or show mercy to those you climb over to get there. Compassion is for the weak."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, the amount of capital you have increases to 6. In addition, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Enhance: Make Profit",
+							"entries": [
+								"You now gain {@dice 2d8} gold when you land the killing blow on an enemy, rather than {@dice 1d8}. In addition, you can spend 1 gold piece to deal an additional {@dice 1d4} bludgeoning damage for each beam of {@spell eldritch blast}, up to {@dice 4d4} bludgeoning damage at 17th level. This additional bludgeoning damage is considered to be magical."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Portable Pockets",
+							"entries": [
+								"As an action, you can teleport an object that fits inside a 10x10x20 cube of space within 15-feet of you into an extradimensional pocket for storage. In addition, you can use a bonus action to transport up to one thousand gold coins within a 30-feet radius around you into your extradimensional pocket, so long as that gold is not on another person or kept in another form of storage (for instance, you can transport gold inside an open chest, but not gold inside a locked chest).",
+								"As an object interaction, you can retrieve any item within your extradimensional pocket that can fit in your palm by teleporting it into your hand. Larger objects that cannot fit in your palm take an action to summon, and you choose where they materialize within a 15-foot radius of your current location.",
+								"Your extradimensional pocket has no storage limit, and can hold as many items as you desire. Creatures cannot be stored inside your extradimensional pocket, only objects."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Make it Rain (3)",
+							"entries": [
+								"As an action, you summon a cavalcade of gold coins from your extradimensional pocket above a creature of your choice. Choose a number of gold coins divisible by two hundred. That creature must make a Dexterity saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. For every two hundred coins you drop upon that creature, they take {@dice 1d10} bludgeoning damage, up to {@dice 10d10}.",
+								"Gold summoned this way remains on the ground until you pick it up or store it in your extradimensional pocket once more."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Capital Punishment II (Passive)",
+							"entries": [
+								"You regain all expended capital on a long rest, or two capital on a short rest."
 							]
 						}
 					]
