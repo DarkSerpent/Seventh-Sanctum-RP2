@@ -232,7 +232,7 @@
 						"Attacking at long range with your thrown weapons no longer imposes disadvantage.",
 						"Being within 5 feet of a hostile creature doesn't impose disadvantage on ranged attack rolls.",
 						"Before you make an attack with the thrown property that you are proficient with, you can choose to take a penalty equal to your proficiency to the attack roll. If the attack hits, add double your proficiency to the damage roll.",
-						"Whenever you take the Attack action to make a ranged attack with a thrown weapon, you can use your bonus action to make one additional ranged attack with a thrown weapon. If the weapon you are throwing already has the light property, you instead increase its short and long range by 10 feet."
+						"Whenever you take the Attack action to make a ranged attack with a thrown weapon, you can make one extra attack as a part of that Attack action instead of using your bonus action. In addition, the weapon you are throwing has the light property, you increase its short and long range by 10 feet."
 					]
 				}
 			]
@@ -248,7 +248,7 @@
 						"You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.",
 						"You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.",
 						"You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.",
-						"Additionally, whenever you engage in two-weapon fighting with melee weapons, you can make one extra attack as a part of that Attack action instead of using your bonus action."
+						"Additionally, whenever you engage in two-weapon fighting with melee weapons, you can make one extra attack as a part of that Attack action instead of using your bonus action. You cannot make an additional thrown weapon attack this way."
 					]
 				}
 			]
