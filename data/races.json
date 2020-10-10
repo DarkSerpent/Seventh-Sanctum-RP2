@@ -3401,7 +3401,7 @@
 					"type": "entries",
 					"name": "Mountain Born",
 					"entries": [
-                     "You’re acclimated to high altitude, including elevations above 20,000 feet. You’re also naturally adapted to cold climates."
+                     "You’re acclimated to high altitude, including elevations above 20,000 feet. You’re also naturally adapted to cold climates, and have resistance to cold damage."
 					]
 				},
 				{
@@ -5950,7 +5950,7 @@
 				{
 					"name": "Peak Dwellers",
 					"entries": [
-                         "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to strong wind and cold environments, as described in chapter 5 of the Dungeon Master's Guide."
+                         "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to strong wind and cold environments, as described in chapter 5 of the Dungeon Master's Guide, and have resistance to cold damage."
 					],
 					"type": "entries"
 				},
