@@ -1905,7 +1905,7 @@
 							"type": "entries",
 							"name": "Make it Rain (3)",
 							"entries": [
-								"As an action, you summon a cavalcade of gold coins from your extradimensional pocket above a creature of your choice. Choose a number of gold coins divisible by two hundred. That creature must make a Dexterity saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. For every two hundred coins you drop upon that creature, they take {@dice 1d10} bludgeoning damage, up to {@dice 10d10}.",
+								"As an action, you summon a cavalcade of gold coins from your extradimensional pocket above a creature of your choice. Choose a number of gold coins divisible by two hundred. That creature must make a Dexterity saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, for every two hundred coins you drop upon that creature, they take {@dice 1d10} bludgeoning damage, up to {@dice 10d10}. If they pass the save, they take half the damage they would normally.",
 								"Gold summoned this way remains on the ground until you pick it up or store it in your extradimensional pocket once more."
 							]
 						},
