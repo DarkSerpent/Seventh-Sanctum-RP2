@@ -71,11 +71,34 @@
 				{
 					"type": "list",
 					"items": [
-						"Additionally, you can use a bonus action to detach or reattach one of your hands, which allows the hand to wander freely by walking on its fingertips. This deatched hand has a walking speed and climbing speed of 30 and can move up, down, and across vertical surfaces and upside down along ceilings.",
-						"The hand has a strength score of 5, a hit point maximum equal to twice your total character level, and otherwise uses your statistics and AC. You cannot detach a hand in this way while using the Them Bones trait, or use Them Bones while a hand is detached.",
-						"You have a psychic link with your detached hand, and can command it to move or take actions on your turn with no additional action from you. A hand detached in this way retains animation up to 1,000 feet away from you. A detached hand can take the Dodge, Disengage, Dash, or Help actions, but no other actions.",
-						"You mentally receive visual and auditory information from the detached hand, which can see and hear as any other creature, in addition to having darkvision out to 30 feet. While the hand is detached, you know its exact location relative to you, as long as you are on the same plane of existence."
+						"Additionally, you can use a bonus action to detach or reattach one of your hands, which allows the hand to wander freely by walking on its fingertips. This deatched hand has a walking speed and climbing speed of 30 and can move up, down, and across vertical surfaces and upside down along ceilings."
 					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [{
+							"entries": [
+								"The hand has a strength score of 5, a hit point maximum equal to twice your total character level, and otherwise uses your statistics and AC. You cannot detach a hand in this way while using the Them Bones trait, or use Them Bones while a hand is detached."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+								"You have a psychic link with your detached hand, and can command it to move or take actions on your turn with no additional action from you. A hand detached in this way retains animation up to 1,000 feet away from you. A detached hand can take the Dodge, Disengage, Dash, or Help actions, but no other actions."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+								"You mentally receive visual and auditory information from the detached hand, which can see and hear as any other creature, in addition to having darkvision out to 30 feet. While the hand is detached, you know its exact location relative to you, as long as you are on the same plane of existence."
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Sentient Hands"
+					}
 				}
 			]
 		},
