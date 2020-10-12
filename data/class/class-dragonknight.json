@@ -665,8 +665,8 @@
 										"type": "entries",
 										"name": "Shadow Cloak",
 										"entries": [
-											"Also at 3rd level, you can surround yourself in a shroud of darkness. As a bonus action on your turn, a 5 foot diameter sphere, centered on you, becomes heavily obscured to creatures other than yourself and your dragon. The sphere of shadow lasts until the start of your next turn, and doesn’t move with you.",
-											"You can use this ability a number of times equal to your Charisma modifier (minimum 1). You regain all expended uses of this ability when you finish a short or long rest."
+											"Also at 3rd level, you can surround yourself in a shroud of darkness. As a bonus action on your turn, a 5 foot diameter sphere, centered on you or your dragon, becomes heavily obscured to creatures other than yourself and your dragon. The sphere of shadow lasts until the start of your next turn, and doesn’t move with you.",
+											"You can use this ability a number of times equal to your Charisma modifier (minimum 1). You regain all expended uses of this ability when you finish a short or long rest. When you hit 9th level in this class, the diameter of the sphere you summon can be 5 or 10 feet (your choice)."
 										]
 									}
 								]
@@ -689,7 +689,7 @@
 												"A shadow can only drop a creature to a minimum of 1 Strength, and cannot kill a creature by dropping them to 0."
 											]
 										},
-										"The shadows last until the beginning of your dragon's next turn, and acts immediately after your dragon's initiative count. They take orders from both you and the dragon, requiring no action from either of you. You can only control a number of shadows equal to your Charisma modifier, and cannot have more than that many shadows summoned at once."
+										"The shadows last until the end of your next turn, and they act alongside your initiative count. They take orders from both you and the dragon, requiring no action from either of you. You can only control a number of shadows equal to your Charisma modifier, and cannot have more than that many shadows summoned at once."
 										]
 									}
 								]
