@@ -2610,7 +2610,7 @@
 							"type": "entries",
 							"name": "On the Line",
 							"entries": [
-								"You know the {@spell mending} cantrip, and your casting time for this spell is an action. Intelligence is your spellcasting ability for it."
+								"You know the {@spell mending} cantrip, and your casting time for this spell is an action. Intelligence is your spellcasting ability for it. You can cast {@spell mending} as an action a number of times equal to your Intelligence modifier, and regain all expended uses on a short or long rest. While you have no remaining uses, the casting time of {@spell mending} becomes a minute."
 							]
 						},
 						{
