@@ -702,7 +702,9 @@
 										"type": "entries",
 										"name": "Night Walker",
 										"entries": [
-											"At 10th level, you and your dragon can take the Hide action as a bonus action while in dim light or in darkness, and gain advantage on the ability check."
+											"At 10th level, your body has begun to meld with the melody of the Shadowfell. You and your dragon have gained the ability to shift along the moving tides of shadow, rectifying your bodies into an absolute union between the Material and the Fell.",
+											"You and your dragon gain the ability to take the Hide action as a bonus action on your turn. If you are in dim light or in darkness, you gain advantage on the ability check.",
+											"In addition, while in dim light or in darkness, you and your dragon can attempt to Hide even if you fail to meet the requirements needed to do so. At the end of the current turn, you remain hidden only if you then meet the normal requirements for hiding."
 										]
 									}
 								]
