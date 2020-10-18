@@ -67,11 +67,12 @@
 				}
 			}],
 			"entries": [
-				"You have become increasingly more self-aware as you time spent back on the Material Plane increases. You gain the following benefits:",
+				"You have become increasingly more self-aware as you time spent on the Material Plane increases. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"Additionally, you can use a bonus action to detach or reattach one of your hands, which allows the hand to wander freely by walking on its fingertips. This deatched hand has a walking speed and climbing speed of 30 and can move up, down, and across vertical surfaces and upside down along ceilings."
+						"Additionally, you can use a bonus action to detach or reattach one of your hands, which allows the hand to wander freely by walking on its fingertips. This deatched hand has a walking speed and climbing speed of 30 and can move up, down, and across vertical surfaces and upside down along ceilings.",
+						"Your skeletal hand counts as an improvised weapon which you can use to make unarmed strikes. It has a thrown property of 15/30."
 					]
 				},
 				{
