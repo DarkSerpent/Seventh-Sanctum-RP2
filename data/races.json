@@ -182,6 +182,121 @@
 			]
 		},
 		{
+			"name": "Succubus & Incubus",
+			"source": "SRP",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"dex",
+							"int"
+						],
+						"count": 1,
+						"amount": 1
+					}
+				}
+			],
+			"traitTags": [
+				"Spellcasting",
+				"Damage Resistance"
+			],
+			"languageProficiencies": [
+				{
+					"primordial": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Although you have severed yourself from the connecting strand of power which once bound you to the Devil's Palace, your body has irreputably changed from its fiendish energies. Succubus & Incubus mature at the same rate as humans, but they live for much longer, often exceeding 450 years."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"While the binding strand between you and the Devil's Palace has been cut, you have been transformed into a otherworldly beast with a fiendish nature, and that kind of psychological conditioning does not fade easily. Most succubus & incubus who separate themselves from the Devil's Palace remain both neutral and evil, until their future growth (unhindered by their fiendish connection) allows them to mature and develop their own idealisms."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"While you are not human, your form has been designed after their own. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Foundation in Archaism",
+					"entries": [
+						"Your creature type is fiend, rather than humanoid."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Attuned Flight",
+					"entries": [
+						"You have a flying speed of 30 feet. To use this speed, you must attune to the Way of Worlds by act of sacrificing an attunement slot. Attuning to flight takes the same amount of time and follows the same restrictions as attuning to a magic item."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "The Wile of a Demon",
+					"entries": [
+						"You have advantage on any check or saving throw made to seduce a target, regardless of whether that target is {@condition charmed} by you. If that creature does happen to be charmed by you, you can reroll one of the dice once."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Shapetaker",
+					"entries": [
+                        "Your loss of connection to the Devil's Palace has siphoned away your ability to shapeshift, but you still retain some of your former finesse. You gain proficiency in {@skill Deception} skill.",
+						"In addition to this, as an action, you can dematerialize your wings, horns, and other devilish appendages, absorbing their matter and spreading it throughout your body. While you are disguising your devilish features this way, any attempt to discern your creature type will cause you to ping as humanoid, rather than fiend.",
+						"This ability is not considered to be an illusion, and is unaffected by spells such as {@spell dispel magic}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alluring Telepathy",
+					"entries": [
+                        "You can speak telepathically to any humanoid creature you have {@condition charmed}, regardless of distance. You and your {@condition charmed} target need not even share the same plane of existence.",
+						"You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Devil's Palace",
+					"entries": [
+                        "As an action, you can target one humanoid creature within 30 feet of you. That creature must succeed on a Wisdom saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier. On a failed save, that creature becomes {@condition charmed} by you for one minute.",
+						"If your target suffers any harm, the effect immediately ends, and that creature is no longer charmed. Once you use this ability, you cannot use it again until you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Draining Kiss",
+					"entries": [
+						"As an action, you kiss a creature {@condition charmed} by you or a willing creature within 5 feet of you. That target must make a Constitution saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier.",
+						"On a failed save, that target takes {@dice 2d6} psychic damage, and you heal for amount equal to half the damage taken (rounded down). The psychic damage increases to 3d6 at 5th level. 4d6 at 10th level, 5d6 at 15th level, and 6d6 at 20th level.",
+						"You can use this ability a number of times equal to your Charisma modifier (minimum of once), and regain all expended uses on a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Common, Infernal, and Abyssal."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
 			"name": "Kitsune",
 			"source": "SRP",
 			"size": "V",
