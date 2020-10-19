@@ -274,7 +274,7 @@
 					"name": "Devil's Palace",
 					"entries": [
                         "As an action, you can target one humanoid creature within 30 feet of you. That creature must succeed on a Wisdom saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier. On a failed save, that creature becomes {@condition charmed} by you for one minute.",
-						"If your target suffers any harm, the effect immediately ends, and that creature is no longer charmed. Once you use this ability, you cannot use it again until you finish a long rest."
+						"If your target suffers any harm (other than being damaged by your Draining Kiss), the effect immediately ends, and that creature is no longer charmed. Once you use this ability, you cannot use it again until you finish a long rest."
 					],
 					"type": "entries"
 				},
