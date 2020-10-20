@@ -216,7 +216,7 @@
 					"items": [
 						"You gain a +1 bonus to attack rolls you make with these weapons.",
 						"You can reroll 1s to damage with these weapons.",
-						"If you roll a critical hit or deal a killing blow with these weapons, your shot pierces the target and strikes a creature within a 10-foot line behind it. If the original roll would hit the creature, it deals damage. Otherwise, the bullet misses."
+						"If you roll a critical hit or deal a killing blow with these weapons, your shot pierces the target and strikes a creature within a 10-foot line behind it. If the original roll would hit the creature, it deals the damage (applied by the weapon) of the original roll. Otherwise, the bullet misses."
 					]
 				}
 			]
