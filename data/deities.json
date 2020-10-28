@@ -51,7 +51,7 @@
 							"entries": [
 								"You throw up your hands as if beginning a grand show. Emerging from your feet, a thick sheet of ice forms around you in a radius of 100 feet in the symbol of a giant snowflake.",
 								"The slick ice that makes up this area is difficult terrain for everyone except for you and other followers of Aslanth. While traveling on this ice, you are permanently under the effects of the Disengage action, and your innate movement speed becomes 50 as you glide across the ice.",
-								"As an action on your turn, you can dismiss and shatter the ice around you. All creatures within the snowflake must make a Dexterity saving throw. On a failed save, they take {@dice 6d8} cold damage and become restrained for one turn. If you do not choose to dismiss this effect, it automatically shatters after 1 minute."
+								"As an action on your turn, you can dismiss and shatter the ice around you. Hostile creatures of your choice within the snowflake must make a Dexterity saving throw. On a failed save, they take {@dice 8d8} cold damage and become {@condition restrained} for one turn. If you do not choose to dismiss this effect, it automatically shatters after 1 minute."
 							]
 						}
 					]
@@ -66,6 +66,53 @@
 								"Though the winter is long and harsh, it is not altogether evil.",
 								"With the coming of winter, frosts are harsh dangers and frigid creatures arrive not found in the summer. It is your duty to protect the innocent from these perils.",
 								"While your goal of preserving the entire world is your greatest cause, your allies must be preserved as well. Your wounds will heal, theirs might not."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Blessing of the Winter King (Passive)",
+							"entries": [
+								"Your resistance to cold damage becomes immunity. In addition, once per turn whenever you are subjected to cold damage, you take no damage and instead regain a number of hit points equal to the cold damage dealt."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mimicry of the Ice God",
+							"entries": [
+								"One of Aslanth's divine blessings has been bestowed upon your form, granting you the ability to transform your body into a mimicry of Aslanth. As a bonus action, you manifest an alternate state which is anatomically identical to your original, save for the fact that your body is now composed completely out of ice.",
+								"While in this form, you are immune to any spell or effect that would alter your form, and you have advantage on Constitution saving throws against magic. You also gain resistance to slashing damage, immunity to piercing damage, and vulnerability to bludgeoning damage.",
+								"This form lasts for one minute or until you are knocked {@condition unconscious}, the conclusion of which causes the ice to shatter off your body and manifest itself into the air around you. You regain one hit point and {@dice 2d6} temporary hit points. Once you use this ability, you cannot use it again until you finish a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Soul Keeping",
+							"entries": [
+								"As an action, you touch one creature that has been dead for no longer than one hour and store its soul in a shard of ice. Once the creature's soul has manifested within the shard, the ice becomes permafrosted, unable to melt by any means. In addition, the creature's consciousness is transferred to the shard, and gains the ability to telepathically communicate with any creautre within 60 feet of it.",
+								"For as long as the creature's soul is kept within the ice shard, the target's body is protected from decay and cannot become undead. This ability also effectively extends the time limit on raising the target from the dead, as days spent within the shard do not count against the time limit of spells such as {@spell raise dead}.",
+								"As a action, you can restore the creature's soul to their body. In order to do this, you must be touching the creature's body as well as the ice shard simultaneously. If the creature's body is destroyed beyond repair, then this ability fails. Crushing the ice shard at any point will immediately kill the creature.",
+								"Storing a soul in the shard prevents that creature from resurrecting at a Crystal, and prevents their body from becoming a target for spells such as {@spell true resurrection} and {@spell speak with dead}.",
+								"You cannot perform this ability more than once per week, as you need time to manifest the permafrost inside your body (which is expending upon the casting of this ability). Starting a week from when you last used this ability, it will become reavailable to be used again."
 							]
 						}
 					]
