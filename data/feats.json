@@ -491,7 +491,7 @@
 					"type": "list",
 					"items": [
 						"You have resistance to poison damage, and gain advantage on saving throws to avoid being poisoned.",
-						"In addition, when you take a long rest, you can create a single dose of one of the following poisons using your Poisoner's Kit:"
+						"In addition, when you take a long rest, you fill three vials with one of the following poisons using your Poisoner's Kit (or one vial on a short rest):"
 					]
 				},
 				{
@@ -504,13 +504,13 @@
 						},
 						{
 							"entries": [
-								"{@b Stomachturner.} This slick oil can be applied to a weapon as an object interaction. The next time the weapon deals damage, the opposing creature must succeed on a Constitution saving throw or be poisoned for 1 minute, or until they spend an action on their turn to regain their senses."
+								"{@b Stomachturner.} This slick oil can be applied to a weapon as an object interaction. The next time the weapon deals damage, the opposing creature becomes {@condition poisoned} for one minute, or until they spend an action on their turn to regain their senses."
 							],
 							"type": "entries"
 						},
 						{
 							"entries": [
-								"{@b Night's Kiss.} This tasteless and odorless liquid can be slipped into drink or food. When a creature consumes the poison, it must make a Constitution saving throw or fall unconscious for 10 minutes. This effect ends if the creature takes damage."
+								"{@b Night's Kiss.} This tasteless and odorless liquid can be slipped into drink or food. When a creature consumes the poison, it must make a Constitution saving throw or fall unconscious for ten minutes. This effect ends if the creature takes damage."
 							],
 							"type": "entries"
 						}
@@ -520,8 +520,8 @@
 				{
 					"type": "list",
 					"items": [
-						"Poisons created in this way lose their potency, and expire 24 hours after creation.",
-						"The DC for all saving throws for poisons created with this feat is 8 + your proficiency bonus + your Intelligence modifier."
+						"Poisons created in this way lose their potency, and expire at the completion of your next long rest.",
+						"The DC for all saving throws for poisons created with this feat is 8 + your proficiency bonus + your Intelligence or Wisdom modifier (your choice)."
 					]
 				}
 			]
