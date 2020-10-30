@@ -297,6 +297,112 @@
 			]
 		},
 		{
+			"name": "Puppet",
+			"source": "SRP",
+			"size": "M",
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"cha": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"int"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"traitTags": [
+				"Spellcasting",
+				"Damage Resistance"
+			],
+			"languageProficiencies": [
+				{
+					"primordial": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"With infrequent replacement to their parts and general upkeep on their bodies, puppets can conceivably exist indefinitely. Puppets are known to degrade and lose their sentience, however, if they live too long without an explicit purpose."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Puppets, having been created artifically and completely detached from human idealisms, tend to be neutral in all aspects."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"While you are not human, your form has been designed after their own. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Inanimate",
+					"entries": [
+						"Your creature type is construct, rather than humanoid. In addition, while you remain motionless, you are indistinguishable from an ordinary puppet. Finally, you gain access to the following benefits as per your puppet nature:",
+						{
+							"type": "list",
+							"items": [
+								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance to force and poison damage.",
+								"You are immune to disease.",
+								"You don't need to eat, drink, or breathe.",
+								"You don't need to sleep and don't suffer the effects of {@condition exhaustion} due to lack of rest, and magic can't put you to sleep.",
+								"When you regain hit points from a source that specifies it does not function on constructs, you instead receive half as many hit points as the source would provide, rounded down, instead of none."
+							]
+						}
+					]
+				},
+				{
+					"name": "Glass Eyes",
+					"entries": [
+						"As a bonus action, you tap into the senses of your marionettes, perceiving the world around you from an neigh omnipresent position. You gain {@sense blindsight} out to a range of 30 feet for one minute. Once you use this ability, you cannot use it again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Occupied",
+					"entries": [
+						"You are immune to the movement portion of spells and effects which would force you to move against your will, and creatures cannot read your thoughts, determine whether you are lying, know your alignment, or telepathically communicate with you unless you allow it. Finally, you have advantage on saving throws to avoid being {@condition charmed}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Framed",
+					"entries": [
+						"Whenever you take fire damage, you take additional damage equal to 5 - your Constitution modifier. This damage cannot be reduced or ignored by resistance or immunity."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Danse Macabre",
+					"entries": [
+						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. If you do so, you fall into a heap of limbs and string and render yourself {@condition prone}. You are considered to be under similar effects to the {@spell feign death} spell. While subject to this condition, you are unable to move or take actions other than using an action to end this effect. Once you use this trait, you are unable to use it again until you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Common and two languages of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
 			"name": "Kitsune",
 			"source": "SRP",
 			"size": "V",
