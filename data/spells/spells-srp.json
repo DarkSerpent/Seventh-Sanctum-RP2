@@ -2342,7 +2342,12 @@
 			},
 			"duration": [
 				{
-					"type": "2 rounds"
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 2
+					},
+					"concentration": false
 				}
 			],
 			"entries": [
