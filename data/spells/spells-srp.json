@@ -2182,8 +2182,9 @@
 				}
 			],
 			"range": {
-				"type": "touch",
+				"type": "point",
 				"distance": {
+					"type": "touch"
 				}
 			},
 			"components": {
