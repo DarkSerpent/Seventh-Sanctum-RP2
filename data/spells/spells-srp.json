@@ -2171,6 +2171,226 @@
 			}
 		},
 		{
+			"name": "Repair Damage",
+			"source": "SRP",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "touch",
+				"distance": {
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a set of tinker's tools"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A construct you touch regains a number of hit points equal to 1d6 + your spellcasting ability modifier. This spell has no effect on other creatures. This spell can be used to repair technological items, objects, and structures at a DM's discretion.",
+				"{@bold Special.} Half-constructs (such as Warforged, Starforged, and Nasods) can benefit from this spell despite not being full constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"type": "entries",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d6 for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Forge",
+							"source": "XGE"
+						}
+					}
+				]
+			}
+		},	
+		{
+			"name": "Mass Repair Damage",
+			"source": "SRP",
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a set of tinker's tools"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You transmute the structure of constructs to repair them out from a point of your choice within range. Choose up to six constructs in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 3d6 + your spellcasting ability modifier. This spell has no effect on other creatures.  This spell can be used to repair technological items, objects, and structures at a DM's discretion.",
+				"{@bold Special.} Half-constructs (such as Warforged, Starforged, and Nasods) can benefit from this spell despite not being full constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"type": "entries",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d6 for each slot level above 5th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Forge",
+							"source": "XGE"
+						}
+					}
+				]
+			}
+		},	
+		{
+			"name": "Reconstruct",
+			"source": "SRP",
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a set of tinker's tools"
+			},
+			"duration": [
+				{
+					"type": "2 rounds"
+				}
+			],
+			"entries": [
+				"Choose a construct that you can see within range. You greatly repair it, causing it to regain 60 hit points. This spell also grants the target the benefits of the {@spell haste} spell for 2 rounds. This effect does not stack with Haste, and does not impose the penalties of {@spell haste} when this effect expires. This spell has no effect on other creatures. This spell can be used to repair technological items, objects, and structures at a DM's discretion.",
+				"{@bold Special.} Half-constructs (such as Warforged, Starforged, and Nasods) can benefit from this spell despite not being full constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"type": "entries",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 for each slot level above 6th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Forge",
+							"source": "XGE"
+						}
+					}
+				]
+			}
+		},	
+		{
 			"name": "Wristpocket",
 			"source": "SRP",
 			"level": 2,
