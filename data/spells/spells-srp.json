@@ -2397,6 +2397,617 @@
 			}
 		},	
 		{
+			"name": "Siphon Vitality",
+			"source": "SRP",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Target a creature that you can see within range that is not a construct or undead. That creature must succeed on a Constitution saving throw or take {@dice 1d6} necrotic damage.",
+				"On a failed save, you can add a {@dice 1d4} to the next saving throw you make before the start of your next turn.",
+				"This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
+			],
+			"entriesHigherLevel": [
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Memory of Ash",
+			"source": "SRP",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch the corpse of a dead humanoid that is not an undead. Over the duration of this spell's casting time, you slowly reduce that creature to ash, as their body vacates to the pressures of your necromancy and scatters to the winds.",
+				"Upon completion, you learn one of the following things about the creature, which may or may not assist in your journey:",
+				"{@bold Eyes of Ash.} You receive a vision of the creature's death starting 10 seconds before its demise (from the creature's perspective).",
+				"{@bold Soul of Ash.} One important, yet simple thing about the creature of your choice. Examples of this may include what the creature loved the most, what they despised, and their worries.",
+				"{@bold Heart of Ash.} The goal the creature was trying to achieve prior to its death (if any)."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 3rd level spell slot or higher, you learn one additional Ash for every level above 2nd. In addition, you can choose Eyes of Ash multiple times. When you do, you increase the length of the vision by 10 additional seconds."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Putrid Plague",
+			"source": "SRP",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a cup of blood, a parasite egg and herbs worth 150 gp, all of which the spell consumes",
+					"cost": 15000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch the corpse of a Large or smaller creature, birthing life to a myriad of parasites and maggots that immediately begin feasting on the corpse by collecting in the creature's chest cavity. If the corpse is disturbed at any point after this spell's casting, its chest blows open.",
+				"Any creature within 10-feet of the disturbed corpse must make a Dexterity saving throw. On a failed save, that creature takes {@dice 4d6} piercing damage and becomes infested with a parasite.",
+				"The parasite counts as a disease and deals {@dice 2d6} poison damage to its host at the end of every hour. It can be removed by another creature as part of a 30-minute long operation. In order to perform the procedure, the creature must have a cutting instrument and make a successful DC 12 + your spellcasting modifier Dexterity (Medicine) check. On a failed check, the creature takes {@dice 2d6} slashing damage, and the parasite is not removed.",
+				"If the host is killed by this parasite, it then begins to birth forth a myriad of parasites and maggots inside the host's body. One hour prior to the creature's death, it will start spreading the disease upon disturbing as if this spell was casted on it. Burning the corpse, disintegrating it, or killing the infected creature with radiant damage prevents this from occurring."
+			],
+			"entriesHigherLevel": [
+				{
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				]
+			}
+		},
+		{
+			"name": "Swarm of Decay",
+			"source": "SRP",
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth a swarm of ravenous, decaying insects to spring to life at your fingertips. At your command, they fly over to a creature within range. That creature must make a Dexterity saving throw. On a failed save, that creature takes {@dice 1d6} poison damage, or half as much on a successful one.",
+				"On subsequent turns, you can direct the swarm to attack another creature within range, or move back to you as a bonus action. If you do not direct the swarm at the end of your turn, they instead attack the same creature without need of an action. If the swarm ever leaves your range, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 2nd level spell slot or higher, the damage increases by {@dice 1d6} for every level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Miasma of Death",
+			"source": "SRP",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a human skull"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose either a corpse or an undead creature under your control within range. The target explodes into a cloud of dense, purple, toxic gas. The explosion is as unsightly as it is uproarious, blistering the skin of nearby creatures and sending those who need to breathe into massive coughing fits.",
+				"Immediately upon this spell's casting, the target is reduced to an unrecognizable husk. If the target was an undead creature under your control, that undead is instantly killed.",
+				"Any creature within 10 feet of the explosion must make a Constitution saving throw. On a failed save, that creature takes {@dice 3d6} poison or necrotic damage (your choice), or half as much on a successful save. If the creature failed the save, that creature is also poisoned until the end of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 3rd level spell slot or higher, the damage increases by {@dice 1d6} for every level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Nightmare Sphere",
+			"source": "SRP",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of humanoid leather"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You erect a 5-foot diameter black sphere at an unoccupied point within range. The sphere is semi-solid (treated as difficult terrain) and provides half-cover when hid behind.",
+				"As a bonus action, you can move the sphere 20-feet in any direction within range. A creature who starts its turn within 10-feet of the sphere, or touches it for the first time in a turn, must make a Wisdom saving throw. On a failed save, that creature takes {@dice 2d6} psychic damage, and the sphere morphs to reflect one of their darkest fears.",
+				"A creature who is reduced to 0 hit points by this spell is knocked unconscious, stabilized, and becomes immune to this spell for as long as they remain unconscious. In addition, that creature experiences horrible nightmares for the next {@dice 1d4} days."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Scythe of the Reaper",
+			"source": "SRP",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You form a scythe of necrotic energy in your hands, constructed from the lingering regrets and miasma in the air. You then swing it at a creature in range, cutting a line from this world to the next.",
+				"The creature you target must make a Dexterity saving throw. On a failed save, that creatures takes {@dice 8d6} necrotic damage, or half as much on a successful save.",
+				"A humanoid who is reduced to 0 hit points by this spell immediately dies, as its flesh it stripped from its bones and its skeleton rises to serve you. The skeleton rolls its own initiative and acts on its own turn in initiative.",
+				"The skeleton becomes inanimate after one hour, or once it drops to 0 hit points."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"You can cast this spell using a 4th level or higher spell slot. The necrotic damage increases by {@dice 1d6} for each slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Breath of Shadow",
+			"source": "SRP",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You breathe forth a cloud of impenetrable shadow which exhales from your mouth and spreads itself around a point you can see within range. It then manifests into the shape of a cylinder with a radius of 10-feet and a height of 20-feet that is lightly obscured.",
+				"A creature which starts it turn or moves into the area for the first time on a turn must make a Constitution saving throw or take {@dice 4d8} necrotic damage.",
+				"The body of a creature killed by this spell becomes withered beyond recognition."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"You can cast this spell using a 5th level or higher spell slot. The necrotic damage increases by {@dice 1d8} for each slot level above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Desecrate Earth",
+			"source": "SRP",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a cursed item"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You invoke a foul curse upon the land, desecrating it beyond the Material realm and transforming it into your own personal territory. When you cast this spell, a 30-foot radius of ground within range withers and uproots itself, twisting and dancing to the tune of a mysterious shadow.",
+				"Undead creatures standing or flying above this ground have advantage on effects which turn undead. If a creature already has advantage on such effects, they instead gain immunity to them.",
+				"In addition, at the start of their turns, any undead on this ground gain {@dice 1d10} temporary hit points. Undead created through animate dead gain temporary hit points at the start of the caster's turn.",
+				"After you break concentration on this spell, the ground loses its magical effects. However, it remains forever tainted: bearing fewer plants, turning blackened and withered, and becoming detectable through a paladin's divine sense."
+			],
+			"entriesHigherLevel": [
+				{
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
 			"name": "Wristpocket",
 			"source": "SRP",
 			"level": 2,
