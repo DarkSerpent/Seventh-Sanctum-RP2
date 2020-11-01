@@ -5273,7 +5273,7 @@
 				{
 					"name": "Antimagic Susceptibility",
 					"entries": [
-                     "You are incapacitated while in the area of an {@spell antimagic field}. If targeted by dispel magic, you must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+                     "You are put under the effects of the {@spell slow} spell while in the area of an {@spell antimagic field}. If targeted by dispel magic, you must succeed on a Constitution saving throw against the caster's spell save DC or fall {@condition unconscious} for 1 minute."
 					],
 					"type": "entries"
 				},
@@ -5281,7 +5281,8 @@
 					"name": "Construct",
 					"entries": [
                      "You are a suit of armor made of a variety of durable materials. Your creature type is Construct. Spells like cure wounds don't affect you as you are a construct and you are immune to spells like crown of madness or dominate person due to them specifically targeting humanoids. You are immune to poison damage, being poisoned and diseases.",
-					 "You do not need to eat or breathe, and any food you do attempt to eat falls through your space where your head would be at the bottom of your armor. Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal."
+					 "You do not need to eat or breathe, and any food you do attempt to eat falls through your space where your head would be at the bottom of your armor. Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.",
+					 "When you regain hit points from a source that specifies it does not function on constructs, you instead receive half as many hit points as the source would provide, rounded down, instead of none."
 					],
 					"type": "entries"
 				},
@@ -5300,19 +5301,50 @@
 					"type": "entries"
 				},
 				{
-					"name": "Durable",
+					"name": "Two Minds One Body",
 					"entries": [
-                     "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+                     "Animated Armors don't usually allow other creatures to wear them. In dire times, however, they might do so to pass themselves off as regular armor. When an Animated Armor is worn by another creature, the creature gains the following benefits:"
 					],
 					"type": "entries"
 				},
-				{
-					"name": "Two Minds One Body",
-					"entries": [
-                     "Animated Armors don't usually allow other creatures to wear them. In dire times, however, they might do so to pass themselves off as regular armor. When an Animated Armor is worn by another creature, that creature follows the normal rules for wearing such armor, except as follows: Only the Armor or the creature wearing it may act each turn, with the other treated as Incapacitated. Attacks made against the Armor and its wearer target the lowest AC between the two and hits deal full damage to both. The Armor doesn't confer Cover or any other advantage to its wearer beyond the normal bonuses conferred by armor."
-					],
-					"type": "entries"
-				}
+						{
+							"type": "inset",
+							"entries": [
+								{
+									"entries": [
+                                       "• Your wearer gains proficiency in your armor type."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• Your wearer's AC increases to the AC of your armor, plus any modifiers they have (if applicable)."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• Your wearer is under the effects of the {@spell warding bond} spell, as if cast by you, for as long as they wear you."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• You can remove yourself forcibly from your wearer with a contested Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check. Your wearer can choose to purposely fail this check."
+									],
+									"type": "entries"
+								},
+								{
+									"entries": [
+                                       "• While you are being worn, you are unable to move or take actions, other than using an action to forcibly remove yourself from your wearer on your turn."
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Two Minds One Body Rules"
+							}
+						}
 			],
 			"subraces": [
 				{
@@ -5418,6 +5450,13 @@
 						"walk": 25
 					},
 					"entries": [
+						{
+							"name": "Durable",
+							"entries": [
+							"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+							],
+							"type": "entries"
+						},
 						{
 							"name": "Heavy Footed",
 							"entries": [
