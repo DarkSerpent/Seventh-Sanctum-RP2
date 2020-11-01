@@ -2987,14 +2987,16 @@
 		{
 			"name": "Bracer of Flying Daggers",
 			"source": "GS",
-			"rarity": "rare",
+			"rarity": "very rare",
 			"tier": "major",
-			"value": 600000,
+			"value": 4500000,
 			"weight": 0.2,
 			"reqAttune": true,
 			"type": "Guild Shop Item",
 			"entries": [
-				"This armband appears to have thin {@item dagger|phb|daggers} strapped to it. As an action, you can pull up to two magic daggers from the bracer and immediately hurl them, making a ranged attack with each dagger. A dagger vanishes if you don't hurl it right away, and the daggers disappear right after they hit or miss. The bracer never runs out of daggers."
+				"This armband appears to have thin {@item dagger|phb|daggers} strapped to it. As an action, you can pull up to two magic daggers from the bracer and immediately hurl them, making a ranged attack with each dagger. A dagger vanishes if you don't hurl it right away, and the daggers disappear right after they hit or miss. The bracer never runs out of daggers.",
+				"As a bonus action, the thrower can call back two of the illusory daggers, forcing all creatures in a line from where the daggers were launched to make a Dexterity saving throw (DC 8 + your proficiency bonus + your Dexterity modifier). On a failed save, those creatures take {@dice 2d4} piercing damage.",
+				"Additionally, the user can slot one dagger into the bracer as an item interaction. Doing this causes all future thrown daggers take on the attributes of the slotted dagger. You can only slot one dagger in these bracers at a time."
 			]
 		},
 		{
