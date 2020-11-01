@@ -2600,7 +2600,7 @@
 			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
-			"reqAttune": false,
+			"reqAttune": true,
 			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
