@@ -251,6 +251,34 @@
 			]
 		},
 		{
+			"name": "Heavy Gauntlet",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 6000,
+			"weaponCategory": "exotic",
+			"property": [
+				"DI",
+				"H",
+				"S",
+				"2H"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"These heavy gauntlets can be utilized in a unique style which allows you to dual-wield them (and ignore their two-handed property). When you do so, you take a negative modifier to the attack roll equal to half your proficiency bonus (rounded up)."
+					]
+				}
+			]
+		},
+		{
 			"name": "Brass Knuckles",
 			"source": "SRP",
 			"type": "M",
@@ -2212,6 +2240,62 @@
 			]
 		},
 		{
+			"name": "Coiling Grasp Tattoo",
+			"source": "GS",
+			"rarity": "uncommon",
+			"value": 60000,
+			"reqAttune": true,
+			"type": "Guild Shop Item",
+			"tier": "major",
+			"tattoo": true,
+			"entries": [
+				"Produced by a special needle, this magic tattoo has long intertwining designs. It dances around your arm in the shape of a snake.",
+				{
+					"type": "entries",
+					"name": "Grasping Tendrils",
+					"entries": [
+						"While the tattoo is on your skin, you can, as an action, cause the tattoo to extrude into inky tendrils, which reach for a creature you can see within 15 feet of you. The creature must succeed on a DC 14 Strength saving throw or take {@dice 3d6} force damage and be {@condition grappled} by you. As an action, the creature can escape the grapple by succeeding on a DC 14 Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check. The grapple also ends if you halt it (no action required), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Masquerade's Tattoo",
+			"source": "GS",
+			"rarity": "common",
+			"value": 1500,
+			"reqAttune": true,
+			"type": "Guild Shop Item",
+			"tier": "major",
+			"tattoo": true,
+			"entries": [
+				"Produced by a special needle, this magic tattoo appears on your body as whatever you desire.",
+				{
+					"type": "entries",
+					"name": "Fluid Ink",
+					"entries": [
+						"As a bonus action, you can shape any tattoos you've attuned to into any color or pattern, and move it to any area of your skin. You can also cause the tattoo to become invisible, blending into your skin and becoming unrecognizable as one. When it comes to changing its shape, the tattoo can range in size from no smaller than a copper piece, to an intricate work of art that covers all your skin."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
 			"name": "Lightbringer",
 			"baseItem": "mace|phb",
 			"source": "GS",
@@ -2509,6 +2593,250 @@
 				"These car keys can be paired with any technological vehicle after a ten minute linking process. Afterwards, the vehicle in question is shunted into its own personal pocket dimension. The car keys can only be linked to one vehicle at a time and, as such, this pocket dimension can hold one vehicle as well.",
 				"As a bonus action, you can press the button on the car keys, opening a portal to the pocket dimension and dispensing the linked vehicle within five feet of the user. Pressing the button again will shunt the vehicle back into the pocket dimension, immediately expelling any creatures inside or on the vehicle.",
 				"{@italic Item designed by @DIO#6259.}"
+			]
+		},
+		{
+			"name": "Ghost Captain's Coat",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"entries": [
+				"This coat is nice and crisp. Black leather runs down the entire frame of your body, like a trenchcoat, and your fancy pauldrons are made fancy with the thin tuffs of fur protruding from their edges. It truly makes you look the part of a captain.",
+				"While attuned to this coat, you gain proficiency with vehicles (water) if you do not already have it.",
+				"This coat has 3 charges. Once per day, you can cast the {@spell suggestion} spell (save DC 15) from it by expending 1 charge. You regain all expended charges each dawn.",
+				"In addition, the ghostly-fabric of the coat's make allows you to temporarily transcend boundaries. You can move through other creatures and objects other than physical barriers (such as walls, floors, or ceilings) as if they were difficult terrain. On your turn, you can pass through up to 10 feet of physical barriers (treating them as difficult terrain) as a part of your movement. If you end your turn inside an object or barrier, you take {@dice 1d10} force damage and are immediately ejected to the closest available space.",
+				"Once you move through a creature or object this way, you cannot do so again until next dawn.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Wand of Big Spheres",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"entries": [
+				"This rod has 3 charges. While holding the rod, you can use an action to expend one of the rod's charges and create a sphere of force that hovers 3 feet off the ground.",
+				"This sphere can hold up to 200 pounds, and follow you around at a distance you determine for up to 2 hours. The sphere is destroyed if it takes any damage, but any objects inside float to the ground as if affected by the 𝘧𝘦𝘢𝘵𝘩𝘦𝘳 𝘧𝘢𝘭𝘭 spell.",
+				"You can create up to 3 spheres per day, and the rod regains 3 charges daily at dawn.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Seeds of Wealth",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+				"These seeds resemble the seeds of a beech tree, but when successfully raised from sapling to blossom, they bear coins instead of fruit. Raising the tree from a mere sapling to its branching wisdom requires one month of tending."
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+				"When the tree blossoms, roll on the table to determine what type of coin the tree will bear:"
+					]
+				},
+									{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"{@dice 1d20}",
+													"Coin"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"{@bold 1-5}",
+														"Copper"
+													],
+													[
+														"{@bold 6-10}",
+														"Silver"
+													],
+													[
+														"{@bold 11-15}",
+														"Electrum"
+													],
+													[
+														"{@bold 16-19}",
+														"Gold"
+													],
+													[
+														"{@bold 20}",
+														"Platinum"
+													]
+												]
+											}
+										]
+									},
+				"The tree will bear a singular harvest, and afterwards, no more coins will blossom forth. The branches contain {@dice 20d20} coins of the type you rolled.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Balance of Power",
+			"source": "GS",
+			"rarity": "very rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 4500000,
+			"entries": [
+				"This scale glows with a ethereal light, beckoning those who have crossed its waters to obtain it with a glorious melody.",
+				"When a gem worth at least 500 GP is placed within the left-hand tray, the scale tips, and the gem shatters before completely being absorbed into the right-hand tray.",
+				"Afterwards, tangible energy rises from the right-hand tray and flies straight into your soul, as you become blessed with divine power. For the next 24 hours, an ability score of your choice is raised to 18. After the 24 hours elapse, that elevated ability score returns to normal.",
+				"You can only use this scale once per week, as it requires time to recharge its divine energies.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Golden Tongue",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": true,
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"entries": [
+				"This charm, in the shape of a small golden tongue, hangs from a necklace or strap and glimmers with a brilliant yellow sheen. Occasionally, you think you can hear whispers as if the tongue were attempting to communicate with you, but surely that's just your imagination.",
+				"While attuned, you can give yourself advantage on a Charisma ({@skill Persuasion}) check. However, if you choose to do so, you are required to make your argument in rhyming couplets.",
+				"If you fail to speak in rhyme when making this check, the check is instead rolled at normal, and you take {@dice 1d8} psychic damage.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Staff of the Geomancer",
+			"source": "GS",
+			"rarity": "very rare",
+			"tier": "major",
+			"reqAttune": "by a bard, cleric, druid, sorcerer, or wizard",
+			"type": "Guild Shop Item",
+			"value": 4500000,
+			"entries": [
+				"This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: {@spell stone shape} (1 charge), {@spell meld into stone} (2 charges), {@spell move earth} (4 charges), or {@spell wall of stone} (4 charges).",
+				"The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff blackens, crumbles into cinders, and is destroyed.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Chimes of the Will-o'-Wisp",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"entries": [
+				"This item can only be used by a bard.",
+				"These golden wind chimes flow in a non-existent breeze. They are not pushed by natural wind, but rather dance to the breeze of their own tune. They shine like a beacon in the Ethereal Plane.",
+				"Whenever a creature regains extra hit points from your Song of Rest feature, that creature gains resistance to one of the following damage types for up to one hour (their choice): acid, cold, fire, necrotic, thunder, or bludgeoning, piercing or slashing from non-magical weapons.",
+				"Once a creature has reduced damage from the chosen damage type, this effect ends.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Emblem of 1,000 Arms",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "minor",
+			"reqAttune": "by a monk",
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"entries": [
+				"This emblem attaches to a piece of clothing or armor via a pin on the backside. The emblem itself shows a golden fist in flight, multiplying to infinity as its afterimages clash alongside it. The backing is made of high-quality silver and steel.",
+				"While you are attuned to this emblem, whenever you use your Flurry of Blows feature, you can spend 2 ki points to make two additional unarmed strikes. You can only gain this effect once per turn.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Brute's Tattoo",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "minor",
+			"reqAttune": "by a rogue",
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"tattoo": true,
+			"entries": [
+				"This tattoo incorporates a light of a dagger in flight. Its swipe is detailed using arcs of ink, which effortlessly slot into larger designs like it was meant to be there.",
+				{
+					"type": "entries",
+					"name": "Vitality",
+					"entries": [
+				"After you use a bonus action granted by your Cunning Action feature, you gain a number of temporary hit points equal to 1 + your Constitution modifier. These temporary hit points last for one minute."					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				},
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Gloves of the Viper",
+			"source": "GS",
+			"rarity": "rare",
+			"tier": "minor",
+			"reqAttune": "by a fighter",
+			"type": "Guild Shop Item",
+			"value": 600000,
+			"entries": [
+				"These gloves slide over your hands like a thin veil of silk, although they feel coarse and rough. Black in color with spots of green, they make an interesting fashion statement. Thankfully though, fashion isn't the primary reason for donning these gloves.",
+				"After you regain hit points using your Second Wind feature, the next ranged or melee weapon attack you successfully hit with this turn deals an additional {@dice 1d10} + half your Fighter level poison damage.",
+				"In addition, a creature hit by the attack must make a Constitution saving throw with a DC equal to 8 + your proficiency bonus + your Strength or Dexterity modifier. On a failed save, that creature is poisoned until the end of their next turn.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Wand of Sudden Transposition",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": "by a spellcaster",
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"entries": [
+				"This wand has 7 charges. While holding it, you can use an action to expend 1 charge and suddenly transpose two creatures of your choice.",
+				"Choose two Small or Medium creatures that you can see within 120 feet. The creatures you select must either standing on the same surface or standing on surfaces which are physically connected by solid ground or structures.",
+				"A creature which is unwilling to be transposed must make a Charisma saving throw equal to your spell save DC. If neither creature makes a successful saving throw, both creatures are teleported, with each reappearing in the space previously occupied by the other.",
+				"This wand requires a verbal component to activate.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Handkerchief of Length",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"entries": [
+				"This item appears to be a normal silk handkerchief. However, when you place it in your pocket and speak the command word, you can then pull from your pocket a 50-foot long line of multi-colored handkerchiefs tied to each other. This functions exactly like a regular piece of rope.",
+				"When you stuff the handkerchiefs back in your pocket, they revert to the original handkerchief.",
+				"{@italic Item designed by @Amarulence#5357.}"
 			]
 		},
 		{
@@ -3172,7 +3500,7 @@
 				"{@bold Knight of Mistel}. You are supernaturally aware of any aberrations, celestials, elementals, fey, fiends, and undead within 100-feet of you while attuned to Mystletainn. In addition, you cannot be possessed by creatures of those types.",
 				"{@bold The Second Blade}. As an object interaction while Mystletainn is drawn, you can manifest its second half in an adjacent hand: Misteltein. Misteltein is a greatsword that deals {@dice 2d6} slashing damage, and maintains the same properties as Mystletainn (including its +2 bonus to attack and damage rolls).",
 				"{@bold Divine Authority}. You have advantage on checks and saving throws made to inflict the {@condition charmed} or {@condition frightened} conditions while attuned to this weapon, and the spell {@spell command} automatically fails on you. In addition, if you enter your Grand Celestia form while attuned to this weapon, you gain truesight up to 30-feet.",
-				"{@bold Celestial Assertion}. You have been granted 6 mastery points as per your contract with Mistel, which you have access to while attuned to this weapon. You can spend a specified number of mastery points in order to activate any following abilities (assuming you meet their activation requirements):",
+				"{@bold Celestial Assertion}. You have been granted 6 mastery points as per your contract with Mistel, which you have access to while attuned to this weapon. You can spend a specified number of mastery points in order to activate any following abilities (assuming you meet their activation requirements). You regain all expended mastery points on a long rest.",
 									{
 										"type": "entries",
 										"name": "",
@@ -3214,6 +3542,90 @@
 					"entries": [
 						"You have disadvantage when you use Mystletainn to attack a target within 5 feet of you. Also, Mystletainn requires two hands to wield when you aren't mounted."
 					]
+				},
+				"",
+				""
+			]
+		},
+		{
+			"name": "Red Magnum",
+			"source": "Arisen",
+			"tier": "major",
+			"rarity": "legendary",
+			"weaponCategory": "martial",
+			"property": [
+				"RE",
+				"AM",
+				"A",
+				"AR"
+			],
+			"dmg1": "2d6",
+			"dmgType": "psychic",
+			"range": "60/240",
+			"reload": "2",
+			"ammo": "no cost",
+			"reqAttune": true,
+			"entries": [
+				"{@italic This is the weapon of Krurm, modified to be used by Korth Axe.}",
+				"The Red Magnum was forged in the flames of Onios, using a modified dual-ingot casting which combines pigblood and demonsteel into a fortified union. It is said to be as strong as Krurm himself, and as durable as his signature weapon: Woebringer.",
+				"As a newly-forged weapon, its Mystery is low, but it more than makes up for that fact with its demonic power, granted to it by Krurm himself. As such, one could make the claim that Red Magnum has just as much Mystery as Krurm. Using the demonic energy in its barrel, one can fire Red Magnum using their own strength.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"{@bold Demonic Energy Chamber}. When making a ranged attack with this weapon, you use your Strength modifier instead of your Dexterity modifier for the attack and damage rolls.",
+				"{@bold You Fear Me Now}. You are immune to the {@condition frightened} condition. In addition, when a creature attempts to frighten you, you can use a reaction to manifest your aura of intimidation, war, and defilement. Expend one use of your Guided by the God of War feature, and that creature must make a Wisdom saving throw with its DC. On a failed save, that creature becomes {@condition frightened} and their movement speed becomes 0, or have their speed reduced by half on a successful save. Fiends have disadvantage on this save, and creatures immune to the {@condition frightened} condition autopass this save.",
+				"{@bold Battle Planning}.You have a list of fiends who you have dominated on the fields of combat as part of the Blood War. When you take a long rest, you can select 3 creatures on your fiend list to add to your prepared list. You cannot swap out creatures from your prepared list until you finish another long rest.",
+				"{@bold Blood War}. You have trained in the heart of Onios, and have manifested 12 blood points as per your contract with Krurm. You can spend a number of blood points as an action on your turn to summon a number of fiends from your prepared list decided by you. The CR of the creatures you summon must add up to the amount of blood points you expend. You regain all expended blood points on a long rest.",
+									{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Blood Points",
+													"Fiend List"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"{@bold 1 BP}",
+														""
+													],
+													[
+														"{@bold 2 BP}",
+														""
+													],
+													[
+														"{@bold 3 BP}",
+														""
+													],
+													[
+														"{@bold 4 BP}",
+														""
+													],
+													[
+														"{@bold 5 BP}",
+														""
+													],
+													[
+														"{@bold 6 BP}",
+														""
+													],
+													[
+														"{@bold 7 BP}",
+														""
+													],
+													[
+														"{@bold Etc.}",
+														""
+													]
+												]
+											}
+										]
+									},
+				{
 				},
 				"",
 				""
