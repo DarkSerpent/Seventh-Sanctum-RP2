@@ -1700,9 +1700,9 @@
 							"type": "entries",
 							"name": "Yes, My Queen (Passive)",
 							"entries": [
-								"When a creature CR 3 or above that you are engaging in combat with dies, you can use a reaction to assimilate the essence that their presence marked on the world, taking their true name and temporarily adding it as part of yours.",
+								"Once per turn, when a creature CR 3 or above that you are engaging in combat with dies, you can choose to assimilate the essence that their presence marked on the world, taking their true name and temporarily adding it as part of yours.",
 								"Upon doing this, your soul becomes etched with an ethereal marking known as a Night Mark. From the moment you absorb a creature's essence, you begin to use your own soul as a battery, empowering your combat abilities until it is fully drained.",
-								"This state lasts for one minute. At the end of this minute, you lose all Night Marks and gain one point of {@condition exhaustion}. Depending on how many Soul Marks you collect, you gain the following additional passive abilities:"
+								"This state lasts for ten minutes. Depending on how many Soul Marks you collect, you gain the following additional passive abilities:"
 							]
 						},
 						{
@@ -1742,7 +1742,7 @@
 													],
 													[
 														"{@bold Blessing of Sraosha (6).}",
-														"You heal for a quarter of the damage you deal, and you do not gain an {@condition exhaustion} point at the conclusion of this state."
+														"You heal for a quarter of the damage you deal."
 													]
 												]
 											}
