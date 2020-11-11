@@ -1297,6 +1297,24 @@
 			]
 		},
 		{
+			"name": "Warder",
+			"source": "SRP",
+			"prerequisite": [{
+				"other": "Cannot be used alongside the Mounted Combatant feat."
+			}],
+			"entries": [
+				"You have trained a creature under to employ to protect and defend you with all its might. Once per long rest, you can designate a creature you control to be your Warder. While a creature is your Warder, they gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Warder shares the same initiative as you, even if it normally cannot.",
+						"Your Warder gains an additional hit point maximum equal to 2 × your level.",
+						"While your Warder is within 5-feet of you, it can force an attack targeting you to target itself instead. Your Warder can also make Strength, Constitution, and Dexterity saving throws for you. If the saving throw would target the both of you, you only roll once."
+					]
+				}
+			]
+		},
+		{
 			"name": "Woke",
 			"source": "SRP",
 			"ability": [{
