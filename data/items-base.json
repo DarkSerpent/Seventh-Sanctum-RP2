@@ -3594,35 +3594,51 @@
 												"rows": [
 													[
 														"{@bold 1 BP}",
-														""
+														"{@creature vargouille|VGM}"
 													],
 													[
 														"{@bold 2 BP}",
-														""
+														"{@creature wind demon|CCodex}"
 													],
 													[
 														"{@bold 3 BP}",
-														""
+														"{@creature hell hound|MM}"
 													],
 													[
 														"{@bold 4 BP}",
-														""
+														"{@creature dybbuk|MTF}, {@creature merregon|MTF}"
 													],
 													[
 														"{@bold 5 BP}",
-														""
+														"{@creature barlgura|MM}"
 													],
 													[
 														"{@bold 6 BP}",
-														""
+														"{@creature white abishai|MTF}"
 													],
 													[
 														"{@bold 7 BP}",
-														""
+														"{@creature black abishai|MTF}, {@creature armanite|MTF}"
 													],
 													[
-														"{@bold Etc.}",
-														""
+														"{@bold 8 BP}",
+														"{@creature canoloth|MTF}"
+													],
+													[
+														"{@bold 9 BP}",
+														"{@creature nycaloth|MM}"
+													],
+													[
+														"{@bold 10 BP}",
+														"{@creature orthon|MTF}"
+													],
+													[
+														"{@bold 11 BP}",
+														"{@creature yagnoloth|MTF}"
+													],
+													[
+														"{@bold 12 BP}",
+														"{@creature erinyes|MM}"
 													]
 												]
 											}
