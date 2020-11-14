@@ -251,34 +251,6 @@
 			]
 		},
 		{
-			"name": "Heavy Gauntlet",
-			"source": "SRP",
-			"type": "M",
-			"rarity": "none",
-			"weight": 6,
-			"value": 6000,
-			"weaponCategory": "exotic",
-			"property": [
-				"DI",
-				"H",
-				"S",
-				"2H"
-			],
-			"dmg1": "1d8",
-			"dmgType": "B",
-			"sword": true,
-			"weapon": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Special",
-					"entries": [
-						"These heavy gauntlets can be utilized in a unique style which allows you to dual-wield them (and ignore their two-handed property). When you do so, you take a negative modifier to the attack roll equal to half your proficiency bonus (rounded up)."
-					]
-				}
-			]
-		},
-		{
 			"name": "Brass Knuckles",
 			"source": "SRP",
 			"type": "M",
