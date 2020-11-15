@@ -3922,7 +3922,7 @@
 					"type": "entries",
 					"name": "Automatic Fire",
 					"entries": [
-						"As part of your attack action, you can make a special attack against creatures in a cone in front of you, with the cone's size equal to half the weapon's short range. Expend 6 pieces of ammunition. Creatures in that cone must make a Dexterity saving throw with a DC equal to 8 + your Dexterity modifier + your proficiency bonus. On a failed save, those creatures take {@dice 2d8} + your Dexterity modifier piercing damage, or half as much on a successful save."
+						"As an attack action, you can make a special attack against creatures in a cone in front of you, with the cone's size equal to half the weapon's short range. Expend 6 pieces of ammunition. Creatures in that cone must make a Dexterity saving throw with a DC equal to 8 + your Dexterity modifier + your proficiency bonus. On a failed save, those creatures take {@dice 2d8} + your Dexterity modifier piercing damage, or half as much on a successful save."
 					]
 				}
 			]
