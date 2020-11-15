@@ -530,7 +530,7 @@
 										"name": "Reckless Abandon",
 										"entries": [
 											"At 6th level, you have forsaken the wellbeing of your weapons just as you've forsaken the wellbeing of your body, and you've become deadly in their handling.",
-											"When you rage, you can choose for your guns to enter Overheat. While in Overheat, shots fired from your firearms deal an additional 1d8 fire damage on a hit, and you ignore misfires on your firearm attacks.",
+											"When you rage, you can choose for your guns to enter Overheat. While in Overheat, ranged attacks made with your firearms deal an additional 1d8 fire damage on a hit, and you ignore misfires on your firearm attacks.",
 											"When your rage ends, your guns recoil from the shock of their reckless overuse, and their state becomes far worse than anything you could achieve naturally. Firearms you fired while in the Overheat state, regardless of whether the attack roll hit, are considered broken with a repair DC of 15 + the weapon's misfire score.",
 											"On a failed repair check, the weapon is broken and must be mended out of combat at half the cost of the firearm, rather than just a quarter."
 										]
