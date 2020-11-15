@@ -832,6 +832,57 @@
 			]
 		},
 		{
+			"name": "Submachine Pistol",
+			"source": "SRP",	
+			"type": "R",
+			"rarity": "none",
+			"weight": 4,
+			"value": 50000,
+			"weaponCategory": "firearm",
+			"property": [
+				"RE",
+				"MI",
+				"A",
+				"AM",
+				"AUTO",
+				"RF"
+			],
+			"dmg1": "1d8",
+			"range": "30/90",
+			"reload": "6",
+			"misfire": "4",
+			"ammo": "20 gp for 20",
+			"dmgType": "P",
+			"entries": [
+			]
+		},
+		{
+			"name": "Assault Rifle",
+			"source": "SRP",	
+			"type": "R",
+			"rarity": "none",
+			"weight": 9,
+			"value": 150000,
+			"weaponCategory": "firearm",
+			"property": [
+				"RE",
+				"MI",
+				"A",
+				"AM",
+				"2H",
+				"AUTO",
+				"AUTOF"
+			],
+			"dmg1": "1d10",
+			"range": "40/180",
+			"reload": "8",
+			"misfire": "4",
+			"ammo": "20 gp for 10",
+			"dmgType": "P",
+			"entries": [
+			]
+		},
+		{
 			"name": "Musket",
 			"source": "SRP",
 			"type": "R",
@@ -3833,6 +3884,45 @@
 					"name": "Explosive",
 					"entries": [
 						"On a hit, every creature within 5 feet of the target much make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer {@dice 1d8} fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so. Explosive weapons will also damage terrain (if applicable)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AUTO",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Automatic Weapon",
+					"entries": [
+						"Automatic weapons have a unique reload system from other firearms, and as such, feats or class features that allow you to ignore the reload property do not work on automatic weapons."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RF",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Rapid Fire",
+					"entries": [
+						"As an attack action, you can make a special attack against one target creature within range. Choose an amount of ammunition (minimum of 2, up to 3) you wish to expend from your weapon and make a ranged weapon attack roll. The target takes {@dice 1d6} piercing damage per piece of ammunition expended, up to a maximum of {@dice 3d6}. You can only Rapid Fire a weapon once per turn."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AUTOF",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Automatic Fire",
+					"entries": [
+						"As part of your attack action, you can make a special attack against creatures in a cone in front of you, with the cone's size equal to half the weapon's short range. Expend 6 pieces of ammunition. Creatures in that cone must make a Dexterity saving throw with a DC equal to 8 + your Dexterity modifier + your proficiency bonus. On a failed save, those creatures take {@dice 2d8} + your Dexterity modifier piercing damage, or half as much on a successful save."
 					]
 				}
 			]
