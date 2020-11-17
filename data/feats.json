@@ -230,13 +230,30 @@
 				"other": "Proficiency with rifles or muskets"
 			}],
 			"entries": [
-				"Rifles are complex weapons, but you know just how to make every shot count. You gain the following benefits when wielding a rifle or musket:",
+				"Rifles are complex weapons, but you know just how to make every shot count. You gain the following benefits when wielding a non-assault rifle or musket:",
 				{
 					"type": "list",
 					"items": [
 						"You gain a +1 bonus to attack rolls you make with these weapons.",
-						"You can reroll 1s to damage with these weapons.",
+						"You can reroll any 1s to damage die with these weapons.",
 						"If you roll a critical hit or deal a killing blow with these weapons, your shot pierces the target and strikes a creature within a 10-foot line behind it. If the original roll would hit the creature, it deals the damage (applied by the weapon) of the original roll. Otherwise, the bullet misses."
+					]
+				}
+			]
+		},
+		{
+			"name": "Distant Operator",
+			"source": "SRP",
+			"prerequisite": [{
+				"other": "Proficiency with rifles or muskets"
+			}],
+			"entries": [
+				"Rifles are complex weapons, but you've mastered the art of aiming them long distances. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"While peering through the scope of a non-assault rifle or musket, you can make out details of even extremely distant creatures and objects as small as 2 feet across. In addition, attacking at long range doesn't impose disadvantage on ranged weapon attacks you make with a rifle or musket.",
+						"If you are wielding a rifle or musket while you are {@condition prone}, you do not have disadvantage on attack rolls. In addition, you can use a bonus action to instill yourself with the confidence of a sniper. Starting at the beginning of your next turn and ending at the end of your next turn, you can treat an attack roll of 9 or lower with any of those weapons as a 10. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses on a long rest. You must be {@condition prone} to gain the benefits of these features."
 					]
 				}
 			]
