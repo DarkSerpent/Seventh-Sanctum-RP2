@@ -120,9 +120,9 @@
 				{
 					"type": "list",
 					"items": [
-						"a one-handed melee weapon which deals 1d6 damage.",
-						"a two-handed melee weapon which deals 1d10 damage.",
-						"a sling with range of 30/120 which deals 1d6 damage."
+						"a one-handed melee weapon with the light property that deals {@dice 1d6} bludgeoning, piercing, or slashing damage (your choice).",
+						"a two-handed melee weapon that deals {@dice 1d10} bludgeoning, piercing, or slashing damage (your choice).",
+						"a sling with range of 30/120 that deals {@dice 1d6} bludgeoning, piercing, or slashing damage (your choice)."
 					]
 				},
 				"While you wield your trusty weapon, you apply the following features to it:",
