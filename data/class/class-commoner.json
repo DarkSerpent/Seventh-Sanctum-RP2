@@ -558,7 +558,7 @@
 				"You know, magic isn't really that difficult. Wizards overcomplicate everything. At the end of the day, being a Wizard is just reading from a fancy book. You know how to read.",
 				"Starting at 5th level, you gain the ability to write up spells into your own spellbook called the Receptionist's Binder. You do not possess any spell slots, but you can cast spells as a ritual while your binder is in hand. Choose {@filter two|spells|level=1|level=2|components & miscellaneous= Ritual} 1st level spells and one 2nd level spell that both contain the ritual tag from any spell list. Your spellcasting ability for these spells is Intelligence.",
 				"If you come across a spell in written form during your travels, you can attempt to add them into your binder. The spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your binder requires two hours and 50 gold per level of the spell",
-				"In addition, you can use the {@action Help} action to assist spellcasters with the casting of their spells. While you are assisting an elly this way, they add your Intelligence modifier to their spell attack rolls. Finally, you can use the {@action Help} action on an ally within 10 feet of you."
+				"In addition, you can use the {@action Help} action to assist spellcasters with the casting of their spells. While you are assisting an ally this way, they add your Intelligence modifier to their spell attack rolls. Finally, you can use the {@action Help} action on an ally within 10 feet of you."
 			]
 		}
 						],
