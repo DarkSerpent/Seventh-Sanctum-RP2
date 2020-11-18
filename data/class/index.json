@@ -6,5 +6,6 @@
 	"brawler": "class-brawler.json",
 	"dragon knight": "class-dragonknight.json",
 	"rogue": "class-rogue.json",
-	"barbarian": "class-barbarian.json"
+	"barbarian": "class-barbarian.json",
+	"commoner": "class-commoner.json"
 }
