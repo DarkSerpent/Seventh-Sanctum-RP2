@@ -538,8 +538,8 @@
 				{
 					"type": "list",
 					"items": [
-						"The creature's threat level, determined by a numercial value refered to as CR or level.",
-						"The creature's level of fortitude, represented by a numercial scale called hit points. You learn whether the creature has less than your current hit points, more than your current hit points, or more than double your current hit points.",
+						"The creature's threat level, determined by a numerical value referred to as CR or level.",
+						"The creature's level of fortitude, represented by a numerical scale called hit points. You learn whether the creature has less than your current hit points, more than your current hit points, or more than double your current hit points.",
 						"The creature's designated area of expertise, often determined using a list of various professions called classes.",
 						"The arcana the creature was born under, if any.",
 						"Any resistances or immunities that the creature possesses."
