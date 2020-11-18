@@ -284,7 +284,7 @@
 		{
 			"name": "I Can't Believe That Worked!",
 			"entries": [
-				"Starting at 11th level, whenever you score a critical hit against an creature using the {@action Attack} action, you can make a second attack immediately after. In addition, the creature must make a Constitution saving throw with a DC equal to 8 + (2 × your proficiency bonus) or become {@condition stunned} until the end of its next turn. You can only stun a creature this way once per round."
+				"Starting at 11th level, whenever you score a critical hit against a creature using the {@action Attack} action, you can make a second attack immediately after. In addition, the creature must make a Constitution saving throw with a DC equal to 8 + (2 × your proficiency bonus) or become {@condition stunned} until the end of its next turn. You can only stun a creature this way once per round."
 			]
 		}
 		],
