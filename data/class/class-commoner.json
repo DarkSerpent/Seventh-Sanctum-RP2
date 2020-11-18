@@ -5,7 +5,7 @@
 			"source": "SRP",
 			"hd": {
 				"number": 1,
-				"faces": 6
+				"faces": 8
 			},
 			"proficiency": [
 				"con"
