@@ -273,10 +273,10 @@
 					"items": [
 						"When any member of the team makes an ability check, they may choose to use the relevant ability modifier of another member instead of their own.",
 						"If one member of the team is within 5 feet of a hostile creature, all other members of may attack that creature with advantage.",
-						"When you use the {@action Help} action to assist in attacking a hostile creature, any benefits of your Help action applie equally to all members of your team. If multiple allies hit the target, you may make multiple attacks with Assisting the Cause."
+						"When you use the {@action Help} action to assist in attacking a hostile creature, any benefits of your Help action apply equally to all members of your team. If multiple allies hit a creature, you may make multiple attacks with Assisting the Cause."
 					]
 				},
-				"Starting at 15th level, the amount of allies that can be members of your party increase to three."
+				"Starting at 15th level, the amount of allies that can be members of your team increase to three."
 			]
 		}
 		],
