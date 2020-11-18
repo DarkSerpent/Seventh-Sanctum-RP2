@@ -230,7 +230,15 @@
 								"name": "Knockback Fit",
 								"entries": [
 									"<i>{@bold Prerequisites:} a sling trusty weapon.</i>",
-									"With this Fit, projectiles from your sling have significant stopping power. When you hit a creature with a ranged weapon attack, you can forcefully knock a Huge or smaller creature back by 5 feet. Small or smaller creatures are instead thrown back 10 feet."
+									"With this Fit, projectiles from your sling have significant stopping power. When you hit a creature with a ranged weapon attack, you can forcefully knock a Huge or smaller creature back up to 5 feet. Small or smaller creatures are instead thrown back up to 10 feet."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "First Strike Fit",
+								"entries": [
+									"<i>{@bold Prerequisites:} a sling trusty weapon.</i>",
+									"With this Fit, projectiles from your sling fire unconventionally, taking most creatures by complete surprise. On your first attack against a creature in combat, you deal an additional {@dice 1d4} damage of your sling's type. This effect can be triggered on different creatures, but only on your first attack. Regardless of whether you miss."
 								]
 							}
 			]
