@@ -432,7 +432,7 @@
 				"DI",
 				"AN"
 			],
-			"dmg1": "1d6",
+			"dmg1": "1d4",
 			"dmgType": "P",
 			"sword": true,
 			"weapon": true,
