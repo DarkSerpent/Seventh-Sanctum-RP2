@@ -376,7 +376,7 @@
 								"type": "entries",
 								"name": "Seismic Slam",
 								"entries": [
-									"Immediately after you successfully grapple a creature on your turn, you can spend 1 flow point to slam them to the ground and knock them {@condition prone}. You can expend 1 additional flow point: that creature takes damage equal to your Beat 'Em Up die + your Strength modifier, and their movement speed is halved until the end of their next turn."
+									"Immediately after you successfully grapple a creature on your turn, you can spend 1 flow point to slam them to the ground and knock them {@condition prone}. You can expend 1 additional flow point: that creature takes damage equal to your Beat 'Em Up die + your Strength modifier, and they have disadvantage to checks made to escape your grapple until the end of their next turn."
 								]
 							},
 							{
@@ -414,7 +414,7 @@
 								"name": "Luck & Destiny",
 								"entries": [
 									"<i>{@bold Prerequisites:} 13th level.</i>",
-									"As a reaction to you failing a Strength, Dexterity, or Constitution saving throw, you can spend 3 flow points. Reroll the saving throw and take the higher result. You can only use this Flow Feature once per turn."
+									"As a reaction to you failing a Strength, Dexterity, or Constitution check or saving throw, you can spend 3 flow points. Reroll the saving throw and take the higher result. You can only use this Flow Feature once per turn."
 								]
 							},
 							{
