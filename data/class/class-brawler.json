@@ -414,7 +414,7 @@
 								"name": "Luck & Destiny",
 								"entries": [
 									"<i>{@bold Prerequisites:} 13th level.</i>",
-									"As a reaction to you failing a Strength, Wisdom, or Charisma check or saving throw, you can spend 3 flow points. Reroll the saving throw and take the higher result. You can only use this Flow Feature once per turn."
+									"As a reaction to you failing a Strength, Wisdom, or Charisma check or saving throw, you can spend 3 flow points. Reroll the check or saving throw and choose between any of the results."
 								]
 							},
 							{
