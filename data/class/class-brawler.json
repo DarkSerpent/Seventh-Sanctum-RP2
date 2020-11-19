@@ -361,7 +361,7 @@
 								"type": "entries",
 								"name": "Strike Steel",
 								"entries": [
-									"As a bonus action, you can spend 2 flow point to put up your guard. You gain temporary hit points equal to your Beat 'Em Up die + your Brawler level + your Constitution modifier. You ignore any leftover damage that would go over the temporary hit points into your hit point total granted by this ability."
+									"As a bonus action, you can spend 2 flow points to put up your guard. You gain temporary hit points equal to your Beat 'Em Up die + your Brawler level + your Constitution modifier. You ignore any leftover damage that would go over the temporary hit points into your hit point total granted by this ability."
 								]
 							},
 							{
@@ -390,8 +390,8 @@
 								"type": "entries",
 								"name": "Mage Seeker",
 								"entries": [
-									"When you hit a creature with an unarmed strike or gauntlet, you can spend 1 flow point. The target must succeed on a Constitution saving throw. On a failed save, that creature is {@condition deafened}, and cannot speak or cast spells that require verbal components until the end of your next turn.",
-									"If you hit a spellcaster with this feature, and that spellcaster failed the saving throw, you can expend 1 more flow point. On your next turn, you can cast the {@spell booming blade} spell as an action. When you do so, you can make an unarmed strike instead of a weapon attack, and you retain the ability to attack as a bonus action with your Beat 'Em Up feature."
+									"When you hit a creature with an unarmed strike or gauntlet, you can spend 1 flow point. The target must succeed on a Constitution saving throw. On a failed save, that creature becomes {@condition deafened}, and cannot speak or cast spells that require verbal components until the end of your next turn.",
+									"If you hit a spellcaster with this feature, and that spellcaster fails the saving throw, you can expend 1 additional flow point. On your next turn, you can cast the {@spell booming blade} cantrip as an action. When you do so, you can make an unarmed strike instead of a melee weapon attack, and you retain the ability to add on an attack as a bonus action with your Beat 'Em Up feature."
 								]
 							},
 							{
@@ -399,6 +399,30 @@
 								"name": "Adrenaline Rush",
 								"entries": [
 									"As a bonus action, you can expend 1 flow point. Your base movement speed increases by 15, you gain a climbing and swimming speed of 30 feet, and you ignore difficult terrain until the start of your next turn. You can expend 1 additional flow point: until the end of your next turn, your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start."
+								]
+							}, 
+							{
+								"type": "entries",
+								"name": "Dance to the Beat",
+								"entries": [
+									"As an attack action, you can spend 2 flow points to tap into the flow of battle, slamming your fist into the ground and disrupting the fighting grounds in a burst of violent heat. Any hostile creature within 10 feet must make a Charisma saving throw. On a failed save, those creatures take fire damage equal to your Beat 'Em Up die and fall {@condition prone}."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Luck & Destiny",
+								"entries": [
+									"<i>{@bold Prerequisites:} 13th level.</i>",
+									"As a reaction to you failing a Strength, Dexterity, or Constitution saving throw, you can spend 3 flow points. Reroll the saving throw and take the higher result. You can only use this Flow Feature once per turn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Tension Wire",
+								"entries": [
+									"<i>{@bold Prerequisites:} 13th level, must have hit points equal to half or less than your total.</i>",
+									"When you successfully land an attack against a creature, you can roll your Beat 'Em Up die. Expend a number of flow points equal to the amount you rolled. If you would expend more flow points that your current total, you instead expend a number of flow points until you hit 0. If you hit 0 flow points with this Flow Feature, or roll above an 8 on your Beat 'Em Up die, you gain one point of {@condition exhaustion}.",
+									"After you've expended your flow points, that creature must make a Constitution saving throw. On a failed save, that creature takes {@dice 1d10} force damage for every flow point you've expended, up to {@dice 10d10}, or half as much on a successful save. You can only use this Flow Feature once per turn."
 								]
 							}
 						]
@@ -715,6 +739,99 @@
 										"name": "Eyes Wide Open",
 										"entries": [
 											"By 17th level, your eyes have metaphysically tuned to the Way of Worlds, allowing you to visibly see the flow and make judgement calls under supernaturally-imposed threats and reaction times. As a bonus action, you can expend 3 flow points to open your senses to the flow for 1 minute. During this time, you have advantage on Dexterity, Intelligence, and Charisma saving throws, and gain truesight out to 30 feet."
+										]
+									}
+								]
+							}
+						]
+					]
+				},
+				{
+					"name": "Piss & Vinegar",
+					"shortName": "Piss & Vinegar",
+					"source": "SRP",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Piss & Vinegar",
+								"entries": [
+									"Brawlers in the Piss & Vinegar fight club revel in their reputations as heels. Widely despised for their obscene curses and dirty tricks, these brawlers take pride in their ability to provoke and fight to win at all costs.",
+									{
+										"type": "entries",
+										"name": "Victory Without Scars",
+										"entries": [
+											"Starting when you choose this fight club at 3rd level, you learned to stray away from scraps and conserve your energy is the result would be predetermined. You gain proficiency in {@skill Intimidation} checks. If you are already proficient, you instead gain expertise."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Salty Salute",
+										"entries": [
+											"Also at 3rd level, you've mastered the art of sliding in savory yet enraging insults in combat. On your turn, you can use a bonus action to provoke a creature within 60 feet to get bent. That creature must make a Wisdom saving throw with a DC equal to your Piss & Vinegar save DC.",
+											"On a failed save, that creature takes psychic damage equal to your Beat 'Em Up die + your Charisma modifier. In addition, that creature has disadvantage on attack rolls against creatures other than you until the start of your next turn.",
+											"For this feature, as well as any other Piss & Vinegar features that require a saving throw, the save DC is as follows:",
+											{
+												"type": "abilityDc",
+												"name": "Piss & Vinegar",
+												"attributes": [
+													"cha"
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dirty Tricks",
+										"entries": [
+											"Starting at 6th level, you've developed a few tricks you keep stored up your sleeve to even the odds when the going gets rough. You can use a total of three dirty tricks, and regain any expended uses when you finish a short or long rest",
+											"{@bold Heelstomper.} When you deal damage with an unarmed attack, you attempt to inflict a grevious, unending pain on the creature you hit. That creature must make a Dexterity saving throw. On a failed save, you gain 1 flow point (up to your maximum) and the creature's movement speed is halved for the next minute.",
+											"{@bold Low Blow.} When you deal damage with an unarmed attack, you can slide to the ground and strike at them below the belt. That creature must make a Strength saving throw. On a failed save, you gain 1 flow point (up to your maximum) and that creature is knocked {@condition prone}.",
+											"{@bold Pocket Sand.} As a bonus action, you reach into your pocket and douse your enemy with sand within 5 feet. That creature must make a Constitution saving throw. On a failed save, you gain 1 flow point (up to your maximum) and the creature is {@condition blinded} until the end of its next turn."
+										]
+									}
+								]
+							},
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Glorious Comeuppance",
+										"entries": [
+											"Also at 6th level, you've grown attuned to the flow of victory, allowing you to physical restore your vitality upon downing an enemy. When a hostile creature within 30 feet of you drops to 0 hit points, you can expend a use of this feature to regain hit points equal to your Beat 'Em Up die + your Charisma modifier. You can use this feature a number of times equal to your Charisma modifier (minimum 1), and regain all expended uses on a long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Rising Cruel Victory",
+										"entries": [
+											"Starting at 9th level, your threats and mean spirited tricks pack an attuned punch, as you grow closer to the flow of victory. When you make a {@skill Intimidation} check, you can use your reaction and spend 1 flow point to give yourself advantage on the roll. In addition, when a creature makes a saving throw against one of your Piss & Vinegar features, you can use your reaction and spend 1 flow point to impose disadvantage on that roll."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Victory At All Costs",
+										"entries": [
+											"By 17th level, your mere presence in a room seeks to offend all creatures, and it does so rather easily. When you use your Salty Salute feature, you can instead choose to target a number of creatures up to your Charisma modifier within 60 feet, rather than just one.",
+											"In addition, attunement to the flow of victory has granted you a unique taste for the anger creatures feel at your presence. You gain 1 flow point (up to your maximum) the first time any creature targeted by this feature hits you with an attack before the start of your next turn.",
+											"Once you use this feature, you cannot use it again until you finish a short or long rest."
 										]
 									}
 								]
