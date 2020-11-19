@@ -332,7 +332,8 @@
 					{
 						"name": "Unarmored Defense",
 						"entries": [
-							"Also at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Constitution modifier + your Charisma modifier."
+							"Also at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Constitution modifier.",
+							"Starting from when you choose your fight club at 3rd level, your Unarmored Defense becomes 10 + your Constitution modifier + your primary modifier (decided by your subclass)."
 						]
 					}
 				],
@@ -347,7 +348,8 @@
 								"type": "abilityDc",
 								"name": "Flow",
 								"attributes": [
-									"str"
+									"str",
+									"dex"
 								]
 							},
 							{
@@ -670,7 +672,7 @@
 										"type": "entries",
 										"name": "Ever Vigilant",
 										"entries": [
-											"As a Bloodhound Bruiser, you learned to watch your back—and to watch it good. Starting from when you choose this fight club at 3rd level, you can no longer be surprised, and you gain advantage on initiative rolls. In addition, during the first round of combat, you have advantage on attack rolls against creatures who have not acted yet."
+											"As a Bloodhound Bruiser, you learned to watch your back—and to watch it good. Starting from when you choose this fight club at 3rd level, you can no longer be surprised, and you gain advantage on initiative rolls. In addition, during the first round of combat, you have advantage on attack rolls against creatures who have not acted yet. Your primary modifier for this subclass is Intelligence."
 										]
 									},
 									{
@@ -761,7 +763,7 @@
 										"type": "entries",
 										"name": "Victory Without Scars",
 										"entries": [
-											"Starting when you choose this fight club at 3rd level, you learned to stray away from scraps and conserve your energy is the result would be predetermined. You gain proficiency in {@skill Intimidation} checks. If you are already proficient, you instead gain expertise."
+											"Starting when you choose this fight club at 3rd level, you learned to stray away from scraps and conserve your energy is the result would be predetermined. You gain proficiency in {@skill Intimidation} checks. If you are already proficient, you instead gain expertise. Your primary modifier for this subclass is Charisma."
 										]
 									},
 									{
@@ -849,12 +851,12 @@
 							{
 								"name": "Gladitorian Heart",
 								"entries": [
-									"Brawlers in the Gladitorian Heart fight club travel the world earning their keep as equal parts performer and gladiator. Whether performing in staged physical competitions, or fighting it out in unscripted brawls, brawlers in the Gladitorian Heart care as much about the theatrics of a fight as they do its outcome. Brawlers in this fight club also care deeply about their reputation and work to build up local and regional legends about their performing personas",
+									"Brawlers in the Gladitorian Heart fight club travel the world earning their keep as equal parts performer and gladiator. Whether performing in staged physical competitions, or fighting it out in unscripted brawls, brawlers in the Gladitorian Heart care as much about the theatrics of a fight as they do its outcome. Brawlers in this fight club also care deeply about their reputation and work to build up local and regional legends about their performing personas.",
 									{
 										"type": "entries",
 										"name": "Performing Arts",
 										"entries": [
-											"Starting when you choose this fight club at 3rd level, you gain proficiency in {@skill Performance}, if you do not already have it. If you do, you instead gain proficiency in {@skill Persuasion} or {@skill Intimidation} (your choice)."
+											"Starting when you choose this fight club at 3rd level, you gain proficiency in {@skill Performance}, if you do not already have it. If you do, you instead gain proficiency in {@skill Persuasion} or {@skill Intimidation} (your choice). Your primary modifier for this subclass is Charisma."
 										]
 									},
 									{
@@ -871,8 +873,8 @@
 											]
 											},
 											"Your attunement to the flow of the crowd has allowed your persona to become almost magical in nature. If your persona acts as a mask which hides your identity, unless a creature has been explicitly informed about your persona, they do not see you and your alternate persona as being the same person, even if the similarities appear obvious.",
-											"Additionally, you gain access to a special resource known as calling cards. You have a number of calling cards equal to 3 + your Charisma modifier, and regain all expended calling cards on a long rest. Whenever you use a Flow Feature which requires you to spend flow points, you can instead spend one or more calling cards. When you do so, your lead-in to the Flow Feature must be accompanied by a catchphrase.",
-											"In addition, before you make a Charisma check, you can expend one calling card to add your Strength modifier to the result. You can only expend calling cards in place of flow points while you are assuming your persona."
+											"Additionally, you gain access to a special resource known as calling cards. You have a number of calling cards equal to 3 + your Charisma modifier, and regain all expended calling cards on a long rest. Before you make an attack, you can expend a number of calling cards up to a maximum of 2. Until the end of your turn, your attacks score a critical hit on a roll of 19 to 20 with one calling card, or 18 to 20 with two.",
+											"In addition, before you make a Charisma check, you can expend one calling card to add your Strength modifier to the result. You can only expend calling cards while you are assuming your persona."
 										]
 									}
 								]
