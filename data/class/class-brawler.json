@@ -323,8 +323,9 @@
 							{
 								"type": "list",
 								"items": [
-									"You can roll a {@dice d6} in place of the normal damage for that weapon. This die increases in value as you gain levels in Brawler, as shown by the Beat 'Em Up column on the Brawler table.",
-									"When you make the Attack action on your turn with an unarmed strike, improvised weapon, brass knuckles, or gauntlet, you can make one attack with that weapon or grapple as a bonus action."
+									"You can roll a {@dice d4} in place of the normal damage for that weapon. This die increases in value as you gain levels in Brawler, as shown by the Beat 'Em Up column on the Brawler table.",
+									"When you make the Attack action on your turn with an unarmed strike, improvised weapon, brass knuckles, push dagger, or gauntlet, you can make one attack with that weapon or grapple as a bonus action.",
+									"Unarmed strikes, improvised weapons, brass knuckles, push daggers, and gauntlets count as &quot;Beat 'Em Up&quot; weapons for you."
 								]
 							}
 						]
@@ -371,7 +372,7 @@
 								"type": "entries",
 								"name": "Dodge & Weave",
 								"entries": [
-									"As a reaction to being missed by an melee or ranged attack, you can spend 1 flow point. Make one attack with an unarmed strike or gauntlet at a target within 5 feet of you. On a successful hit, you gain advantage on your next attack until the end of your next turn."
+									"As a reaction to being missed by an melee or ranged attack, you can spend 1 flow point. Make one attack with a Beat 'Em Up weapon at a target within 5 feet of you. On a successful hit, you gain advantage on your next attack until the end of your next turn."
 								]
 							},
 							{
@@ -385,7 +386,7 @@
 								"type": "entries",
 								"name": "Reverse Gravity",
 								"entries": [
-									"When you hit a creature with an unarmed strike or gauntlet, you can spend 1 flow point in an attempt to ground them. The target must succeed on a Constitution saving throw or have their speed be reduced to 0 until the end of your next turn. In addition, that target has disadvantage on attacks made to hit you until the end of their next turn.",
+									"When you hit a creature with a Beat 'Em Up weapon, you can spend 1 flow point in an attempt to ground them. The target must succeed on a Constitution saving throw or have their speed be reduced to 0 until the end of your next turn. In addition, that target has disadvantage on attacks made to hit you until the end of their next turn.",
 									"When you use this feature, you can choose to expend 1 additional flow point. The target has disadvantage to hit any creature until the end of their next turn, rather than just you."
 								]
 							},
@@ -393,7 +394,7 @@
 								"type": "entries",
 								"name": "Mage Seeker",
 								"entries": [
-									"When you hit a creature with an unarmed strike or gauntlet, you can spend 1 flow point. The target must succeed on a Constitution saving throw. On a failed save, that creature becomes {@condition deafened}, and cannot speak or cast spells that require verbal components until the end of your next turn.",
+									"When you hit a creature with a Beat 'Em Up weapon, you can spend 1 flow point. The target must succeed on a Constitution saving throw. On a failed save, that creature becomes {@condition deafened}, and cannot speak or cast spells that require verbal components until the end of your next turn.",
 									"If you hit a spellcaster with this feature, and that spellcaster fails the saving throw, you can expend 1 additional flow point. On your next turn, you can cast the {@spell booming blade} cantrip as an action. When you do so, you can make an unarmed strike instead of a melee weapon attack, and you retain the ability to add-on an attack as a bonus action with your Beat 'Em Up feature."
 								]
 							},
