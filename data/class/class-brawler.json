@@ -720,7 +720,7 @@
 										"type": "entries",
 										"name": "Heart of a Scrapper",
 										"entries": [
-											"Starting at 9th level, you've mastered the art of looking for trouble, and have found it inexcusably easy to get what you want. You gain the following benefits:",
+											"Starting at 11th level, you've mastered the art of looking for trouble, and have found it inexcusably easy to get what you want. You gain the following benefits:",
 											{
 												"type": "list",
 												"items": [
@@ -820,7 +820,7 @@
 										"type": "entries",
 										"name": "Rising Cruel Victory",
 										"entries": [
-											"Starting at 9th level, your threats and mean spirited tricks pack an attuned punch, as you grow closer to the flow of victory. When you make a {@skill Intimidation} check, you can use your reaction and spend 1 flow point to give yourself advantage on the roll. In addition, when a creature makes a saving throw against one of your Piss & Vinegar features, you can use your reaction and spend 1 flow point to impose disadvantage on that roll."
+											"Starting at 11th level, your threats and mean spirited tricks pack an attuned punch, as you grow closer to the flow of victory. When you make a {@skill Intimidation} check, you can use your reaction and spend 1 flow point to give yourself advantage on the roll. In addition, when a creature makes a saving throw against one of your Piss & Vinegar features, you can use your reaction and spend 1 flow point to impose disadvantage on that roll."
 										]
 									}
 								]
@@ -917,7 +917,7 @@
 										"type": "entries",
 										"name": "Improve, Decimate, Overcome",
 										"entries": [
-											"Starting at 9th level, your connection to the flow of the crowd manifests in your physical sense of being. For every allied creature within 60 feet, your base movement speed increases by 5 (up to a maximum of 15). In addition, your jump bonus is doubled, and you can use a bonus action on your turn in order to take the {@action Dash} action."
+											"Starting at 11th level, your connection to the flow of the crowd manifests in your physical sense of being. For every allied creature within 60 feet, your base movement speed increases by 5 (up to a maximum of 15). In addition, your jump bonus is doubled, and you can use a bonus action on your turn in order to take the {@action Dash} action."
 										]
 									}
 								]
@@ -942,6 +942,94 @@
 											"Your signature move is considered magical for the purposes of overcoming resistances and immunities to non-magical damage. When you use your signature move, you can jump in any direction up to your movement speed and make an attack roll against a creature in reach with advantage.",
 											"On a hit, you swap the damage of your attack with the one you chose during the creation of your signature move. In addition, if your signature move successfully hits, it is considered to be a critical hit, and the creature is {@condition stunned} until the end of your next turn.",
 											"After you successfully land a signature move, you cannot use it again until you finish a long rest. If you miss the attack with your signature move, you regain the ability to use it again in one minute."
+										]
+									}
+								]
+							}
+						]
+					]
+				},
+				{
+					"name": "Man's Best Friend",
+					"shortName": "Man's Best Friend",
+					"source": "SRP",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Man's Best Friend",
+								"entries": [
+									"You've never had a friend you could rely on that walked on two legs. Lucky for you, you’ve got the best four-legged friend a body could ask for. Brawlers in the Man's Best Friend fight club are as faithful to their canine companions as their canine companions are to them.",
+									{
+										"type": "entries",
+										"name": "By My Side",
+										"entries": [
+											"Starting when you choose this fight club at 3rd level, you gain proficiency in {@skill Animal Handling}, if you do not already have it. If you do, you instead gain proficiency in {@skill Perception} or {@skill Survival} (your choice). Your primary modifier for this subclass is Wisdom."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "My Best Friend",
+										"entries": [
+											"Also at 3rd level, you gain a hound that accompanies you on your adventures and fights alongside you. Your hound can be any breed of dog or similar canine creature, but uses the statistics of a {@creature wolf|MM} (found in appendix A of the Monster Manual) with the following changes:",
+											{
+											"type": "list",
+											"items": [
+												"You add your proficiency bonus to your hound's AC, saving throws, attack rolls, and damage rolls.",
+												"For each level after 3rd, your hound gains an additional {@dice d8} hit die and its hit point maximum increases respectively.",
+												"Your hound is special, bonded with you as a result of your attunement with the flow of beasts. If your hound dies, its body and anything it was carrying is siphoned off to the Afterlife. You can resurrect your hound by conducting a lengthy 8 hour ritual, where its soul returns to the lands of the living."
+											]
+											},
+											"You can use a free action on each of your turns to verbally command your hound to move and take the {@action Attack}, {@action Dash}, {@action Disengage}, {@action Dodge}, or {@action Help} action. It does not have its own turn unless you are {@condition incapacitated} or absent.",
+											"If you are incapacitated, the hound acts on your turn in intiative, or rolls for initiative if you are absent. The hound never requires your command to use its reaction, such as when making an opportunity attack."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Mutt with Flow",
+										"entries": [
+											"Starting at 6th level, you share everything with your faithful hound: food, shelter, and even your flow. If you expend flow points on your turn in order to use a Flow Feature, your hound gains one of the following benefits (decided by you):",
+											"{@bold Bold and Brash.} Your hound gains temporary hit points equal to your Beat 'Em Up die + your Wisdom modifier.<br />{@bold The Best Team.} You can replace one of your attacks this turn with an attack from your hound.<br />{@bold March of the Beast.} Your hound can take the {@action Dash} action as a bonus action.",
+											"You can only gain the benefits of Mutt with Flow once per turn."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "What a Good Boy!",
+										"entries": [
+											"Also starting at 6th level, you've trained your hound to become faithful to a fault. Your hound is immune to the {@condition charmed} condition, and has advantage on saving throws against being {@condition frightened} so long as it can see or hear you. Finally, your hound's attacks count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Just Like Family",
+										"entries": [
+											"Starting at 11th level, you and your trusty canine form a potent fighting team. When you use the Attack action on your turn, if your hound can see or hear you, it can use its reaction to make a melee attack.",
+											"In addition, when a creature deals damage to your hound with an attack, you can use your reaction to make an opportunity attack against that creature if you are within range."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "A Dire Situation",
+										"entries": [
+											"Starting at 17th level, your hound takes on the stats of a {@creature dire wolf|MM} (found in appendix A of the Monster Manual), instead of a {@creature wolf|MM}. Your hound continues to receive the benefits of your My Best Friend feature."
 										]
 									}
 								]
