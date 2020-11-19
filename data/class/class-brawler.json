@@ -405,7 +405,7 @@
 								"type": "entries",
 								"name": "Dance to the Beat",
 								"entries": [
-									"As an attack action, you can spend 2 flow points to tap into the flow of battle, slamming your fist into the ground and disrupting the fighting grounds in a burst of violent heat. Any hostile creature within 10 feet must make a Charisma saving throw. On a failed save, those creatures take fire damage equal to your Beat 'Em Up die and fall {@condition prone}."
+									"As an attack action, you can spend 2 flow points to tap into the flow of battle, slamming your fist into the ground and disrupting debris in a burst of violent heat. Any hostile creature within 10 feet must make a Charisma saving throw. On a failed save, those creatures take fire damage equal to your Beat 'Em Up die and fall {@condition prone}."
 								]
 							},
 							{
@@ -438,7 +438,7 @@
 					{
 						"name": "Fight Club",
 						"entries": [
-							"At 3rd level, you choose the type of brawling style you sign your likeness to: the Bloodhound Bruisers, the Piss & Vinegar, the Hard Hearted Thugs, or the Mixed Martial Mayhem. Each of which is detailed at the end of the class's description. Your choice grants you features at 3rd level, and again at 6th, 11th, and 17th level."
+							"At 3rd level, you choose the type of brawling style you sign your likeness to: the Bloodhound Bruisers, the Piss & Vinegar, the Gladitorian Heart, or the Mixed Martial Mayhem. Each of which is detailed at the end of the class's description. Your choice grants you features at 3rd level, and again at 6th, 11th, and 17th level."
 						],
 						"gainSubclassFeature": true
 					}
@@ -789,7 +789,7 @@
 										"type": "entries",
 										"name": "Dirty Tricks",
 										"entries": [
-											"Starting at 6th level, you've developed a few tricks you keep stored up your sleeve to even the odds when the going gets rough. You can use a total of three dirty tricks, and regain any expended uses when you finish a short or long rest",
+											"Starting at 6th level, you've developed a few tricks you keep stored up your sleeve to even the odds when the going gets rough. You can use a total of three dirty tricks, and regain any expended uses when you finish a short or long rest.",
 											"{@bold Heelstomper.} When you deal damage with an unarmed attack, you attempt to inflict a grevious, unending pain on the creature you hit. That creature must make a Dexterity saving throw. On a failed save, you gain 1 flow point (up to your maximum) and the creature's movement speed is halved for the next minute.",
 											"{@bold Low Blow.} When you deal damage with an unarmed attack, you can slide to the ground and strike at them below the belt. That creature must make a Strength saving throw. On a failed save, you gain 1 flow point (up to your maximum) and that creature is knocked {@condition prone}.",
 											"{@bold Pocket Sand.} As a bonus action, you reach into your pocket and douse your enemy with sand within 5 feet. That creature must make a Constitution saving throw. On a failed save, you gain 1 flow point (up to your maximum) and the creature is {@condition blinded} until the end of its next turn."
@@ -832,6 +832,112 @@
 											"By 17th level, your mere presence in a room seeks to offend all creatures, and it does so rather easily. When you use your Salty Salute feature, you can instead choose to target a number of creatures up to your Charisma modifier within 60 feet, rather than just one.",
 											"In addition, attunement to the flow of victory has granted you a unique taste for the anger creatures feel at your presence. You gain 1 flow point (up to your maximum) the first time any creature targeted by this feature hits you with an attack before the start of your next turn.",
 											"Once you use this feature, you cannot use it again until you finish a short or long rest."
+										]
+									}
+								]
+							}
+						]
+					]
+				},
+				{
+					"name": "Gladitorian Heart",
+					"shortName": "Gladitorian Heart",
+					"source": "SRP",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Gladitorian Heart",
+								"entries": [
+									"Brawlers in the Gladitorian Heart fight club travel the world earning their keep as equal parts performer and gladiator. Whether performing in staged physical competitions, or fighting it out in unscripted brawls, brawlers in the Gladitorian Heart care as much about the theatrics of a fight as they do its outcome. Brawlers in this fight club also care deeply about their reputation and work to build up local and regional legends about their performing personas",
+									{
+										"type": "entries",
+										"name": "Performing Arts",
+										"entries": [
+											"Starting when you choose this fight club at 3rd level, you gain proficiency in {@skill Performance}, if you do not already have it. If you do, you instead gain proficiency in {@skill Persuasion} or {@skill Intimidation} (your choice)."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "The Grand Reveal",
+										"entries": [
+											"Also at 3rd level, you adopt an alternate persona that you can manifest or discard as a bonus action. When creating your persona, think of the following criteria in order to truly stand out alongside your contemporaries:",
+											{
+											"type": "list",
+											"items": [
+												"Your persona can be an elevated version of yourself (such as &quot;Eragon the Great&quot;) or a mask that hides your true identity (such as &quot;The Fists of Rage&quot;).",
+												"Think of adopting a prominent idiosyncratic feature that defines your persona, such as cape, mask, or unique weapon.",
+												"Every good persona needs a catchphrase. Or two. Or couple dozen. Come up with some one-liners you can drop in combat that all your fans and supporters may know you by."
+											]
+											},
+											"Your attunement to the flow of the crowd has allowed your persona to become almost magical in nature. If your persona acts as a mask which hides your identity, unless a creature has been explicitly informed about your persona, they do not see you and your alternate persona as being the same person, even if the similarities appear obvious.",
+											"Additionally, you gain access to a special resource known as calling cards. You have a number of calling cards equal to 3 + your Charisma modifier, and regain all expended calling cards on a long rest. Whenever you use a Flow Feature which requires you to spend flow points, you can instead spend one or more calling cards. When you do so, your lead-in to the Flow Feature must be accompanied by a catchphrase.",
+											"In addition, before you make a Charisma check, you can expend one calling cars to add your Strength modifier to the result. You can only expend calling cards in place of flow points while you are assuming your persona."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "The Crowd, My People",
+										"entries": [
+											"Starting at 6th level, your alternate persona manifests into an aura of charisma that draws followers to your name. While you are adopting your alternate persona, you can use an action to inspire adoration or fear (your choice) into those nearby.",
+											"A number of creatures equal to your 2 × your Charisma modifier within 60 feet who can see you must make a Wisdom saving throw with a DC equal to 8 + your proficiency bonus + your Strength modifier. On a failed save, those creatures are put under one of the following effects:",
+											{
+											"type": "list",
+											"items": [
+												"If you chose adoration, those creatures are {@condition charmed} for one minute.",
+												"If you chose fear, those creatures are {@condition frightened} for one minute."
+											]
+											},
+											"Each time a creature takes damage from you or your allies, they can repeat this saving throw, ending the effect on a success. Once you use this feature, you cannot use it again until you finish a long rest."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Thunder of Their Hearts",
+										"entries": [
+											"Also starting at 6th level, the souls of your supporters call out to you, both good and bad. For every creature that is {@condition charmed} or {@condition frightened} by you within 60 feet, you gain a +1 bonus to attack and damage rolls you make using your Beat 'Em Up feature (up to a maximum of +3)."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Improve, Decimate, Overcome",
+										"entries": [
+											"Starting at 9th level, your connection to the flow of the crowd manifests in your physical sense of being. For every allied creature within 60 feet, your base movement speed increases by 5 (up to a maximum of 15). In addition, your jump bonus is doubled, and you can use a bonus action on your turn in order to take the {@action Dash} action."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "The Final Countdown",
+										"entries": [
+											"Starting at 17th level, you have crafted a signature move that you can use while you are adopting your alternate persona. When designing your signature move, consider the following:",
+											{
+											"type": "list",
+											"items": [
+												"Supply your signature move with a name.",
+												"Describe how your move goes into effect, and what happens while you are performing it.",
+												"Decide whether your move does: slashing, bludgeoning, piercing, fire, cold, lightning, thunder, poison, or acid damage."
+											]
+											},
+											"Your signature move is considered magical for the purposes of overcoming resistances and immunities to non-magical damage. When you use your signature move, you can jump in any direction up to your movement speed and make an attack roll against a creature in reach with advantage.",
+											"On a hit, you swap the damage of your attack with the one you chose during the creation of your signature move. In addition, if your signature move successfully hits, it is considered to be a critical hit, and the creature is {@condition stunned} until the end of your next turn.",
+											"After you successfully land a signature move, you cannot use it again until you finish a long rest. If you miss the attack with your signature move, you regain the ability to use it again in one minute."
 										]
 									}
 								]
