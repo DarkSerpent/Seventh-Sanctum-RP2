@@ -976,6 +976,7 @@
 											"items": [
 												"You add your proficiency bonus to your hound's AC, saving throws, attack rolls, and damage rolls.",
 												"For each level after 3rd, your hound gains an additional {@dice d8} hit die and its hit point maximum increases respectively.",
+												"In addition, your hound's hit point total also increases by an amount equal to your Wisdom modifier × your Brawler level.",
 												"Your hound is special, bonded with you as a result of your attunement with the flow of beasts. If your hound dies, its body and anything it was carrying is siphoned off to the Afterlife. You can resurrect your hound by conducting a lengthy 8 hour ritual, where its soul returns to the lands of the living."
 											]
 											},
