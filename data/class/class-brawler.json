@@ -392,7 +392,7 @@
 								"name": "Mage Seeker",
 								"entries": [
 									"When you hit a creature with an unarmed strike or gauntlet, you can spend 1 flow point. The target must succeed on a Constitution saving throw. On a failed save, that creature becomes {@condition deafened}, and cannot speak or cast spells that require verbal components until the end of your next turn.",
-									"If you hit a spellcaster with this feature, and that spellcaster fails the saving throw, you can expend 1 additional flow point. On your next turn, you can cast the {@spell booming blade} cantrip as an action. When you do so, you can make an unarmed strike instead of a melee weapon attack, and you retain the ability to add on an attack as a bonus action with your Beat 'Em Up feature."
+									"If you hit a spellcaster with this feature, and that spellcaster fails the saving throw, you can expend 1 additional flow point. On your next turn, you can cast the {@spell booming blade} cantrip as an action. When you do so, you can make an unarmed strike instead of a melee weapon attack, and you retain the ability to add-on an attack as a bonus action with your Beat 'Em Up feature."
 								]
 							},
 							{
