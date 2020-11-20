@@ -686,7 +686,7 @@
 										"type": "entries",
 										"name": "Detective Work",
 										"entries": [
-											"Also at 3rd level, you gain proficiency with two of the following skills of your choice: {@skill Insight}, {@skill Investigation}, or {@skill Perception}. In addition, when you make an Intelligence ({@skill Investigation}), Wisdom ({@skill Insight}), or Wisdom ({@skill Perception}) check, you can spend 1 flow point to gain advantage on that ability check.",
+											"Also at 3rd level, you gain proficiency with two of the following skills of your choice: {@skill Insight}, {@skill Investigation}, or {@skill Perception}. You can spend 1 flow point to allow these skills to use your Intelligence, rather than Wisdom. In addition, when you make an Wisdom ({@skill Insight}), Intelligence ({@skill Investigation}), or Wisdom ({@skill Perception}) check, you can spend 1 flow point to gain advantage on that ability check.",
 											"In addition, your connection to the Bloodhound Bruisers has allowed for you to feel the flow in abnormal and supernatural ways. As an action, you can spend 2 flow points to target a creature within 60 feet of you. You learn that creature's vulnerabilities, resistances, and immunities, as well as their creature type."
 										]
 									}
@@ -712,7 +712,7 @@
 										"type": "entries",
 										"name": "The Jury Stands",
 										"entries": [
-											"Also at 6th level, you've grown attuned to the flow of a lie, and can extract the truth from the eyes of your victims. So long as you are making direct eye contact with a creature, you have advantage on Wisdom ({@skill Insight}) checks to determine if they are lying. In addition, you can expend 2 flow points to force a creature you have direct eye contact with to make a Charisma saving throw. On a failed save, that creature finds it impossible to speak any words that are not the truth.",
+											"Also at 6th level, you've grown attuned to the flow of a lie, and can extract the truth from the eyes of your victims. So long as you are making direct eye contact with a creature, you have advantage on Intelligence ({@skill Insight}) checks to determine if they are lying. In addition, you can expend 2 flow points to force a creature you have direct eye contact with to make a Charisma saving throw. On a failed save, that creature finds it impossible to speak any words that are not the truth.",
 											"You cannot restrict a creature that is immune to the {@condition charmed} condition to only speak the truth. A creature in an {@spell antimagic field} is also immune to the effects of this restriction. The DM does not inform you whether the results of the roll were successful in restricting the creature—only if they passed or failed the roll."
 										]
 									}
