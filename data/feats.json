@@ -1352,6 +1352,41 @@
 			]
 		},
 		{
+			"name": "Choice of a Reaper",
+			"source": "SRP",
+			"prerequisite": [{
+				"other": "Cannot be used alongside the Tune of a Reaper feat."
+			}],
+			"entries": [
+				"A scythe is at its deadliest when its being used to its fullest extent. For you, this means utilizing it at its maximum range. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When attacking at your maximum reach, your two-handed scythe deals {@dice 2d6} damage, rather than {@dice 2d4}.",
+						"If you make an attack with your two-handed scythe using the Attack action, you can use a bonus action to turn it into a special weapon attack against a creature within 15 feet. This attack does not activate your scythe's special property. Instead, on a successful hit, you deal your scythe's normal damage and pull the creature into an unoccupied space 5 feet in your direction."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tune of a Reaper",
+			"source": "SRP",
+			"prerequisite": [{
+				"other": "Cannot be used alongside the Choice of a Reaper feat."
+			}],
+			"entries": [
+				"Others treat scythes with the lumber of an oaf. You treat them as they were always meant to be—a fleeting weapon which spins around with the lightest of nudges. You attack like a dance, and your enemies become ravaged by the sight. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"The damage for the special property of your scythe increases to {@dice 1d6} (from {@dice 1d4}).",
+						"When you take the Attack action on your turn while wielding a two-handed scythe, you can move 10 feet in any direction before making the attack. When you use this ability, you must move to a space within the creature's range.",
+						"As a bonus action, you begin to hum a tune, spinning your scythe along to the rhythm. On your next successful hit with your two-handed scythe, you slash in beautiful yet deadly patterns, slicing-and-dicing through all creatures in your wake. You deal an additional {@dice 4d4} damage of your weapon's type, and all creatures within 5 feet of you other than the creature you targeted take {@dice 2d4} slashing damage. Once you use this ability, you cannot use it again until you finish a short or long rest."
+					]
+				}
+			]
+		},
+		{
 			"name": "Woke",
 			"source": "SRP",
 			"ability": [{
