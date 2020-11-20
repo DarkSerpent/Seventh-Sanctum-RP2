@@ -2320,7 +2320,7 @@
 					"type": "entries",
 					"name": "Specialized Attunement",
 					"entries": [
-						"This tattoo shares its attunement with other tattoos, and does not count as an attunement so long as you are currently attuned to another tattoo that is not the Masquerades' Tattoo."
+						"This tattoo shares its attunement with other tattoos, and does not count as an attunement so long as you are currently attuned to another tattoo that is not the Masquerade's Tattoo."
 					]
 				},
 				"{@italic Item designed by @Amarulence#5357.}"
@@ -2812,7 +2812,7 @@
 					"type": "entries",
 					"name": "Rougish Vitality",
 					"entries": [
-				"After you use a bonus action granted by your Cunning Action feature, you gain a number of temporary hit points equal to 1 + your Constitution modifier. These temporary hit points last for one minute. In addition, if you use your bonus action to {@action Dash} using your Cunning Action feature and step within range of a hostile creature, you can make a single attack as a free action. You can only use the second effect of Rougish Vitality once per turn."					]
+				"After you use a bonus action granted by your Cunning Action feature, you gain a number of temporary hit points equal to 1 + your Constitution modifier. These temporary hit points last for one minute. In addition, if you use your bonus action to {@action Dash} using your Cunning Action feature and step within reach of a hostile creature, you can make a single attack as a free action. You can only use the second effect of Rougish Vitality once per turn."					]
 				},
 				{
 					"type": "entries",
