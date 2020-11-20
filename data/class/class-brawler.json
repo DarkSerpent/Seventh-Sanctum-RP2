@@ -325,7 +325,7 @@
 								"items": [
 									"You can roll a {@dice d4} in place of the normal damage for that weapon. This die increases in value as you gain levels in Brawler, as shown by the Beat 'Em Up column on the Brawler table.",
 									"When you make the Attack action on your turn with an unarmed strike, improvised weapon, brass knuckles, push dagger, or gauntlet, you can make one attack with that weapon or grapple as a bonus action.",
-									"Unarmed strikes, improvised weapons, brass knuckles, push daggers, and gauntlets count as &quot;Beat 'Em Up&quot; weapons for you."
+									"Unarmed strikes, improvised weapons, brass knuckles, push daggers, and gauntlets count as &quot;Beat 'Em Up weapons&quot; for you."
 								]
 							}
 						]
