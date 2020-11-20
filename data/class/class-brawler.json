@@ -473,7 +473,7 @@
 						"entries": [
 							"At 5th level, you can throw aside all concern for accuracy in order to land a square, crushing blow onto your opponent.",
 							"When you make your first attack on your turn, you can decide to throw a powerful Haymaker onto your opponent. Doing so gives you disadvantage on that first attack. On a successful hit, you add double your Beat 'Em Up die to the damage of that attack, and every attack afterwards until the end of your turn has advantage.",
-							"You can use this feature a number of times equal to your Strength modifier, and regain all expended charges on a long rest."
+							"You can use this feature a number of times equal to your Strength or Dexterity modifier (minimum of 1), and regain all expended charges on a long rest."
 						]
 					}
 				],
