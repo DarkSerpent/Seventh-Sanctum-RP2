@@ -579,7 +579,7 @@
 					{
 						"name": "Unbreakable Resolve",
 						"entries": [
-							"Starting at 14th level, you gain proficiency in Dexterity saving throws. In addition, whenever you fail a saving throw, you can spend 2 flow points to reroll the save and take the second result."
+							"Starting at 14th level, you gain proficiency in Dexterity saving throws. If you already have proficiency in Dexterity saving throws, you can pick between Strength or Constitution. In addition, whenever you fail a saving throw, you can spend 2 flow points to reroll the save and take the second result."
 						]
 					}
 				],
