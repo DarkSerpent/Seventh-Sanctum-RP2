@@ -355,17 +355,17 @@
 							},
 							{
 								"type": "entries",
-								"name": "Quick Jabs",
-								"entries": [
-									"Immediately after you take the Attack action on your turn, you can spend 1 flow point to make two unarmed strikes as a bonus action. If both unarmed strikes hit, you can move 10 feet in any direction for free without provoking opportunity attacks."
-								]
-							},
-							{
-								"type": "entries",
 								"name": "Strike Steel",
 								"entries": [
 									"As a bonus action, you can spend 2 flow points to put up your guard. You gain temporary hit points equal to your Beat 'Em Up die + your Brawler level + your Constitution modifier. You ignore any leftover damage that would supercede the temporary hit points granted by this Flow Feature.",
 									"{@note {@b (As an example, this means if you were to have 10 temporary hit points, and an attack against you would deal 20 damage, the remaining 10 damage does not go towards your natural hit point total.)}}"
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Thunderous Applause",
+								"entries": [
+									"As a reaction to successfully hitting a creature with a Beat 'Em Up weapon on your turn, you can spend 1 flow point to deal additional thunder damage equal to two of your Beat 'Em Up die + your Constitution modifier."
 								]
 							},
 							{
@@ -439,6 +439,12 @@
 					}
 				],
 				[
+					{
+						"name": "Quick Jabs",
+						"entries": [
+							"At 3rd level, your ability to feel the flow of combat grants you extraordinary reflexes. Immediately after you take the Attack action on your turn, you can spend 1 flow point to make two unarmed strikes as a bonus action. If both unarmed strikes hit, you can move 10 feet in any direction for free without provoking opportunity attacks."
+						]
+					},
 					{
 						"name": "Fight Club",
 						"entries": [
