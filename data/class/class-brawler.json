@@ -424,7 +424,7 @@
 								"type": "entries",
 								"name": "Tension Wire",
 								"entries": [
-									"<i>{@bold Prerequisites:} 13th level, must have hit points equal to half or less than your total.</i>",
+									"<i>{@bold Prerequisites:} 13th level, must have hit points equal to half your total or less than half your total.</i>",
 									"When you successfully land an attack against a creature, you can roll a {@dice 1d4}. Expend a number of flow points equal to the amount you rolled. If you would expend more flow points that your current total, you instead expend a number of flow points until you hit 0. If you hit 0 flow points with this Flow Feature, or roll a 4 on your {@dice d4}, you gain one point of {@condition exhaustion}.",
 									"After you've expended your flow points, that creature takes {@dice 2d8} force damage for every flow point you've expended, up to {@dice 8d8}. In addition, if you gained a point of {@condition exhaustion} using this Flow Feature, the creature takes an additional {@dice 2d6} psychic damage. You can only use this Flow Feature once per turn."
 								]
