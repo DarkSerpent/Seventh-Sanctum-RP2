@@ -120,8 +120,8 @@
 				{
 					"type": "list",
 					"items": [
-						"a one-handed melee weapon with the light property that deals {@dice 1d6} bludgeoning, piercing, or slashing damage (your choice).",
-						"a two-handed melee weapon that deals {@dice 1d10} bludgeoning, piercing, or slashing damage (your choice).",
+						"a one-handed melee weapon with the light and finesse properties that deals {@dice 1d6} bludgeoning, piercing, or slashing damage (your choice).",
+						"a two-handed melee weapon with the reach property that deals {@dice 1d10} bludgeoning, piercing, or slashing damage (your choice).",
 						"a sling with range of 30/120 that deals {@dice 1d6} bludgeoning, piercing, or slashing damage (your choice)."
 					]
 				},
