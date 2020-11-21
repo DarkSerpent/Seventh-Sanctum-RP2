@@ -105,7 +105,7 @@
 									}
 								]
 							},
-							2
+							3
 						],
 						[
 							{
@@ -117,55 +117,7 @@
 									}
 								]
 							},
-							3
-						],
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 1,
-										"faces": 6
-									}
-								]
-							},
-							3
-						],
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 1,
-										"faces": 6
-									}
-								]
-							},
 							4
-						],
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 1,
-										"faces": 6
-									}
-								]
-							},
-							4
-						],
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 1,
-										"faces": 6
-									}
-								]
-							},
-							5
 						],
 						[
 							{
@@ -197,19 +149,7 @@
 								"toRoll": [
 									{
 										"number": 1,
-										"faces": 8
-									}
-								]
-							},
-							6
-						],
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 1,
-										"faces": 8
+										"faces": 6
 									}
 								]
 							},
@@ -221,19 +161,7 @@
 								"toRoll": [
 									{
 										"number": 1,
-										"faces": 8
-									}
-								]
-							},
-							7
-						],
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 1,
-										"faces": 8
+										"faces": 6
 									}
 								]
 							},
@@ -245,19 +173,7 @@
 								"toRoll": [
 									{
 										"number": 1,
-										"faces": 8
-									}
-								]
-							},
-							8
-						],
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 1,
-										"faces": 8
+										"faces": 6
 									}
 								]
 							},
@@ -269,19 +185,7 @@
 								"toRoll": [
 									{
 										"number": 1,
-										"faces": 10
-									}
-								]
-							},
-							9
-						],
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 1,
-										"faces": 10
+										"faces": 6
 									}
 								]
 							},
@@ -293,11 +197,11 @@
 								"toRoll": [
 									{
 										"number": 1,
-										"faces": 10
+										"faces": 8
 									}
 								]
 							},
-							10
+							11
 						],
 						[
 							{
@@ -305,11 +209,107 @@
 								"toRoll": [
 									{
 										"number": 1,
-										"faces": 10
+										"faces": 8
 									}
 								]
 							},
 							12
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							13
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							14
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							15
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							16
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							17
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							18
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							19
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							20
 						]
 					]
 				}
