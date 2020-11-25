@@ -191,7 +191,7 @@
 			"name": "Assisting the Cause",
 			"entries": [
 				"You may not be as crazy as the adventurers around you, but you can assist regardless of the circumstances. Starting at 5th level, whenever you assist an ally using the {@action Help} action, that ally adds your proficiency bonus to their melee and ranged weapon attack rolls.",
-				"In addition, if an ally you assist using the {@action Help} action successfully hits a creature, you can follow up with your own barrage. You make one attack on the same creature at the end of your ally's turn."
+				"In addition, if an ally you assist using the {@action Help} action successfully hits a creature on their turn, you can follow up with your own barrage. You make one attack on the same creature at the end of your ally's turn. If your ally hit multiple creatures, you choose one to attack."
 			]
 		},
 		{
