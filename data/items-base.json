@@ -2857,6 +2857,68 @@
 			]
 		},
 		{
+			"name": "Makeshift Figurine",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"entries": [
+				"This figurine of wondrous power is a statuette of no discernible shape, crafted to look like a neckpiece, symbol, or other such fashionable item. Magical teleportation runes etched into the surface betray the figurine's wondrous properties, and a small hook is located near the top in order to allow it to become a necklace.",
+				"After channeling for one minute, you can speak the makeshift figurine's command word and hold it out towards a willing creature you control within 10 feet of you which does not have the humanoid type. That creature's presence is inscribed into the figurine, storing both their spirit and their body into the magic of the item.",
+				"If you use an action to speak the command word in reverse and hold out the figurine once more, the creature you stored within the makeshift figurine is summoned at a point within 60 feet of you.",
+				"Unlike a normal figurine, this makeshift figurine does not magically tie a creature to it. If a creature that once inhabited the figurine drops to 0 hit points, the creature does not jump back into the figurine. The purpose of the makeshift figurine is to allow safe transport of creatures under the user's control, and does not seek to extend those creature's life.",
+				"While in the figurine, the creature is considered to be unconscious. The creature does not need to eat, drink, or breathe while stored inside the figurine.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Magnetic Weapon Holder Strips",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 60000,
+			"entries": [
+				"These small yet powerful magnets are placed on the legs, waist, or back, and are used to hold any equipment with a magnetic property (i.e., metallic objects). Typically, these strips mainly used to holster weapons when not in use, and can be integrated in armor. However, it has been adapted to also be worn without armor using straps. These magnetic strips allows the user to carry weapons with ease up to a maximum of four (up to two weapons with the heavy property). However, this system does not alleviate weight.",
+				"While wearing this system, the user can switch between one holstered weapon to another as a single item interaction.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+				"{@italic Item designed by @MiriamRose#2345.}"
+			]
+		},
+		{
+			"name": "Medi-Gel",
+			"source": "GS",
+			"rarity": "common",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 15000,
+			"entries": [
+				"A useful item in both Zyrian civilian life and in the military. Medi-Gel is a medical agent produced by the Zaibatsu Corp. It is exported to neighboring countries. It is advanced enough to treat various kinds of wounds from blunt trauma to burns. Medi-Gel can be purchased legally over-the-counter.",
+				"As an action, a creature can apply a gel to the skin. The creature that receives it regains {@dice 2d4} hit points.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+				"{@italic Item designed by @MiriamRose#2345.}"
+			]
+		},
+		{
+			"name": "Bio-Foam",
+			"source": "GS",
+			"rarity": "common",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 15000,
+			"entries": [
+				"A useful item in both Zyrian civilian life and in the military. It is exported to neighboring countries. A form of a first aid, Bio-Foam protects and seals wounds and regenerates tissue. Bio-Foam can be purchased legally over-the-counter.",
+				"Bio-Foam comes in a single canister, enough for one use. As an action, a creature can stablize a target and render them immune to disease for {@dice 1d4} hours. Additionally, a stablized creature will regain consciousness in one hour instead of {@dice 1d4} hours.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+				"{@italic Item designed by @MiriamRose#2345.}"
+			]
+		},
+		{
 			"name": "Handkerchief of Length",
 			"source": "GS",
 			"rarity": "uncommon",
