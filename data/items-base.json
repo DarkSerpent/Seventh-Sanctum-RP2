@@ -2884,7 +2884,7 @@
 			"entries": [
 				"These small yet powerful magnets are placed on the legs, waist, or back, and are used to hold any equipment with a magnetic property (i.e., metallic objects). Typically, these strips mainly used to holster weapons when not in use, and can be integrated in armor. However, it has been adapted to also be worn without armor using straps. These magnetic strips allows the user to carry weapons with ease up to a maximum of four (up to two weapons with the heavy property). However, this system does not alleviate weight.",
 				"While wearing this system, the user can switch between one holstered weapon to another as a single item interaction.",
-				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
 				"{@italic Item designed by @MiriamRose#2345.}"
 			]
 		},
@@ -2899,7 +2899,7 @@
 			"entries": [
 				"A useful item in both Zyrian civilian life and in the military. Medi-Gel is a medical agent produced by the Zaibatsu Corp. It is exported to neighboring countries. It is advanced enough to treat various kinds of wounds from blunt trauma to burns. Medi-Gel can be purchased legally over-the-counter.",
 				"As an action, a creature can apply a gel to the skin. The creature that receives it regains {@dice 2d4} hit points.",
-				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
 				"{@italic Item designed by @MiriamRose#2345.}"
 			]
 		},
@@ -2914,7 +2914,7 @@
 			"entries": [
 				"A useful item in both Zyrian civilian life and in the military. It is exported to neighboring countries. A form of a first aid, Bio-Foam protects and seals wounds and regenerates tissue. Bio-Foam can be purchased legally over-the-counter.",
 				"Bio-Foam comes in a single canister, enough for one use. As an action, a creature can stablize a target and render them immune to disease for {@dice 1d4} hours. Additionally, a stablized creature will regain consciousness in one hour instead of {@dice 1d4} hours.",
-				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
 				"{@italic Item designed by @MiriamRose#2345.}"
 			]
 		},
