@@ -465,14 +465,18 @@
 				{
 					"name": "The Nine Tailed Path",
 					"entries": [
-                     "Kitsune begin with a single fox tail generally 3 feet long. At 4th level and every 2 levels afterwards, you grow an additional tail as you grow in worldly experience. Each tail you possess increases your lifespan by 100 years. Tails which are cut off or otherwise removed do not grow back naturally, but may be restored by use of the {@spell Regenerate} spell. Losing a tail or tails does not affect the years you gain of extended life."
+                     "Kitsune begin with a single fox tail generally 3 feet long. At 4th level and every 2 levels afterwards, you grow an additional tail as you grow in worldly experience. Each tail you possess increases your lifespan by 100 years. Tails which are cut off or otherwise removed do not grow back naturally, but may be restored by use of the {@spell regenerate} spell. Losing a tail or tails does not affect the years you gain of extended life."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Shapeshift",
 					"entries": [
-                     "You can transform between fox form and human form at will. In combat it takes an action. You may speak in this form but you cannot cast magic other than Kitsune Magic. Opposed to changing shape, you can choose to instead hide your ears and tail(s) to appear human completely and acts like the alter self spell. As a fox, you get one attack with Bite or Claw (your choice) as natural Dexterity based attack. Subrace element damage replaces slashing damage on Claw."
+                     "Your connection to the Feywild and bonds with the Spirit Realm allow you to transform into your ancestral half—a being who represents your clan and their ancestors, also known as a Spirit Fox.",
+                     "You can transform between your fox and human forms as an action. Alternatively, you can choose to transform from a fox back into a human as a bonus action. While in your Spirit Fox form, you maintain the ability to read, write, and speak any languages you already know, but lose the ability to cast spells other than cantrips.",
+                     "Your weapons and clothes transform with you when you use this ability. While your paws are dexterous enough to handle small complex tasks, you cannot use weapons in combat.",
+                     "While you are in your Spirit Fox form, your base movement speed becomes 40. If your base movement speed was equal to 40 or higher before your transformation, it instead increases by an additional 5 feet. In addition, you gain access to your Bite and Claw attacks (mentioned under the Slash & Maul racial feature) while in your Spirit Fox form.",
+                     "Instead to changing shape, you can choose to instead hide your ears and tail(s) to appear human completely. This transformation acts like a limited version of the {@spell alter self} spell."
 					],
 					"type": "entries"
 				},
@@ -480,13 +484,6 @@
 					"name": "Slash and Maul",
 					"entries": [
                      "You are proficient with your unarmed strikes. When you make an unarmed attack, decide whether you're attacking with your claws or your bite. Your claws deal {@dice 1d4} slashing damage on a hit, whereas your bite deals {@dice 1d6} piercing damage."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common, Sylvan, and one other language of your choice."
 					],
 					"type": "entries"
 				}
@@ -520,7 +517,14 @@
                                 "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and take the higher amount. You can use this feature once per tail you possess, and regain all expended uses when you finish a long rest."
 							],
 							"type": "entries"
-						}
+						},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Sylvan, and one other language of your choice."
+					],
+					"type": "entries"
+				}
 					]
 				},
 				{
@@ -541,17 +545,24 @@
 						{
 							"name": "Detective",
 							"entries": [
-                                "You gain advantage on Intelligence and Intelligence ({@skill Investigation}) checks made to discover clues and piece together evidence."
+                                "You gain advantage on Intelligence checks made to discover clues and piece together evidence."
 							],
 							"type": "entries"
 						},
 						{
 							"name": "Logical Mind",
 							"entries": [
-                                "Your mind is inherently logical, and is not easily swayed. As a bonus action, you can end one effect causing you to be {@condition Charmed} or {@condition Frightened}. You can use this feature once per tail you possess, and regain all expended uses when you finish a long rest."
+                                "Your mind is inherently logical, and is not easily swayed. As a bonus action, you can end one effect causing you to be {@condition charmed} or {@condition frightened}. You can use this feature once per tail you possess, and regain all expended uses when you finish a long rest."
 							],
 							"type": "entries"
-						}
+						},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Sylvan, and one other language of your choice."
+					],
+					"type": "entries"
+				}
 					]
 				},
 				{
@@ -582,7 +593,14 @@
                                 "You can cast the {@spell charm person} spell once with this trait, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting modifier for this spell."
 							],
 							"type": "entries"
-						}
+						},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Sylvan, and one other language of your choice."
+					],
+					"type": "entries"
+				}
 					]
 				},
 				{
@@ -613,7 +631,14 @@
                                 "As a reaction to taking damage, you can create a 20-foot-radius sphere of mist centered on you. The sphere spreads around corners, and its area is heavily obscured. It lasts for one minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. Once you use this ability, you can't do so again until you finish a short or long rest."
 							],
 							"type": "entries"
-						}
+						},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Sylvan, and one other language of your choice."
+					],
+					"type": "entries"
+				}
 					]
 				},
 				{
@@ -646,7 +671,14 @@
                      "Your opponent may make another saving throw at the end of their next turn. On a success, they are no longer frightened, and are immune to your aura for 24 hours. Once you use this trait, you can't use it again until you finish a long rest."
 							],
 							"type": "entries"
-						}
+						},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Sylvan, and one other language of your choice."
+					],
+					"type": "entries"
+				}
 					]
 				}
 			]
@@ -1116,33 +1148,40 @@
 					"name": "Birthright",
 					"entries": [
 						"You grew up in a territory that grants you benefits. Choose one of the types of territories from the Demibeast Territory table. You only need to sleep for 4 hours while performing a long rest in your territory, as you've adapted to survival there. Additionally, you're naturally adapted to the climate associated with your territory, as described in chapter 5 of the Dungeon Master's Guide.",
+						"If no climate is specialized under the climate benefit column, you instead gain advantage on saving throws against any conditions mentioned.",
 						{
 							"type": "table",
 							"caption": "Demibeast Territory",
 							"colLabels": [
 								"Territory",
-								"Climate"
+								"Climate Benefit",
+								"Damage Resistance"
 							],
 							"colStyles": [
+								"col-4",
 								"col-4",
 								"col-4"
 							],
 							"rows": [
 								[
 									"Arctic",
-									"Extreme Cold"
+									"Extreme Cold",
+									"Cold"
 								],
 								[
 									"Desert",
-									"Extreme Heat"
+									"Extreme Heat", 
+									"Fire"
 								],
 								[
 									"Forest",
-									"—"
+									"{@condition Posioned} Condition",
+									"Poison"
 								],
 								[
 									"Mountain",
-									"High Altitude"
+									"High Altitude",
+									"Cold"
 										]
 									]
 								}
