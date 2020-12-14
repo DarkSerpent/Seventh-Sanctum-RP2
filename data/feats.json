@@ -276,6 +276,21 @@
 			]
 		},
 		{
+			"name": "Quickhatch",
+			"source": "SRP",
+			"entries": [
+				"You master the claws, a weapon which fit to your hands like it was meant to be there. As you trained with their steel, they have become an extension of yourself. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"While you are wielding a pair of claws in each hand, creatures have disadvantage on opportunity attacks against you.",
+						"When you use a claw, you can choose for its damage die to change from a {@dice d6} to a {@dice d8}. If you do so, that claw loses the light property.",
+						"You can forgo one of your attacks as part of the Attack action to leap into the air, diving with the force of a wolverine as your claws lash out in a seismic whirlwind. You jump to a creature within 30 feet without expending any movement and make a special attack with your claws. On a hit, you deal {@dice 4d6} + your Strength or Dexterity modifier (your choice) slashing damage. Once you use this feature, you cannot use it again until you finish a short or long rest."
+					]
+				}
+			]
+		},
+		{
 			"name": "Dual Wielder",
 			"source": "SRP",
 			"entries": [
