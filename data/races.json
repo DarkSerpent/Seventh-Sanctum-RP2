@@ -5231,7 +5231,7 @@
 						{
 							"name": "Languages",
 							"entries": [
-                                "You can speak, read, and write Common and Squeak Speak."
+                                "You can speak, read, and write Common, Squeak Speak, and Halfling."
 							],
 							"type": "entries"
 						}
@@ -5274,7 +5274,7 @@
 						{
 							"name": "Languages",
 							"entries": [
-                                "You can speak, read, and write Common and Squeak Speak."
+                                "You can speak, read, and write Common, Squeak Speak, and Halfling."
 							],
 							"type": "entries"
 						}
@@ -5391,7 +5391,7 @@
 					"ability": [
 						{
 							"dex": 1,
-							"con": 1
+							"con": 2
 						}
 					],
 					"speed": {
@@ -5439,7 +5439,7 @@
 					"name": "Medium",
 					"ability": [
 						{
-							"con": 1,
+							"con": 2,
 							"choose": {
 								"from": [
 									"str",
@@ -5482,7 +5482,7 @@
 					"ability": [
 						{
 							"str": 1,
-							"con": 1
+							"con": 2
 						}
 					],
 					"speed": {
