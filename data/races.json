@@ -3351,25 +3351,21 @@
 					"type": "entries"
 				},
 				{
+					"type": "entries",
 					"name": "Alien Mind",
 					"entries": [
-                     "You have advantage on saving throws against the {@condition Frightened} and {@condition Charmed} conditions. In addition, you cannot suffer from the effects of Madness."
-					],
-					"type": "entries"
-				},
-								{
-					"name": "Beholder",
-					"entries": [
-                     "You have resistance to psychic damage."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Aberrant",
-					"entries": [
-                     "Your creature type is aberration, rather than humanoid."
-					],
-					"type": "entries"
+						"Unnatural. Unconventional. As an aftuan, your existence is beyond this world's boundaries. Your creature type is aberrant, rather than humanoid. In addition, you gain access to the following benefits as per your aberrant nature:",
+						{
+							"type": "list",
+							"items": [
+								"You have resistance to psychic damage.",
+								"You have advantage on saving throws against the {@condition frightened} and {@condition charmed} conditions.",
+								"You cannot suffer from the effects of madness.",
+								"You don't need to eat, drink, or breathe.",
+								"You don't need to sleep and don't suffer the effects of {@condition exhaustion} due to lack of rest, and magic can't put you to sleep."
+							]
+						}
+					]
 				},
 				{
 					"name": "Whispers in the Beyond",
