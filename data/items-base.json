@@ -1179,7 +1179,7 @@
 			"tier": "major",
 			"reqAttune": true,
 			"weight": 9,
-			"value": 4500000,
+			"value": 2500000,
 			"weaponCategory": "Guild Shop",
 			"property": [
 				"S",
@@ -1337,6 +1337,20 @@
 			]
 		},
 		{
+			"name": "Cap of the Cartographer",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Weapon",
+			"value": 60000,
+			"entries": [
+				"{@italic Do you suck at reading maps? At telling which way is north, south, east, weast?! Fear no more! The Cap of the Cartographer is just what you need!}",
+				"While wearing this dark blue flat cap, you can see where you are on any map you are holding that contains your current location.",
+				"{@italic Item designed by @Gebri#6969.}"
+			]
+		},
+		{
 			"name": "Returning Weapon +1",
 			"source": "GS",
 			"rarity": "rare",
@@ -1374,7 +1388,7 @@
 			"tier": "major",
 			"reqAttune": false,
 			"type": "Guild Shop Weapon",
-			"value": 4500000,
+			"value": 2500000,
 			"entries": [
 				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
 				"When this weapon is thrown as part of an attack, it returns to its wielder immediately after the attack.",
@@ -1412,6 +1426,21 @@
 				"When this item is placed on a flat natural surface (such as earth or stone) for at least 1 hour undisturbed, the glass dome expands to fill the entire width of shield, allowing the koi roam around this makeshift pond freely where they begin to glow.",
 				"The first creature who touches the dome while the koi are glowing receives a divine blessing. Once during the next 24 hours, when that creature rolls a 1 on a {@dice d20} roll they can treat that roll as a 20 instead.",
 				"After the blessing is bestowed, the dome shrinks back to the normal size of the boss and the shield can be equipped as normal. Once a blessing has been granted, it cannot do so again until {@dice 2d4} days have passed.",
+				"{@italic Item designed by @Aizea La Win#5106.}"
+			]
+		},
+		{
+			"name": "Arvhim Pear Phone",
+			"baseItem": "smartphone|srp",
+			"source": "GS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "Guild Shop Item",
+			"value": 65000,
+			"entries": [
+				"{@italic Avel Caelora doesn't have phones? Not for much longer! We here at Arvhim Technology are spreading the wondrous technology the Pear Phone&trade; to the masses!}",
+				"As an action, the user may dismiss or summon the Pear Phone&trade; to their hand or away into a pocket space. Upon resummoning, the user may decide to change the color of the Pear Phone&trade;.",
 				"{@italic Item designed by @Aizea La Win#5106.}"
 			]
 		},
@@ -1588,7 +1617,7 @@
 			"tier": "major",
 			"reqAttune": false,
 			"type": "Guild Shop Weapon",
-			"value": 4500000,
+			"value": 2500000,
 			"entries": [
 				"A long, pitch black, whip with metal tips which is said to have caused more than a few red cheeks.",
 				"You have a +2 to hit and damage rolls with this magic weapon.",
@@ -1608,7 +1637,7 @@
 			"tier": "major",
 			"reqAttune": true,
 			"type": "Guild Shop Item",
-			"value": 4500000,
+			"value": 2500000,
 			"entries": [
 				"This complete suit of plate armor is missing its helmet, and only a glance is needed to reveal a chilling aura. It was found on the body of a headless horseman slain by a high-ranking adventuring party, and beyond that, nothing else is known.",
 				"{@bold Curse of the Beheaded}. Upon attuning to this armor, the wearer must succeed on a DC 20 Constitution saving throw. On a failed save, the wearer is beheaded and becomes classified as a headless horseman. The attunement is transferred to your own head, as opposed to being connected to the armor. The residue of magic then dissipates, turning the suit into nothing more than an ordinary set of plate armor.",
@@ -1748,7 +1777,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"type": "Guild Shop Item, consumable",
-			"value": 2250000,
+			"value": 1250000,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Taurus Silver CAD&quot;, and gives it the following effect:",
 				{
@@ -1758,6 +1787,22 @@
 					]
 				},
 				"You have 3 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Hadar's Abominable Elixir",
+			"source": "GS",
+			"rarity": "very rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
+			"value": 1250000,
+			"entries": [
+				"Upon consuming this crystal-infused black elixir, your arms begin to bulge and pulsate, transforming into long, slimy tentacles.",
+				"You attack with your tentacles in place of your normal unarmed strikes, which deal {@dice 2d6} acid damage on a hit. In addition, your unarmed strikes gain a reach of 10 feet.",
+				"While under the effects of this elixir, you lose the ability to perform dexterous tasks, such as wielding weapons, carrying shields for defense, or performing careful procedures such as surgery. You are not considered unarmed or wielding monk weapons for the purposes of the monk's Martial Arts feature.",
+				"This effects of this elixir last for one hour. At the conclusion of the hour, roll a {@dice d20}. On a roll of 1, the effects become permanent.",
 				"{@italic Item designed by @Amarulence#5357.}"
 			]
 		},
@@ -1846,7 +1891,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"type": "Guild Shop Item, consumable",
-			"value": 2250000,
+			"value": 1250000,
 			"entries": [
 				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Accel Ultima UTD&quot;, and gives it the following effect:",
 				{
@@ -1906,7 +1951,7 @@
 			"tier": "major",
 			"reqAttune": false,
 			"type": "Guild Shop Weapon",
-			"value": 4500000,
+			"value": 2500000,
 			"entries": [
 				"You have a +2 to attack and damage rolls made with this magic weapon.",
 				"This weapon has found it's way to many different hands over the years. The runes on this blade light ablaze with sickening radiance. Blades of this type are talked about throughout history, inspiring awe and fear depending on who lays their eyes on the blade.",
@@ -2025,7 +2070,7 @@
 			"tier": "major",
 			"reqAttune": false,
 			"type": "Guild Shop Item",
-			"value": 4500000,
+			"value": 2500000,
 			"entries": [
 				"This item comes in a box-set of two near-indestructible mirrors that can withstand a direct collision with a semi. They are connected through a planar wire that spans the entire Multiverse.",
 				"As an action, you can &quot;ring&quot; the other mirror, appearing as a request for communication on the adjacent mirror. Accepting the call will broadcast whatever the mirror is reflecting to the other mirror's screen, as well as voice. Either party can disconnect the mirror's connection at will, as well as turn off the reflection-sharing properties or temporarily mute the audio.",
@@ -2729,7 +2774,7 @@
 			"tier": "major",
 			"reqAttune": false,
 			"type": "Guild Shop Item",
-			"value": 4500000,
+			"value": 2500000,
 			"entries": [
 				"This scale glows with a ethereal light, beckoning those who have crossed its waters to obtain it with a glorious melody.",
 				"When a gem worth at least 500 GP is placed within the left-hand tray, the scale tips, and the gem shatters before completely being absorbed into the right-hand tray.",
@@ -2760,7 +2805,7 @@
 			"tier": "major",
 			"reqAttune": "by a bard, cleric, druid, sorcerer, or wizard",
 			"type": "Guild Shop Item",
-			"value": 4500000,
+			"value": 2500000,
 			"entries": [
 				"This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: {@spell stone shape} (1 charge), {@spell meld into stone} (2 charges), {@spell move earth} (4 charges), or {@spell wall of stone} (4 charges).",
 				"The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff blackens, crumbles into cinders, and is destroyed.",
@@ -3035,7 +3080,7 @@
 			"baseItem": "longbow|phb",
 			"reqAttune": true,
 			"type": "Guild Shop Weapon",
-			"value": 4500000,
+			"value": 2500000,
 			"entries": [
 				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
 				"You can speak the command word of this bow as a bonus action. After doing so, for the next minute, the bow and all ammunition fired from it are charged with magical lightning.",
@@ -3082,7 +3127,7 @@
 			"source": "GS",
 			"rarity": "very rare",
 			"tier": "major",
-			"value": 4500000,
+			"value": 2500000,
 			"weight": 0.2,
 			"reqAttune": true,
 			"type": "Guild Shop Item",
