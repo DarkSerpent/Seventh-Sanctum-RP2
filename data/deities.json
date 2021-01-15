@@ -351,7 +351,7 @@
 								}
 							],
 							"data": {
-								"overwrite": "Bond Level 2"
+								"overwrite": "Bond Level 3"
 							}
 						},
 				{
@@ -856,7 +856,7 @@
 							"type": "entries",
 							"name": "Skulls for the Skull Throne (Passive)",
 							"entries": [
-								"The skulls you collect during your rampage grows your strength and power. When you slay an enemy and use {@italic Bloodlust} immediately after, you absorb the fallen enemy's essence. You gain a +1 bonus to your AC and saving throws for one minute. This ability stacks with itself."
+								"The skulls you collect during your rampage grows your strength and power. When you slay an enemy and use {@italic Bloodlust} immediately after, you absorb the fallen enemy's essence. You gain a +1 bonus to your AC and saving throws for one minute. This ability stacks with itself. When you gain a new stack with this feature, the timer on the ability resets to one minute."
 							]
 						},
 						{
@@ -1666,6 +1666,181 @@
 							]
 						}
 					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Superior Creation (Passive)",
+							"entries": [
+								"You have been bestwoed with a nasodic armament that surpasses that which is publicly available on the market. While seemingly unchanged, your left arm has adopted the traits and properties of the Magicka Tool Mk. I, granting you the ability to switch between three distinct forms as you continue through your research and studies.",
+								"You can switch between each arm once per turn as a free action. In addition, you can switch back to your default, unpowered arm. Each arm and their abilities are detailed on the list below:"
+							]
+						}
+					]
+				},
+						{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Arm",
+													"Effect"
+												],
+												"colStyles": [
+													"col-1",
+													"col-5"
+												],
+												"rows": [
+													[
+														"{@bold Mode: Magicka.}",
+														"You no longer require a focus to cast your spells. In addition, you can cast spells that require a verbal component without speaking, as the arm computes and fires the spell through an automatic process. Finally, you gain a +1 bonus to your ranged spell attack rolls, and your spell save DC goes up by 1."
+													],
+													[
+														"{@bold Mode: Physica.}",
+														"You receive a +5 bonus to all Strength and Dexterity checks you make while this mode is active. In addition, your lifting capacity is doubled."
+													],
+													[
+														"{@bold Mode: Ultima.}",
+														"While this mode is active, you gain access to the Ultima Canon. This weapon protrudes from your arm post-transformation, keeping your hands free for the purposes of carrying and object interactions. As a bonus action, you can fire a magical blast from this cannon, which automatically hit their target so long as they are within 60 feet."
+													]
+												]
+											}
+										]
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ultima Charge (Passive)",
+							"entries": [
+								"The damage of your Ultima Cannon stacks dependent on each spell slot you have exhausted since your last long rest. Regardless of how many stacks you possess, they reset to zero on a long rest. 1st to 6th Level Spell Slots provide 1 charge, 7th to 8th Level Spell Slots provide 2 charges, and 9th Level Spell Slots provide 3 charges. Calculate the damage of your Ultima Cannon by directly turning charges into force damage."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Exchange of Power (Passive)",
+							"entries": [
+								"Power is relative, and with access to the Neoteric Star, conversions are made possible at the drop of a hat. As a Follower of Eve, you have been granted the ability to switch between damage types at a whim, although the conversion is not always assured.",
+								"Whenever you cast a spell that deals acid, bludgeoning, cold, fire, force, lightning, necrotic, piercing, poison, psychic, radiant, slashing, or thunder damage, roll on the following table below and convert the spell's damage to the rolled damage type. If you do not possess the ability to roll a {@dice 1d13}, you can instead roll a {@dice 1d10} and a {@dice 1d4-1}.",
+								"Rolling using the alternate method will reduce your chances of rolling low numbers (such as 1), so it is asked that you roll a {@dice 1d13} if possible (such as when using a VTT)."
+							]
+						}
+					]
+				},
+						{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"{@dice 1d13}",
+													"Damage Type"
+												],
+												"colStyles": [
+													"col-1",
+													"col-1"
+												],
+												"rows": [
+													[
+														1,
+														"Acid"
+													],
+													[
+														2,
+														"Bludgeoning"
+													],
+													[
+														3,
+														"Cold"
+													],
+													[
+														4,
+														"Fire"
+													],
+													[
+														5,
+														"Force"
+													],
+													[
+														6,
+														"Lightning"
+													],
+													[
+														7,
+														"Necrotic"
+													],
+													[
+														8,
+														"Piercing"
+													],
+													[
+														9,
+														"Poison"
+													],
+													[
+														10,
+														"Psychic"
+													],
+													[
+														11,
+														"Radiant"
+													],
+													[
+														12,
+														"Slashing"
+													],
+													[
+														13,
+														"Thunder"
+													]
+												]
+											}
+										]
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Logical Mind (Passive)",
+							"entries": [
+								"Your mind has been reinforced as a Follower of Eve, allowing the amounts of computations and connections you can make per second to be enhanced to a product which both comprehends and disproves concepts and factors once thought to be damaging enough to cause loss of sanity. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can no longer be affected by the negative consequences of {@italic madness}.",
+						"You gain immunity to psychic damage."
+					]
+				}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -1960,6 +2135,105 @@
 							"name": "Capital Punishment II (Passive)",
 							"entries": [
 								"You regain all expended capital on a long rest, or two capital on a short rest."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 3}, the amount of capital you have increases to 7. In addition, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 3"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Buying Time (Passive)",
+							"entries": [
+								"It is said that the act of strategical purchasing is so engrained within a Follower of Archon's subconscious that they can even strike a deal with Death itself. That's true, by the way.",
+								"If you would fail a three death saving throws, you do not immediately die. Instead, your body is temporarily put into stasis as your soul is tossed into the upper-edges of the Afterlife—directly face-to-face with an apparition of Death himself.",
+								"{@italic &quot;Looking to buy some time?&quot;}",
+								"This figure is not Death, nor an approximation of his mortal form. Rather, this being is a completely intangible spirit who serves the real Death, yet maintains access to most of his powers and abilities. Once face-to-face with this entity, you may attempt to purchase a resurrection using your own life force as currency."
+							]
+						},
+						{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Cost",
+													"Deal"
+												],
+												"colStyles": [
+													"col-1",
+													"col-5"
+												],
+												"rows": [
+													[
+														"{@bold Exhaustion (1).}",
+														"You become stabilized."
+													],
+													[
+														"{@bold Exhaustion (2).}",
+														"You are brought back to life with 5 hit points. Your body becomes conscious, although you are still {@condition prone}."
+													],
+													[
+														"{@bold Exhaustion (3).}",
+														"You are brought back to life with 10 hit points and regain an expended spell slot. Your body becomes conscious, although you are still {@condition prone}."
+													],
+													[
+														"{@bold Exhaustion (4).}",
+														"You are brought back to life with 30 hit points and regain two expended spell slots. Your body becomes conscious, although you are still {@condition prone}."
+													],
+													[
+														"{@bold Exhaustion (5).}",
+														"You are brought back to life after receiving the effects of a long rest, although you still retain all five levels of exhaustion. As an added benefit, you are no longer considered {@condition prone}."
+													],
+													[
+														"{@bold Exhaustion (6).}",
+														"{@italic &quot;Oh? You would like to end our little deal? Very well, I will take you to the edge of existence—follow me to the Afterlife, The Mann.&quot;}"
+													]
+												]
+											}
+										]
+						},
+						{
+							"type": "entries",
+							"name": "Microtransactions",
+							"entries": [
+								"The services of the devil require fuel, and it just so happens that fuel is more oftentimes money. As an action, you can summon a 30x30 ethereal shop at a point within 120 of you manned by a charming tiefling named Capitalism.",
+								"This shop is infinitely stocked with mundane items, including but not limited to: technological items, vehicles, and even certain consumables. This shop can be summoned anywhere, even without any foundation such as ground.",
+								"Once summoned, the shop lasts for ten minutes. During that time frame, you can use an action to purchase whatever you wish from the shop. The shop charges fair prices and will not offer discounts under any circumstances.",
+								"Gold expended for a purchase is immediately extracted from your person, your Portable Pockets, or an area in space-time that you personally own. Aftewards, the gold materializes inside Capitalism's register. If not enough gold can be located for the purchase, Capitalism regretfully informs his client that he cannot complete the transaction.",
+								"Medium-sized or smaller items appear on top of the shop's counter. Large-sized and bigger objects appear in front. If the shop is in the air, they will fall. Once you summon this shop, you cannot do so again until you finish a long rest.",
+								"{@italic &quot;Sometimes, you just need a little bit of an edge over the competition.&quot;}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Path is Nicer Over Here, my Sweet",
+							"entries": [
+								"<a href=https://docs.google.com/document/d/1ThBiyWSE8sn0HjdKHBTQqz0_5he50P0js8Ng-izOK1g/edit?usp=sharing>Click here to view this ability.</a>"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Capital Punishment III (Passive)",
+							"entries": [
+								"You regain all expended capital on a long rest, or three capital on a short rest."
 							]
 						}
 					]
