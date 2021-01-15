@@ -2067,6 +2067,24 @@
 						},
 						{
 							"type": "entries",
+							"name": "Subscription Fee (3)",
+							"entries": [
+								"As a bonus action, snap your fingers as an array of cloth and golden lace materialize in the skies and begin dancing to the rhythm of your greed—what you seek is irrevelant to them. Fame, power, glory, or even money, this lace will take it all, so long as you pay them the prerequisite capital for their service.",
+								"Through the magic of their dance, they lash out from the skies and swoop in on your enemies with extravagant grace. Target three creatures within 60 feet of you to get taxed. Those creatures must make a Strength saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier as the lace dances to your command.",
+								"On a failed save, that creature becomes bound in the lace, wrapped in thick golden cloth whose birth bellows the magnetic energies of the Nine Hells. While the lace coveres their form, they are considered to be under the {@condition grappled} condition. In addition, at the end of each of their turns, they take {@dice 1d8} force damage and offer up an equal amount of payment for your services from the list below (your choice):",
+								{
+									"type": "list",
+									"items": [
+										"An amount of gold equal to double the bludgeoning damage dealt. If the creature has no gold, this effect fails.",
+										"An amount of hit points equal to half the bludgeoning damage dealt. These hit points are not subtracted from the creature—however, if the creature has 0 hit points remaining, this effect fails.",
+										"An amount of movement equal to the bludgeoning damage dealt, which you can expend on your next turn as if it were part of your own movement. This movement is added to your walking speed. If you would receive an amount of movement that is not divisible by 5, that amount is stored until you have stolen enough partial movement to be divisible by 5. This effect does not lower the target's movement speed, and works even if their movement speed is 0."
+								]
+								},
+								"A creature that is entrapped by this lace can repeat the saving throw at the end of each of their turns (after payment), ending the effect on a success."
+							]
+						},
+						{
+							"type": "entries",
 							"name": "Capital Punishment (Passive)",
 							"entries": [
 								"You regain all expended capital on a long rest, or one capital on a short rest."
@@ -2110,7 +2128,7 @@
 							"type": "entries",
 							"name": "Enhance: Make Profit",
 							"entries": [
-								"You now gain {@dice 2d8} gold when you land the killing blow on an enemy, rather than {@dice 1d8}. In addition, you can spend 1 gold piece to deal an additional {@dice 1d4} bludgeoning damage for each beam of {@spell eldritch blast}, up to {@dice 4d4} bludgeoning damage at 17th level. This additional bludgeoning damage is considered to be magical."
+								"You now gain {@dice 2d8} gold when you land the killing blow on an enemy, rather than {@dice 1d8}. In addition, you can spend 1 gold piece to deal an additional {@dice 1d4} bludgeoning damage for each attack you make, up to {@dice 4d4} bludgeoning damage. This additional bludgeoning damage is considered to be magical."
 							]
 						},
 						{
