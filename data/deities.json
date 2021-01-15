@@ -1897,19 +1897,19 @@
 												"rows": [
 													[
 														"{@bold Blessing of Fury (1).}",
-														"You gain a +1 bonus to your AC, and you generate 1 fury point at the end of each of your turns."
+														"You gain a +15 bonus to your movement speed, and you generate 1 fury point at the end of each of your turns."
 													],
 													[
 														"{@bold Blessing of Rule (2).}",
-														"Whenever you make a ranged attack roll, you can roll a {@dice 1d4}. Add that number to both your attack and damage rolls."
+														"You gain a +2 bonus to your AC, and you become immune to the {@condition charmed} condition."
 													],
 													[
 														"{@bold Blessing of Loyalty (3).}",
-														"You gain a +1 bonus to your AC, and you become immune to the {@condition charmed} condition."
+														"You gain advantage on all attack rolls and ability checks made to track creatures that have blood."
 													],
 													[
 														"{@bold Blessing of Blood (4).}",
-														"When you attack a creature with less than 30 hit points, that creature dies."
+														"When you attack a creature and leave it with less than 40 hit points, that creature dies."
 													],
 													[
 														"{@bold Blessing of Order (5).}",
@@ -1917,7 +1917,7 @@
 													],
 													[
 														"{@bold Blessing of Sraosha (6).}",
-														"You heal for a quarter of the damage you deal."
+														"You heal for half of the damage you deal."
 													]
 												]
 											}
@@ -2001,6 +2001,45 @@
 								"Undead, fiends, monstrosities, and oozes who formed naturally can sense the mark of Sraosha on your soul, as it glimmers in the darkness like a flickering limelight. If the default state of that creature would be hostile to you, they are now indifferent. If the default state of that creature would be indifferent to you, they are now friendly.",
 								"Creatures who are naturally hostile to Sraosha (although rare) are unaffected by the marking on your soul, and it may in fact cause them to be more hostile than normal.",
 								"{@italic &quot;My presence is already visible against the background of your soul. There is truly no going back now, my Knight.&quot;}"
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 3}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 3"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Power at a Cost",
+							"entries": [
+								"To become stronger, a price must be paid. This is the law of the world, to which all mortal creatures abide. To harm oneself is often seen as the most primal of these costs—and the most effective.",
+								"As a free action on your turn in combat, you may reveal the zealotry of your determination, damaging yourself in order to fuel your strength. With life drained, your power grows exponentially, and soon, the Knight of Sraosha will reveal the fate of the masses.",
+								"You take {@dice 5d8} necrotic damage from this attack, which cannot be negated or resisted in any way. In return, you gain one Night Mark.",
+								"{@italic &quot;Slave away, my Knight. Become someone that everyone but I can look up to.&quot;}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Embelishment of the Soul",
+							"entries": [
+								"Knowledge, power, cost. These are the tenets that a Knight of Sraosha must live by, and you have echoed their law into the deepest recess of your soul. A pit so deep, that it now acts as a resevoir for your dark dealings, allowing you to hold a theoretical infinite amount of souls.",
+								"You may now hold beyond six Night Marks, although holding onto more than six does not grant you any bonus effects. Rather, as a free action on your turn, you can expend a number of Night Marks up to the amount you currently hold after dealing damage to a creature. When you do so, you deal an additional {@dice 3d10} force damage for each Night Mark expended.",
+								"{@italic &quot;An infinite wealth of souls—yet those hands will never hold anything.&quot;}"
 							]
 						}
 					]
@@ -2236,7 +2275,7 @@
 								"This shop is infinitely stocked with mundane items, including but not limited to: technological items, vehicles, and even certain consumables. This shop can be summoned anywhere, even without any foundation such as ground.",
 								"Once summoned, the shop lasts for ten minutes. During that time frame, you can use an action to purchase whatever you wish from the shop. The shop charges fair prices and will not offer discounts under any circumstances.",
 								"Gold expended for a purchase is immediately extracted from your person, your Portable Pockets, or an area in space-time that you personally own. Aftewards, the gold materializes inside Capitalism's register. If not enough gold can be located for the purchase, Capitalism regretfully informs his client that he cannot complete the transaction.",
-								"Medium-sized or smaller items appear on top of the shop's counter. Large-sized and bigger objects appear in front. If the shop is in the air, they will fall. Once you summon this shop, you cannot do so again until you finish a long rest.",
+								"Medium-sized or smaller items appear on top of the shop's counter. Large-sized and bigger objects appear in front. If the shop is in the air, they will fall. Once you summon this shop, you cannot do so again until you finish a long rest. Capitalism cannot be killed by any means, although he will call you a crud if you attack him.",
 								"{@italic &quot;Sometimes, you just need a little bit of an edge over the competition.&quot;}"
 							]
 						},
