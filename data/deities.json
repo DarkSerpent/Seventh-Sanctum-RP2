@@ -2336,7 +2336,7 @@
 							"type": "entries",
 							"name": "Logical Anaylsis",
 							"entries": [
-								"You call forth the Unbound Library and manifest the internalized criteria of a creature you are engaging in combat with into the Central Databank, opening up endless possibilities for study and research as a free action. Once you do so, the Central Databank quantumly computes the data, attempting to parse a string which reports back knowledge that neither you nor the Central Databank possesses. Choose one of the following pieces of information to learn:",
+								"You call forth the Unbound Library and manifest the internalized criteria of a creature into the Central Databank, opening up endless possibilities for study and research as a free action. Once you do so, the Central Databank quantumly computes the data, attempting to parse a string which reports back knowledge that neither you nor the Central Databank possesses. Choose one of the following pieces of information to learn:",
 								{
 									"type": "list",
 									"items": [
