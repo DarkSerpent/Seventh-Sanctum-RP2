@@ -2530,7 +2530,7 @@
 							"name": "Arbiter of Knowledge (Passive)",
 							"entries": [
 								"In your endless quest to expand the knowledge of the world, you have come across unsavory subjects, and subjects which may lead any poor man to devestation.",
-								"As an Expander of Lotus, you are expected to push past these trials and bring them to their logical limit. This means that, as a Follower of Lotus, you cannot falter. No matter how heinous the information may be.",
+								"As an follower of Lotus, you are expected to push past these trials and bring them to their logical limit. This means that, as a Follower of Lotus, you cannot falter. No matter how heinous the information may be.",
 								"You have immunity to the {@condition frightened} condition and the negative effects of {@italic madness}. You also have advantage on any checks or saving throws made to lower your {@italic sanity} (if your DM utilizes this system)."
 							]
 						},
