@@ -2106,24 +2106,6 @@
 						},
 						{
 							"type": "entries",
-							"name": "Subscription Fee (3)",
-							"entries": [
-								"As a bonus action, snap your fingers as an array of cloth and golden lace materialize in the skies and begin dancing to the rhythm of your greed—what you seek is irrevelant to them. Fame, power, glory, or even money, this lace will take it all, so long as you pay them the prerequisite capital for their service.",
-								"Through the magic of their dance, they lash out from the skies and swoop in on your enemies with extravagant grace. Target three creatures within 60 feet of you to get taxed. Those creatures must make a Strength saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier as the lace dances to your command.",
-								"On a failed save, that creature becomes bound in the lace, wrapped in thick golden cloth whose birth bellows the magnetic energies of the Nine Hells. While the lace coveres their form, they are considered to be under the {@condition grappled} condition. In addition, at the end of each of their turns, they take {@dice 1d8} force damage and offer up an equal amount of payment for your services from the list below (your choice):",
-								{
-									"type": "list",
-									"items": [
-										"An amount of gold equal to double the bludgeoning damage dealt. If the creature has no gold, this effect fails.",
-										"An amount of hit points equal to half the bludgeoning damage dealt. These hit points are not subtracted from the creature—however, if the creature has 0 hit points remaining, this effect fails.",
-										"An amount of movement equal to the bludgeoning damage dealt, which you can expend on your next turn as if it were part of your own movement. This movement is added to your walking speed. If you would receive an amount of movement that is not divisible by 5, that amount is stored until you have stolen enough partial movement to be divisible by 5. This effect does not lower the target's movement speed, and works even if their movement speed is 0."
-								]
-								},
-								"A creature that is entrapped by this lace can repeat the saving throw at the end of each of their turns (after payment), ending the effect on a success."
-							]
-						},
-						{
-							"type": "entries",
 							"name": "Capital Punishment (Passive)",
 							"entries": [
 								"You regain all expended capital on a long rest, or one capital on a short rest."
@@ -2185,6 +2167,24 @@
 							"entries": [
 								"As an action, you summon a cavalcade of gold coins from your extradimensional pocket above a creature of your choice. Choose a number of gold coins divisible by two hundred. That creature must make a Dexterity saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, for every two hundred coins you drop upon that creature, they take {@dice 1d10} bludgeoning damage, up to {@dice 10d10}. If they pass the save, they take half the damage they would normally.",
 								"Gold summoned this way remains on the ground until you pick it up or store it in your extradimensional pocket once more."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Subscription Fee (3)",
+							"entries": [
+								"As a bonus action, snap your fingers as an array of cloth and golden lace materialize in the skies and begin dancing to the rhythm of your greed—what you seek is irrevelant to them. Fame, power, glory, or even money, this lace will take it all, so long as you pay them the prerequisite capital for their service.",
+								"Through the magic of their dance, they lash out from the skies and swoop in on your enemies with extravagant grace. Target three creatures within 60 feet of you to get taxed. Those creatures must make a Strength saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier as the lace dances to your command.",
+								"On a failed save, that creature becomes bound in the lace, wrapped in thick golden cloth whose birth bellows the magnetic energies of the Nine Hells. While the lace coveres their form, they are considered to be under the {@condition grappled} condition. In addition, at the end of each of their turns, they take {@dice 1d8} force damage and offer up an equal amount of payment for your services from the list below (your choice):",
+								{
+									"type": "list",
+									"items": [
+										"An amount of gold equal to double the bludgeoning damage dealt. If the creature has no gold, this effect fails.",
+										"An amount of hit points equal to half the bludgeoning damage dealt. These hit points are not subtracted from the creature—however, if the creature has 0 hit points remaining, this effect fails.",
+										"An amount of movement equal to the bludgeoning damage dealt, which you can expend on your next turn as if it were part of your own movement. This movement is added to your walking speed. If you would receive an amount of movement that is not divisible by 5, that amount is stored until you have stolen enough partial movement to be divisible by 5. This effect does not lower the target's movement speed, and works even if their movement speed is 0."
+								]
+								},
+								"A creature that is entrapped by this lace can repeat the saving throw at the end of each of their turns (after payment), ending the effect on a success."
 							]
 						},
 						{
@@ -2291,6 +2291,284 @@
 							"name": "Capital Punishment III (Passive)",
 							"entries": [
 								"You regain all expended capital on a long rest, or three capital on a short rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lotus (Rethi Ravaena Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Old Deus",
+			"alignment": [
+				"T",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Knowledge",
+				"Ambition",
+				"Technology"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {
+				}
+			},
+			"entries": [
+				"The Old Deus of Expansion, manager of the Central Databank, and chosen by the World to manifest all accessible knowledge into the minds of living organisms in order to progress society beyond its preconceived limits. She is the Creator, and her followers are her Researchers. Those who follow the Path of Expansion must dedicate their lives to high-level and dangerous pursuits in order to catalogue all of existence.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				"As a follower of Lotus, you have been granted the following abilities at {@italic Bond Level 1}:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "The Unbound Library (Passive)",
+							"entries": [
+								"You have been granted access to a portable laptop known as the Unbound Library, which you can summon as a free action. This laptop acts as both your spellbook and your focus, which you can choose to either rest in your hand or revolve around you.",
+								"Three times per day, you can call upon the power of the Unbound Library, immediately swapping a prepared spell to another spell in your spellbook on the fly. This effect is immediate, and can be done using a free action. You regain all expended uses at next dawn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Logical Anaylsis",
+							"entries": [
+								"You call forth the Unbound Library and manifest the internalized criteria of a creature you are engaging in combat with into the Central Databank, opening up endless possibilities for study and research as a free action. Once you do so, the Central Databank quantumly computes the data, attempting to parse a string which reports back knowledge that neither you nor the Central Databank possesses. Choose one of the following pieces of information to learn:",
+								{
+									"type": "list",
+									"items": [
+										"The creature's race.",
+										"The creature's weakness.",
+										"The creature's true name."
+								]
+								},
+								"The information that the Central Databank parses is given to you by your DM as a close approximation. If the creature does not have a proper race, the DM attempts to describe it to you using approximation. If the creature does not have a traditional weakness (such as a vulnerability), the DM will devise a weakness that you can exploit (although the information will not necessarily give you a mechanical benefit). Finally, requesting a true name will merely report back the name the creature was given or, if it does not possess one, the name of its species. This parsing cannot extract a devil's true name.",
+								"You can use this feature a number of times equal to your Intelligence modifier, and regain all expended uses on a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Universal Machine",
+							"entries": [
+								"The Universal Machine is a device that exists in theory. Propegated by Lotus's will, upon request, the closest approximation of its existence will materialize in front of you as a free action.",
+								"The activation of the Universal Machine is impossible for normal individuals who exist in a quantumly-locked state of being. Thankfully, as a Follower of Lotus, you are able to activate this machine, despite the paradoxical nature of such an action. As an action, you tell the Universal Machine to perform one of the following recursions:",
+								{
+									"type": "list",
+									"items": [
+										"<u>Understanding.</u> The Universal Machine will translate any language (known or otherwise) into a language that the user can understand. Then, it will translate any input given by the user back into the target language. This setting has the capability translate languages that do not exist.",
+										"<u>Comprehension.</u> The Universal Machine will record up to 24 hours worth of audio and video in a quality that supersedes any known resolution. You can play back and scrub through this recording, comprehending any knowledge bestowed from it as if through the Keen Mind feat.",
+										"<u>Information.</u> The Universal Machine will cast the {@spell detect magic} spell without requiring concentration and report back the results to the user.",
+										"<u>Training.</u> The Universal Machine will parse a training video for any skill that could conceivably exist in a quantumly-locked world. Watching this tutorial requires a short rest, and after completion of the video, the user can choose one their skills and gain proficiency in that skill. Whenever you use this feature of the Universal Machine, the last tutorial you watched is erased from your mind, causing you to lose that proficiency in exchange for a new one."
+								]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Lotus",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Learn.",
+								"Expand.",
+								"Record."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 2"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Efficient Downloads (Passive)",
+							"entries": [
+								"The manifestation of quantum-mechanics not only allows for multiple calculations to be ran at once—it also allows for the creation of simultaneous data streams which perform and inact actions that would normally require more than one operating system.",
+								"By imprinting a spell's casting sigil onto a device known as a &quot;Spell Disk&quot;, you are able to copy and forge spell scrolls at a rapid pace, greatly reducing the time needed and the cost to create the spell scroll.",
+								"The cost of these &quot;scrolls&quot; instead lies in their technology. While they are similar to scrolls, a Spell Disk is its own unique creation, and cannot be used by anyone other than you and other followers of Lotus (unless an ability or feature states otherwise).",
+								"The rules for creating a Spell Disk (as opposed to a spell scroll) are as follows:"
+							]
+						},
+						{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Level",
+													"Cost"
+												],
+												"colStyles": [
+													"col-2",
+													"col-3"
+												],
+												"rows": [
+													[
+														"{@bold Cantrip.}",
+														"1 day, 10 gold pieces"
+													],
+													[
+														"{@bold 1st Level.}",
+														"1 day, 20 gold pieces"
+													],
+													[
+														"{@bold 2nd Level.}",
+														"2 days, 200 gold pieces"
+													],
+													[
+														"{@bold 3rd Level.}",
+														"4 days, 400 gold pieces"
+													],
+													[
+														"{@bold 4th Level.}",
+														"1 work week, 2000 gold pieces"
+													],
+													[
+														"{@bold 5th Level.}",
+														"2 work weeks, 3500 gold pieces"
+													],
+													[
+														"{@bold 6th Level.}",
+														"4 work weeks, 8000 gold pieces"
+													],
+													[
+														"{@bold 7th Level.}",
+														"8 work weeks, 15000 gold pieces"
+													],
+													[
+														"{@bold 8th Level.}",
+														"16 work weeks, 25000 gold pieces"
+													],
+													[
+														"{@bold 9th Level.}",
+														"24 work weeks, 100000 gold pieces"
+													]
+												]
+											}
+										]
+						},
+						{
+							"type": "entries",
+							"name": "Taskmaster (3/3, Long Rest)",
+							"entries": [
+								"Through the power of the Unbound Library, parsing data that does not exist grants you the ability to reverse-engineer a creature's techniques and then register them as your own. Even if your body could not normally perform the action, the Unbound Library finds the closest connection point to devise an approximation of that creature's technique. In order to take advantage of Taskmaster, you must have seen the creature use the attack, spell, or feature you wish to copy.",
+								{
+									"type": "list",
+									"items": [
+								"<u>If the ability is an attack:</u> You may recreate the attack. In some cases, the Unbound Library may ask for permission to restructure your body in order to better recreate the attack you copied. If the creature you copied the attack from has multiattack, you can emulate their multiattack feature with the attack you copied. This attack applies any conditions or effects that the original creature would inflict, even if those effects are passives tied to the creature. Once you perform the attack (or multiattack), the biological structure of your recreation breaks down, requiring you to use Taskmaster again to recreate it.",
+								"<u>If the ability is a spell:</u> You may recreate the spell and cast it once without expending a spell slot, even if you are unaware to the spell's existence or are normally unable to cast it. You may not upcast this spell using your own spell slots.",
+								"<u>If the ability is a feature (like a dragon's Breath Weapon):</u> You recreate its effects precisely, with the only change being that you are the one using it."
+								]
+								},
+								"For the purposes of Taskmaster, Arisen abilities are not considered to be attacks, spells, or features. Any knowledge you gain from Taskmaster disappears on a long rest (or after its use, whichever comes first), as your Unbound Library must clear out its history in order to continue normal operations."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Expansion of Everything (1/1, Long Rest)",
+							"entries": [
+								"As an action, Rethi can contact the Central Databank, a reservoir that contains all knowledge known to Lotus and her followers through a network of interconnected datapoints.",
+								"The Central Databank holds an amount of information equal to the expected lifespan of the universe, and will continue to catalog new information as the millennia moves on. Knowledge contained within the Central Database is considered to be one of any of the following bulletins: ",
+								{
+									"type": "list",
+									"items": [
+								"Generally accessible.",
+								"Lightly-restricted.",
+								"Public domain.",
+								"Available on the World Wide Web.",
+								"Could have been feasibly obtained by a follower of Lotus."
+								]
+								},
+								"If the information requested fits any of these parameters, the DM will respond to your question with an answer which can be reasonably surmised in a paragraph or less. If a response would require more than a paragraph to explain the internal logistics, culture, or full-understanding of the question, then you do not receive that information, and must use this feature again to discover more.",
+								"If the DM deems that your question does not fit any of these parameters, the Central Databank reports back that your search criteria did not match any search results, and your request fails. Afterwards, you regain an expended use of this feature."
+							]
+						}
+					]
+				},
+						{
+							"type": "inset",
+							"name": "",
+							"entries": [
+								{
+									"entries": [
+                                       "Starting a {@italic Bond Level 3}, you gain the following benefits:"
+									],
+									"type": "entries"
+								}
+							],
+							"data": {
+								"overwrite": "Bond Level 3"
+							}
+						},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Arbiter of Knowledge (Passive)",
+							"entries": [
+								"In your endless quest to expand the knowledge of the world, you have come across unsavory subjects, and subjects which may lead any poor man to devestation.",
+								"As an Expander of Lotus, you are expected to push past these trials and bring them to their logical limit. This means that, as a Follower of Lotus, you cannot falter. No matter how heinous the information may be.",
+								"You have immunity to the {@condition frightened} condition and the negative effects of {@italic madness}. You also have advantage on any checks or saving throws made to lower your {@italic sanity} (if your DM utilizes this system)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Extract Data",
+							"entries": [
+								"You boot into the Central Databank, accessing its restricted files using passcode you received during your time following under the guidance of Lotus.",
+								"Finding something in the Restricted Databank is difficult, and combing through its contents would take longer than the heat death of the universe. Thankfully, the search functions are rather precise, and with enough knowledge, you can garner information on any creature you desire.",
+								"Once you have extracted the true name from a creature, you may enter their name in the database. If that creature is not extremely unique or one-of-a-kind, your DM will inform you the following information (if applicable):",
+								{
+									"type": "list",
+									"items": [
+								"The creature's damage resistances, immunities, and vulnerabilities.",
+								"The creature's condition immunities, and any conditions they may have disadvantage or advantage on (including magic).",
+								"Any special sight the creature possesses (such as tremorsense, truesight, and blindsense)."
+								]
+								},
+								"The DM determines whether the creature whose name you're analyzing is considered &quot;unique&quot;. For example: a typical city guardsman may be a unique individual with their own personality, but he traditionally follows the &quot;guard&quot; statblock. As such, your DM will inform you about the individual. However, if the creature you are fighting is a BBEG or other form of monstrous entity, the DM may choose to inform you that not even the Restricted Databank contains information on that creature, as their existence has never been compiled before."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Store Data",
+							"entries": [
+								"As an action, you can analyze a willing creature within 30 feet of you who you have used &quot;Extract Data&quot; on previously. Regardless of whether your attempt to Extract Data was successful or returned no results, you can use this feature on that creature. An unconscious or dead creature always counts as willing for the benefits of this effect.",
+								"Once you begin storing a creature's data, you add their information to the Restricted Databanks to which all knowledge is inevitably formed. As part of this process, you record all of those creatures attributes that are applicable (as mentioned in the bulletin of the &quot;Extract Data&quot; ability).",
+								"In addition, you also learn the following information (which you add to the Restricted Databank for other followers of Lotus to use):",
+								{
+									"type": "list",
+									"items": [
+								"Their creature type.",
+								"Their relative age (may be less accurate depending on how well-known their biology is and how easy it is to compile).",
+								"Their gender (if applicable).",
+								"That creature's special name (such as &quot;Tiamat&quot;)."
+								]
+								},
+								"The information kept within the Restricted Databanks is accessible forever. Once you use this feature, you cannot use it again until you finish a long rest."
 							]
 						}
 					]
